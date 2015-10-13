@@ -237,7 +237,7 @@ iframe {
   overflow: hidden; }
   @media (min-width: 480px) {
     .modules {
-      padding: 2rem;
+      padding: 10rem 2rem;
       margin: 0 auto;
       border-bottom: 1px #b2b2b2 solid; } }
 
@@ -277,61 +277,87 @@ header {
       margin-left: 20px; }
 
 .footer {
-  background-color: #292929;
+  background-color: #f3f3f3;
   width: 100%;
   margin: 0 auto;
   max-width: 1280px;
   padding: 0; }
   .footer .footer-list {
-    padding: 1rem 10rem; }
+    padding: 1rem 2rem; }
+    @media (min-width: 880px) {
+      .footer .footer-list {
+        padding: 1rem 10rem; } }
   .footer .footer-list-items {
+    width: 100%;
     display: inline-block;
-    vertical-align: top;
-    width: 33%; }
-    .footer .footer-list-items img {
+    overflow: hidden;
+    text-align: center; }
+    @media (min-width: 600px) {
+      .footer .footer-list-items {
+        text-align: left;
+        vertical-align: top;
+        width: 32%; } }
+    .footer .footer-list-items .footer-images-icon {
       float: left;
-      width: 22px;
-      margin-top: 18px; }
+      margin-top: 16px;
+      height: 24px;
+      margin-right: 9px; }
     .footer .footer-list-items .img-fb {
       width: 13px;
+      margin-top: 15px;
+      margin-right: 9px; }
+    .footer .footer-list-items .img-vimeo {
+      width: 28px;
       margin-top: 15px; }
     .footer .footer-list-items .footer-list-items-title {
       font-size: 16px;
       font-size: 1.6rem;
       font-family: "Hind", sans-serif;
-      color: #ff8f00; }
+      color: #ff8f00;
+      margin-bottom: 0;
+      text-align: left; }
     .footer .footer-list-items p {
       font-size: 12px;
       font-size: 1.2rem;
       font-family: "Open Sans", sans-serif;
-      color: #fff;
-      width: 66%;
-      margin-right: 0; }
+      color: #848286; }
+      @media (min-width: 600px) {
+        .footer .footer-list-items p {
+          width: 90%;
+          margin-right: 0; } }
+      @media (min-width: 880px) {
+        .footer .footer-list-items p {
+          width: 66%; } }
     .footer .footer-list-items .footer-list-items-button {
       font-size: 12px;
       font-size: 1.2rem;
       font-family: "Open Sans", sans-serif;
-      border: 1px solid #fff;
-      color: #fff;
-      width: 28%;
-      height: 35px;
+      border: 1px solid #ff8f00;
+      color: #848286;
+      width: 80%;
+      margin: 0.5rem auto;
+      min-height: 35px;
       margin-right: 8px;
       background: none; }
+      @media (min-width: 1024px) {
+        .footer .footer-list-items .footer-list-items-button {
+          width: 28%; } }
       .footer .footer-list-items .footer-list-items-button:hover {
-        background: #fff;
-        color: #292929; }
+        background: #ff8f00;
+        color: #fff; }
     .footer .footer-list-items .wrap-image-footer {
+      position: relative;
       margin-bottom: 1rem;
       overflow: hidden; }
     .footer .footer-list-items .footer-list-items-image-parque {
-      border-right: 1px solid #fff;
+      border-right: 1px solid #848286;
       max-width: 125px;
       padding-right: 16%;
       width: 40%; }
     .footer .footer-list-items .footer-list-items-image-ministerio {
       max-width: 137px;
       margin-left: 17%;
-      width: 43%; }
+      width: 41%; }
   .footer .footer-container {
     background-color: #848286;
     height: 26px; }
@@ -349,7 +375,6 @@ header {
       font-size: 1.2rem;
       font-family: "Hind", sans-serif;
       float: left;
-      margin-left: 44px;
       margin-top: 3px; }
     .footer .footer-container-list-items a {
       font-size: 12px;
@@ -357,8 +382,7 @@ header {
       font-family: "Hind", sans-serif;
       color: #fff;
       float: right;
-      margin-top: -31px;
-      margin-right: 89px; }
+      margin-top: -31px; }
 
 .container-admission {
   margin: 0 auto;
@@ -656,7 +680,8 @@ header {
   margin-bottom: 5rem; }
   @media (min-width: 800px) {
     .details-subsection {
-      padding: 0 10%; } }
+      padding: 0 10%;
+      margin-bottom: 0; } }
   @media (min-width: 800px) {
     .details-subsection {
       float: left;

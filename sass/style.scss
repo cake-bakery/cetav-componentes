@@ -1,0 +1,33 @@
+/*----------Indice-------------
+		#partials
+		#modules
+
+	Importar-las-hojas-scss
+*/
+
+//  #partials
+@import "partials/normalize";
+@import "partials/variables";
+@import "partials/mixins";
+@import "partials/globals";
+
+//	#modules
+@import "partials/modules/sections";
+@import "partials/modules/navigation";
+@import "partials/modules/footer";
+@import "partials/modules/title-description";
+@import "partials/modules/icon-text";
+@import "partials/modules/news";
+@import "partials/modules/sidebar-news";
+@import "partials/modules/egresados";
+@import "partials/modules/sidebar-egresados";
+@import "partials/modules/egresados";
+@import "partials/modules/description-generations";
+@import "partials/modules/description-video";
+@import "partials/modules/testimonials";
+@import "partials/modules/administrative-personal";
+@import "partials/modules/modules";
+@import "partials/modules/preview-modules";
+@import "partials/modules/buttons";
+@import "partials/modules/career-program";
+@import "partials/modules/skills-tools";

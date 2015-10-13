@@ -1,0 +1,31 @@
+// .modules {
+// 	padding: 10rem 0;
+// 	margin: 0 10rem;
+// 	border-bottom: 1px $grey-lines solid;
+// }
+// .title-section{
+// 	color: $orange;
+// 	font-family: $hind;
+// 	@include font-size(28);
+// 	margin-top: 0;
+// }
+
+.modules {
+	padding: 10rem 1%;
+	margin: 0 1rem;
+	max-width: 1280px;
+	overflow: hidden;
+	@media (min-width: 480px) {
+		padding: 2rem;
+		margin: 0 auto;
+		border-bottom: 1px $grey-lines solid;
+	}
+}
+
+.title-section{
+	color: $orange;
+	font-family: $hind;
+	@include font-size(32);
+	margin-top: 0;
+	text-align: left;
+}

@@ -1,0 +1,41 @@
+.container-career{
+	margin: 0 auto;
+	max-width: 1280px;
+	padding: 0;
+	width: 100%;
+	.career-intro{
+		display: inline-block;
+		vertical-align: top;
+		width: 49%;
+		.career-intro-title{
+			@include font-size(40);
+			font-family: $hind;
+			margin: 0;
+			color: $orange;
+			line-height: 120%;
+			@media (min-width: $break-medium){
+    		margin-top:-6px;
+    	}
+		}
+		p{
+			@include font-size(16);
+			font-family: $open-sans;
+			margin-top: 5px;
+			width: 96%;
+			color: $grey-light;
+			@media (min-width: $break-medium){
+    		width: 88%;
+    		margin-top: 2px;
+    		margin-bottom: 9px;
+    	}
+		}
+		iframe{
+			float: right;
+			height: 245px;
+			@media (min-width: $break-medium){
+    		width: 426px;
+   			height: 270px;
+    	}
+		}
+	}
+}

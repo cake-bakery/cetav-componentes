@@ -1,0 +1,33 @@
+header{
+	background: rgba(255,255,255,1);
+	margin: 0 auto;
+	max-width: 1280px;
+	padding-top: 10px;
+	width: 100%;
+	.logo-cetav-img{
+		float: left;
+		width: 120px;
+	}
+	.content-navigation{
+		overflow: hidden;
+	}
+	.content-navigation-secondary{
+		// margin:14px 120px;
+		float: right;
+		a{
+			@include font-size(14);
+			margin-right: 20px;
+		}
+		img{
+			width: 14px;
+		}
+	}
+	.content-navigation-primary{
+		float: right;
+		margin-top: 17px;
+		a{
+			@include font-size(16);
+			margin-left: 20px;
+		}
+	}
+}

@@ -1,0 +1,27 @@
+.container-admission{
+	margin: 0 auto;
+	padding: 0;
+	max-width: 1280px;
+}
+.admission-intro{
+	@media(min-width: 880px){
+			display: inline-block;
+			vertical-align: top;
+			width: 49%;
+		}
+	.admission-intro-title{
+		@include font-size(40);
+		font-family: $hind;
+		width: 76%;
+		color:$orange;
+	} 
+	p{
+		@include font-size(16);
+		font-family: $open-sans;
+    float: right;
+    margin-top: -38px;
+    @media(min-width: 880px){
+    	margin-top: 52px;
+  	}
+	}
+}

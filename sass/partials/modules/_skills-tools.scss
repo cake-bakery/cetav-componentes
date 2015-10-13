@@ -1,0 +1,51 @@
+.line-grid {
+	overflow: hidden;
+	margin: 0 auto;
+	@media (min-width: 480px) {
+		border-bottom: 1px solid $grey-lines;
+		&:last-child {
+	        border: 0;
+		}
+	}
+}
+
+.item-grid {
+	height: 18rem;
+	border-bottom: 1px solid $grey-lines; 
+	@include font-size(16);
+	text-align: center;
+	padding: 4rem;
+	@media (min-width: 480px) {
+		border-right: 1px solid $grey-lines;
+		border-bottom: 0; 
+		float: left;
+		padding: 9rem 4rem 4rem 4rem;
+		height: 30rem;
+		width: 50%;
+		&:nth-child(2n) {
+		    border-right: 0;
+		}
+		&:nth-child(1), &:nth-child(2) {
+		    border-bottom: 1px solid $grey-lines;
+		}
+	}
+	@media (min-width: 980px) {
+		border-right: 1px solid $grey-lines;
+		height: 20rem;
+		padding: 4rem;
+		width: 25%;
+		&:nth-child(2n) {
+	    border-right: 1px solid $grey-lines;
+	}
+		&:nth-child(1), &:nth-child(2) {
+	    	border-bottom:0;
+		}
+		&:last-child {
+	        border: 0;
+		}
+	}
+	img {
+		width: initial;
+		height: initial;
+	}
+}

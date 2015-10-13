@@ -1,0 +1,19 @@
+.program-preview {
+	background-color: #ebedef;
+	height: 33rem;
+}
+
+.title-square {
+	@include font-size(16);
+	border-bottom: 2px solid $grey-lines;
+	padding: 1rem;
+}
+
+.list-program-preview {
+	padding: 1rem;
+
+	li {
+		@include font-size(16);
+		line-height: 5rem;
+	}
+}

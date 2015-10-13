@@ -4,9 +4,11 @@
 	padding: 0;
 	width: 100%;
 	.career-intro{
-		display: inline-block;
-		vertical-align: top;
-		width: 49%;
+		@media(min-width: 880px){
+			display: inline-block;
+			vertical-align: top;
+			width: 49%;
+		}
 		.career-intro-title{
 			@include font-size(40);
 			font-family: $hind;
@@ -27,14 +29,6 @@
     		width: 88%;
     		margin-top: 2px;
     		margin-bottom: 9px;
-    	}
-		}
-		iframe{
-			float: right;
-			height: 245px;
-			@media (min-width: $break-medium){
-    		width: 426px;
-   			height: 270px;
     	}
 		}
 	}

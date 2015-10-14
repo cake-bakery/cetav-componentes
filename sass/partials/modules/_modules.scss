@@ -1,16 +1,18 @@
-.content-course {
+.content-section {
 	background-color: #e5e5e4;
 	padding: 5rem;
 	margin-bottom: 10rem;
-}
+	max-width: 100%;
 
+}
+.content-information{
+	max-width: 1000px;
+	margin: 0 auto;
+}
 .content-title {
 	@include font-size(24);
 }
 
-.content-course-list{
-
-}
 
 .content-column-course {
 
@@ -43,6 +45,8 @@
 .details-section {
 	overflow: hidden;
 	padding:  1%;
+	max-width: 1000px;
+	margin: 0 auto;
 	}
 .details-subsection {
 	overflow: hidden;

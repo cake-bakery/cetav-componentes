@@ -1,6 +1,6 @@
 .container-requirements{
 	margin: 0 auto;
-	max-width: 1280px;
+	max-width: 1000px;
 	width: 100%;
 	.requirements-title{
 		@include font-size(26);
@@ -37,7 +37,6 @@
     	border: 1px solid $orange;
 	    border-radius: 800px;
 	    overflow: hidden;
-	    padding: 12px;
     }
     p{
     	@include font-size(16);

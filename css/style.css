@@ -230,24 +230,43 @@ iframe {
     iframe {
       height: 30rem; } }
 
-.modules {
-  padding: 10rem 1%;
+.modules-standart {
+  max-width: 1000px;
+  padding: 10rem 0;
   margin: 0 1rem;
-  max-width: 1280px;
   overflow: hidden; }
   @media (min-width: 480px) {
-    .modules {
-      padding: 10rem 2rem;
+    .modules-standart {
+      padding: 10rem 0rem;
       margin: 0 auto;
       border-bottom: 1px #b2b2b2 solid; } }
+  .modules-standart .title-section {
+    color: #ff8f00;
+    font-family: "Hind", sans-serif;
+    font-size: 32px;
+    font-size: 3.2rem;
+    margin-top: 0;
+    margin-bottom: 5rem;
+    text-align: left; }
 
-.title-section {
-  color: #ff8f00;
-  font-family: "Hind", sans-serif;
-  font-size: 32px;
-  font-size: 3.2rem;
-  margin-top: 0;
-  text-align: left; }
+.modules-total {
+  padding: 10rem 0;
+  margin: 0 1rem;
+  overflow: hidden; }
+  @media (min-width: 480px) {
+    .modules-total {
+      padding: 10rem 0rem;
+      margin: 0 auto;
+      border-bottom: 1px #b2b2b2 solid; } }
+  .modules-total .title-section {
+    max-width: 1000px;
+    color: #ff8f00;
+    font-family: "Hind", sans-serif;
+    font-size: 32px;
+    font-size: 3.2rem;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    text-align: left; }
 
 header {
   background: white;
@@ -280,18 +299,20 @@ header {
   background-color: #f3f3f3;
   width: 100%;
   margin: 0 auto;
-  max-width: 1280px;
   padding: 0; }
   .footer .footer-list {
+    max-width: 1000px;
+    margin: 0 auto;
     padding: 1rem 2rem; }
     @media (min-width: 880px) {
       .footer .footer-list {
-        padding: 1rem 10rem; } }
+        padding: 1rem 0; } }
   .footer .footer-list-items {
-    width: 100%;
     display: inline-block;
     overflow: hidden;
-    text-align: center; }
+    padding: 1rem;
+    text-align: center;
+    width: 100%; }
     @media (min-width: 600px) {
       .footer .footer-list-items {
         text-align: left;
@@ -339,7 +360,7 @@ header {
       min-height: 35px;
       margin-right: 8px;
       background: none; }
-      @media (min-width: 1024px) {
+      @media (min-width: 980px) {
         .footer .footer-list-items .footer-list-items-button {
           width: 28%; } }
       .footer .footer-list-items .footer-list-items-button:hover {
@@ -412,7 +433,7 @@ header {
 
 .container-requirements {
   margin: 0 auto;
-  max-width: 1280px;
+  max-width: 1000px;
   width: 100%; }
   .container-requirements .requirements-title {
     font-size: 26px;
@@ -445,8 +466,7 @@ header {
       width: 10rem;
       border: 1px solid #ff8f00;
       border-radius: 800px;
-      overflow: hidden;
-      padding: 12px; }
+      overflow: hidden; }
     .container-requirements .requirements-list-items p {
       font-size: 16px;
       font-size: 1.6rem;
@@ -454,7 +474,7 @@ header {
 
 .container-generations {
   margin: 0 auto;
-  max-width: 1280px;
+  max-width: 1000px;
   padding: 0;
   width: 100%; }
   @media (min-width: 880px) {
@@ -487,7 +507,7 @@ header {
 
 .container-career {
   margin: 0 auto;
-  max-width: 1280px;
+  max-width: 1000px;
   padding: 0;
   width: 100%; }
   @media (min-width: 880px) {
@@ -593,7 +613,7 @@ header {
 
 .container-personal {
   margin: 0 auto;
-  max-width: 1280px;
+  max-width: 1000px;
   padding: 0; }
   .container-personal .personal-list {
     width: 100%;
@@ -642,10 +662,15 @@ header {
         border-right: 1px solid #292929;
         padding-right: 5px; }
 
-.content-course {
+.content-section {
   background-color: #e5e5e4;
   padding: 5rem;
-  margin-bottom: 10rem; }
+  margin-bottom: 10rem;
+  max-width: 100%; }
+
+.content-information {
+  max-width: 1000px;
+  margin: 0 auto; }
 
 .content-title {
   font-size: 24px;
@@ -677,7 +702,9 @@ header {
 
 .details-section {
   overflow: hidden;
-  padding: 1%; }
+  padding: 1%;
+  max-width: 1000px;
+  margin: 0 auto; }
 
 .details-subsection {
   overflow: hidden;
@@ -750,6 +777,7 @@ header {
 
 .preview-squares-module {
   text-align: center;
+  max-width: 1000px;
   margin: 0 auto; }
 
 .square-preview-module {
@@ -818,21 +846,25 @@ header {
 .program-preview {
   background-color: #ebedef;
   height: 33rem; }
+  @media (min-width: 980px) {
+    .program-preview {
+      height: 32rem; } }
 
 .title-square {
   font-size: 16px;
   font-size: 1.6rem;
   border-bottom: 2px solid #b2b2b2;
-  padding: 1rem; }
+  padding: 1.5rem; }
 
 .list-program-preview {
-  padding: 1rem; }
+  padding: 0 1.5rem; }
   .list-program-preview li {
     font-size: 16px;
     font-size: 1.6rem;
     line-height: 5rem; }
 
 .line-grid {
+  max-width: 1000px;
   overflow: hidden;
   margin: 0 auto; }
   @media (min-width: 480px) {

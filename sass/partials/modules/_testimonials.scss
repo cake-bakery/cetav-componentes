@@ -3,8 +3,8 @@
 	max-width: 1000px;
 	padding: 2rem;
 	overflow: hidden;
-	background-color: $grey-dark;
-	@media(min-width: 680px){
+	background-color: $orange;
+	@media(min-width: 740px){
 	background-color: transparent;
 	}
 	.testimonials-list-items{
@@ -15,61 +15,61 @@
 			text-align: left;
 			float: left;
 			vertical-align: top;
+			margin-bottom: 0;
 		}
 		img{
-			background-color: $grey-light;
 			border-radius: 50%;
 		    overflow: hidden;
-		    padding: 42px;
-	    	@media(min-width: 680px){
-			  	background-color: $grey-dark;		  	
-	    	}
+		    width: 14rem;
+		    height: 14rem;
+		   	border: 6px solid $orange;
 		}
 		&:nth-of-type(2n){
-			background-color: $grey-dark;
+			background-color: $orange;
 			color: $white;
 			margin-bottom: 0rem;
 			@media(min-width: 480px){
+				float: right;
+				width: 62%;
+			}
+			@media(min-width: 620px){
 				padding:2rem 5%;
 				padding: 0;
 				float: right;
-				width: 72%;
+				width: 70%;
 			}
-			@media(min-width: 680px){
+			@media(min-width: 740px){
 				padding:2rem 5%;
 				width: 76%;
 			}
-			@media(min-width: 880px){
+			@media(min-width: 980px){
 				padding:2rem 5%;
-				width: 82%;
+				width: 79%;
 			}
 		}
 		.testimonials-list-items-title{
 			@include font-size(20);
 			font-family: $hind;
-    	border-bottom: 1px solid;
-    	width: 97%;
-    	margin-top: 0;
+	    	border-bottom: 1px solid;
+	    	width: 97%;
+	    	margin-top: 0;
 		}
-		p{
-			@include font-size(12);
+		p {
+			@include font-size(16);
 			font-family: $open-sans;
 		}
 	}
 }
 
-
-
 .triangle {
-  
 	display: none;
-	@media(min-width: 680px){
+	@media(min-width: 740px){
 		border-style: solid;
 		border-width: 25px 25px 25px 0;
-		border-color: transparent $grey-dark transparent transparent;
+		border-color: transparent $orange transparent transparent;
 		display: block;
 		height: 0;
-		left: -25px;
+		left: -15px;
 		position: absolute;
 		top: 0;
 		width: 0;

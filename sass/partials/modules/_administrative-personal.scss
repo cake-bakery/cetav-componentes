@@ -10,10 +10,10 @@
 		display: inline-block;
 		
 		img{
-			background-color: $grey-dark;
-    	border-radius: 800px;
-    	overflow: hidden;
-    	padding: 47px;
+	    	border-radius: 50%;
+	    	overflow: hidden;
+	    	width: 12rem;
+		    height: 12rem;
 		}
 		@media(min-width: 319px){
 			width: 50%;
@@ -38,7 +38,7 @@
 			margin-bottom: 0;
 		}
 		p{
-			@include font-size(12);
+			@include font-size(14);
 			font-family: $open-sans;
 			color: $grey-light;
 			width: 99%;

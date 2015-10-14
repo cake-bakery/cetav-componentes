@@ -442,14 +442,14 @@ header {
         width: 18%;
         margin: 5rem 2%; } }
     .container-requirements .requirements-list-items img {
-      width: 29%;
+      width: 10rem;
       border: 1px solid #ff8f00;
       border-radius: 800px;
       overflow: hidden;
       padding: 12px; }
     .container-requirements .requirements-list-items p {
-      font-size: 12px;
-      font-size: 1.2rem;
+      font-size: 16px;
+      font-size: 1.6rem;
       font-family: "Open Sans", sans-serif; }
 
 .container-generations {
@@ -522,8 +522,8 @@ header {
   max-width: 1000px;
   padding: 2rem;
   overflow: hidden;
-  background-color: #292929; }
-  @media (min-width: 680px) {
+  background-color: #ff8f00; }
+  @media (min-width: 740px) {
     .container-testimonials {
       background-color: transparent; } }
   .container-testimonials .testimonials-list-items {
@@ -534,33 +534,36 @@ header {
       .container-testimonials .testimonials-list-items {
         text-align: left;
         float: left;
-        vertical-align: top; } }
+        vertical-align: top;
+        margin-bottom: 0; } }
     .container-testimonials .testimonials-list-items img {
-      background-color: #848286;
       border-radius: 50%;
       overflow: hidden;
-      padding: 42px; }
-      @media (min-width: 680px) {
-        .container-testimonials .testimonials-list-items img {
-          background-color: #292929; } }
+      width: 14rem;
+      height: 14rem;
+      border: 6px solid #ff8f00; }
     .container-testimonials .testimonials-list-items:nth-of-type(2n) {
-      background-color: #292929;
+      background-color: #ff8f00;
       color: #fff;
       margin-bottom: 0rem; }
       @media (min-width: 480px) {
         .container-testimonials .testimonials-list-items:nth-of-type(2n) {
+          float: right;
+          width: 62%; } }
+      @media (min-width: 620px) {
+        .container-testimonials .testimonials-list-items:nth-of-type(2n) {
           padding: 2rem 5%;
           padding: 0;
           float: right;
-          width: 72%; } }
-      @media (min-width: 680px) {
+          width: 70%; } }
+      @media (min-width: 740px) {
         .container-testimonials .testimonials-list-items:nth-of-type(2n) {
           padding: 2rem 5%;
           width: 76%; } }
-      @media (min-width: 880px) {
+      @media (min-width: 980px) {
         .container-testimonials .testimonials-list-items:nth-of-type(2n) {
           padding: 2rem 5%;
-          width: 82%; } }
+          width: 79%; } }
     .container-testimonials .testimonials-list-items .testimonials-list-items-title {
       font-size: 20px;
       font-size: 2rem;
@@ -569,20 +572,20 @@ header {
       width: 97%;
       margin-top: 0; }
     .container-testimonials .testimonials-list-items p {
-      font-size: 12px;
-      font-size: 1.2rem;
+      font-size: 16px;
+      font-size: 1.6rem;
       font-family: "Open Sans", sans-serif; }
 
 .triangle {
   display: none; }
-  @media (min-width: 680px) {
+  @media (min-width: 740px) {
     .triangle {
       border-style: solid;
       border-width: 25px 25px 25px 0;
-      border-color: transparent #292929 transparent transparent;
+      border-color: transparent #ff8f00 transparent transparent;
       display: block;
       height: 0;
-      left: -25px;
+      left: -15px;
       position: absolute;
       top: 0;
       width: 0; } }
@@ -597,10 +600,10 @@ header {
   .container-personal .personal-list-items {
     display: inline-block; }
     .container-personal .personal-list-items img {
-      background-color: #292929;
-      border-radius: 800px;
+      border-radius: 50%;
       overflow: hidden;
-      padding: 47px; }
+      width: 12rem;
+      height: 12rem; }
     @media (min-width: 319px) {
       .container-personal .personal-list-items {
         width: 50%;
@@ -623,8 +626,8 @@ header {
       font-family: "Hind", sans-serif;
       margin-bottom: 0; }
     .container-personal .personal-list-items p {
-      font-size: 12px;
-      font-size: 1.2rem;
+      font-size: 14px;
+      font-size: 1.4rem;
       font-family: "Open Sans", sans-serif;
       color: #848286;
       width: 99%; }
@@ -781,7 +784,7 @@ header {
   width: inherit;
   max-width: 100%;
   height: auto;
-  opacity: 0.3; }
+  opacity: 0.4; }
 
 .info-preview-module {
   bottom: 0%;

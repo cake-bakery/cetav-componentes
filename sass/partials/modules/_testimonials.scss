@@ -10,6 +10,7 @@
 	.testimonials-list-items{
 		position: relative;
 		text-align: center;
+		margin-bottom: 2rem;
 		@media(min-width: 480px){
 			text-align: left;
 			float: left;
@@ -18,17 +19,16 @@
 		img{
 			background-color: $grey-light;
 			border-radius: 50%;
-	    overflow: hidden;
-	    padding: 42px;
-    	@media(min-width: 680px){
-
-		  	background-color: $grey-dark;
-		  	
-    	}
+		    overflow: hidden;
+		    padding: 42px;
+	    	@media(min-width: 680px){
+			  	background-color: $grey-dark;		  	
+	    	}
 		}
 		&:nth-of-type(2n){
 			background-color: $grey-dark;
 			color: $white;
+			margin-bottom: 0rem;
 			@media(min-width: 480px){
 				padding:2rem 5%;
 				padding: 0;

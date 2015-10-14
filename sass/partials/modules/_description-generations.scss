@@ -20,16 +20,16 @@
 			@include font-size(16);
 			font-family: $open-sans;
 			margin-top: 5px;
-			width: 96%;
+			width: 90%;
 			color: $grey-light;
 		}
-		a{
+		.generations-intro-button{
 			@include font-size(16);
-			border-bottom: 1px solid $orange;
-			font-weight: bold;
-			&:hover{
-				color: $orange;
-			}
+			border: 1px solid $grey-light;
+			background: none;
+			color: $grey-light;
+			width: 22%;
+			height: 46px;
 		}
 	}
 }

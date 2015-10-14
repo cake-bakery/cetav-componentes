@@ -32,8 +32,8 @@ audio:not([controls]) {
   display: none; }
 
 html {
-  background: #fff;
-  color: #000;
+  background: white;
+  color: black;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%; }
 
@@ -344,7 +344,7 @@ header {
           width: 28%; } }
       .footer .footer-list-items .footer-list-items-button:hover {
         background: #ff8f00;
-        color: #fff; }
+        color: white; }
     .footer .footer-list-items .wrap-image-footer {
       position: relative;
       margin-bottom: 1rem;
@@ -368,7 +368,7 @@ header {
   .footer .footer-container-list-items {
     display: inline-block;
     vertical-align: top;
-    color: #fff;
+    color: white;
     width: 100%; }
     .footer .footer-container-list-items p {
       font-size: 12px;
@@ -474,15 +474,16 @@ header {
     font-size: 1.6rem;
     font-family: "Open Sans", sans-serif;
     margin-top: 5px;
-    width: 96%;
+    width: 90%;
     color: #848286; }
-  .container-generations .generations-intro a {
+  .container-generations .generations-intro .generations-intro-button {
     font-size: 16px;
     font-size: 1.6rem;
-    border-bottom: 1px solid #ff8f00;
-    font-weight: bold; }
-    .container-generations .generations-intro a:hover {
-      color: #ff8f00; }
+    border: 1px solid #848286;
+    background: none;
+    color: #848286;
+    width: 22%;
+    height: 46px; }
 
 .container-career {
   margin: 0 auto;
@@ -544,7 +545,7 @@ header {
           background-color: #292929; } }
     .container-testimonials .testimonials-list-items:nth-of-type(2n) {
       background-color: #292929;
-      color: #fff; }
+      color: white; }
       @media (min-width: 480px) {
         .container-testimonials .testimonials-list-items:nth-of-type(2n) {
           padding: 2rem 5%;
@@ -869,5 +870,3 @@ header {
   .item-grid img {
     width: initial;
     height: initial; }
-
-/*# sourceMappingURL=style.css.map */

@@ -3,7 +3,7 @@
 	max-width: 1000px;
 	padding: 2rem;
 	overflow: hidden;
-	background-color: $orange;
+	background-color: $ddw-color;
 	@media(min-width: 740px){
 	background-color: transparent;
 	}
@@ -22,10 +22,10 @@
 		    overflow: hidden;
 		    width: 14rem;
 		    height: 14rem;
-		   	border: 6px solid $orange;
+		   	border: 6px solid $ddw-color;
 		}
 		&:nth-of-type(2n){
-			background-color: $orange;
+			background-color: $ddw-color;
 			color: $white;
 			margin-bottom: 0rem;
 			@media(min-width: 480px){
@@ -66,7 +66,7 @@
 	@media(min-width: 740px){
 		border-style: solid;
 		border-width: 25px 25px 25px 0;
-		border-color: transparent $orange transparent transparent;
+		border-color: transparent $ddw-color transparent transparent;
 		display: block;
 		height: 0;
 		left: -15px;
@@ -74,6 +74,6 @@
 		top: 0;
 		width: 0;
 	}
-	
+
 
 }

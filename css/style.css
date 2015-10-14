@@ -271,7 +271,7 @@ iframe {
 header {
   background: white;
   margin: 0 auto;
-  max-width: 1280px;
+  max-width: 1000px;
   padding-top: 10px;
   width: 100%; }
   header .logo-cetav-img {
@@ -543,7 +543,7 @@ header {
   max-width: 1000px;
   padding: 2rem;
   overflow: hidden;
-  background-color: #ff8f00; }
+  background-color: #922716; }
   @media (min-width: 740px) {
     .container-testimonials {
       background-color: transparent; } }
@@ -562,9 +562,9 @@ header {
       overflow: hidden;
       width: 14rem;
       height: 14rem;
-      border: 6px solid #ff8f00; }
+      border: 6px solid #922716; }
     .container-testimonials .testimonials-list-items:nth-of-type(2n) {
-      background-color: #ff8f00;
+      background-color: #922716;
       color: #fff;
       margin-bottom: 0rem; }
       @media (min-width: 480px) {
@@ -603,7 +603,7 @@ header {
     .triangle {
       border-style: solid;
       border-width: 25px 25px 25px 0;
-      border-color: transparent #ff8f00 transparent transparent;
+      border-color: transparent #922716 transparent transparent;
       display: block;
       height: 0;
       left: -15px;
@@ -808,6 +808,12 @@ header {
         margin-right: 0; }
       .square-preview-module:last-child {
         margin-right: 0%; } }
+  .square-preview-module:hover {
+    -webkit-transition: 0.5s;
+    border: 0.7rem solid #00c9ed; }
+    .square-preview-module:hover .info-preview-module {
+      padding: 0.3rem 1.3rem;
+      -webkit-transition: 0.5s; }
 
 .image-preview-module {
   width: inherit;
@@ -818,7 +824,7 @@ header {
 .info-preview-module {
   bottom: 0%;
   color: #fdfefd;
-  padding: 0 2rem;
+  padding: 1rem 2rem;
   position: absolute;
   width: 100%; }
 

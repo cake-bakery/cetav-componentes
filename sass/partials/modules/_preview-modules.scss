@@ -39,6 +39,30 @@
         margin-right: 0%;
     	}
 	}
+  &:hover {
+    -webkit-transition: 0.5s;
+    border: 0.7rem solid $light-blue;
+    .info-preview-module {
+      padding:0.3rem 1.3rem;
+      -webkit-transition: 0.5s;
+
+    }
+    // .title-preview-module {
+    //   color: $light-blue;
+    // }
+  }
+  // .title-preview-module {
+  //   color: $light-blue;
+  // }
+  //   .subtitle-preview-module{
+  //     color: $light-blue;
+  //   }
+  //   .date-preview-module{
+  //     color: $light-blue;
+  //   }
+  //   .price-preview-module{
+  //   color: $light-blue;
+  // }
 }
 
 .image-preview-module {
@@ -51,7 +75,7 @@
 .info-preview-module {
 	bottom: 0%;
 	color: $font-ligth;
-	padding:0 2rem;
+	padding:1rem 2rem;
 	position: absolute;
 	width: 100%;
 

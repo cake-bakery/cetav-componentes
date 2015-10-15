@@ -15,7 +15,6 @@
 
 
 .content-column-course {
-
 	@include font-size(16);
 	line-height: 2rem;
 	text-align: left;
@@ -40,6 +39,10 @@
     	&:last-child {
         margin-right: 0%;
     	}
+	}
+	ul li {
+		list-style: initial;
+		list-style-image: url(../img/list-decoration.png);
 	}
 }
 .details-section {

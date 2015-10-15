@@ -228,10 +228,6 @@ ul {
   margin: 0;
   padding: 0; }
 
-li {
-  list-style: none;
-  display: inline-block; }
-
 iframe {
   float: right;
   width: 100%;
@@ -456,7 +452,7 @@ header {
       margin-top: 9px; } }
   @media (min-width: 880px) {
     .admission-intro p {
-      margin-top: 9px; } }
+      margin-top: 0px; } }
 
 .container-requirements {
   margin: 0 auto;
@@ -492,6 +488,7 @@ header {
     .container-requirements .requirements-list-items img {
       width: 11rem;
       border-bottom: 1px solid #ff8f00;
+      margin-bottom: 2rem;
       overflow: hidden; }
     .container-requirements .requirements-list-items p {
       font-size: 16px;
@@ -716,8 +713,7 @@ label {
   margin: 0 auto;
   margin-bottom: 2rem;
   max-width: 1000px;
-  padding: 0;
-  width: 100%; }
+  padding: 0; }
   .container-generations .generations-intro {
     display: block;
     overflow: hidden;
@@ -725,24 +721,23 @@ label {
     @media (min-width: 880px) {
       .container-generations .generations-intro {
         margin-top: 0;
-        display: inline-block;
+        float: left;
         vertical-align: top;
-        width: 49%; } }
+        width: 48%; }
+        .container-generations .generations-intro:nth-child(2) {
+          float: right; } }
     .container-generations .generations-intro .generations-intro-title {
       font-size: 40px;
       font-size: 4rem;
       font-family: "Hind", sans-serif;
       color: #ff8f00;
-      line-height: 120%;
-      width: 88%; }
+      line-height: 120%; }
     .container-generations .generations-intro p {
       font-size: 16px;
       font-size: 1.6rem;
       font-family: "Open Sans", sans-serif;
-      margin: 2rem 0 4rem 0;
-      width: 90%;
-      margin-top: 5px;
-      width: 89%;
+      margin: 2rem 0;
+      margin-top: 12px;
       color: #848286; }
     .container-generations .generations-intro .generations-intro-button {
       font-size: 16px;
@@ -759,34 +754,29 @@ label {
   max-width: 1000px;
   padding: 0;
   width: 100%; }
-  @media (min-width: 880px) {
-    .container-career .career-intro {
-      display: inline-block;
-      vertical-align: top;
-      width: 49%; } }
-  .container-career .career-intro .career-intro-title {
-    font-size: 40px;
-    font-size: 4rem;
-    font-family: "Hind", sans-serif;
-    margin: 0;
-    color: #ff8f00;
-    line-height: 120%; }
-    @media (min-width: 1024px) {
-      .container-career .career-intro .career-intro-title {
-        margin-top: -6px;
-        width: 88%; } }
-  .container-career .career-intro p {
-    font-size: 16px;
-    font-size: 1.6rem;
-    font-family: "Open Sans", sans-serif;
-    margin-top: 5px;
-    width: 96%;
-    color: #848286; }
-    @media (min-width: 1024px) {
-      .container-career .career-intro p {
-        width: 80%;
-        margin-top: 5px;
-        margin-bottom: 9px; } }
+  .container-career .career-intro {
+    margin: 2rem 0; }
+    @media (min-width: 880px) {
+      .container-career .career-intro {
+        margin-top: 0;
+        float: left;
+        vertical-align: top;
+        width: 48%; }
+        .container-career .career-intro:nth-child(2) {
+          float: right; } }
+    .container-career .career-intro .career-intro-title {
+      font-size: 40px;
+      font-size: 4rem;
+      font-family: "Hind", sans-serif;
+      color: #ff8f00;
+      line-height: 120%; }
+    .container-career .career-intro p {
+      font-size: 16px;
+      font-size: 1.6rem;
+      font-family: "Open Sans", sans-serif;
+      margin: 2rem 0;
+      margin-top: 12px;
+      color: #848286; }
 
 .container-testimonials-post {
   background-color: #819535; }
@@ -824,6 +814,7 @@ label {
     .container-testimonials {
       background-color: transparent; } }
   .container-testimonials .testimonials-list-items {
+    list-style: none;
     position: relative;
     text-align: center;
     margin-bottom: 2rem; }
@@ -854,6 +845,7 @@ label {
       @media (min-width: 740px) {
         .container-testimonials .testimonials-list-items:nth-of-type(2n) {
           padding: 2rem 5%;
+          min-height: 15rem;
           width: 76%; } }
       @media (min-width: 980px) {
         .container-testimonials .testimonials-list-items:nth-of-type(2n) {
@@ -865,7 +857,8 @@ label {
       font-family: "Hind", sans-serif;
       border-bottom: 1px solid;
       width: 97%;
-      margin-top: 0; }
+      margin-top: 0;
+      margin-bottom: 1.5rem; }
     .container-testimonials .testimonials-list-items p {
       font-size: 16px;
       font-size: 1.6rem;
@@ -973,6 +966,9 @@ label {
         margin-right: 0; }
       .content-column-course:last-child {
         margin-right: 0%; } }
+  .content-column-course ul li {
+    list-style: initial;
+    list-style-image: url(../img/list-decoration.png); }
 
 .details-section {
   overflow: hidden;
@@ -1133,9 +1129,16 @@ label {
 .list-program-preview {
   padding: 0 1.5rem; }
   .list-program-preview li {
+    display: block;
     font-size: 16px;
     font-size: 1.6rem;
     line-height: 5rem; }
+    @media (min-width: 600px) {
+      .list-program-preview li {
+        line-height: 4rem; } }
+    @media (min-width: 700px) {
+      .list-program-preview li {
+        line-height: 5rem; } }
 
 .background-color-post {
   background-color: #819535; }
@@ -1157,6 +1160,7 @@ label {
         border: 0; } }
 
 .item-grid {
+  list-style: none;
   height: 18rem;
   border-bottom: 1px solid #b2b2b2;
   font-size: 16px;
@@ -1188,7 +1192,7 @@ label {
       .item-grid:last-child {
         border: 0; } }
   .item-grid img {
-    width: initial;
+    width: 60px;
     height: initial; }
 
 /*# sourceMappingURL=style.css.map */

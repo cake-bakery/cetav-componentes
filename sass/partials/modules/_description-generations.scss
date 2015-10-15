@@ -3,32 +3,30 @@
 	margin-bottom: 2rem;
 	max-width: 1000px;
 	padding: 0;
-	width: 100%;
 	.generations-intro{
 		display: block;
 		overflow: hidden;
 		margin-top: 4rem;
 		@media(min-width: 880px){
 			margin-top: 0;
-			display: inline-block;
+			float: left;
 			vertical-align: top;
-			width: 49%;
+			width: 48%;
+			&:nth-child(2){
+			float: right;
+			}
 		}
 		.generations-intro-title{
 			@include font-size(40);
 			font-family: $hind;
-			
 			color: $orange;
 			line-height: 120%;
-			width: 88%;
 		}
 		p{
 			@include font-size(16);
 			font-family: $open-sans;
-			margin: 2rem 0 4rem 0;
-			width: 90%;
-			margin-top: 5px;
-			width: 89%;
+			margin: 2rem 0;
+			margin-top: 12px;
 			color: $grey-light;
 		}
 		.generations-intro-button{

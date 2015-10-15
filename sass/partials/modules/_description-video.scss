@@ -4,33 +4,29 @@
 	padding: 0;
 	width: 100%;
 	.career-intro{
+		margin: 2rem 0;
 		@media(min-width: 880px){
-			display: inline-block;
+			margin-top: 0;
+			float: left;
 			vertical-align: top;
-			width: 49%;
+			width: 48%;
+			&:nth-child(2){
+			float: right;
+			}
 		}
 		.career-intro-title{
 			@include font-size(40);
 			font-family: $hind;
-			margin: 0;
 			color: $orange;
 			line-height: 120%;
-			@media (min-width: 1024px){
-    		margin-top:-6px;
-    		width: 88%;
-    	}
 		}
 		p{
 			@include font-size(16);
 			font-family: $open-sans;
-			margin-top: 5px;
-			width: 96%;
+			margin: 2rem 0;
+			margin-top: 12px;
 			color: $grey-light;
-			@media (min-width: 1024px){
-    		width: 80%;
-    		margin-top: 5px;
-    		margin-bottom: 9px;
-    	}
 		}
+		
 	}
 }

@@ -19,8 +19,16 @@
 	padding: 0 1.5rem;
 
 	li {
+		display: block;
 		@include font-size(16);
 		line-height: 5rem;
+		@media(min-width: 600px){
+			line-height: 4rem;
+		}
+		@media(min-width: 700px){
+			line-height: 5rem;
+		}
+
 	}
 }
 

@@ -11,6 +11,7 @@
 }
 
 .item-grid {
+	list-style: none;
 	height: 18rem;
 	border-bottom: 1px solid $grey-lines; 
 	@include font-size(16);
@@ -46,7 +47,7 @@
 		}
 	}
 	img {
-		width: initial;
+		width: 60px;
 		height: initial;
 	}
 }

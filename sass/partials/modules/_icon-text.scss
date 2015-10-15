@@ -5,6 +5,7 @@
 	.requirements-title{
 		@include font-size(26);
 		font-family: $hind;
+		color: $orange;
 	}
 	.requirements-list{
 		padding: 0;
@@ -41,6 +42,7 @@
     p{
     	@include font-size(16);
     	font-family: $open-sans;
+    	color: $grey-light;
     }
 	}
 }

@@ -38,7 +38,7 @@
 
 .info-detailed{
 	padding: 15px;
-	background-color: $grey-light;
+	background-color: $font-ligth;
 }
 
 .info-detailed h2{
@@ -53,9 +53,6 @@
 .info-detailed .profession{
 	margin: 10px 0 20px;
 	border-bottom: solid #000 1px;
-}
-
-.content-detailed-tag{
 }
 
 .info-detailed-tag {
@@ -80,7 +77,6 @@
 @media (min-width: 500px){
 	.info-detailed-tag {
 		background-color: #575757;
-		border-radius: 20px;
 		font-size: 10px;
 		font-family: "Open Sans", sans-serif;
 		font-weight: 700;
@@ -97,7 +93,7 @@
 	}
 	.info-conteiner{
 		margin: 0 auto;
-    		display: table;
+    	display: table;
     	}
 	.personal-info ul {
 		margin: 10px 15px;

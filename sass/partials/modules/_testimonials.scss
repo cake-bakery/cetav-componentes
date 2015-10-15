@@ -1,24 +1,22 @@
 .container-testimonials-post {
 	background-color: $post-color;
 	.testimonials-list-items{
-
 		img{
-		   	border: 6px solid $post-color;
+		  border: 6px solid $post-color;
 		}
 		&:nth-of-type(2n){
-			 background-color: $post-color;
+		 background-color: $post-color;
 		}
 	}
 	.triangle {
 		border-color: transparent $post-color transparent transparent;
 	}
 }
-
 .container-testimonials-animacion {
 	background-color: $animacion-color;
-		.testimonials-list-items{
+	.testimonials-list-items{
 		img{
-		   	border: 6px solid $animacion-color;
+		  border: 6px solid $animacion-color;
 		}
 		&:nth-of-type(2n){
 			background-color: $animacion-color;
@@ -28,13 +26,11 @@
 		border-color: transparent $animacion-color transparent transparent;
 	}
 }
-
 .container-testimonials-ddw {
 	background-color: $ddw-color;
-		.testimonials-list-items{
-
+	.testimonials-list-items{
 		img{
-		   	border: 6px solid $ddw-color;
+			border: 6px solid $ddw-color;
 		}
 		&:nth-of-type(2n){
 			background-color: $ddw-color;

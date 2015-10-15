@@ -12,7 +12,8 @@
 	.admission-intro-title{
 		@include font-size(40);
 		font-family: $hind;
-		width: 76%;
+		width: 85%;
+		line-height: 120%;
 		color:$orange;
 	} 
 	p{
@@ -20,8 +21,11 @@
 		font-family: $open-sans;
     float: right;
     margin-top: -38px;
+    @media(min-width: 320px){
+    	margin-top: 9px;
+  	}
     @media(min-width: 880px){
-    	margin-top: 52px;
+    	margin-top: 9px;
   	}
 	}
 }

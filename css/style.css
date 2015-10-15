@@ -442,7 +442,8 @@ header {
   font-size: 40px;
   font-size: 4rem;
   font-family: "Hind", sans-serif;
-  width: 76%;
+  width: 85%;
+  line-height: 120%;
   color: #ff8f00; }
 .admission-intro p {
   font-size: 16px;
@@ -450,9 +451,12 @@ header {
   font-family: "Open Sans", sans-serif;
   float: right;
   margin-top: -38px; }
+  @media (min-width: 320px) {
+    .admission-intro p {
+      margin-top: 9px; } }
   @media (min-width: 880px) {
     .admission-intro p {
-      margin-top: 52px; } }
+      margin-top: 9px; } }
 
 .container-requirements {
   margin: 0 auto;
@@ -483,12 +487,11 @@ header {
         margin: 5rem 5%; } }
     @media (min-width: 980px) {
       .container-requirements .requirements-list-items {
-        width: 18%;
+        width: 20%;
         margin: 5rem 2%; } }
     .container-requirements .requirements-list-items img {
-      width: 10rem;
-      border: 1px solid #ff8f00;
-      border-radius: 800px;
+      width: 11rem;
+      border-bottom: 1px solid #ff8f00;
       overflow: hidden; }
     .container-requirements .requirements-list-items p {
       font-size: 16px;
@@ -725,13 +728,14 @@ label {
     font-family: "Hind", sans-serif;
     margin: 0;
     color: #ff8f00;
-    line-height: 120%; }
+    line-height: 120%;
+    width: 88%; }
   .container-generations .generations-intro p {
     font-size: 16px;
     font-size: 1.6rem;
     font-family: "Open Sans", sans-serif;
     margin-top: 5px;
-    width: 90%;
+    width: 89%;
     color: #848286; }
   .container-generations .generations-intro .generations-intro-button {
     font-size: 16px;
@@ -739,8 +743,9 @@ label {
     border: 1px solid #848286;
     background: none;
     color: #848286;
-    width: 22%;
-    height: 46px; }
+    margin-top: 18px;
+    width: 45%;
+    height: 48px; }
 
 .container-career {
   margin: 0 auto;
@@ -761,7 +766,8 @@ label {
     line-height: 120%; }
     @media (min-width: 1024px) {
       .container-career .career-intro .career-intro-title {
-        margin-top: -6px; } }
+        margin-top: -6px;
+        width: 88%; } }
   .container-career .career-intro p {
     font-size: 16px;
     font-size: 1.6rem;
@@ -771,8 +777,8 @@ label {
     color: #848286; }
     @media (min-width: 1024px) {
       .container-career .career-intro p {
-        width: 88%;
-        margin-top: 2px;
+        width: 80%;
+        margin-top: 5px;
         margin-bottom: 9px; } }
 
 .container-testimonials {
@@ -820,8 +826,8 @@ label {
           width: 76%; } }
       @media (min-width: 980px) {
         .container-testimonials .testimonials-list-items:nth-of-type(2n) {
-          padding: 2rem 5%;
-          width: 79%; } }
+          padding: 2rem 4%;
+          width: 80%; } }
     .container-testimonials .testimonials-list-items .testimonials-list-items-title {
       font-size: 20px;
       font-size: 2rem;
@@ -860,8 +866,8 @@ label {
     .container-personal .personal-list-items img {
       border-radius: 50%;
       overflow: hidden;
-      width: 12rem;
-      height: 12rem; }
+      width: 14rem;
+      height: 14rem; }
     @media (min-width: 319px) {
       .container-personal .personal-list-items {
         width: 50%;
@@ -876,7 +882,7 @@ label {
         margin: 5rem 5%; } }
     @media (min-width: 980px) {
       .container-personal .personal-list-items {
-        width: 18%;
+        width: 20%;
         margin: 5rem 2%; } }
     .container-personal .personal-list-items .personal-list-items-title {
       font-size: 20px;
@@ -888,7 +894,7 @@ label {
       font-size: 1.4rem;
       font-family: "Open Sans", sans-serif;
       color: #848286;
-      width: 99%; }
+      width: 103%; }
     .container-personal .personal-list-items a {
       font-size: 12px;
       font-size: 1.2rem;
@@ -896,7 +902,7 @@ label {
       padding: 2px;
       color: #848286; }
       .container-personal .personal-list-items a:nth-of-type(1) {
-        border-right: 1px solid #292929;
+        border-right: 1px solid #848286;
         padding-right: 5px; }
 
 .content-section {

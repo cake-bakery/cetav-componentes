@@ -231,7 +231,8 @@ ul {
 iframe {
   float: right;
   width: 100%;
-  height: 16rem; }
+  height: 16rem;
+  margin-top: 7px; }
   @media (min-width: 480px) {
     iframe {
       height: 30rem; } }
@@ -435,15 +436,15 @@ header {
     vertical-align: top;
     width: 49%; } }
 .admission-intro .admission-intro-title {
-  font-size: 40px;
-  font-size: 4rem;
+  font-size: 48px;
+  font-size: 4.8rem;
   font-family: "Hind", sans-serif;
   width: 85%;
   line-height: 120%;
   color: #ff8f00; }
 .admission-intro p {
-  font-size: 16px;
-  font-size: 1.6rem;
+  font-size: 18px;
+  font-size: 1.8rem;
   font-family: "Open Sans", sans-serif;
   float: right;
   margin-top: -38px; }
@@ -486,9 +487,9 @@ header {
         width: 20%;
         margin: 5rem 2%; } }
     .container-requirements .requirements-list-items img {
-      width: 11rem;
+      width: 50%;
       border-bottom: 1px solid #ff8f00;
-      margin-bottom: 2rem;
+      margin-bottom: 11px;
       overflow: hidden; }
     .container-requirements .requirements-list-items p {
       font-size: 16px;
@@ -727,25 +728,24 @@ label {
         .container-generations .generations-intro:nth-child(2) {
           float: right; } }
     .container-generations .generations-intro .generations-intro-title {
-      font-size: 40px;
-      font-size: 4rem;
+      font-size: 48px;
+      font-size: 4.8rem;
       font-family: "Hind", sans-serif;
       color: #ff8f00;
       line-height: 120%; }
     .container-generations .generations-intro p {
-      font-size: 16px;
-      font-size: 1.6rem;
+      font-size: 18px;
+      font-size: 1.8rem;
       font-family: "Open Sans", sans-serif;
       margin: 2rem 0;
-      margin-top: 12px;
+      margin-top: 8px;
       color: #848286; }
     .container-generations .generations-intro .generations-intro-button {
-      font-size: 16px;
-      font-size: 1.6rem;
+      font-size: 18px;
+      font-size: 1.8rem;
       border: 1px solid #848286;
       background: none;
       color: #848286;
-      margin-top: 18px;
       width: 45%;
       height: 48px; }
 
@@ -765,17 +765,17 @@ label {
         .container-career .career-intro:nth-child(2) {
           float: right; } }
     .container-career .career-intro .career-intro-title {
-      font-size: 40px;
-      font-size: 4rem;
+      font-size: 48px;
+      font-size: 4.8rem;
       font-family: "Hind", sans-serif;
       color: #ff8f00;
       line-height: 120%; }
     .container-career .career-intro p {
-      font-size: 16px;
-      font-size: 1.6rem;
+      font-size: 18px;
+      font-size: 1.8rem;
       font-family: "Open Sans", sans-serif;
       margin: 2rem 0;
-      margin-top: 12px;
+      margin-top: 7px;
       color: #848286; }
 
 .container-testimonials-post {
@@ -918,7 +918,8 @@ label {
       font-size: 1.4rem;
       font-family: "Open Sans", sans-serif;
       color: #848286;
-      width: 103%; }
+      width: 103%;
+      margin-bottom: 3px; }
     .container-personal .personal-list-items a {
       font-size: 12px;
       font-size: 1.2rem;
@@ -927,7 +928,7 @@ label {
       color: #848286; }
       .container-personal .personal-list-items a:nth-of-type(1) {
         border-right: 1px solid #848286;
-        padding-right: 5px; }
+        padding: 0px 7px 0px 0px; }
 
 .content-section {
   background-color: #f3f3f3;

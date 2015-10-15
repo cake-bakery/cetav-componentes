@@ -15,16 +15,16 @@
 			}
 		}
 		.career-intro-title{
-			@include font-size(40);
+			@include font-size(48);
 			font-family: $hind;
 			color: $orange;
 			line-height: 120%;
 		}
 		p{
-			@include font-size(16);
+			@include font-size(18);
 			font-family: $open-sans;
 			margin: 2rem 0;
-			margin-top: 12px;
+			margin-top: 7px;
 			color: $grey-light;
 		}
 		

@@ -8,12 +8,11 @@
 	}
 	.personal-list-items{
 		display: inline-block;
-
 		img{
-	    	border-radius: 50%;
-	    	overflow: hidden;
-	    	width: 14rem;
-		    height: 14rem;
+	    border-radius: 50%;
+	    overflow: hidden;
+	    width: 14rem;
+		  height: 14rem;
 		}
 		@media(min-width: 319px){
 			width: 50%;
@@ -30,7 +29,6 @@
 		@media(min-width: 980px){
 			width: 20%;
 			margin: 5rem 2%;
-
 		}
 		.personal-list-items-title{
 			@include font-size(20);
@@ -42,6 +40,7 @@
 			font-family: $open-sans;
 			color: $grey-light;
 			width: 103%;
+			margin-bottom: 3px;
 		}
 		a{
 			@include font-size(12);
@@ -50,7 +49,7 @@
 			color: $grey-light;
 			&:nth-of-type(1){
 				border-right:1px solid $grey-light;
-				padding-right: 5px;
+				padding: 0px 7px 0px 0px;
 			}
 		}
 	}

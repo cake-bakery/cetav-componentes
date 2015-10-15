@@ -10,14 +10,14 @@
 		width: 49%;
 	}
 	.admission-intro-title{
-		@include font-size(40);
+		@include font-size(48);
 		font-family: $hind;
 		width: 85%;
 		line-height: 120%;
 		color:$orange;
 	} 
 	p{
-		@include font-size(16);
+		@include font-size(18);
 		font-family: $open-sans;
 		float: right;
 		margin-top: -38px;

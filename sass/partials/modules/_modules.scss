@@ -53,13 +53,16 @@
 	padding: 0 2%;
 	margin: 0 auto;
 	margin-bottom: 5rem;
-	@media (min-width: 800px) {
-		padding: 0 10%;
-		margin-bottom: 0;
+	@media (min-width: 540px) {
+		width: 80%;
 	}
-	@media (min-width: 800px) {
+	@media (min-width: 840px) {
+		padding: 0 10%;
+		width: 80%;
+	}
+	@media (min-width: 920px) {
 		float: left;
-		width: 46%;
+		width: 43rem;
 		padding: 0;
 		position: relative;
 		&:nth-child(2n) {
@@ -71,53 +74,46 @@
 
 
 .icon-detail {
-	border:1px solid $grey-light;
-	border-radius: 50%;
-	height: 6rem;
-	margin: 2rem 0;
+	float: left;
+	margin-top: 3px;
 	position: relative;
-	padding: 1rem;
-	width: 6rem;
 	img {
+		width: 50%;
 		display: block;
 		width: initial;
-		margin: 0 auto;
-	}
-	@media (min-width: 480px) {
-	float: left;
 	}
 }
 
 .info-details {
 	float: left;
 	width: 80%;
-	@media (min-width: 480px) {
-	margin-left: 3%;
-	}
+	margin-left: 3rem;
 
-	@media (min-width: 900px) {
-		float: right;
-		width: 75%;
+	@media (min-width: 920px) {
+		width: 37rem;
+	}
+	p {
+		@include font-size(16);
+		margin: 16px 0;
+		.subtitle-details {
+			font-weight: bold;
+		}
+	}
+	.subtitle-title-details {
+			margin: 24px 0 16px 0;
+			font-weight: bold;
+			@include font-size(18);
 	}
 }
 
 .title-details {
-	border-bottom: 2px solid $grey-light;
+	border-bottom: 2px solid $light-blue;
+	color: $light-blue;
 	@include font-size(21);
 	margin-top: 0;
 	padding-bottom: 1rem;
 }
 
-.subtitle-details {
-	@include font-size(12);
-	@media (min-width: 480px) {
-	@include font-size(16);
-	}
-	@media (min-width: 680px) {
-	@include font-size(18);
-	}
-	@media (min-width: 800px) {
-		@include font-size(16);
-	}
-}
+
+
 	

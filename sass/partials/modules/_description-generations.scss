@@ -1,10 +1,15 @@
 .container-generations{
 	margin: 0 auto;
+	margin-bottom: 2rem;
 	max-width: 1000px;
 	padding: 0;
 	width: 100%;
 	.generations-intro{
+		display: block;
+		overflow: hidden;
+		margin-top: 4rem;
 		@media(min-width: 880px){
+			margin-top: 0;
 			display: inline-block;
 			vertical-align: top;
 			width: 49%;
@@ -12,14 +17,14 @@
 		.generations-intro-title{
 			@include font-size(40);
 			font-family: $hind;
-			margin: 0;
+			
 			color: $orange;
 			line-height: 120%;
 		}
 		p{
 			@include font-size(16);
 			font-family: $open-sans;
-			margin-top: 5px;
+			margin: 2rem 0 4rem 0;
 			width: 90%;
 			color: $grey-light;
 		}

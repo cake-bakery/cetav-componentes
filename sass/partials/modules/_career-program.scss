@@ -7,9 +7,12 @@
 }
 
 .title-square {
+	//background-color: $ddw-color;
+	//border-bottom: 2px solid $grey-lines;
+	color: #fff;
 	@include font-size(16);
-	border-bottom: 2px solid $grey-lines;
 	padding: 1.5rem;
+	margin-top: 0;
 }
 
 .list-program-preview {
@@ -19,4 +22,17 @@
 		@include font-size(16);
 		line-height: 5rem;
 	}
+}
+
+
+.background-color-post {
+ background-color: $post-color;
+}
+
+.background-color-ddw {
+ background-color: $ddw-color;
+}
+
+.background-color-animacion {
+ background-color: $animacion-color;
 }

@@ -1,14 +1,12 @@
 .program-preview {
-	background-color: #ebedef;
 	height: 33rem;
+	background-color: #fff;
 	@media(min-width: 980px){
 		height: 32rem;
 	}
 }
 
 .title-square {
-	//background-color: $ddw-color;
-	//border-bottom: 2px solid $grey-lines;
 	color: #fff;
 	@include font-size(16);
 	padding: 1.5rem;
@@ -43,4 +41,16 @@
 
 .background-color-animacion {
  background-color: $animacion-color;
+}
+
+.border-color-post {
+ border: 2px solid $post-color;
+}
+
+.border-color-ddw {
+ border: 2px solid $ddw-color;
+}
+
+.border-color-animacion {
+ border: 2px solid $animacion-color;
 }

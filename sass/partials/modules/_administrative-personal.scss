@@ -52,12 +52,10 @@
 		a{
 			@include font-size(13);
 			font-family: $open-sans;
-			color: $grey-light;
-			border:1px solid $grey-light;
     	@media(min-width: 319px){
 				display: block;
 	    	height: 32px;
-	    	padding-top: 4px;
+	    	padding-top: 6px;
     	}
 			@media(min-width: 680px){
 				display: inline-block;
@@ -68,9 +66,10 @@
 				border:1px solid $blue-facebook;
 				color: $blue-facebook;
 				@media(min-width: 680px){
+					border: none;
 					border-right:1px solid $grey-light;
 					padding: 0px 8px 0px 0px;
-    			height: 21px;
+    			height: 19px;
 				}
 			}
 			&:nth-of-type(2){

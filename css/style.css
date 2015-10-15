@@ -439,7 +439,7 @@ header {
   font-size: 48px;
   font-size: 4.8rem;
   font-family: "Hind", sans-serif;
-  width: 85%;
+  width: 93%;
   line-height: 120%;
   color: #ff8f00; }
 .admission-intro p {
@@ -447,13 +447,14 @@ header {
   font-size: 1.8rem;
   font-family: "Open Sans", sans-serif;
   float: right;
-  margin-top: -38px; }
+  margin-top: -38px;
+  color: #848286; }
   @media (min-width: 320px) {
     .admission-intro p {
       margin-top: 9px; } }
   @media (min-width: 880px) {
     .admission-intro p {
-      margin-top: 0px; } }
+      margin-top: 4px; } }
 
 .container-requirements {
   margin: 0 auto;
@@ -462,7 +463,8 @@ header {
   .container-requirements .requirements-title {
     font-size: 26px;
     font-size: 2.6rem;
-    font-family: "Hind", sans-serif; }
+    font-family: "Hind", sans-serif;
+    color: #ff8f00; }
   .container-requirements .requirements-list {
     padding: 0;
     text-align: center; }
@@ -494,7 +496,8 @@ header {
     .container-requirements .requirements-list-items p {
       font-size: 16px;
       font-size: 1.6rem;
-      font-family: "Open Sans", sans-serif; }
+      font-family: "Open Sans", sans-serif;
+      color: #848286; }
 
 .short-news {
   overflow: hidden;
@@ -930,14 +933,12 @@ label {
     .container-personal .personal-list-items a {
       font-size: 13px;
       font-size: 1.3rem;
-      font-family: "Open Sans", sans-serif;
-      color: #848286;
-      border: 1px solid #848286; }
+      font-family: "Open Sans", sans-serif; }
       @media (min-width: 319px) {
         .container-personal .personal-list-items a {
           display: block;
           height: 32px;
-          padding-top: 4px; } }
+          padding-top: 6px; } }
       @media (min-width: 680px) {
         .container-personal .personal-list-items a {
           display: inline-block;
@@ -948,9 +949,10 @@ label {
         color: #4c67a1; }
         @media (min-width: 680px) {
           .container-personal .personal-list-items a:nth-of-type(1) {
+            border: none;
             border-right: 1px solid #848286;
             padding: 0px 8px 0px 0px;
-            height: 21px; } }
+            height: 19px; } }
       .container-personal .personal-list-items a:nth-of-type(2) {
         border: 1px solid #55acee;
         color: #55acee; }
@@ -959,7 +961,7 @@ label {
             border: none; } }
 
 .content-section {
-  background-color: #e5e5e4;
+  background-color: #f3f3f3;
   padding: 5rem;
   margin-bottom: 10rem;
   max-width: 100%; }
@@ -969,13 +971,15 @@ label {
   margin: 0 auto; }
 
 .content-title {
+  color: #00c9ed;
+  margin-bottom: 2rem;
   font-size: 24px;
   font-size: 2.4rem; }
 
 .content-column-course {
   font-size: 16px;
   font-size: 1.6rem;
-  line-height: 2rem;
+  list-style: none;
   text-align: left;
   vertical-align: top; }
   @media (min-width: 720px) {
@@ -995,8 +999,10 @@ label {
         margin-right: 0; }
       .content-column-course:last-child {
         margin-right: 0%; } }
+  .content-column-course ul {
+    padding-left: 2rem; }
   .content-column-course ul li {
-    list-style: initial;
+    line-height: 2.7rem;
     list-style-image: url(../img/list-decoration.png); }
 
 .details-section {
@@ -1142,8 +1148,8 @@ label {
   display: block; }
 
 .program-preview {
-  background-color: #ebedef;
-  height: 33rem; }
+  height: 33rem;
+  background-color: #fff; }
   @media (min-width: 980px) {
     .program-preview {
       height: 32rem; } }
@@ -1177,6 +1183,15 @@ label {
 
 .background-color-animacion {
   background-color: #cc6220; }
+
+.border-color-post {
+  border: 2px solid #819535; }
+
+.border-color-ddw {
+  border: 2px solid #922716; }
+
+.border-color-animacion {
+  border: 2px solid #cc6220; }
 
 .line-grid {
   max-width: 1000px;

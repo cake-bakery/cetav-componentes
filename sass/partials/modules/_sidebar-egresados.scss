@@ -2,28 +2,30 @@
 	color: $white;
 	padding: 10px 25px;
 	background-color: $grey-dark;
-}
 
-form{
+	form{
 	margin: 2%;
+	}
+
+	form p{
+		margin: 10px 0;
+	}
+
+	input{
+		width: 20px;
+		height: 20px;
+		margin-right: 10px;
+		float: left;
+	}
+
+	label{
+		display: inline-block;
+		margin: 0;
+		vertical-align: top;
+	}
 }
 
-form p{
-	margin: 10px 0;
-}
 
-input{
-	width: 20px;
-	height: 20px;
-	margin-right: 10px;
-	float: left;
-}
-
-label{
-	display: inline-block;
-	margin: 0;
-	vertical-align: top;
-}
 
 .sub-tittle{
 	border-bottom: solid 1px;

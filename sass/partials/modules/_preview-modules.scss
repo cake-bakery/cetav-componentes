@@ -31,6 +31,7 @@
 	@media (min-width: 980px) {
 		display: inline-block;
 		width: 30%;
+		height: 290px;
 		margin-right: 4%;
 		&:nth-child(3n+1) {
         margin-right: 0;
@@ -44,22 +45,33 @@
 
 .image-preview-module {
 	width: inherit;
-	max-width: 100%;
+	width: 100%;
 	height: auto;
 	opacity: 0.4;
+	@media (min-width: 980px) {
+		position: absolute;
+	}
 }
 
 .square-preview-hover {
 	  &:hover {
-    -webkit-transition: 0.5s;
+    // -webkit-transition: 0.5s;
     border: 0.7rem solid $light-blue;
+	@media (min-width: 980px) {
+		height: 290px;
+	}
+    
     .info-preview-module {
       padding:0.3rem 1.3rem;
-      -webkit-transition: 0.5s;
+      // -webkit-transition: 0.5s;
     }
     .image-preview-module {
-	opacity: 0.2;
-	-webkit-transition: 0.5s;
+	opacity: 0.15;
+	@media (min-width: 980px) {
+		width: 140%;
+		-webkit-transition: 1.5s;
+	}
+	 -webkit-transition: 1.5s;
 	}
   }
 }

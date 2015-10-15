@@ -94,29 +94,22 @@
 	.footer-container{
 		background-color: $grey-light;
 		height: 26px;
-	}
-	.footer-container-list{
-		margin: 0 auto;
-		max-width: 1000px;
-		padding: 0;
-	}
-	.footer-container-list-items{
-		display: inline-block;
-		vertical-align: top;
-		color: $white;
-		width: 100%;
+		overflow: hidden;
+		position: relative;
+		padding: 0 1rem;
 		p{
+			float: left;
 			@include font-size(12);
 			font-family: $hind;
-			float: left;
-    	margin-top: 3px;
+    		margin-top: 3px;
+    		color: #fff;
 		}
 		a{
 			@include font-size(12);
 			font-family: $hind;
-			color: #fff;
 			float: right;
-    	margin-top: -31px;
+			margin-top: 3px;
+			color: #fff;
 		}
 	}	
 }

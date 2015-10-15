@@ -1,0 +1,65 @@
+.pay-form {
+	margin: 0 auto;
+	text-align: center;
+	width: 95%;
+	@media (min-width: 730px) {
+		width: 60%;
+	}
+}
+
+.input-main-form {
+
+	border:none;
+	border-bottom: 1px solid $grey-dark;
+	@include font-size(14);
+	margin: 1rem 0;
+	padding: 0.5rem 1rem;
+	width: 100%;
+}
+
+
+
+
+.button {
+	background-color: transparent;
+	@include font-size(14);
+	font-weight: bold;
+	border:none;
+	padding: 1rem 2rem;
+	margin: 1rem 0 2rem 0;
+	width:48%;
+}
+
+.settings-button {
+	border: 2px solid $light-blue;
+	color: $light-blue;
+	text-align: left;
+	float: left;
+	&:hover {
+		background-color: $light-blue;
+		color: #fff;
+	}
+}
+.upload-button {
+	background-image: url(../img/upload.png);
+	background-position: 93% center;
+	background-repeat: no-repeat;
+	border: 2px solid $light-blue;
+	color: $light-blue;
+	text-align: left;
+	float: right;
+	&:hover {
+		background-color: $light-blue;
+		color: #fff;
+	}
+}
+.send-button {
+	border: 2px solid $success-green;
+	color: $success-green;
+	display: block;
+	margin: 0 auto;
+	&:hover {
+		background-color: $success-green;
+		color: #fff;
+	}
+}

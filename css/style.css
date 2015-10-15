@@ -401,29 +401,24 @@ header {
       width: 41%; }
   .footer .footer-container {
     background-color: #848286;
-    height: 26px; }
-  .footer .footer-container-list {
-    margin: 0 auto;
-    max-width: 1000px;
-    padding: 0; }
-  .footer .footer-container-list-items {
-    display: inline-block;
-    vertical-align: top;
-    color: #fff;
-    width: 100%; }
-    .footer .footer-container-list-items p {
-      font-size: 12px;
-      font-size: 1.2rem;
-      font-family: "Hind", sans-serif;
+    height: 26px;
+    overflow: hidden;
+    position: relative;
+    padding: 0 1rem; }
+    .footer .footer-container p {
       float: left;
-      margin-top: 3px; }
-    .footer .footer-container-list-items a {
       font-size: 12px;
       font-size: 1.2rem;
       font-family: "Hind", sans-serif;
-      color: #fff;
+      margin-top: 3px;
+      color: #fff; }
+    .footer .footer-container a {
+      font-size: 12px;
+      font-size: 1.2rem;
+      font-family: "Hind", sans-serif;
       float: right;
-      margin-top: -31px; }
+      margin-top: 3px;
+      color: #fff; }
 
 .container-admission {
   margin: 0 auto;
@@ -648,23 +643,19 @@ header {
   color: #fff;
   padding: 10px 25px;
   background-color: #292929; }
-
-form {
-  margin: 2%; }
-
-form p {
-  margin: 10px 0; }
-
-input {
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
-  float: left; }
-
-label {
-  display: inline-block;
-  margin: 0;
-  vertical-align: top; }
+  .filters form {
+    margin: 2%; }
+  .filters form p {
+    margin: 10px 0; }
+  .filters input {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    float: left; }
+  .filters label {
+    display: inline-block;
+    margin: 0;
+    vertical-align: top; }
 
 .sub-tittle {
   border-bottom: solid 1px;
@@ -1067,6 +1058,7 @@ label {
     .square-preview-module {
       display: inline-block;
       width: 30%;
+      height: 290px;
       margin-right: 4%; }
       .square-preview-module:nth-child(3n+1) {
         margin-right: 0; }
@@ -1075,19 +1067,27 @@ label {
 
 .image-preview-module {
   width: inherit;
-  max-width: 100%;
+  width: 100%;
   height: auto;
   opacity: 0.4; }
+  @media (min-width: 980px) {
+    .image-preview-module {
+      position: absolute; } }
 
 .square-preview-hover:hover {
-  -webkit-transition: 0.5s;
   border: 0.7rem solid #00c9ed; }
+  @media (min-width: 980px) {
+    .square-preview-hover:hover {
+      height: 290px; } }
   .square-preview-hover:hover .info-preview-module {
-    padding: 0.3rem 1.3rem;
-    -webkit-transition: 0.5s; }
+    padding: 0.3rem 1.3rem; }
   .square-preview-hover:hover .image-preview-module {
-    opacity: 0.2;
-    -webkit-transition: 0.5s; }
+    opacity: 0.15;
+    -webkit-transition: 1.5s; }
+    @media (min-width: 980px) {
+      .square-preview-hover:hover .image-preview-module {
+        width: 140%;
+        -webkit-transition: 1.5s; } }
 
 .info-preview-module {
   bottom: 0%;
@@ -1116,6 +1116,63 @@ label {
   font-size: 1.6rem;
   margin: 1.5rem 0;
   display: block; }
+
+.pay-form {
+  margin: 0 auto;
+  text-align: center;
+  width: 95%; }
+  @media (min-width: 730px) {
+    .pay-form {
+      width: 60%; } }
+
+.input-main-form {
+  border: none;
+  border-bottom: 1px solid #292929;
+  font-size: 14px;
+  font-size: 1.4rem;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  width: 100%; }
+
+.button {
+  background-color: transparent;
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  border: none;
+  padding: 1rem 2rem;
+  margin: 1rem 0 2rem 0;
+  width: 48%; }
+
+.settings-button {
+  border: 2px solid #00c9ed;
+  color: #00c9ed;
+  text-align: left;
+  float: left; }
+  .settings-button:hover {
+    background-color: #00c9ed;
+    color: #fff; }
+
+.upload-button {
+  background-image: url(../img/upload.png);
+  background-position: 93% center;
+  background-repeat: no-repeat;
+  border: 2px solid #00c9ed;
+  color: #00c9ed;
+  text-align: left;
+  float: right; }
+  .upload-button:hover {
+    background-color: #00c9ed;
+    color: #fff; }
+
+.send-button {
+  border: 2px solid #2dcc70;
+  color: #2dcc70;
+  display: block;
+  margin: 0 auto; }
+  .send-button:hover {
+    background-color: #2dcc70;
+    color: #fff; }
 
 .program-preview {
   height: 33rem;

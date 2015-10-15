@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<meta charset="UTF-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge, chrome=1">
+		<meta name="MobileOptimized" content="width">
+		<meta name="HandheldFriendly" content="true">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>CETAV-Componentes</title>
 		<link rel="stylesheet" href="css/style.css">
 	</head>
@@ -18,7 +21,7 @@
 						<a href="#">Noticias</a>
 						<img src="img/search.png" alt=""/>
 					</nav><!--navigation-secondary-->
-					</div>
+				</div>
 					<div class="content-navigation">
 					<nav class="content-navigation-primary">
 						<a href="#">Inicio</a>
@@ -79,18 +82,6 @@
 			</div><!--container-generations-->
 		</section><!--module-->
 		<section class="modules-standart">
-			<h2 class="title-section">Descripción y video</h2>
-			<div class="container-career">
-				<div class="career-intro">
-					<h2 class="career-intro-title">¿Por qué estudiar diseño y desarrollo WEB?</h2>
-					<p>Porque mediante una capacitación teórica y práctica en diseño y programación orientada a las aplicaciones y sitios web, los estudiantes conocerán los diferentes lenguajes de programación, sistemas de interactividad, navegabilidad y ujos de trabajo asociado convirtiéndose en desarrolladores web Front End.</p>
-				</div><!--career-intro-->
-				<div class="career-intro">
-					<iframe src="https://player.vimeo.com/video/82142254" width="475" height="481" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/82142254"></a><a href="https://vimeo.com/cetav"></a><a href="https://vimeo.com"></a></p>
-				</div><!--career-intro-->
-			</div><!--container-career-->
-		</section><!--module-->
-		<section class="modules-standart">
 			<h2 class="title-section">Testimonios de los egresados</h2>
 			<div class="container-testimonials-animacion container-testimonials">
 				<ul class="testimonials-list">
@@ -129,6 +120,18 @@
 				</ul><!--testimonials-list-->
 			</div><!--container-testimonials-post container-testimonials-->
 		</section><!--modules-standart-->
+		<section class="modules-standart">
+			<h2 class="title-section">Descripción y video</h2>
+			<div class="container-career">
+				<div class="career-intro">
+					<h2 class="career-intro-title">¿Por qué estudiar diseño y desarrollo WEB?</h2>
+					<p>Porque mediante una capacitación teórica y práctica en diseño y programación orientada a las aplicaciones y sitios web, los estudiantes conocerán los diferentes lenguajes de programación, sistemas de interactividad, navegabilidad y ujos de trabajo asociado convirtiéndose en desarrolladores web Front End.</p>
+				</div><!--career-intro-->
+				<div class="career-intro">
+					<iframe src="https://player.vimeo.com/video/82142254" width="475" height="481" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/82142254"></a><a href="https://vimeo.com/cetav"></a><a href="https://vimeo.com"></a></p>
+				</div><!--career-intro-->
+			</div><!--container-career-->
+		</section><!--module-->
 		<section class="modules-standart">
 			<h2 class="title-section">Personal Administrativo</h2>
 			<div class="container-personal">
@@ -373,6 +376,251 @@ responsivo</p></li>
  escribiendo código desde cero</p></li>
 			</ul>
 		</section>
+		<div class="wrapper">
+			<section class="modules-standart">
+				<h2 class="title-section">Egresados</h2>
+				<section class="modules">
+					<div class="graduates-content">
+						<div class="filters">
+							<form>
+								<h2 class="sub-tittle">Carreras</h2>
+								<p>
+									<input type="checkbox" id="post" name="post" value="Post-Productor" >
+									<label for="post">Post-Productor</label><br>
+								</p>
+								<p>
+									<input type="checkbox" id="web" name="front-end" value="Front-end">
+									<label for="web">Desarrollador Web</label><br>
+								</p>
+								<p>
+									<input type="checkbox" id="3d" name="3D" value="3D">
+									<label for="3d">Diseñador 3D</label>
+								</p>
+							</form>
+							<form>
+								<h2 class="sub-tittle">Disponibilidad</h2>
+								<p>
+									<input type="checkbox"  id="tiempo-completo" name="disponibilidad" value="Tiempo Completo">
+									<label for="tiempo-completo">Tiempo Completo</label><br>
+								</p>
+								<p>
+									<input type="checkbox"  id="medio-tiempo" name="disponibilidad" value="Medio Tiempo">
+									<label for="medio-tiempo">Medio Tiempo</label><br>
+								</p>
+								<p>
+									<input type="checkbox" id="freelance" name="disponibilidad" value="Freelance">
+									<label for="freelance">Freelance</label>
+								</p>
+							</form>
+							<form>
+								<h2 class="sub-tittle">Generación</h2>
+								<p>
+									<input type="checkbox" id="priumera-generación" name="primera-generación" value="generación-uno">
+									<label>Generación 2013</label><br>
+								</p>
+								<p>
+									<input type="checkbox" id="segunda-generación" name="segunda-generación" value="generación-dos">
+									<label>Generación 2015</label>
+								</p>
+							</form>
+						</div>
+						<!-- Close the filtros seccion -->
+						<div class="graduates-list">
+							<h2 class=".graduate-title">Filtros actuales</h2>
+							<ul>
+								<li class="tag-filter">Post-Productor</li>
+								<li class="tag-filter">Freelance</li>
+								<li class="tag-filter">Generación 2013</li>
+							</ul>		
+							<section class="graduate">
+								<img src="img/sofia.jpg">
+								<div class="graduate-details">
+									<h2>Sofia Abarca</h2>
+									<span class="profession">Post-Productora audio-visual</span>
+									<span class="tag-filter">Post-Productor</span>
+									<span class="tag-filter">Generación 2013</span>
+									<span class="tag-filter">Freelance</span>
+								</div>
+							</section>
+							<section class="graduate">
+								<img src="img/sofia.jpg">
+								<div class="graduate-details">
+									<h2>Sofia Abarca</h2>
+									<span class="profession">Post-Productora audio-visual</span>
+									<span class="tag-filter">Post-Productor</span>
+									<span class="tag-filter">Generación 2013</span>
+									<span class="tag-filter">Freelance</span>
+								</div>
+							</section>
+						</div>
+						<!-- Close the graduates-list seccion -->
+					</div>
+				</section><!--modules-->	
+			</section><!--module-standart-->
+			<!-- Close the graduates-content seccion -->
+			<section class="modules-standart">
+				<h2 class="title-section">Perfil del egresado</h2>
+				<section class="modules">
+					<div class="graduate-info">
+						<div class="contact-info">
+							<img class="img-profile" src="img/sofia.jpg">
+							<section class="personal-info">
+								<div class ="info-conteiner">
+									<ul>
+										<li><h2 class="sub-tittle">Estoy disponible</h2></li>
+										<li>Medio Tiempo</li>
+									</ul>
+									<ul>
+										<li><h2 class="sub-tittle">Contactos</h2></li>
+										<li><span>Email:</span><br>ejemplo@email.com</li>
+										<li><span>Teléfono:</span><br>(506)22-22-22-22</li>
+									</ul>
+									<ul class="rrss-graduate">
+										<li><h2 class="sub-tittle">Otros perfiles</h2></li>
+										<li><img src="img/facebook.png"> <span>Faceboof</span></li>
+										<li><img src="img/twitter.png"> <span>Twitter</span></li>
+										<li><img src="img/vimeo.png"> <span>Vimeo</span></li>
+									</ul>
+								</div>	
+							</section>
+						</div>	
+						<div class="info-detailed">
+							<h2>Sofia Abarca</h2>
+							<span class="profession">Post-Productora audio-visual</span>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pulvinar ultricies lacus nec pulvinar. Vestibulum eget sapien cursus, ultrices nisi quis, tincidunt neque. Aliquam vulputate suscipit imperdiet. Suspend-isse sed dui tristique, tincidunt eros. Vestibulum eget sapien cursus, ultrices nisi quis, tincidunt neque. Aliquam vulputate suscipit imperdiet. Suspend-isse sed dui tristique, tincidunt eros</p>
+							<h2 class="sub-tittle">Habilidades</h2>
+							<ul class="content-detailed-tag">
+								<li class="info-detailed-tag">Composicion de video</li>
+								<li class="info-detailed-tag">Motion Graphics</li>
+								<li class="info-detailed-tag">Correcion de color</li>
+								<li class="info-detailed-tag">After Efects</li>
+							</ul>
+							<h2 class="sub-tittle">Educación</h2>
+							<p>Desarrollo de páginas web, contenido digital/multimedia y recursos informáticos</p>
+							<h2 class="sub-tittle">Destrezas</h2>
+							<ul class="skills">
+								<li>* Comprensión sólida de usabilidad, diseño centrado en el usuario.</li>
+								<li>* Código HTML5 semántico con especial sentido de accesibilidad.</li>
+								<li>* CSS3 con uso de transiciones y animaciones.</li>
+								<li>* Experiencia con sistemas de cuadrículas uídos.</li>
+								<li>* Experiencia con diseño web responsivo.</li>
+								<li>* SCSS/SASS/Compass.</li>
+								<li>* Experiencia general en JavaScript, escribiendo código desde cero.</li>
+								<li>* Experiencia básica de lenguajes servidor como PHP y bases de datos.</li>
+								<li>* Experiencia con WordPress y CMS.</li>
+								<li>* Git.</li>
+							</ul>
+						</div>
+					</div>
+				</section><!--modules-->
+			</section><!--modules-standart-->
+			<section class="modules-standart">
+				<h2 class="title-section">Noticias</h2>
+				<section class="modules">
+					<section class="populars">
+						<input class="new-search" type="text" placeholder="Busqueda">
+						<input class="noticia-submit" type="submit">
+						<div class="new-container">
+							<h2 class="sub-tittle">Mas populares</h2>
+							<div class="popular-new">
+								<a href="#">
+									<h2 class="sub-tittle">Titulo de la noticia</h2>
+									<p>Ver noticia</p>
+								</a>
+							</div>	
+							<div class="popular-new">
+								<a href="#">
+									<h2 class="sub-tittle">Titulo de la noticia</h2>
+									<p>Ver noticia</p>
+								</a>
+							</div>
+							<div class="popular-new">
+								<a href="#">
+									<h2 class="sub-tittle">Titulo de la noticia</h2>
+									<p>Ver noticia</p>
+								</a>
+							</div>
+						</div>	
+					</section>
+					<div class="many-news">
+						<div class="short-news">
+							<img src="img/b-chino-luz.jpg">
+							<div class="new-copy">
+								<h2 class="sub-tittle">Título de la Noticia</h2>
+								<span>12 de octubre 2015</span>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pulvinarultricies lacus nec pulvinar.Vestibulum eget sapien cursus, ultrices nisiquis, tincidunt neque. </p>
+								<a href="#">Ver toda la noticia</a>
+							</div>
+						</div>
+						<div class="short-news">
+							<img src="img/b-chino-luz.jpg">
+							<div class="new-copy">
+								<h2 class="sub-tittle">Título de la Noticia</h2>
+								<span>12 de octubre 2015</span>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pulvinarultricies lacus nec pulvinar.Vestibulum eget sapien cursus, ultrices nisiquis, tincidunt neque.</p>
+								<a href="#">Ver toda la noticia</a>
+							</div>
+						</div>
+						<div class="short-news">
+							<img src="img/b-chino-luz.jpg">
+							<div class="new-copy">
+								<h2 class="sub-tittle">Título de la Noticia</h2>
+								<span>12 de octubre 2015</span>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pulvinarultricies lacus nec pulvinar.Vestibulum eget sapien cursus, ultrices nisiquis, tincidunt neque.</p>
+								<a href="#">Ver toda la noticia</a>
+							</div>
+						</div>	
+						<div class="short-news">
+							<img src="img/b-chino-luz.jpg">
+							<div class="new-copy">
+								<h2 class="sub-tittle">Título de la Noticia</h2>
+								<span>12 de octubre 2015</span>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pulvinar ultricies lacus necpulvinar. Vestibulum eget sapien cursus, ultrices nisiquis, tincidunt neque.</p>
+								<a href="#">Ver toda la noticia</a>
+							</div>
+						</div>
+					</div>
+				</section><!--module-->
+			</section><!--module-standart-->
+			<section class="modules-standart">
+				<h2 class="title-section">Preview de la noticia</h2>
+				<section class="modules">
+					<section class="populars">
+						<input class="new-search" type="text" placeholder="Busqueda">
+						<input class="noticia-submit" type="submit">
+						<div class="new-container">
+							<h2 class="sub-tittle">Mas populares</h2>
+							<div class="popular-new">
+								<a href="#">
+									<h2 class="sub-tittle">Titulo de la noticia</h2>
+									<p>Ver noticia</p>
+								</a>
+							</div>	
+							<div class="popular-new">
+								<a href="#">
+									<h2 class="sub-tittle">Titulo de la noticia</h2>
+									<p>Ver noticia</p>
+								</a>
+							</div>
+							<div class="popular-new">
+								<a href="#">
+									<h2 class="sub-tittle">Titulo de la noticia</h2>
+									<p>Ver noticia</p>
+								</a>
+							</div>
+						</div>	
+					</section>
+					<div class="new">
+						<img src="img/b-chino-luz.jpg">
+						<h1 class="sub-tittle">Título de la Noticia</h1>
+						<span>12 de octubre 2015</span>
+						<p>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam convallis, diam ac egestas hendrerit, quam tellus gravida dolor, ac ultrices mauris nisl sed massa. Donec sit amet leo vel est tincidunt vestibulum. Donec semper orci felis, pulvinar tincidunt elit accumsan imperdiet.</p>
+						<p>Quisque erat turpis, vehicula quis consequat et, egestas id neque. Donec gravida ullamcorper turpis eget ultricies. Morbi sed ultrices libero, et mollis ante. Sed neque nulla, eleifend sed enim at, malesuada accumsan augue. Mauris pretium blandit erat. Integer tempus metus sit amet dolor accumsan, nec pharetra dolor sollicitudin. Phasellus urna tortor, tempor at egestas in, fermentum egestas nisi. Donec quis ligula metus. Suspendisse erat velit, tincidunt a placerat vel, eleifend ut lacus.</p>
+						<a href="#">Ver toda la noticia</a>
+					</div>
+				</section><!--modules-->
+			</section><!--modules-standart-->
+		</div>
 		<section class="modules-total">
 			<h2 class="title-section">Footer</h2>
 			<footer class="footer">
@@ -389,8 +637,8 @@ responsivo</p></li>
 						<h3 class="footer-list-items-title">Contactanos al:</h3>
 						<p>Teléfono: 2276-9400 ext.2031</p>
 						<p>Email: cetav@parquelalibertad.org</p>
-						<a href="#"><img class="img-fb" src="img/facebook.png" alt="Facebook"></a>
-						<a href="#"><img class="img-vimeo" src="img/vimeo.png" alt="Vimeo"></a>
+						<a href="#"><img class="img-fb" src="img/facebook-footer.png" alt="Facebook"></a>
+						<a href="#"><img class="img-vimeo" src="img/vimeo-footer.png" alt="Vimeo"></a>
 					</li>
 					<li class="footer-list-items">
 						<h3 class="footer-list-items-title">Somos parte de:</h3>
@@ -409,8 +657,8 @@ responsivo</p></li>
 							<a href="#">Mi Cuenta</a>
 						</li>
 					</ul><!--footer-container-list-->
-			</div><!--footer-container-->
+				</div><!--footer-container-->
 			</footer><!--end-footer-->
-		</section><!--modules-standart-->
+		</section><!--modules-standart-->	
 	</body>
 </html>

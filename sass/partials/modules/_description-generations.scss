@@ -20,12 +20,15 @@
 			
 			color: $orange;
 			line-height: 120%;
+			width: 88%;
 		}
 		p{
 			@include font-size(16);
 			font-family: $open-sans;
 			margin: 2rem 0 4rem 0;
 			width: 90%;
+			margin-top: 5px;
+			width: 89%;
 			color: $grey-light;
 		}
 		.generations-intro-button{
@@ -33,8 +36,9 @@
 			border: 1px solid $grey-light;
 			background: none;
 			color: $grey-light;
-			width: 22%;
-			height: 46px;
+			margin-top: 18px;
+			width: 45%;
+			height: 48px;
 		}
 	}
 }

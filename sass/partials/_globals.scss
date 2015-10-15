@@ -14,13 +14,21 @@ a{
 	text-decoration: none;
 	color: $grey-light;
 }
-
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: $hind;
+}
+h2{
+	@include font-size(25);
+	font-family: $hind;
+}
 ul {
 	margin: 0;
 	padding: 0;
 }
 li{
 	list-style: none;
+	display: inline-block;
 }
 iframe{
 	float: right;
@@ -30,4 +38,14 @@ iframe{
     height: 30rem;
   }
 }
+// <<<<<<< HEAD
 
+// =======
+@media (min-width: 600px){
+	p, li {
+		font-family: $open-sans;
+		@include font-size(17);
+		margin: 0;
+	}
+}
+// >>>>>>> 664fa8cbd44e913139d38849a790f1e1060620e2

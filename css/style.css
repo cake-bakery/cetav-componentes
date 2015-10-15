@@ -215,12 +215,22 @@ a {
   text-decoration: none;
   color: #848286; }
 
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-family: "Hind", sans-serif; }
+
+h2 {
+  font-size: 25px;
+  font-size: 2.5rem;
+  font-family: "Hind", sans-serif; }
+
 ul {
   margin: 0;
   padding: 0; }
 
 li {
-  list-style: none; }
+  list-style: none;
+  display: inline-block; }
 
 iframe {
   float: right;
@@ -229,6 +239,19 @@ iframe {
   @media (min-width: 480px) {
     iframe {
       height: 30rem; } }
+
+@media (min-width: 600px) {
+  p, li {
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    font-size: 1.7rem;
+    margin: 0; } }
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto; }
+
+.egresados-content {
+  height: 500px; }
 
 .modules-standart {
   max-width: 1000px;
@@ -419,7 +442,8 @@ header {
   font-size: 40px;
   font-size: 4rem;
   font-family: "Hind", sans-serif;
-  width: 76%;
+  width: 85%;
+  line-height: 120%;
   color: #ff8f00; }
 .admission-intro p {
   font-size: 16px;
@@ -427,9 +451,12 @@ header {
   font-family: "Open Sans", sans-serif;
   float: right;
   margin-top: -38px; }
+  @media (min-width: 320px) {
+    .admission-intro p {
+      margin-top: 9px; } }
   @media (min-width: 880px) {
     .admission-intro p {
-      margin-top: 52px; } }
+      margin-top: 9px; } }
 
 .container-requirements {
   margin: 0 auto;
@@ -460,18 +487,231 @@ header {
         margin: 5rem 5%; } }
     @media (min-width: 980px) {
       .container-requirements .requirements-list-items {
-        width: 18%;
+        width: 20%;
         margin: 5rem 2%; } }
     .container-requirements .requirements-list-items img {
-      width: 10rem;
-      border: 1px solid #ff8f00;
-      border-radius: 800px;
+      width: 11rem;
+      border-bottom: 1px solid #ff8f00;
       overflow: hidden; }
     .container-requirements .requirements-list-items p {
       font-size: 16px;
       font-size: 1.6rem;
       font-family: "Open Sans", sans-serif; }
 
+.short-news {
+  overflow: hidden;
+  display: inline-block;
+  margin: 10px;
+  background-color: #848286; }
+
+.short-news img {
+  width: 100%; }
+
+.new-copy {
+  width: 100%;
+  padding: 15px; }
+  .new-copy span {
+    font-style: italic;
+    font-size: 12px;
+    font-size: 1.2rem; }
+  .new-copy p {
+    margin: 10px 0; }
+
+.populars {
+  color: #fff;
+  background-color: #292929;
+  margin-top: 10px; }
+
+.populars a {
+  color: #000; }
+
+.populars a .sub-tittle {
+  color: #000;
+  border: none; }
+
+.popular-new {
+  padding: 5px;
+  margin: 10px 5px;
+  background-color: #848286; }
+
+.new-container {
+  padding: 45px 20px; }
+
+.new-search {
+  position: absolute;
+  width: 100%;
+  height: 45px;
+  background-color: #eee;
+  border: none;
+  font-size: 20px;
+  padding: 15px; }
+
+.new {
+  width: 62%;
+  float: left;
+  margin: 10px; }
+
+.new img {
+  width: 100%; }
+
+@media (min-width: 500px) {
+  .popular-new {
+    display: inline-block;
+    width: 45%; } }
+@media (min-width: 700px) {
+  .short-news {
+    width: 45%;
+    margin: 10px; }
+
+  .many-news {
+    width: 65%;
+    float: left; }
+
+  .populars {
+    width: 30%;
+    float: right; }
+
+  .new-search {
+    position: absolute;
+    width: 300px; }
+
+  .popular-new {
+    padding: 5px;
+    margin: 30px 0;
+    width: 100%; } }
+.graduate {
+  width: 100%;
+  margin: 20px 0;
+  text-align: center;
+  background-color: #848286;
+  height: 245px; }
+  .graduate h2 {
+    height: 25px;
+    color: #ff8f00; }
+
+.graduates-content {
+  margin: 50px 0; }
+
+.graduates-list {
+  margin: 40px; }
+
+.graduate-title h2 {
+  font-size: 22px;
+  font-size: 2.2rem;
+  font-family: "Hind", sans-serif;
+  margin-bottom: 20px; }
+
+.graduates-list img {
+  border-radius: 100%;
+  width: 120px;
+  margin: 10px; }
+
+.graduate-details {
+  background-color: #848286;
+  color: #fff; }
+
+.profession {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-style: italic;
+  font-weight: 100;
+  display: block;
+  margin: 10px 0;
+  color: #000; }
+
+@media (min-width: 310px) {
+  .graduates-list {
+    margin: 0; } }
+@media (min-width: 450px) {
+  .profession {
+    margin: 20px 0; }
+
+  .graduate {
+    background-color: #fff;
+    height: 100%; }
+
+  .graduate-details {
+    background-color: #848286;
+    margin-left: 70px;
+    padding: 23px 0; }
+
+  .graduates-list img {
+    float: left; } }
+@media (min-width: 600px) {
+  .graduates-list {
+    margin: 40px; } }
+@media (min-width: 875px) {
+  .graduates-list {
+    float: right;
+    width: 60%;
+    margin-right: 40px; } }
+.filters {
+  color: #fff;
+  padding: 10px 25px;
+  background-color: #292929; }
+
+form {
+  margin: 2%; }
+
+form p {
+  margin: 10px 0; }
+
+input {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  float: left; }
+
+label {
+  display: inline-block;
+  margin: 0;
+  vertical-align: top; }
+
+.sub-tittle {
+  border-bottom: solid 1px;
+  font-size: 22px;
+  font-size: 2.2rem;
+  font-family: "Hind", sans-serif;
+  margin-bottom: 20px; }
+
+.tag-filter {
+  background-color: #292929;
+  font-size: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  padding: 3px;
+  color: #fff;
+  margin-right: 10px; }
+
+@media (min-width: 550px) {
+  .filters form {
+    width: 28%;
+    display: inline-block;
+    vertical-align: top; }
+
+  label {
+    font-size: 12px;
+    font-size: 1.2rem; }
+
+  form p {
+    height: 30px;
+    padding: 5px 0;
+    text-align: left; } }
+@media (min-width: 875px) {
+  .filters {
+    float: left;
+    width: 30%;
+    display: block;
+    padding: 10px; }
+
+  .filters form {
+    width: 100%;
+    display: block; }
+
+  label {
+    font-size: 15px;
+    font-size: 1.5rem; } }
 .container-generations {
   margin: 0 auto;
   margin-bottom: 2rem;
@@ -493,13 +733,16 @@ header {
       font-size: 4rem;
       font-family: "Hind", sans-serif;
       color: #ff8f00;
-      line-height: 120%; }
+      line-height: 120%;
+      width: 88%; }
     .container-generations .generations-intro p {
       font-size: 16px;
       font-size: 1.6rem;
       font-family: "Open Sans", sans-serif;
       margin: 2rem 0 4rem 0;
       width: 90%;
+      margin-top: 5px;
+      width: 89%;
       color: #848286; }
     .container-generations .generations-intro .generations-intro-button {
       font-size: 16px;
@@ -507,8 +750,9 @@ header {
       border: 1px solid #848286;
       background: none;
       color: #848286;
-      width: 22%;
-      height: 46px; }
+      margin-top: 18px;
+      width: 45%;
+      height: 48px; }
 
 .container-career {
   margin: 0 auto;
@@ -527,9 +771,10 @@ header {
     margin: 0;
     color: #ff8f00;
     line-height: 120%; }
-    @media (min-width: 1000px) {
+    @media (min-width: 1024px) {
       .container-career .career-intro .career-intro-title {
-        margin-top: -6px; } }
+        margin-top: -6px;
+        width: 88%; } }
   .container-career .career-intro p {
     font-size: 16px;
     font-size: 1.6rem;
@@ -537,10 +782,10 @@ header {
     margin-top: 5px;
     width: 96%;
     color: #848286; }
-    @media (min-width: 1000px) {
+    @media (min-width: 1024px) {
       .container-career .career-intro p {
-        width: 88%;
-        margin-top: 2px;
+        width: 80%;
+        margin-top: 5px;
         margin-bottom: 9px; } }
 
 .container-testimonials-post {
@@ -612,8 +857,8 @@ header {
           width: 76%; } }
       @media (min-width: 980px) {
         .container-testimonials .testimonials-list-items:nth-of-type(2n) {
-          padding: 2rem 5%;
-          width: 79%; } }
+          padding: 2rem 4%;
+          width: 80%; } }
     .container-testimonials .testimonials-list-items .testimonials-list-items-title {
       font-size: 20px;
       font-size: 2rem;
@@ -652,8 +897,8 @@ header {
     .container-personal .personal-list-items img {
       border-radius: 50%;
       overflow: hidden;
-      width: 12rem;
-      height: 12rem; }
+      width: 14rem;
+      height: 14rem; }
     @media (min-width: 319px) {
       .container-personal .personal-list-items {
         width: 50%;
@@ -668,7 +913,7 @@ header {
         margin: 5rem 5%; } }
     @media (min-width: 980px) {
       .container-personal .personal-list-items {
-        width: 18%;
+        width: 20%;
         margin: 5rem 2%; } }
     .container-personal .personal-list-items .personal-list-items-title {
       font-size: 20px;
@@ -680,7 +925,7 @@ header {
       font-size: 1.4rem;
       font-family: "Open Sans", sans-serif;
       color: #848286;
-      width: 99%; }
+      width: 103%; }
     .container-personal .personal-list-items a {
       font-size: 12px;
       font-size: 1.2rem;
@@ -688,7 +933,7 @@ header {
       padding: 2px;
       color: #848286; }
       .container-personal .personal-list-items a:nth-of-type(1) {
-        border-right: 1px solid #292929;
+        border-right: 1px solid #848286;
         padding-right: 5px; }
 
 .content-section {

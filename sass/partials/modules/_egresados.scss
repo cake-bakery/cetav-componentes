@@ -1,0 +1,82 @@
+.graduate{
+	width: 100%;
+	margin: 20px 0;
+	text-align: center;
+	background-color: $grey-light;
+	height: 245px;
+	h2{
+		height: 25px;
+		color: $orange;
+	}
+}
+.graduates-content{
+	margin: 50px 0;
+}
+
+.graduates-list{
+	margin: 40px;
+}
+
+.graduate-title h2{
+	@include font-size(22);
+	font-family: $hind;
+	margin-bottom: 20px;
+}	
+
+.graduates-list img{
+	border-radius: 100%;
+	width: 120px;
+	margin: 10px;
+}
+
+.graduate-details{
+	background-color: $grey-light;
+	color: $white;
+}
+
+.profession {
+	font-family: $open-sans;
+	@include font-size(16);
+	font-style: italic;
+	font-weight: 100;
+	display: block;
+	margin: 10px 0;
+	color: #000;
+}
+
+@media (min-width: 310px){
+	.graduates-list{
+		margin: 0;
+	}
+}
+
+@media (min-width: 450px){
+	.profession{
+		margin: 20px 0;
+	}
+	.graduate{
+		background-color: $white;
+		    height: 100%;
+	}	
+	.graduate-details {
+		background-color: $grey-light;
+		margin-left: 70px;
+		padding: 23px 0;
+	}
+	.graduates-list img{
+		float: left;
+	}
+}
+@media (min-width: 600px){
+	.graduates-list{
+		margin: 40px;
+	}	
+}
+
+@media (min-width: 875px){
+	.graduates-list{
+		float: right; 
+		width: 60%;
+		margin-right: 40px;
+	}
+}

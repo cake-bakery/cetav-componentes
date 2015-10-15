@@ -28,14 +28,13 @@
 			margin: 5rem 5%;
 		}
 		@media(min-width: 980px){
-			width: 18%;
+			width: 20%;
 			margin: 5rem 2%;
 	
 		}
     img{
-    	width: 10rem;
-    	border: 1px solid $orange;
-	    border-radius: 800px;
+    	width: 11rem;
+    	border-bottom: 1px solid $orange;
 	    overflow: hidden;
     }
     p{

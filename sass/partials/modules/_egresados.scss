@@ -2,7 +2,7 @@
 	width: 100%;
 	margin: 20px 0;
 	text-align: center;
-	background-color: #fefefe;
+	background-color: #efeded;
 	height: 245px;
 	h2{
 		height: 25px;
@@ -30,8 +30,7 @@
 }
 
 .graduate-details{
-	background-color: $font-ligth;
-	color: $white;
+	background-color: #efeded;
 }
 
 .profession {
@@ -59,13 +58,17 @@
 		    height: 100%;
 	}	
 	.graduate-details {
-		background-color: $font-ligth;
+		text-align: left;
 		margin-left: 70px;
 		padding: 23px 0;
 	}
 	.graduates-list img{
 		float: left;
 	}
+	.graduate-details h3{
+	width: 135px;
+	margin-left: 65px;
+}
 }
 @media (min-width: 600px){
 	.graduates-list{

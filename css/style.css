@@ -1,11 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Hind);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 /*----------Indice-------------
 		#partials
 		#modules
 
 	Importar-las-hojas-scss
 */
-@import url(https://fonts.googleapis.com/css?family=Hind);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+/* line 55, ../sass/partials/_normalize.scss */
 article,
 aside,
 details,
@@ -17,135 +18,201 @@ hgroup,
 nav,
 section,
 summary {
-  display: block; }
+  display: block;
+}
 
+/* line 63, ../sass/partials/_normalize.scss */
 audio,
 canvas,
 video {
-  display: inline-block; }
+  display: inline-block;
+}
 
+/* line 74, ../sass/partials/_normalize.scss */
 audio:not([controls]) {
   display: none;
-  height: 0; }
+  height: 0;
+}
 
+/* line 84, ../sass/partials/_normalize.scss */
 [hidden], template {
-  display: none; }
+  display: none;
+}
 
+/* line 97, ../sass/partials/_normalize.scss */
 html {
-  background: #fff;
-  color: #000;
+  background: white;
+  color: black;
   -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%; }
+  -ms-text-size-adjust: 100%;
+}
 
+/* line 113, ../sass/partials/_normalize.scss */
 html,
 button,
 input,
 select,
 textarea {
-  font-family: sans-serif; }
+  font-family: sans-serif;
+}
 
+/* line 119, ../sass/partials/_normalize.scss */
 body {
-  margin: 0; }
+  margin: 0;
+}
 
+/* line 132, ../sass/partials/_normalize.scss */
 a {
-  background: transparent; }
-  a:focus {
-    outline: thin dotted; }
-  a:hover, a:active {
-    outline: 0; }
+  background: transparent;
+}
+/* line 139, ../sass/partials/_normalize.scss */
+a:focus {
+  outline: thin dotted;
+}
+/* line 146, ../sass/partials/_normalize.scss */
+a:hover, a:active {
+  outline: 0;
+}
 
+/* line 159, ../sass/partials/_normalize.scss */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0; }
+  margin: 0.67em 0;
+}
 
+/* line 164, ../sass/partials/_normalize.scss */
 h2 {
-  font-size: 1.5em;
-  margin: 0.83em 0; }
+  font-size: 1em;
+  margin: 0.83em 0;
+}
 
+/* line 169, ../sass/partials/_normalize.scss */
 h3 {
-  font-size: 1.17em;
-  margin: 1em 0; }
+  font-size: 1em;
+  margin: 1em 0;
+}
 
+/* line 174, ../sass/partials/_normalize.scss */
 h4 {
   font-size: 1em;
-  margin: 1.33em 0; }
+  margin: 1.33em 0;
+}
 
+/* line 179, ../sass/partials/_normalize.scss */
 h5 {
-  font-size: 0.83em;
-  margin: 1.67em 0; }
+  font-size: 0em;
+  margin: 1.67em 0;
+}
 
+/* line 184, ../sass/partials/_normalize.scss */
 h6 {
-  font-size: 0.75em;
-  margin: 2.33em 0; }
+  font-size: 0em;
+  margin: 2.33em 0;
+}
 
+/* line 192, ../sass/partials/_normalize.scss */
 abbr[title] {
-  border-bottom: 1px dotted; }
+  border-bottom: 1px dotted;
+}
 
+/* line 199, ../sass/partials/_normalize.scss */
 b,
 strong {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
+/* line 211, ../sass/partials/_normalize.scss */
 dfn {
-  font-style: italic; }
+  font-style: italic;
+}
 
+/* line 217, ../sass/partials/_normalize.scss */
 mark {
   background: #ff0;
-  color: #000; }
+  color: #000;
+}
 
+/* line 236, ../sass/partials/_normalize.scss */
 code,
 kbd,
 pre,
 samp {
   font-family: monospace, serif;
-  font-size: 1em; }
+  font-size: 1em;
+}
 
+/* line 246, ../sass/partials/_normalize.scss */
 pre {
   white-space: pre;
   white-space: pre-wrap;
-  word-wrap: break-word; }
+  word-wrap: break-word;
+}
 
+/* line 254, ../sass/partials/_normalize.scss */
 q {
-  quotes: "\201C" "\201D" "\2018" "\2019"; }
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
 
+/* line 271, ../sass/partials/_normalize.scss */
 q:before, q:after {
   content: '';
-  content: none; }
+  content: none;
+}
 
+/* line 279, ../sass/partials/_normalize.scss */
 small {
-  font-size: 80%; }
+  font-size: 80%;
+}
 
+/* line 287, ../sass/partials/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
+/* line 294, ../sass/partials/_normalize.scss */
 sup {
-  top: -0.5em; }
+  top: -0.5em;
+}
 
+/* line 298, ../sass/partials/_normalize.scss */
 sub {
-  bottom: -0.25em; }
+  bottom: -0.25em;
+}
 
+/* line 350, ../sass/partials/_normalize.scss */
 img {
-  border: 0; }
+  border: 0;
+}
 
+/* line 359, ../sass/partials/_normalize.scss */
 svg:not(:root) {
-  overflow: hidden; }
+  overflow: hidden;
+}
 
+/* line 369, ../sass/partials/_normalize.scss */
 figure {
-  margin: 0; }
+  margin: 0;
+}
 
+/* line 386, ../sass/partials/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em; }
+  padding: 0.35em 0.625em 0.75em;
+}
 
+/* line 397, ../sass/partials/_normalize.scss */
 legend {
   border: 0;
   padding: 0;
-  white-space: normal; }
+  white-space: normal;
+}
 
+/* line 414, ../sass/partials/_normalize.scss */
 button,
 input,
 select,
@@ -153,183 +220,278 @@ textarea {
   font-family: inherit;
   font-size: 100%;
   margin: 0;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
+/* line 426, ../sass/partials/_normalize.scss */
 button, input {
-  line-height: normal; }
+  line-height: normal;
+}
 
+/* line 436, ../sass/partials/_normalize.scss */
 button,
 select {
-  text-transform: none; }
+  text-transform: none;
+}
 
+/* line 451, ../sass/partials/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
-  cursor: pointer; }
+  cursor: pointer;
+}
 
+/* line 462, ../sass/partials/_normalize.scss */
 button[disabled],
 input[disabled] {
-  cursor: default; }
+  cursor: default;
+}
 
+/* line 470, ../sass/partials/_normalize.scss */
 button::-moz-focus-inner, input::-moz-focus-inner {
   border: 0;
-  padding: 0; }
+  padding: 0;
+}
 
+/* line 479, ../sass/partials/_normalize.scss */
 textarea {
   overflow: auto;
-  vertical-align: top; }
+  vertical-align: top;
+}
 
+/* line 490, ../sass/partials/_normalize.scss */
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
+/* line 498, ../sass/partials/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
-  box-sizing: content-box; }
-  input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
-    -webkit-appearance: none; }
+  box-sizing: content-box;
+}
+/* line 507, ../sass/partials/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+/* line 517, ../sass/partials/_normalize.scss */
 input[type="checkbox"], input[type="radio"] {
   box-sizing: border-box;
-  padding: 0; }
+  padding: 0;
+}
 
 /*----------Indice-------------
 		#font-size
 */
+/* line 1, ../sass/partials/_globals.scss */
 html {
   box-sizing: border-box;
   font-size: 62.5%;
-  font-family: Arial, Verdana, sans-serif; }
+  font-family: Arial, Verdana, sans-serif;
+}
 
+/* line 6, ../sass/partials/_globals.scss */
 *, *:before, *:after {
-  box-sizing: inherit; }
+  box-sizing: inherit;
+}
 
+/* line 9, ../sass/partials/_globals.scss */
 body {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+}
 
+/* line 13, ../sass/partials/_globals.scss */
 a {
   text-decoration: none;
-  color: #efeded; }
+  color: #efeded;
+}
 
+/* line 17, ../sass/partials/_globals.scss */
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
-  font-family: "Hind", sans-serif; }
+  font-family: "Hind", sans-serif;
+}
 
+/* line 21, ../sass/partials/_globals.scss */
 h2 {
   font-size: 25px;
   font-size: 2.5rem;
-  font-family: "Hind", sans-serif; }
+  font-family: "Hind", sans-serif;
+}
 
+/* line 25, ../sass/partials/_globals.scss */
 ul {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
+/* line 30, ../sass/partials/_globals.scss */
 iframe {
   float: right;
   width: 100%;
   height: 16rem;
-  margin-top: 7px; }
-  @media (min-width: 480px) {
-    iframe {
-      height: 30rem; } }
+  margin-top: 7px;
+}
+@media (min-width: 480px) {
+  /* line 30, ../sass/partials/_globals.scss */
+  iframe {
+    height: 30rem;
+  }
+}
 
 @media (min-width: 600px) {
+  /* line 40, ../sass/partials/_globals.scss */
   p, li {
     font-family: "Open Sans", sans-serif;
     font-size: 17px;
     font-size: 1.7rem;
-    margin: 0; } }
+    margin: 0;
+  }
+}
+/* line 1, ../sass/partials/_layout.scss */
 .wrapper {
   max-width: 1000px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
+/* line 5, ../sass/partials/_layout.scss */
 .egresados-content {
-  height: 500px; }
+  height: 500px;
+}
 
+/* line 13, ../sass/partials/modules/_sections.scss */
 .modules-standart {
   max-width: 1000px;
   padding: 10rem 0;
   margin: 0 1rem;
-  overflow: hidden; }
-  @media (min-width: 480px) {
-    .modules-standart {
-      padding: 10rem 0rem;
-      margin: 0 auto;
-      border-bottom: 1px #b2b2b2 solid; } }
-  .modules-standart .title-section {
-    color: #ff8f00;
-    font-family: "Hind", sans-serif;
-    font-size: 32px;
-    font-size: 3.2rem;
-    margin-top: 0;
-    margin-bottom: 5rem;
-    text-align: left; }
+  overflow: hidden;
+}
+@media (min-width: 480px) {
+  /* line 13, ../sass/partials/modules/_sections.scss */
+  .modules-standart {
+    padding: 10rem 0rem;
+    margin: 0 auto;
+    border-bottom: 1px #b2b2b2 solid;
+  }
+}
+/* line 23, ../sass/partials/modules/_sections.scss */
+.modules-standart .title-section {
+  color: #ff8f00;
+  font-family: "Hind", sans-serif;
+  font-size: 32px;
+  font-size: 3.2rem;
+  margin-top: 0;
+  margin-bottom: 5rem;
+  text-align: left;
+}
 
+/* line 33, ../sass/partials/modules/_sections.scss */
 .modules-total {
   padding: 10rem 0;
   margin: 0 1rem;
-  overflow: hidden; }
-  @media (min-width: 480px) {
-    .modules-total {
-      padding: 10rem 0rem;
-      margin: 0 auto;
-      border-bottom: 1px #b2b2b2 solid; } }
-  .modules-total .title-section {
-    max-width: 1000px;
-    color: #ff8f00;
-    font-family: "Hind", sans-serif;
-    font-size: 32px;
-    font-size: 3.2rem;
+  overflow: hidden;
+}
+@media (min-width: 480px) {
+  /* line 33, ../sass/partials/modules/_sections.scss */
+  .modules-total {
+    padding: 10rem 0rem;
     margin: 0 auto;
-    margin-bottom: 5rem;
-    text-align: left; }
+    border-bottom: 1px #b2b2b2 solid;
+  }
+}
+/* line 42, ../sass/partials/modules/_sections.scss */
+.modules-total .title-section {
+  max-width: 1000px;
+  color: #ff8f00;
+  font-family: "Hind", sans-serif;
+  font-size: 32px;
+  font-size: 3.2rem;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  text-align: left;
+}
 
+/* line 1, ../sass/partials/modules/_navigation.scss */
 header {
   background: white;
   margin: 0 auto;
   max-width: 1000px;
   padding-top: 10px;
-  width: 100%; }
-  header .logo-cetav-img {
-    float: left;
-    width: 120px; }
-  header .content-navigation {
-    overflow: hidden; }
-  header .content-navigation-secondary {
-    float: right; }
-    header .content-navigation-secondary a {
-      font-size: 14px;
-      font-size: 1.4rem;
-      margin-right: 20px;
-      color: #848286; }
-    header .content-navigation-secondary img {
-      width: 14px; }
-  header .content-navigation-primary {
-    float: right;
-    margin-top: 17px; }
-    header .content-navigation-primary a {
-      font-size: 16px;
-      font-size: 1.6rem;
-      margin-left: 20px;
-      color: #848286; }
+  width: 100%;
+}
+/* line 7, ../sass/partials/modules/_navigation.scss */
+header .logo-cetav-img {
+  float: left;
+  width: 120px;
+}
+/* line 11, ../sass/partials/modules/_navigation.scss */
+header .content-navigation {
+  overflow: hidden;
+}
+/* line 14, ../sass/partials/modules/_navigation.scss */
+header .content-navigation-secondary {
+  float: right;
+}
+/* line 16, ../sass/partials/modules/_navigation.scss */
+header .content-navigation-secondary a {
+  font-size: 14px;
+  font-size: 1.4rem;
+  margin-right: 20px;
+  color: #848286;
+}
+/* line 21, ../sass/partials/modules/_navigation.scss */
+header .content-navigation-secondary img {
+  width: 14px;
+}
+/* line 25, ../sass/partials/modules/_navigation.scss */
+header .content-navigation-primary {
+  float: right;
+  margin-top: 17px;
+}
+/* line 28, ../sass/partials/modules/_navigation.scss */
+header .content-navigation-primary a {
+  font-size: 16px;
+  font-size: 1.6rem;
+  margin-left: 20px;
+  color: #848286;
+}
 
+/* line 1, ../sass/partials/modules/_footer.scss */
 .footer {
   background-color: #efeded;
   width: 100%;
   margin: 0 auto;
-  padding: 0; }
+  padding: 0;
+}
+/* line 6, ../sass/partials/modules/_footer.scss */
+.footer .footer-list {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
+@media (min-width: 880px) {
+  /* line 6, ../sass/partials/modules/_footer.scss */
   .footer .footer-list {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 1rem 2rem; }
-    @media (min-width: 880px) {
-      .footer .footer-list {
-        padding: 1rem 0; } }
+    padding: 1rem 0;
+  }
+}
+/* line 14, ../sass/partials/modules/_footer.scss */
+.footer .footer-list-items {
+  display: inline-block;
+  overflow: hidden;
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+}
+@media (min-width: 600px) {
+  /* line 14, ../sass/partials/modules/_footer.scss */
   .footer .footer-list-items {
+<<<<<<< HEAD
     display: inline-block;
     overflow: hidden;
     padding: 1rem;
@@ -422,196 +584,412 @@ header {
       float: right;
       margin-top: 3px;
       color: #fff; }
+=======
+    text-align: left;
+    vertical-align: top;
+    width: 32%;
+  }
+}
+/* line 25, ../sass/partials/modules/_footer.scss */
+.footer .footer-list-items .footer-images-icon {
+  float: left;
+  margin-top: 16px;
+  height: 24px;
+  margin-right: 9px;
+}
+/* line 31, ../sass/partials/modules/_footer.scss */
+.footer .footer-list-items .img-fb {
+  width: 13px;
+  margin-top: 15px;
+  margin-right: 9px;
+}
+/* line 36, ../sass/partials/modules/_footer.scss */
+.footer .footer-list-items .img-vimeo {
+  width: 28px;
+  margin-top: 15px;
+}
+/* line 40, ../sass/partials/modules/_footer.scss */
+.footer .footer-list-items .footer-list-items-title {
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-family: "Hind", sans-serif;
+  color: #ff8f00;
+  margin-bottom: 0;
+  text-align: left;
+}
+/* line 47, ../sass/partials/modules/_footer.scss */
+.footer .footer-list-items p {
+  font-size: 12px;
+  font-size: 1.2rem;
+  font-family: "Open Sans", sans-serif;
+  color: #848286;
+}
+@media (min-width: 600px) {
+  /* line 47, ../sass/partials/modules/_footer.scss */
+  .footer .footer-list-items p {
+    width: 90%;
+    margin-right: 0;
+  }
+}
+@media (min-width: 880px) {
+  /* line 47, ../sass/partials/modules/_footer.scss */
+  .footer .footer-list-items p {
+    width: 66%;
+  }
+}
+/* line 59, ../sass/partials/modules/_footer.scss */
+.footer .footer-list-items .footer-list-items-button {
+  font-size: 12px;
+  font-size: 1.2rem;
+  font-family: "Open Sans", sans-serif;
+  border: 1px solid #ff8f00;
+  color: #848286;
+  width: 80%;
+  margin: 0.5rem auto;
+  min-height: 35px;
+  margin-right: 8px;
+  background: none;
+}
+@media (min-width: 980px) {
+  /* line 59, ../sass/partials/modules/_footer.scss */
+  .footer .footer-list-items .footer-list-items-button {
+    width: 28%;
+  }
+}
+/* line 72, ../sass/partials/modules/_footer.scss */
+.footer .footer-list-items .footer-list-items-button:hover {
+  background: #ff8f00;
+  color: white;
+}
+/* line 77, ../sass/partials/modules/_footer.scss */
+.footer .footer-list-items .wrap-image-footer {
+  position: relative;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+/* line 82, ../sass/partials/modules/_footer.scss */
+.footer .footer-list-items .footer-list-items-image-parque {
+  border-right: 1px solid #848286;
+  max-width: 125px;
+  padding-right: 16%;
+  width: 40%;
+}
+/* line 88, ../sass/partials/modules/_footer.scss */
+.footer .footer-list-items .footer-list-items-image-ministerio {
+  max-width: 137px;
+  margin-left: 17%;
+  width: 41%;
+}
+/* line 94, ../sass/partials/modules/_footer.scss */
+.footer .footer-container {
+  background-color: #848286;
+  height: 26px;
+  overflow: hidden;
+  position: relative;
+  padding: 0 1rem;
+}
+/* line 100, ../sass/partials/modules/_footer.scss */
+.footer .footer-container p {
+  float: left;
+  font-size: 12px;
+  font-size: 1.2rem;
+  font-family: "Hind", sans-serif;
+  margin-top: 3px;
+  color: #fff;
+}
+/* line 107, ../sass/partials/modules/_footer.scss */
+.footer .footer-container a {
+  font-size: 12px;
+  font-size: 1.2rem;
+  font-family: "Hind", sans-serif;
+  float: right;
+  margin-top: 3px;
+  color: #fff;
+}
+>>>>>>> 11fce6e65dee9d4baf85ea1bf07a351857f58e83
 
+/* line 1, ../sass/partials/modules/_title-description.scss */
 .container-admission {
   margin: 0 auto;
   padding: 0;
-  max-width: 1280px; }
+  max-width: 1280px;
+}
 
 @media (min-width: 880px) {
+  /* line 6, ../sass/partials/modules/_title-description.scss */
   .admission-intro {
     display: inline-block;
     vertical-align: top;
-    width: 49%; } }
+    width: 49%;
+  }
+}
+/* line 12, ../sass/partials/modules/_title-description.scss */
 .admission-intro .admission-intro-title {
   font-size: 48px;
   font-size: 4.8rem;
   font-family: "Hind", sans-serif;
   width: 93%;
   line-height: 120%;
-  color: #ff8f00; }
+  color: #ff8f00;
+}
+/* line 19, ../sass/partials/modules/_title-description.scss */
 .admission-intro p {
   font-size: 18px;
   font-size: 1.8rem;
   font-family: "Open Sans", sans-serif;
   float: right;
   margin-top: -38px;
-  color: #848286; }
-  @media (min-width: 320px) {
-    .admission-intro p {
-      margin-top: 9px; } }
-  @media (min-width: 880px) {
-    .admission-intro p {
-      margin-top: 4px; } }
+  color: #848286;
+}
+@media (min-width: 320px) {
+  /* line 19, ../sass/partials/modules/_title-description.scss */
+  .admission-intro p {
+    margin-top: 9px;
+  }
+}
+@media (min-width: 880px) {
+  /* line 19, ../sass/partials/modules/_title-description.scss */
+  .admission-intro p {
+    margin-top: 4px;
+  }
+}
 
+/* line 1, ../sass/partials/modules/_icon-text.scss */
 .container-requirements {
   margin: 0 auto;
   max-width: 1000px;
-  width: 100%; }
-  .container-requirements .requirements-title {
-    font-size: 26px;
-    font-size: 2.6rem;
-    font-family: "Hind", sans-serif;
-    color: #ff8f00; }
-  .container-requirements .requirements-list {
-    padding: 0;
-    text-align: center; }
+  width: 100%;
+}
+/* line 5, ../sass/partials/modules/_icon-text.scss */
+.container-requirements .requirements-title {
+  font-size: 26px;
+  font-size: 2.6rem;
+  font-family: "Hind", sans-serif;
+  color: #ff8f00;
+}
+/* line 10, ../sass/partials/modules/_icon-text.scss */
+.container-requirements .requirements-list {
+  padding: 0;
+  text-align: center;
+}
+/* line 14, ../sass/partials/modules/_icon-text.scss */
+.container-requirements .requirements-list-items {
+  display: inline-block;
+  width: 80%;
+  vertical-align: top;
+}
+@media (min-width: 319px) {
+  /* line 14, ../sass/partials/modules/_icon-text.scss */
   .container-requirements .requirements-list-items {
-    display: inline-block;
-    width: 80%;
-    vertical-align: top; }
-    @media (min-width: 319px) {
-      .container-requirements .requirements-list-items {
-        width: 50%;
-        margin: 40px 10%; } }
-    @media (min-width: 480px) {
-      .container-requirements .requirements-list-items {
-        width: 41%;
-        margin: 5rem 4%; } }
-    @media (min-width: 680px) {
-      .container-requirements .requirements-list-items {
-        width: 30%;
-        margin: 5rem 5%; } }
-    @media (min-width: 980px) {
-      .container-requirements .requirements-list-items {
-        width: 20%;
-        margin: 5rem 2%; } }
-    .container-requirements .requirements-list-items img {
-      width: 50%;
-      border-bottom: 1px solid #ff8f00;
-      margin-bottom: 11px;
-      overflow: hidden; }
-    .container-requirements .requirements-list-items p {
-      font-size: 16px;
-      font-size: 1.6rem;
-      font-family: "Open Sans", sans-serif;
-      color: #848286; }
+    width: 50%;
+    margin: 40px 10%;
+  }
+}
+@media (min-width: 480px) {
+  /* line 14, ../sass/partials/modules/_icon-text.scss */
+  .container-requirements .requirements-list-items {
+    width: 41%;
+    margin: 5rem 4%;
+  }
+}
+@media (min-width: 680px) {
+  /* line 14, ../sass/partials/modules/_icon-text.scss */
+  .container-requirements .requirements-list-items {
+    width: 30%;
+    margin: 5rem 5%;
+  }
+}
+@media (min-width: 980px) {
+  /* line 14, ../sass/partials/modules/_icon-text.scss */
+  .container-requirements .requirements-list-items {
+    width: 20%;
+    margin: 5rem 2%;
+  }
+}
+/* line 36, ../sass/partials/modules/_icon-text.scss */
+.container-requirements .requirements-list-items img {
+  width: 50%;
+  border-bottom: 1px solid #ff8f00;
+  margin-bottom: 11px;
+  overflow: hidden;
+}
+/* line 42, ../sass/partials/modules/_icon-text.scss */
+.container-requirements .requirements-list-items p {
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-family: "Open Sans", sans-serif;
+  color: #848286;
+}
 
+/* line 1, ../sass/partials/modules/_news.scss */
 .short-news {
   overflow: hidden;
   display: inline-block;
   margin: 10px;
-  background-color: #fdfefd; }
+  background-color: #efeded;
+}
 
+/* line 8, ../sass/partials/modules/_news.scss */
 .short-news img {
-  width: 100%; }
+  width: 100%;
+}
 
+/* line 12, ../sass/partials/modules/_news.scss */
 .new-copy {
   width: 100%;
-  padding: 15px; }
+  padding: 15px;
+}
 
+/* line 17, ../sass/partials/modules/_news.scss */
 .new-copy span {
   font-style: italic;
   font-size: 12px;
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+}
 
+/* line 22, ../sass/partials/modules/_news.scss */
 .new-copy p {
   margin: 10px 0;
-  color: #848286; }
+  color: #848286;
+}
 
+/* line 27, ../sass/partials/modules/_news.scss */
 .populars {
-  color: #fff;
+  color: white;
   background-color: #292929;
-  margin-top: 10px; }
+  margin-top: 10px;
+}
 
+/* line 33, ../sass/partials/modules/_news.scss */
 .populars a {
-  color: #000; }
+  color: #000;
+}
 
+/* line 37, ../sass/partials/modules/_news.scss */
 .populars a .sub-tittle {
   color: #000;
-  border: none; }
+  border: none;
+}
 
+/* line 42, ../sass/partials/modules/_news.scss */
 .popular-new {
   padding: 5px;
   margin: 10px 5px;
-  background-color: #fdfefd; }
+  background-color: #efeded;
+}
 
+/* line 48, ../sass/partials/modules/_news.scss */
 .new-container {
-  padding: 45px 20px; }
+  padding: 45px 20px;
+}
 
+/* line 52, ../sass/partials/modules/_news.scss */
 .new-search {
   position: absolute;
   width: 100%;
   height: 45px;
-  background-color: #fdfefd;
+  background-color: #efeded;
   border: none;
   font-size: 20px;
-  padding: 15px; }
+  padding: 15px;
+}
 
+/* line 62, ../sass/partials/modules/_news.scss */
 .new {
   width: 62%;
   float: left;
-  margin: 10px; }
+  margin: 10px;
+}
 
+/* line 68, ../sass/partials/modules/_news.scss */
 .new img {
-  width: 100%; }
+  width: 100%;
+}
 
 @media (min-width: 500px) {
+  /* line 73, ../sass/partials/modules/_news.scss */
   .popular-new {
     display: inline-block;
-    width: 45%; } }
+    width: 45%;
+  }
+}
 @media (min-width: 700px) {
+  /* line 80, ../sass/partials/modules/_news.scss */
   .short-news {
     width: 45%;
-    margin: 10px; }
+    margin: 10px;
+  }
 
+  /* line 84, ../sass/partials/modules/_news.scss */
   .many-news {
     width: 65%;
-    float: left; }
+    float: left;
+  }
 
+  /* line 88, ../sass/partials/modules/_news.scss */
   .populars {
     width: 30%;
-    float: right; }
+    float: right;
+  }
 
+  /* line 92, ../sass/partials/modules/_news.scss */
   .new-search {
     position: absolute;
-    width: 300px; }
+    width: 300px;
+  }
 
+  /* line 96, ../sass/partials/modules/_news.scss */
   .popular-new {
     padding: 5px;
     margin: 30px 0;
-    width: 100%; } }
+    width: 100%;
+  }
+}
+/* line 1, ../sass/partials/modules/_egresados.scss */
 .graduate {
   width: 100%;
   margin: 20px 0;
   text-align: center;
-  background-color: #fefefe;
-  height: 245px; }
-  .graduate h2 {
-    height: 25px;
-    color: #ff8f00; }
+  background-color: #efeded;
+  height: 245px;
+}
+/* line 7, ../sass/partials/modules/_egresados.scss */
+.graduate h2 {
+  height: 25px;
+  color: #ff8f00;
+}
 
+/* line 12, ../sass/partials/modules/_egresados.scss */
 .graduates-content {
-  margin: 50px 0; }
+  margin: 50px 0;
+}
 
+/* line 16, ../sass/partials/modules/_egresados.scss */
 .graduates-list {
-  margin: 40px; }
+  margin: 40px;
+}
 
+/* line 20, ../sass/partials/modules/_egresados.scss */
 .graduate-title h2 {
   font-size: 22px;
   font-size: 2.2rem;
   font-family: "Hind", sans-serif;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+}
 
+/* line 26, ../sass/partials/modules/_egresados.scss */
 .graduates-list img {
   border-radius: 100%;
   width: 120px;
-  margin: 10px; }
+  margin: 10px;
+}
 
+/* line 32, ../sass/partials/modules/_egresados.scss */
 .graduate-details {
-  background-color: #fdfefd;
-  color: #fff; }
+  background-color: #efeded;
+}
 
+/* line 36, ../sass/partials/modules/_egresados.scss */
 .profession {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -620,144 +998,224 @@ header {
   font-weight: 100;
   display: block;
   margin: 10px 0;
-  color: #000; }
+  color: #000;
+}
 
 @media (min-width: 310px) {
+  /* line 47, ../sass/partials/modules/_egresados.scss */
   .graduates-list {
-    margin: 0; } }
+    margin: 0;
+  }
+}
 @media (min-width: 450px) {
+  /* line 53, ../sass/partials/modules/_egresados.scss */
   .profession {
-    margin: 20px 0; }
+    margin: 20px 0;
+  }
 
+  /* line 56, ../sass/partials/modules/_egresados.scss */
   .graduate {
-    background-color: #fff;
-    height: 100%; }
+    background-color: white;
+    height: 100%;
+  }
 
+  /* line 60, ../sass/partials/modules/_egresados.scss */
   .graduate-details {
-    background-color: #fdfefd;
+    text-align: left;
     margin-left: 70px;
-    padding: 23px 0; }
+    padding: 23px 0;
+  }
 
+  /* line 65, ../sass/partials/modules/_egresados.scss */
   .graduates-list img {
-    float: left; } }
+    float: left;
+  }
+
+  /* line 68, ../sass/partials/modules/_egresados.scss */
+  .graduate-details h3 {
+    width: 135px;
+    margin-left: 65px;
+  }
+}
 @media (min-width: 600px) {
+  /* line 74, ../sass/partials/modules/_egresados.scss */
   .graduates-list {
-    margin: 40px; } }
+    margin: 40px;
+  }
+}
 @media (min-width: 875px) {
+  /* line 80, ../sass/partials/modules/_egresados.scss */
   .graduates-list {
     float: right;
     width: 60%;
-    margin-right: 40px; } }
+    margin-right: 40px;
+  }
+}
+/* line 1, ../sass/partials/modules/_sidebar-egresados.scss */
 .filters {
-  color: #fff;
+  color: white;
   padding: 10px 25px;
-  background-color: #292929; }
-  .filters form {
-    margin: 2%; }
-  .filters form p {
-    margin: 10px 0; }
-  .filters input {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-    float: left; }
-  .filters label {
-    display: inline-block;
-    margin: 0;
-    vertical-align: top; }
+  background-color: #292929;
+}
+/* line 6, ../sass/partials/modules/_sidebar-egresados.scss */
+.filters form {
+  margin: 2%;
+}
+/* line 10, ../sass/partials/modules/_sidebar-egresados.scss */
+.filters form p {
+  margin: 10px 0;
+}
+/* line 14, ../sass/partials/modules/_sidebar-egresados.scss */
+.filters input {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  float: left;
+}
+/* line 21, ../sass/partials/modules/_sidebar-egresados.scss */
+.filters label {
+  display: inline-block;
+  margin: 0;
+  vertical-align: top;
+}
 
+/* line 30, ../sass/partials/modules/_sidebar-egresados.scss */
 .sub-tittle {
   border-bottom: solid 1px;
   font-size: 22px;
   font-size: 2.2rem;
   font-family: "Hind", sans-serif;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+}
 
+/* line 37, ../sass/partials/modules/_sidebar-egresados.scss */
 .tag-filter {
   background-color: #292929;
   font-size: 10px;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   padding: 3px;
-  color: #fff;
-  margin-right: 10px; }
+  color: white;
+  margin-right: 10px;
+}
 
 @media (min-width: 550px) {
+  /* line 48, ../sass/partials/modules/_sidebar-egresados.scss */
   .filters form {
     width: 28%;
     display: inline-block;
-    vertical-align: top; }
+    vertical-align: top;
+  }
 
+  /* line 53, ../sass/partials/modules/_sidebar-egresados.scss */
   label {
     font-size: 12px;
-    font-size: 1.2rem; }
+    font-size: 1.2rem;
+  }
 
+  /* line 56, ../sass/partials/modules/_sidebar-egresados.scss */
   form p {
     height: 30px;
     padding: 5px 0;
-    text-align: left; }
+    text-align: left;
+  }
 
+  /* line 61, ../sass/partials/modules/_sidebar-egresados.scss */
   .tag-filter {
-    display: inline-block; } }
+    display: inline-block;
+  }
+}
 @media (min-width: 875px) {
+  /* line 68, ../sass/partials/modules/_sidebar-egresados.scss */
   .filters {
     float: left;
     width: 30%;
     display: block;
-    padding: 10px; }
+    padding: 10px;
+  }
 
+  /* line 75, ../sass/partials/modules/_sidebar-egresados.scss */
   .filters form {
     width: 100%;
-    display: block; }
+    display: block;
+  }
 
+  /* line 79, ../sass/partials/modules/_sidebar-egresados.scss */
   label {
     font-size: 15px;
-    font-size: 1.5rem; } }
+    font-size: 1.5rem;
+  }
+}
+/* line 1, ../sass/partials/modules/_profile-egresados.scss */
 .graduate-info {
   width: 100%;
-  overflow: hidden; }
+  overflow: hidden;
+}
 
+/* line 6, ../sass/partials/modules/_profile-egresados.scss */
 .contact-info {
-  overflow: hidden; }
+  overflow: hidden;
+}
 
+/* line 10, ../sass/partials/modules/_profile-egresados.scss */
 .personal-info {
   padding: 20px;
-  background-color: #efeded; }
+  background-color: #efeded;
+}
 
+/* line 15, ../sass/partials/modules/_profile-egresados.scss */
 .img-profile {
   border-radius: 100%;
   width: 280px;
   padding: 20px;
   display: table;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
+/* line 23, ../sass/partials/modules/_profile-egresados.scss */
 .personal-info ul {
-  margin: 15px 0; }
+  margin: 15px 0;
+}
 
+/* line 27, ../sass/partials/modules/_profile-egresados.scss */
 .personal-info ul li {
-  display: block; }
+  display: block;
+}
 
+/* line 31, ../sass/partials/modules/_profile-egresados.scss */
 .personal-info ul li span {
-  font-weight: 600; }
+  font-weight: 600;
+}
 
+/* line 35, ../sass/partials/modules/_profile-egresados.scss */
 .personal-info .sub-tittle {
-  margin-bottom: 5px; }
+  margin-bottom: 5px;
+}
 
+/* line 39, ../sass/partials/modules/_profile-egresados.scss */
 .info-detailed {
   padding: 15px;
-  background-color: #fdfefd; }
+  background-color: #efeded;
+}
 
+/* line 45, ../sass/partials/modules/_profile-egresados.scss */
 .info-detailed h2 {
-  height: 25px; }
+  height: 25px;
+}
 
+/* line 49, ../sass/partials/modules/_profile-egresados.scss */
 .info-detailed .sub-tittle {
   margin: 15px 0 15px 0;
-  width: 120px; }
+  width: 120px;
+}
 
+/* line 54, ../sass/partials/modules/_profile-egresados.scss */
 .info-detailed .profession {
   margin: 10px 0 20px;
-  border-bottom: solid #000 1px; }
+  font-weight: 600;
+}
 
+/* line 59, ../sass/partials/modules/_profile-egresados.scss */
 .info-detailed-tag {
   background-color: #575757;
   font-size: 12px;
@@ -766,15 +1224,27 @@ header {
   padding: 3px;
   color: white;
   display: inline-block;
-  margin-bottom: 5px; }
+  margin-bottom: 5px;
+}
 
+/* line 70, ../sass/partials/modules/_profile-egresados.scss */
 .rrss-graduate span {
-  margin: 10px 5px; }
+  margin: 10px 5px;
+}
 
+/* line 74, ../sass/partials/modules/_profile-egresados.scss */
 .skills {
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+}
+
+/* line 78, ../sass/partials/modules/_profile-egresados.scss */
+.skills li {
+  list-style-image: url(../img/list-decoration.png);
+  line-height: 2.7rem;
+}
 
 @media (min-width: 500px) {
+  /* line 84, ../sass/partials/modules/_profile-egresados.scss */
   .info-detailed-tag {
     background-color: #575757;
     font-size: 10px;
@@ -783,367 +1253,565 @@ header {
     padding: 3px;
     color: white;
     margin-right: 15px;
-    display: inline-block; } }
+    display: inline-block;
+  }
+}
 @media (min-width: 600px) {
+  /* line 97, ../sass/partials/modules/_profile-egresados.scss */
   .info-detailed {
-    width: 100%; }
+    width: 100%;
+  }
 
+  /* line 100, ../sass/partials/modules/_profile-egresados.scss */
   .info-conteiner {
     margin: 0 auto;
-    display: table; }
+    display: table;
+  }
 
+  /* line 104, ../sass/partials/modules/_profile-egresados.scss */
   .personal-info ul {
     margin: 10px 15px;
     display: inline-block;
-    vertical-align: top; }
+    vertical-align: top;
+  }
 
+  /* line 109, ../sass/partials/modules/_profile-egresados.scss */
   .img-profile {
     display: table;
-    margin: 0 auto; } }
+    margin: 0 auto;
+  }
+}
 @media (min-width: 900px) {
+  /* line 116, ../sass/partials/modules/_profile-egresados.scss */
   .contact-info {
     width: 30%;
     float: left;
-    width: 30%; }
+    width: 30%;
+  }
 
+  /* line 121, ../sass/partials/modules/_profile-egresados.scss */
   .info-detailed {
     width: 60%;
     float: right;
     padding: 25px 50px;
-    margin: 40px; } }
+    margin: 40px;
+  }
+}
+/* line 1, ../sass/partials/modules/_description-generations.scss */
 .container-generations {
   margin: 0 auto;
   margin-bottom: 2rem;
   max-width: 1000px;
-  padding: 0; }
+  padding: 0;
+}
+/* line 6, ../sass/partials/modules/_description-generations.scss */
+.container-generations .generations-intro {
+  display: block;
+  overflow: hidden;
+  margin-top: 4rem;
+}
+@media (min-width: 880px) {
+  /* line 6, ../sass/partials/modules/_description-generations.scss */
   .container-generations .generations-intro {
-    display: block;
-    overflow: hidden;
-    margin-top: 4rem; }
-    @media (min-width: 880px) {
-      .container-generations .generations-intro {
-        margin-top: 0;
-        float: left;
-        vertical-align: top;
-        width: 48%; }
-        .container-generations .generations-intro:nth-child(2) {
-          float: right; } }
-    .container-generations .generations-intro .generations-intro-title {
-      font-size: 48px;
-      font-size: 4.8rem;
-      font-family: "Hind", sans-serif;
-      color: #ff8f00;
-      line-height: 120%; }
-    .container-generations .generations-intro p {
-      font-size: 18px;
-      font-size: 1.8rem;
-      font-family: "Open Sans", sans-serif;
-      margin: 2rem 0;
-      margin-top: 8px;
-      color: #848286; }
-    .container-generations .generations-intro .generations-intro-button {
-      font-size: 18px;
-      font-size: 1.8rem;
-      border: 1px solid #848286;
-      background: none;
-      color: #848286;
-      width: 45%;
-      height: 48px; }
+    margin-top: 0;
+    float: left;
+    vertical-align: top;
+    width: 48%;
+  }
+  /* line 15, ../sass/partials/modules/_description-generations.scss */
+  .container-generations .generations-intro:nth-child(2) {
+    float: right;
+  }
+}
+/* line 19, ../sass/partials/modules/_description-generations.scss */
+.container-generations .generations-intro .generations-intro-title {
+  font-size: 48px;
+  font-size: 4.8rem;
+  font-family: "Hind", sans-serif;
+  color: #ff8f00;
+  line-height: 120%;
+}
+/* line 25, ../sass/partials/modules/_description-generations.scss */
+.container-generations .generations-intro p {
+  font-size: 18px;
+  font-size: 1.8rem;
+  font-family: "Open Sans", sans-serif;
+  margin: 2rem 0;
+  margin-top: 8px;
+  color: #848286;
+}
+/* line 32, ../sass/partials/modules/_description-generations.scss */
+.container-generations .generations-intro .generations-intro-button {
+  font-size: 18px;
+  font-size: 1.8rem;
+  border: 1px solid #848286;
+  background: none;
+  color: #848286;
+  width: 45%;
+  height: 48px;
+}
 
+/* line 1, ../sass/partials/modules/_description-video.scss */
 .container-career {
   margin: 0 auto;
   max-width: 1000px;
   padding: 0;
-  width: 100%; }
+  width: 100%;
+}
+/* line 6, ../sass/partials/modules/_description-video.scss */
+.container-career .career-intro {
+  margin: 2rem 0;
+}
+@media (min-width: 880px) {
+  /* line 6, ../sass/partials/modules/_description-video.scss */
   .container-career .career-intro {
-    margin: 2rem 0; }
-    @media (min-width: 880px) {
-      .container-career .career-intro {
-        margin-top: 0;
-        float: left;
-        vertical-align: top;
-        width: 48%; }
-        .container-career .career-intro:nth-child(2) {
-          float: right; } }
-    .container-career .career-intro .career-intro-title {
-      font-size: 48px;
-      font-size: 4.8rem;
-      font-family: "Hind", sans-serif;
-      color: #ff8f00;
-      line-height: 120%; }
-    .container-career .career-intro p {
-      font-size: 18px;
-      font-size: 1.8rem;
-      font-family: "Open Sans", sans-serif;
-      margin: 2rem 0;
-      margin-top: 7px;
-      color: #848286; }
+    margin-top: 0;
+    float: left;
+    vertical-align: top;
+    width: 48%;
+  }
+  /* line 13, ../sass/partials/modules/_description-video.scss */
+  .container-career .career-intro:nth-child(2) {
+    float: right;
+  }
+}
+/* line 17, ../sass/partials/modules/_description-video.scss */
+.container-career .career-intro .career-intro-title {
+  font-size: 48px;
+  font-size: 4.8rem;
+  font-family: "Hind", sans-serif;
+  color: #ff8f00;
+  line-height: 120%;
+}
+/* line 23, ../sass/partials/modules/_description-video.scss */
+.container-career .career-intro p {
+  font-size: 18px;
+  font-size: 1.8rem;
+  font-family: "Open Sans", sans-serif;
+  margin: 2rem 0;
+  margin-top: 7px;
+  color: #848286;
+}
 
+/* line 1, ../sass/partials/modules/_testimonials.scss */
 .container-testimonials-post {
-  background-color: #819535; }
-  .container-testimonials-post .testimonials-list-items img {
-    border: 6px solid #819535; }
-  .container-testimonials-post .testimonials-list-items:nth-of-type(2n) {
-    background-color: #819535; }
-  .container-testimonials-post .triangle {
-    border-color: transparent #819535 transparent transparent; }
+  background-color: #819535;
+}
+/* line 4, ../sass/partials/modules/_testimonials.scss */
+.container-testimonials-post .testimonials-list-items img {
+  border: 6px solid #819535;
+}
+/* line 7, ../sass/partials/modules/_testimonials.scss */
+.container-testimonials-post .testimonials-list-items:nth-of-type(2n) {
+  background-color: #819535;
+}
+/* line 11, ../sass/partials/modules/_testimonials.scss */
+.container-testimonials-post .triangle {
+  border-color: transparent #819535 transparent transparent;
+}
 
+/* line 15, ../sass/partials/modules/_testimonials.scss */
 .container-testimonials-animacion {
-  background-color: #cc6220; }
-  .container-testimonials-animacion .testimonials-list-items img {
-    border: 6px solid #cc6220; }
-  .container-testimonials-animacion .testimonials-list-items:nth-of-type(2n) {
-    background-color: #cc6220; }
-  .container-testimonials-animacion .triangle {
-    border-color: transparent #cc6220 transparent transparent; }
+  background-color: #cc6220;
+}
+/* line 18, ../sass/partials/modules/_testimonials.scss */
+.container-testimonials-animacion .testimonials-list-items img {
+  border: 6px solid #cc6220;
+}
+/* line 21, ../sass/partials/modules/_testimonials.scss */
+.container-testimonials-animacion .testimonials-list-items:nth-of-type(2n) {
+  background-color: #cc6220;
+}
+/* line 25, ../sass/partials/modules/_testimonials.scss */
+.container-testimonials-animacion .triangle {
+  border-color: transparent #cc6220 transparent transparent;
+}
 
+/* line 29, ../sass/partials/modules/_testimonials.scss */
 .container-testimonials-ddw {
-  background-color: #922716; }
-  .container-testimonials-ddw .testimonials-list-items img {
-    border: 6px solid #922716; }
-  .container-testimonials-ddw .testimonials-list-items:nth-of-type(2n) {
-    background-color: #922716; }
-  .container-testimonials-ddw .triangle {
-    border-color: transparent #922716 transparent transparent; }
+  background-color: #922716;
+}
+/* line 32, ../sass/partials/modules/_testimonials.scss */
+.container-testimonials-ddw .testimonials-list-items img {
+  border: 6px solid #922716;
+}
+/* line 35, ../sass/partials/modules/_testimonials.scss */
+.container-testimonials-ddw .testimonials-list-items:nth-of-type(2n) {
+  background-color: #922716;
+}
+/* line 39, ../sass/partials/modules/_testimonials.scss */
+.container-testimonials-ddw .triangle {
+  border-color: transparent #922716 transparent transparent;
+}
 
+/* line 43, ../sass/partials/modules/_testimonials.scss */
 .container-testimonials {
   margin: 2rem auto;
   max-width: 1000px;
   padding: 2rem;
-  overflow: hidden; }
-  @media (min-width: 740px) {
-    .container-testimonials {
-      background-color: transparent; } }
+  overflow: hidden;
+}
+@media (min-width: 740px) {
+  /* line 43, ../sass/partials/modules/_testimonials.scss */
+  .container-testimonials {
+    background-color: transparent;
+  }
+}
+/* line 51, ../sass/partials/modules/_testimonials.scss */
+.container-testimonials .testimonials-list-items {
+  list-style: none;
+  position: relative;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+@media (min-width: 480px) {
+  /* line 51, ../sass/partials/modules/_testimonials.scss */
   .container-testimonials .testimonials-list-items {
-    list-style: none;
-    position: relative;
-    text-align: center;
-    margin-bottom: 2rem; }
-    @media (min-width: 480px) {
-      .container-testimonials .testimonials-list-items {
-        text-align: left;
-        float: left;
-        vertical-align: top;
-        margin-bottom: 0; } }
-    .container-testimonials .testimonials-list-items img {
-      border-radius: 50%;
-      overflow: hidden;
-      width: 14rem;
-      height: 14rem; }
-    .container-testimonials .testimonials-list-items:nth-of-type(2n) {
-      color: #fff;
-      margin-bottom: 0rem; }
-      @media (min-width: 480px) {
-        .container-testimonials .testimonials-list-items:nth-of-type(2n) {
-          float: right;
-          width: 62%; } }
-      @media (min-width: 620px) {
-        .container-testimonials .testimonials-list-items:nth-of-type(2n) {
-          padding: 2rem 5%;
-          padding: 0;
-          float: right;
-          width: 70%; } }
-      @media (min-width: 740px) {
-        .container-testimonials .testimonials-list-items:nth-of-type(2n) {
-          padding: 2rem 5%;
-          min-height: 15rem;
-          width: 76%; } }
-      @media (min-width: 980px) {
-        .container-testimonials .testimonials-list-items:nth-of-type(2n) {
-          padding: 2rem 4%;
-          width: 80%; } }
-    .container-testimonials .testimonials-list-items .testimonials-list-items-title {
-      font-size: 20px;
-      font-size: 2rem;
-      font-family: "Hind", sans-serif;
-      border-bottom: 1px solid;
-      width: 97%;
-      margin-top: 0;
-      margin-bottom: 1.5rem; }
-    .container-testimonials .testimonials-list-items p {
-      font-size: 16px;
-      font-size: 1.6rem;
-      font-family: "Open Sans", sans-serif; }
+    text-align: left;
+    float: left;
+    vertical-align: top;
+    margin-bottom: 0;
+  }
+}
+/* line 62, ../sass/partials/modules/_testimonials.scss */
+.container-testimonials .testimonials-list-items img {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 14rem;
+  height: 14rem;
+}
+/* line 68, ../sass/partials/modules/_testimonials.scss */
+.container-testimonials .testimonials-list-items:nth-of-type(2n) {
+  color: white;
+  margin-bottom: 0rem;
+}
+@media (min-width: 480px) {
+  /* line 68, ../sass/partials/modules/_testimonials.scss */
+  .container-testimonials .testimonials-list-items:nth-of-type(2n) {
+    float: right;
+    width: 62%;
+  }
+}
+@media (min-width: 620px) {
+  /* line 68, ../sass/partials/modules/_testimonials.scss */
+  .container-testimonials .testimonials-list-items:nth-of-type(2n) {
+    padding: 2rem 5%;
+    padding: 0;
+    float: right;
+    width: 70%;
+  }
+}
+@media (min-width: 740px) {
+  /* line 68, ../sass/partials/modules/_testimonials.scss */
+  .container-testimonials .testimonials-list-items:nth-of-type(2n) {
+    padding: 2rem 5%;
+    min-height: 15rem;
+    width: 76%;
+  }
+}
+@media (min-width: 980px) {
+  /* line 68, ../sass/partials/modules/_testimonials.scss */
+  .container-testimonials .testimonials-list-items:nth-of-type(2n) {
+    padding: 2rem 4%;
+    width: 80%;
+  }
+}
+/* line 91, ../sass/partials/modules/_testimonials.scss */
+.container-testimonials .testimonials-list-items .testimonials-list-items-title {
+  font-size: 20px;
+  font-size: 2rem;
+  font-family: "Hind", sans-serif;
+  border-bottom: 1px solid;
+  width: 97%;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+/* line 99, ../sass/partials/modules/_testimonials.scss */
+.container-testimonials .testimonials-list-items p {
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-family: "Open Sans", sans-serif;
+}
 
+/* line 106, ../sass/partials/modules/_testimonials.scss */
 .triangle {
-  display: none; }
-  @media (min-width: 740px) {
-    .triangle {
-      border-style: solid;
-      border-width: 25px 25px 25px 0;
-      border-color: transparent #922716 transparent transparent;
-      display: block;
-      height: 0;
-      left: -15px;
-      position: absolute;
-      top: 0;
-      width: 0; } }
+  display: none;
+}
+@media (min-width: 740px) {
+  /* line 106, ../sass/partials/modules/_testimonials.scss */
+  .triangle {
+    border-style: solid;
+    border-width: 25px 25px 25px 0;
+    border-color: transparent #922716 transparent transparent;
+    display: block;
+    height: 0;
+    left: -15px;
+    position: absolute;
+    top: 0;
+    width: 0;
+  }
+}
 
+/* line 1, ../sass/partials/modules/_administrative-personal.scss */
 .container-personal {
   margin: 0 auto;
   max-width: 1000px;
-  padding: 0; }
-  .container-personal .personal-list {
-    width: 100%;
-    text-align: center; }
+  padding: 0;
+}
+/* line 5, ../sass/partials/modules/_administrative-personal.scss */
+.container-personal .personal-list {
+  width: 100%;
+  text-align: center;
+}
+/* line 9, ../sass/partials/modules/_administrative-personal.scss */
+.container-personal .personal-list-items {
+  display: inline-block;
+}
+/* line 11, ../sass/partials/modules/_administrative-personal.scss */
+.container-personal .personal-list-items img {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 14rem;
+  height: 14rem;
+}
+@media (min-width: 319px) {
+  /* line 9, ../sass/partials/modules/_administrative-personal.scss */
   .container-personal .personal-list-items {
-    display: inline-block; }
-    .container-personal .personal-list-items img {
-      border-radius: 50%;
-      overflow: hidden;
-      width: 14rem;
-      height: 14rem; }
-    @media (min-width: 319px) {
-      .container-personal .personal-list-items {
-        width: 80%;
-        margin: 40px 10%; } }
-    @media (min-width: 480px) {
-      .container-personal .personal-list-items {
-        width: 41%;
-        margin: 5rem 4%; } }
-    @media (min-width: 680px) {
-      .container-personal .personal-list-items {
-        width: 30%;
-        margin: 5rem 5%; } }
-    @media (min-width: 980px) {
-      .container-personal .personal-list-items {
-        width: 20%;
-        margin: 5rem 2%; } }
-    .container-personal .personal-list-items .personal-list-items-title {
-      font-size: 26px;
-      font-size: 2.6rem;
-      font-family: "Hind", sans-serif;
-      margin-bottom: 0; }
-    .container-personal .personal-list-items p {
-      font-size: 15px;
-      font-size: 1.5rem;
-      font-family: "Open Sans", sans-serif;
-      color: #848286;
-      width: 100%;
-      margin: 1px 0 13px; }
-      @media (min-width: 320px) {
-        .container-personal .personal-list-items p {
-          width: 99%; } }
-      @media (min-width: 680px) {
-        .container-personal .personal-list-items p {
-          width: 103%;
-          margin-bottom: 6px; } }
-    .container-personal .personal-list-items a {
-      font-size: 13px;
-      font-size: 1.3rem;
-      font-family: "Open Sans", sans-serif; }
-      @media (min-width: 319px) {
-        .container-personal .personal-list-items a {
-          display: block;
-          height: 32px;
-          padding-top: 6px; } }
-      @media (min-width: 680px) {
-        .container-personal .personal-list-items a {
-          display: inline-block;
-          padding: 2px; } }
-      .container-personal .personal-list-items a:nth-of-type(1) {
-        margin-bottom: 5px;
-        border: 1px solid #4C67A1;
-        color: #4C67A1; }
-        @media (min-width: 680px) {
-          .container-personal .personal-list-items a:nth-of-type(1) {
-            border: none;
-            border-right: 1px solid #848286;
-            padding: 0px 8px 0px 0px;
-            height: 19px; } }
-      .container-personal .personal-list-items a:nth-of-type(2) {
-        border: 1px solid #55ACEE;
-        color: #55ACEE; }
-        @media (min-width: 680px) {
-          .container-personal .personal-list-items a:nth-of-type(2) {
-            border: none; } }
+    width: 80%;
+    margin: 40px 10%;
+  }
+}
+@media (min-width: 480px) {
+  /* line 9, ../sass/partials/modules/_administrative-personal.scss */
+  .container-personal .personal-list-items {
+    width: 41%;
+    margin: 5rem 4%;
+  }
+}
+@media (min-width: 680px) {
+  /* line 9, ../sass/partials/modules/_administrative-personal.scss */
+  .container-personal .personal-list-items {
+    width: 30%;
+    margin: 5rem 5%;
+  }
+}
+@media (min-width: 980px) {
+  /* line 9, ../sass/partials/modules/_administrative-personal.scss */
+  .container-personal .personal-list-items {
+    width: 20%;
+    margin: 5rem 2%;
+  }
+}
+/* line 33, ../sass/partials/modules/_administrative-personal.scss */
+.container-personal .personal-list-items .personal-list-items-title {
+  font-size: 26px;
+  font-size: 2.6rem;
+  font-family: "Hind", sans-serif;
+  margin-bottom: 0;
+}
+/* line 38, ../sass/partials/modules/_administrative-personal.scss */
+.container-personal .personal-list-items p {
+  font-size: 15px;
+  font-size: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+  color: #848286;
+  width: 100%;
+  margin: 1px 0 13px;
+}
+@media (min-width: 320px) {
+  /* line 38, ../sass/partials/modules/_administrative-personal.scss */
+  .container-personal .personal-list-items p {
+    width: 99%;
+  }
+}
+@media (min-width: 680px) {
+  /* line 38, ../sass/partials/modules/_administrative-personal.scss */
+  .container-personal .personal-list-items p {
+    width: 103%;
+    margin-bottom: 6px;
+  }
+}
+/* line 52, ../sass/partials/modules/_administrative-personal.scss */
+.container-personal .personal-list-items a {
+  font-size: 13px;
+  font-size: 1.3rem;
+  font-family: "Open Sans", sans-serif;
+}
+@media (min-width: 319px) {
+  /* line 52, ../sass/partials/modules/_administrative-personal.scss */
+  .container-personal .personal-list-items a {
+    display: block;
+    height: 32px;
+    padding-top: 6px;
+  }
+}
+@media (min-width: 680px) {
+  /* line 52, ../sass/partials/modules/_administrative-personal.scss */
+  .container-personal .personal-list-items a {
+    display: inline-block;
+    padding: 2px;
+  }
+}
+/* line 64, ../sass/partials/modules/_administrative-personal.scss */
+.container-personal .personal-list-items a:nth-of-type(1) {
+  margin-bottom: 5px;
+  border: 1px solid #4c67a1;
+  color: #4c67a1;
+}
+@media (min-width: 680px) {
+  /* line 64, ../sass/partials/modules/_administrative-personal.scss */
+  .container-personal .personal-list-items a:nth-of-type(1) {
+    border: none;
+    border-right: 1px solid #848286;
+    padding: 0px 8px 0px 0px;
+    height: 19px;
+  }
+}
+/* line 75, ../sass/partials/modules/_administrative-personal.scss */
+.container-personal .personal-list-items a:nth-of-type(2) {
+  border: 1px solid #55acee;
+  color: #55acee;
+}
+@media (min-width: 680px) {
+  /* line 75, ../sass/partials/modules/_administrative-personal.scss */
+  .container-personal .personal-list-items a:nth-of-type(2) {
+    border: none;
+  }
+}
 
+/* line 1, ../sass/partials/modules/_modules.scss */
 .content-section {
   background-color: #efeded;
   padding: 5rem;
   margin-bottom: 10rem;
-  max-width: 100%; }
+  max-width: 100%;
+}
 
+/* line 8, ../sass/partials/modules/_modules.scss */
 .content-information {
   max-width: 1000px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
+/* line 12, ../sass/partials/modules/_modules.scss */
 .content-title {
   color: #00c9ed;
   margin-bottom: 2rem;
   font-size: 24px;
-  font-size: 2.4rem; }
+  font-size: 2.4rem;
+}
 
+/* line 19, ../sass/partials/modules/_modules.scss */
 .content-column-course {
   font-size: 16px;
   font-size: 1.6rem;
   list-style: none;
   text-align: left;
-  vertical-align: top; }
-  @media (min-width: 720px) {
-    .content-column-course {
-      display: inline-block;
-      width: 45%; }
-      .content-column-course:nth-child(2n+1) {
-        margin-right: 5%; }
-      .content-column-course:last-child {
-        margin-right: 0%; } }
-  @media (min-width: 980px) {
-    .content-column-course {
-      display: inline-block;
-      width: 30%;
-      margin-right: 4%; }
-      .content-column-course:nth-child(3n) {
-        margin-right: 0; }
-      .content-column-course:last-child {
-        margin-right: 0%; } }
-  .content-column-course ul {
-    padding-left: 2rem; }
-  .content-column-course ul li {
-    line-height: 2.7rem;
-    list-style-image: url(../img/list-decoration.png); }
+  vertical-align: top;
+}
+@media (min-width: 720px) {
+  /* line 19, ../sass/partials/modules/_modules.scss */
+  .content-column-course {
+    display: inline-block;
+    width: 45%;
+  }
+  /* line 27, ../sass/partials/modules/_modules.scss */
+  .content-column-course:nth-child(2n+1) {
+    margin-right: 5%;
+  }
+  /* line 30, ../sass/partials/modules/_modules.scss */
+  .content-column-course:last-child {
+    margin-right: 0%;
+  }
+}
+@media (min-width: 980px) {
+  /* line 19, ../sass/partials/modules/_modules.scss */
+  .content-column-course {
+    display: inline-block;
+    width: 30%;
+    margin-right: 4%;
+  }
+  /* line 38, ../sass/partials/modules/_modules.scss */
+  .content-column-course:nth-child(3n) {
+    margin-right: 0;
+  }
+  /* line 41, ../sass/partials/modules/_modules.scss */
+  .content-column-course:last-child {
+    margin-right: 0%;
+  }
+}
+/* line 46, ../sass/partials/modules/_modules.scss */
+.content-column-course ul {
+  padding-left: 2rem;
+}
+/* line 49, ../sass/partials/modules/_modules.scss */
+.content-column-course ul li {
+  line-height: 2.7rem;
+  list-style-image: url(../img/list-decoration.png);
+}
 
+/* line 54, ../sass/partials/modules/_modules.scss */
 .details-section {
   overflow: hidden;
   padding: 1%;
   max-width: 1000px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
+/* line 60, ../sass/partials/modules/_modules.scss */
 .details-subsection {
   overflow: hidden;
   padding: 0 2%;
   margin: 0 auto;
-  margin-bottom: 5rem; }
-  @media (min-width: 540px) {
-    .details-subsection {
-      width: 80%; } }
-  @media (min-width: 840px) {
-    .details-subsection {
-      padding: 0 10%;
-      width: 80%; } }
-  @media (min-width: 920px) {
-    .details-subsection {
-      float: left;
-      width: 43rem;
-      padding: 0;
-      position: relative; }
-      .details-subsection:nth-child(2n) {
-        float: right;
-        margin-right: 0; } }
+  margin-bottom: 5rem;
+}
+@media (min-width: 540px) {
+  /* line 60, ../sass/partials/modules/_modules.scss */
+  .details-subsection {
+    width: 80%;
+  }
+}
+@media (min-width: 840px) {
+  /* line 60, ../sass/partials/modules/_modules.scss */
+  .details-subsection {
+    padding: 0 10%;
+    width: 80%;
+  }
+}
+@media (min-width: 920px) {
+  /* line 60, ../sass/partials/modules/_modules.scss */
+  .details-subsection {
+    float: left;
+    width: 43rem;
+    padding: 0;
+    position: relative;
+  }
+  /* line 77, ../sass/partials/modules/_modules.scss */
+  .details-subsection:nth-child(2n) {
+    float: right;
+    margin-right: 0;
+  }
+}
 
+/* line 85, ../sass/partials/modules/_modules.scss */
 .icon-detail {
   float: left;
   margin-top: 3px;
-  position: relative; }
-  .icon-detail img {
-    width: 50%;
-    display: block;
-    width: initial; }
+  position: relative;
+}
+/* line 89, ../sass/partials/modules/_modules.scss */
+.icon-detail img {
+  width: 50%;
+  display: block;
+  width: initial;
+}
 
+/* line 96, ../sass/partials/modules/_modules.scss */
 .info-details {
   color: #848286;
   float: left;
   width: 80%;
+<<<<<<< HEAD
   margin-left: 3rem; }
   @media (min-width: 920px) {
     .info-details {
@@ -1164,113 +1832,208 @@ header {
 .subtitle-details {
   color: #292929;
   font-weight: bold; }
+=======
+  margin-left: 3rem;
+}
+@media (min-width: 920px) {
+  /* line 96, ../sass/partials/modules/_modules.scss */
+  .info-details {
+    width: 37rem;
+  }
+}
+/* line 104, ../sass/partials/modules/_modules.scss */
+.info-details p {
+  font-size: 16px;
+  font-size: 1.6rem;
+  margin: 16px 0;
+}
+/* line 107, ../sass/partials/modules/_modules.scss */
+.info-details p .subtitle-details {
+  font-weight: bold;
+}
+/* line 111, ../sass/partials/modules/_modules.scss */
+.info-details .subtitle-title-details {
+  margin: 24px 0 16px 0;
+  font-weight: bold;
+  font-size: 18px;
+  font-size: 1.8rem;
+}
+>>>>>>> 11fce6e65dee9d4baf85ea1bf07a351857f58e83
 
+/* line 118, ../sass/partials/modules/_modules.scss */
 .title-details {
   border-bottom: 2px solid #00c9ed;
   color: #00c9ed;
   font-size: 21px;
   font-size: 2.1rem;
   margin-top: 0;
-  padding-bottom: 1rem; }
+  padding-bottom: 1rem;
+}
 
+<<<<<<< HEAD
 .orange-color {
   color: #ff8f00; }
 
+=======
+/* line 3, ../sass/partials/modules/_preview-modules.scss */
+>>>>>>> 11fce6e65dee9d4baf85ea1bf07a351857f58e83
 .preview-squares-module {
   text-align: center;
   max-width: 1000px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
+/* line 8, ../sass/partials/modules/_preview-modules.scss */
 .square-preview-module {
   background-color: #292929;
   margin-bottom: 5rem;
   overflow: hidden;
   position: relative;
-  text-align: left; }
-  @media (min-width: 480px) {
-    .square-preview-module {
-      margin: 5rem 10%; } }
-  @media (min-width: 600px) {
-    .square-preview-module {
-      display: inline-block;
-      margin: 0 auto;
-      margin-bottom: 5rem;
-      width: 45%; }
-      .square-preview-module:nth-child(2n) {
-        margin-right: 4%; }
-      .square-preview-module:last-child {
-        margin-right: 0%; } }
-  @media (min-width: 980px) {
-    .square-preview-module {
-      display: inline-block;
-      width: 30%;
-      height: 290px;
-      margin-right: 4%; }
-      .square-preview-module:nth-child(3n+1) {
-        margin-right: 0; }
-      .square-preview-module:last-child {
-        margin-right: 0%; } }
+  text-align: left;
+}
+@media (min-width: 480px) {
+  /* line 8, ../sass/partials/modules/_preview-modules.scss */
+  .square-preview-module {
+    margin: 5rem 10%;
+  }
+}
+@media (min-width: 600px) {
+  /* line 8, ../sass/partials/modules/_preview-modules.scss */
+  .square-preview-module {
+    display: inline-block;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    width: 45%;
+  }
+  /* line 24, ../sass/partials/modules/_preview-modules.scss */
+  .square-preview-module:nth-child(2n) {
+    margin-right: 4%;
+  }
+  /* line 27, ../sass/partials/modules/_preview-modules.scss */
+  .square-preview-module:last-child {
+    margin-right: 0%;
+  }
+}
+@media (min-width: 980px) {
+  /* line 8, ../sass/partials/modules/_preview-modules.scss */
+  .square-preview-module {
+    display: inline-block;
+    width: 30%;
+    height: 290px;
+    margin-right: 4%;
+  }
+  /* line 37, ../sass/partials/modules/_preview-modules.scss */
+  .square-preview-module:nth-child(3n+1) {
+    margin-right: 0;
+  }
+  /* line 40, ../sass/partials/modules/_preview-modules.scss */
+  .square-preview-module:last-child {
+    margin-right: 0%;
+  }
+}
 
+/* line 47, ../sass/partials/modules/_preview-modules.scss */
 .image-preview-module {
   width: inherit;
   width: 100%;
   height: auto;
-  opacity: 0.4; }
-  @media (min-width: 980px) {
-    .image-preview-module {
-      position: absolute; } }
+  opacity: 0.4;
+}
+@media (min-width: 980px) {
+  /* line 47, ../sass/partials/modules/_preview-modules.scss */
+  .image-preview-module {
+    position: absolute;
+  }
+}
 
+/* line 58, ../sass/partials/modules/_preview-modules.scss */
 .square-preview-hover:hover {
-  border: 0.7rem solid #00c9ed; }
-  @media (min-width: 980px) {
-    .square-preview-hover:hover {
-      height: 290px; } }
-  .square-preview-hover:hover .info-preview-module {
-    padding: 0.3rem 1.3rem; }
+  border: 0.7rem solid #00c9ed;
+}
+@media (min-width: 980px) {
+  /* line 58, ../sass/partials/modules/_preview-modules.scss */
+  .square-preview-hover:hover {
+    height: 290px;
+  }
+}
+/* line 65, ../sass/partials/modules/_preview-modules.scss */
+.square-preview-hover:hover .info-preview-module {
+  padding: 0.3rem 1.3rem;
+}
+/* line 69, ../sass/partials/modules/_preview-modules.scss */
+.square-preview-hover:hover .image-preview-module {
+  opacity: 0.15;
+  -webkit-transition: 1.5s;
+}
+@media (min-width: 980px) {
+  /* line 69, ../sass/partials/modules/_preview-modules.scss */
   .square-preview-hover:hover .image-preview-module {
+<<<<<<< HEAD
     opacity: 0.15;
     -webkit-transition: 1.2s; }
     @media (min-width: 980px) {
       .square-preview-hover:hover .image-preview-module {
         width: 140%;
         -webkit-transition: 1.2s; } }
+=======
+    width: 140%;
+    -webkit-transition: 1.5s;
+  }
+}
+>>>>>>> 11fce6e65dee9d4baf85ea1bf07a351857f58e83
 
+/* line 80, ../sass/partials/modules/_preview-modules.scss */
 .info-preview-module {
   bottom: 0%;
   color: #fdfefd;
   padding: 1rem 2rem;
   position: absolute;
-  width: 100%; }
+  width: 100%;
+}
 
+/* line 89, ../sass/partials/modules/_preview-modules.scss */
 .title-preview-module {
   font-size: 20px;
-  font-size: 2rem; }
+  font-size: 2rem;
+}
 
+/* line 93, ../sass/partials/modules/_preview-modules.scss */
 .subtitle-preview-module {
   font-weight: lighter;
   font-size: 16px;
   font-size: 1.6rem;
-  margin: 1.5rem 0; }
+  margin: 1.5rem 0;
+}
 
+/* line 98, ../sass/partials/modules/_preview-modules.scss */
 .date-preview-module {
   font-size: 16px;
   font-size: 1.6rem;
-  margin: 1.5rem 0; }
+  margin: 1.5rem 0;
+}
 
+/* line 102, ../sass/partials/modules/_preview-modules.scss */
 .price-preview-module {
   font-size: 16px;
   font-size: 1.6rem;
   margin: 1.5rem 0;
-  display: block; }
+  display: block;
+}
 
+/* line 1, ../sass/partials/modules/_form.scss */
 .pay-form {
   margin: 0 auto;
   text-align: center;
-  width: 95%; }
-  @media (min-width: 730px) {
-    .pay-form {
-      width: 60%; } }
+  width: 95%;
+}
+@media (min-width: 730px) {
+  /* line 1, ../sass/partials/modules/_form.scss */
+  .pay-form {
+    width: 60%;
+  }
+}
 
+/* line 10, ../sass/partials/modules/_form.scss */
 .input-main-form {
   border: none;
   border-bottom: 2px solid #848286;
@@ -1278,8 +2041,10 @@ header {
   font-size: 1.4rem;
   margin: 1rem 0;
   padding: 0.5rem 1rem;
-  width: 100%; }
+  width: 100%;
+}
 
+/* line 23, ../sass/partials/modules/_form.scss */
 .button {
   background-color: transparent;
   font-size: 14px;
@@ -1288,14 +2053,18 @@ header {
   border: none;
   padding: 1rem 2rem;
   margin: 1rem 0 2rem 0;
-  width: 48%; }
+  width: 48%;
+}
 
+/* line 33, ../sass/partials/modules/_form.scss */
 .settings-button {
   border: 2px solid #848286;
   color: #848286;
   text-align: left;
-  float: left; }
+  float: left;
+}
 
+/* line 43, ../sass/partials/modules/_form.scss */
 .upload-button {
   background-image: url(../img/upload.png);
   background-position: 93% center;
@@ -1303,76 +2072,133 @@ header {
   border: 2px solid #00c9ed;
   color: #00c9ed;
   text-align: left;
-  float: right; }
-  .upload-button:hover {
-    background-color: #00c9ed;
-    color: #fff; }
+  float: right;
+}
+/* line 51, ../sass/partials/modules/_form.scss */
+.upload-button:hover {
+  background-color: #00c9ed;
+  color: #fff;
+}
 
+/* line 56, ../sass/partials/modules/_form.scss */
 .send-button {
   border: 2px solid #00c9ed;
   color: #00c9ed;
   display: block;
+<<<<<<< HEAD
   margin: 0 auto; }
   .send-button:hover {
     background-color: #00c9ed;
     color: #fff; }
+=======
+  margin: 0 auto;
+}
+/* line 61, ../sass/partials/modules/_form.scss */
+.send-button:hover {
+  background-color: #2dcc70;
+  color: #fff;
+}
+>>>>>>> 11fce6e65dee9d4baf85ea1bf07a351857f58e83
 
+/* line 1, ../sass/partials/modules/_career-program.scss */
 .program-preview {
   height: 33rem;
-  background-color: #fff; }
-  @media (min-width: 980px) {
-    .program-preview {
-      height: 32rem; } }
+  background-color: white;
+}
+@media (min-width: 980px) {
+  /* line 1, ../sass/partials/modules/_career-program.scss */
+  .program-preview {
+    height: 32rem;
+  }
+}
 
+/* line 9, ../sass/partials/modules/_career-program.scss */
 .title-square {
+<<<<<<< HEAD
   color: #fff;
   font-size: 22px;
   font-size: 2.2rem;
+=======
+  color: white;
+  font-size: 16px;
+  font-size: 1.6rem;
+>>>>>>> 11fce6e65dee9d4baf85ea1bf07a351857f58e83
   padding: 1.5rem;
-  margin-top: 0; }
+  margin-top: 0;
+}
 
+/* line 16, ../sass/partials/modules/_career-program.scss */
 .list-program-preview {
-  padding: 0 1.5rem; }
+  padding: 0 1.5rem;
+}
+/* line 19, ../sass/partials/modules/_career-program.scss */
+.list-program-preview li {
+  display: block;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 5rem;
+}
+@media (min-width: 600px) {
+  /* line 19, ../sass/partials/modules/_career-program.scss */
   .list-program-preview li {
-    display: block;
-    font-size: 16px;
-    font-size: 1.6rem;
-    line-height: 5rem; }
-    @media (min-width: 600px) {
-      .list-program-preview li {
-        line-height: 4rem; } }
-    @media (min-width: 700px) {
-      .list-program-preview li {
-        line-height: 5rem; } }
+    line-height: 4rem;
+  }
+}
+@media (min-width: 700px) {
+  /* line 19, ../sass/partials/modules/_career-program.scss */
+  .list-program-preview li {
+    line-height: 5rem;
+  }
+}
 
+/* line 34, ../sass/partials/modules/_career-program.scss */
 .background-color-post {
-  background-color: #819535; }
+  background-color: #819535;
+}
 
+/* line 38, ../sass/partials/modules/_career-program.scss */
 .background-color-ddw {
-  background-color: #922716; }
+  background-color: #922716;
+}
 
+/* line 42, ../sass/partials/modules/_career-program.scss */
 .background-color-animacion {
-  background-color: #cc6220; }
+  background-color: #cc6220;
+}
 
+/* line 46, ../sass/partials/modules/_career-program.scss */
 .border-color-post {
-  border: 2px solid #819535; }
+  border: 2px solid #819535;
+}
 
+/* line 50, ../sass/partials/modules/_career-program.scss */
 .border-color-ddw {
-  border: 2px solid #922716; }
+  border: 2px solid #922716;
+}
 
+/* line 54, ../sass/partials/modules/_career-program.scss */
 .border-color-animacion {
-  border: 2px solid #cc6220; }
+  border: 2px solid #cc6220;
+}
 
+/* line 1, ../sass/partials/modules/_skills-tools.scss */
 .line-grid {
   max-width: 1000px;
   overflow: hidden;
-  margin: 0 auto; }
-  @media (min-width: 480px) {
-    .line-grid {
-      border-bottom: 1px solid #b2b2b2; }
-      .line-grid:last-child {
-        border: 0; } }
+  margin: 0 auto;
+}
+@media (min-width: 480px) {
+  /* line 1, ../sass/partials/modules/_skills-tools.scss */
+  .line-grid {
+    border-bottom: 1px solid #b2b2b2;
+  }
+  /* line 7, ../sass/partials/modules/_skills-tools.scss */
+  .line-grid:last-child {
+    border: 0;
+  }
+}
 
+/* line 13, ../sass/partials/modules/_skills-tools.scss */
 .item-grid {
   list-style: none;
   height: 18rem;
@@ -1380,33 +2206,50 @@ header {
   font-size: 16px;
   font-size: 1.6rem;
   text-align: center;
-  padding: 4rem; }
-  @media (min-width: 480px) {
-    .item-grid {
-      border-right: 1px solid #b2b2b2;
-      border-bottom: 0;
-      float: left;
-      padding: 9rem 4rem 4rem 4rem;
-      height: 30rem;
-      width: 50%; }
-      .item-grid:nth-child(2n) {
-        border-right: 0; }
-      .item-grid:nth-child(1), .item-grid:nth-child(2) {
-        border-bottom: 1px solid #b2b2b2; } }
-  @media (min-width: 980px) {
-    .item-grid {
-      border-right: 1px solid #b2b2b2;
-      height: 20rem;
-      padding: 4rem;
-      width: 25%; }
-      .item-grid:nth-child(2n) {
-        border-right: 1px solid #b2b2b2; }
-      .item-grid:nth-child(1), .item-grid:nth-child(2) {
-        border-bottom: 0; }
-      .item-grid:last-child {
-        border: 0; } }
-  .item-grid img {
-    width: 60px;
-    height: initial; }
-
-/*# sourceMappingURL=style.css.map */
+  padding: 4rem;
+}
+@media (min-width: 480px) {
+  /* line 13, ../sass/partials/modules/_skills-tools.scss */
+  .item-grid {
+    border-right: 1px solid #b2b2b2;
+    border-bottom: 0;
+    float: left;
+    padding: 9rem 4rem 4rem 4rem;
+    height: 30rem;
+    width: 50%;
+  }
+  /* line 27, ../sass/partials/modules/_skills-tools.scss */
+  .item-grid:nth-child(2n) {
+    border-right: 0;
+  }
+  /* line 30, ../sass/partials/modules/_skills-tools.scss */
+  .item-grid:nth-child(1), .item-grid:nth-child(2) {
+    border-bottom: 1px solid #b2b2b2;
+  }
+}
+@media (min-width: 980px) {
+  /* line 13, ../sass/partials/modules/_skills-tools.scss */
+  .item-grid {
+    border-right: 1px solid #b2b2b2;
+    height: 20rem;
+    padding: 4rem;
+    width: 25%;
+  }
+  /* line 39, ../sass/partials/modules/_skills-tools.scss */
+  .item-grid:nth-child(2n) {
+    border-right: 1px solid #b2b2b2;
+  }
+  /* line 42, ../sass/partials/modules/_skills-tools.scss */
+  .item-grid:nth-child(1), .item-grid:nth-child(2) {
+    border-bottom: 0;
+  }
+  /* line 45, ../sass/partials/modules/_skills-tools.scss */
+  .item-grid:last-child {
+    border: 0;
+  }
+}
+/* line 49, ../sass/partials/modules/_skills-tools.scss */
+.item-grid img {
+  width: 60px;
+  height: initial;
+}

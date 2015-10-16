@@ -35,10 +35,10 @@
 	color: $light-blue;
 	text-align: left;
 	float: left;
-	&:hover {
-		background-color: $light-blue;
-		color: #fff;
-	}
+	// &:hover {
+	// 	background-color: $light-blue;
+	// 	color: #fff;
+	// }
 }
 .upload-button {
 	background-image: url(../img/upload.png);

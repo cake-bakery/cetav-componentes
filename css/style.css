@@ -1285,9 +1285,6 @@ header {
   color: #00c9ed;
   text-align: left;
   float: left; }
-  .settings-button:hover {
-    background-color: #00c9ed;
-    color: #fff; }
 
 .upload-button {
   background-image: url(../img/upload.png);

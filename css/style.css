@@ -304,7 +304,8 @@ header {
     header .content-navigation-secondary a {
       font-size: 14px;
       font-size: 1.4rem;
-      margin-right: 20px; }
+      margin-right: 20px;
+      color: #848286; }
     header .content-navigation-secondary img {
       width: 14px; }
   header .content-navigation-primary {
@@ -313,10 +314,11 @@ header {
     header .content-navigation-primary a {
       font-size: 16px;
       font-size: 1.6rem;
-      margin-left: 20px; }
+      margin-left: 20px;
+      color: #848286; }
 
 .footer {
-  background-color: #f3f3f3;
+  background-color: #efeded;
   width: 100%;
   margin: 0 auto;
   padding: 0; }
@@ -361,7 +363,7 @@ header {
       font-size: 12px;
       font-size: 1.2rem;
       font-family: "Open Sans", sans-serif;
-      color: #efeded; }
+      color: #848286; }
       @media (min-width: 600px) {
         .footer .footer-list-items p {
           width: 90%;
@@ -374,7 +376,7 @@ header {
       font-size: 1.2rem;
       font-family: "Open Sans", sans-serif;
       border: 1px solid #ff8f00;
-      color: #efeded;
+      color: #848286;
       width: 80%;
       margin: 0.5rem auto;
       min-height: 35px;
@@ -391,7 +393,7 @@ header {
       margin-bottom: 1rem;
       overflow: hidden; }
     .footer .footer-list-items .footer-list-items-image-parque {
-      border-right: 1px solid #efeded;
+      border-right: 1px solid #848286;
       max-width: 125px;
       padding-right: 16%;
       width: 40%; }
@@ -400,7 +402,7 @@ header {
       margin-left: 17%;
       width: 41%; }
   .footer .footer-container {
-    background-color: #efeded;
+    background-color: #848286;
     height: 26px; }
   .footer .footer-container-list {
     margin: 0 auto;
@@ -448,7 +450,7 @@ header {
   font-family: "Open Sans", sans-serif;
   float: right;
   margin-top: -38px;
-  color: #efeded; }
+  color: #848286; }
   @media (min-width: 320px) {
     .admission-intro p {
       margin-top: 9px; } }
@@ -497,7 +499,7 @@ header {
       font-size: 16px;
       font-size: 1.6rem;
       font-family: "Open Sans", sans-serif;
-      color: #efeded; }
+      color: #848286; }
 
 .short-news {
   overflow: hidden;
@@ -518,7 +520,8 @@ header {
   font-size: 1.2rem; }
 
 .new-copy p {
-  margin: 10px 0; }
+  margin: 10px 0;
+  color: #848286; }
 
 .populars {
   color: white;
@@ -845,13 +848,13 @@ label {
       font-family: "Open Sans", sans-serif;
       margin: 2rem 0;
       margin-top: 8px;
-      color: #efeded; }
+      color: #848286; }
     .container-generations .generations-intro .generations-intro-button {
       font-size: 18px;
       font-size: 1.8rem;
-      border: 1px solid #efeded;
+      border: 1px solid #848286;
       background: none;
-      color: #efeded;
+      color: #848286;
       width: 45%;
       height: 48px; }
 
@@ -882,7 +885,7 @@ label {
       font-family: "Open Sans", sans-serif;
       margin: 2rem 0;
       margin-top: 7px;
-      color: #efeded; }
+      color: #848286; }
 
 .container-testimonials-post {
   background-color: #819535; }
@@ -1023,7 +1026,7 @@ label {
       font-size: 15px;
       font-size: 1.5rem;
       font-family: "Open Sans", sans-serif;
-      color: #efeded;
+      color: #848286;
       width: 100%;
       margin: 1px 0 13px; }
       @media (min-width: 320px) {
@@ -1053,7 +1056,7 @@ label {
         @media (min-width: 680px) {
           .container-personal .personal-list-items a:nth-of-type(1) {
             border: none;
-            border-right: 1px solid #efeded;
+            border-right: 1px solid #848286;
             padding: 0px 8px 0px 0px;
             height: 19px; } }
       .container-personal .personal-list-items a:nth-of-type(2) {
@@ -1252,13 +1255,13 @@ label {
 
 .program-preview {
   height: 33rem;
-  background-color: #fff; }
+  background-color: white; }
   @media (min-width: 980px) {
     .program-preview {
       height: 32rem; } }
 
 .title-square {
-  color: #fff;
+  color: white;
   font-size: 16px;
   font-size: 1.6rem;
   padding: 1.5rem;

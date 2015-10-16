@@ -27,13 +27,13 @@
 			font-family: $open-sans;
 			margin: 2rem 0;
 			margin-top: 8px;
-			color: $grey-light;
+			color: $grey;
 		}
 		.generations-intro-button{
 			@include font-size(18);
-			border: 1px solid $grey-light;
+			border: 1px solid $grey;
 			background: none;
-			color: $grey-light;
+			color: $grey;
 			width: 45%;
 			height: 48px;
 		}

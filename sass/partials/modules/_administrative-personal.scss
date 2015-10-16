@@ -38,7 +38,7 @@
 		p{
 			@include font-size(15);
 			font-family: $open-sans;
-			color: $grey-light;
+			color: $grey;
 			width: 100%;
 			margin: 1px 0 13px;
 			@media(min-width: 320px){
@@ -67,7 +67,7 @@
 				color: $blue-facebook;
 				@media(min-width: 680px){
 					border: none;
-					border-right:1px solid $grey-light;
+					border-right:1px solid $grey;
 					padding: 0px 8px 0px 0px;
     			height: 19px;
 				}

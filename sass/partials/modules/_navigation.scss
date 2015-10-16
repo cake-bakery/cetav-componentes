@@ -12,11 +12,11 @@ header{
 		overflow: hidden;
 	}
 	.content-navigation-secondary{
-		// margin:14px 120px;
 		float: right;
 		a{
 			@include font-size(14);
 			margin-right: 20px;
+			color: $grey;
 		}
 		img{
 			width: 14px;
@@ -28,6 +28,7 @@ header{
 		a{
 			@include font-size(16);
 			margin-left: 20px;
+			color: $grey;
 		}
 	}
 }

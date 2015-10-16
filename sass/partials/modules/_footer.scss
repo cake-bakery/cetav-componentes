@@ -1,5 +1,5 @@
 .footer{
-	background-color: #f3f3f3;
+	background-color: $grey-light;
 	width: 100%;
 	margin: 0 auto;
 	padding: 0;
@@ -47,7 +47,7 @@
 		p{
 			@include font-size(12);
 			font-family: $open-sans;
-			color: $grey-light;
+			color: $grey;
 			@media (min-width: 600px) {
     		width: 90%;
 				margin-right: 0;
@@ -60,7 +60,7 @@
 			@include font-size(12);
 			font-family: $open-sans;
 			border:1px solid $orange;
-			color: $grey-light; 
+			color: $grey; 
 			width: 80%;
 			margin: 0.5rem auto;
 	   		min-height: 35px;
@@ -80,7 +80,7 @@
 			overflow: hidden;
 		}
 		.footer-list-items-image-parque{
-			border-right: 1px solid $grey-light;
+			border-right: 1px solid $grey;
 			max-width: 125px;
 			padding-right: 16%;
 			width: 40%;
@@ -92,7 +92,7 @@
 		}
 	}
 	.footer-container{
-		background-color: $grey-light;
+		background-color: $grey;
 		height: 26px;
 	}
 	.footer-container-list{

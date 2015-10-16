@@ -1,10 +1,12 @@
 .filters{
-	color: $white;
-	padding: 10px 25px;
-	background-color: $grey-dark;
-
+	color: $grey;
+	background-color: $grey-light;
+	float: left;
+	width: 30%;
+	display: block;
 	form{
-	margin: 2%;
+		display: block;
+		margin-bottom: 3.5rem;
 	}
 
 	form p{
@@ -12,71 +14,45 @@
 	}
 
 	input{
+		background-color: $grey-light;
 		width: 20px;
 		height: 20px;
-		margin-right: 10px;
+		margin-left: 2rem;
 		float: left;
 	}
 
 	label{
 		display: inline-block;
 		margin: 0;
+		margin-left: 1rem;
 		vertical-align: top;
 	}
 }
 
-
-
 .sub-tittle{
-	border-bottom: solid 1px;
+	background-color: $grey;
+	color: $white;
 	@include font-size(22);
 	font-family: $hind;
+	padding: 1rem 2rem;
 	margin-bottom: 20px;
 }
-
+.actual-tag-filter {
+	padding-left: 70px;
+	margin-bottom: 2rem;
+}
 .tag-filter{
 	background-color: $grey-dark;
+	display: inline-block;
 	font-size: 10px;
 	font-family: $open-sans;
 	font-weight: 700;
-	padding: 3px;
+	padding: 1rem;
 	color: $white;
 	margin-right: 10px;
 }
 
-@media (min-width: 550px){
-	.filters form{
-		width: 28%;
-		display: inline-block;
-		vertical-align: top;
-	}
-	label{
-		@include font-size(12);
-	}
-	form p{
-		height: 30px;
-		padding: 5px 0;
-		text-align: left;
-	}
-	.tag-filter{
-		display: inline-block;
-	}
 
-}
 
-@media (min-width: 875px){
-	.filters{
-		float: left;
-		width: 30%;
-		display: block;
-		padding: 10px;
-	}
 
-	.filters form{
-		width: 100%;
-		display: block;
-	}
-	label{
-		@include font-size(15);
-	}
-}
+

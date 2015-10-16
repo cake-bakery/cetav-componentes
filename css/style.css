@@ -614,30 +614,30 @@ header {
   margin: 20px 0;
   text-align: center;
   background-color: #efeded;
-  height: 245px; }
-  .graduate h2 {
-    height: 25px;
-    color: #ff8f00; }
+  position: relative;
+  float: right; }
 
 .graduates-content {
   margin: 50px 0; }
 
 .graduates-list {
-  margin: 40px; }
-
-.graduate-title h2 {
-  font-size: 22px;
-  font-size: 2.2rem;
-  font-family: "Hind", sans-serif;
-  margin-bottom: 20px; }
+  float: right;
+  width: 60%; }
 
 .graduates-list img {
+  position: absolute;
   border-radius: 100%;
   width: 120px;
-  margin: 10px; }
+  top: 50%;
+  left: 0;
+  margin: -62px -10%; }
 
 .graduate-details {
-  background-color: #efeded; }
+  background-color: #efeded;
+  position: relative;
+  text-align: left;
+  margin-left: 70px;
+  padding: 1rem 0 2rem 0; }
 
 .profession {
   font-family: "Open Sans", sans-serif;
@@ -646,104 +646,78 @@ header {
   font-style: italic;
   font-weight: 100;
   display: block;
-  margin: 10px 0;
+  margin: 20px 0;
   color: #000; }
 
-@media (min-width: 310px) {
-  .graduates-list {
-    margin: 0; } }
-@media (min-width: 450px) {
-  .profession {
-    margin: 20px 0; }
+.tittle-profile-preview {
+  line-height: 3.8rem;
+  font-size: 28px;
+  font-size: 2.8rem; }
 
-  .graduate {
-    background-color: #fff;
-    height: 100%; }
+.profession-preview {
+  display: block;
+  font-size: 14px;
+  font-size: 1.4rem;
+  margin: 1.5rem 0;
+  margin-top: 0; }
 
-  .graduate-details {
-    text-align: left;
-    margin-left: 70px;
-    padding: 23px 0; }
-
-  .graduates-list img {
-    float: left; }
-
-  .graduate-details h3 {
-    width: 135px;
-    margin-left: 65px; } }
-@media (min-width: 600px) {
-  .graduates-list {
-    margin: 40px; } }
-@media (min-width: 875px) {
-  .graduates-list {
-    float: right;
-    width: 60%;
-    margin-right: 40px; } }
-.filters {
+.see-profile {
   color: #fff;
-  padding: 10px 25px;
-  background-color: #292929; }
+  padding: 1rem 2rem;
+  float: right;
+  position: absolute;
+  font-size: 14px;
+  font-size: 1.4rem;
+  width: 10rem;
+  top: 24px;
+  right: 24px; }
+
+.filters {
+  color: #848286;
+  background-color: #efeded;
+  float: left;
+  width: 30%;
+  display: block; }
   .filters form {
-    margin: 2%; }
+    display: block;
+    margin-bottom: 3.5rem; }
   .filters form p {
     margin: 10px 0; }
   .filters input {
+    background-color: #efeded;
     width: 20px;
     height: 20px;
-    margin-right: 10px;
+    margin-left: 2rem;
     float: left; }
   .filters label {
     display: inline-block;
     margin: 0;
+    margin-left: 1rem;
     vertical-align: top; }
 
 .sub-tittle {
-  border-bottom: solid 1px;
+  background-color: #848286;
+  color: #fff;
   font-size: 22px;
   font-size: 2.2rem;
   font-family: "Hind", sans-serif;
+  padding: 1rem 2rem;
   margin-bottom: 20px; }
+
+.actual-tag-filter {
+  padding-left: 70px;
+  margin-bottom: 2rem; }
 
 .tag-filter {
   background-color: #292929;
+  display: inline-block;
   font-size: 10px;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
-  padding: 3px;
+  padding: 1rem;
   color: #fff;
   margin-right: 10px; }
 
-@media (min-width: 550px) {
-  .filters form {
-    width: 28%;
-    display: inline-block;
-    vertical-align: top; }
-
-  label {
-    font-size: 12px;
-    font-size: 1.2rem; }
-
-  form p {
-    height: 30px;
-    padding: 5px 0;
-    text-align: left; }
-
-  .tag-filter {
-    display: inline-block; } }
-@media (min-width: 875px) {
-  .filters {
-    float: left;
-    width: 30%;
-    display: block;
-    padding: 10px; }
-
-  .filters form {
-    width: 100%;
-    display: block; }
-
-  label {
-    font-size: 15px;
-    font-size: 1.5rem; } }
 .graduate-info {
   width: 100%;
   overflow: hidden; }

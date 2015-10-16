@@ -5,11 +5,27 @@
 
 .contact-info{
 	overflow: hidden;
+	width: 30%;
+	float: left;
+	width: 30%;
 }
 
 .personal-info{
-	padding: 20px;
 	background-color: #efeded;
+	overflow: hidden;
+}
+
+.text-aside-profile-info {
+	margin: 1.5rem 0;
+	padding-left: 2rem;
+}
+
+.social-aside-profile-info {
+	display: inline-block;
+	margin: 1.5rem 0.7rem;
+}
+.list-aside-profile-info {
+ color: $grey;
 }
 
 .img-profile{
@@ -20,14 +36,9 @@
 	margin: 0 auto;
 }
 
-.personal-info ul{
-	margin: 15px 0;
+.subtitle-detailed-information {
+	@include font-size(24);
 }
-
-.personal-info ul li{
-	display: block;
-}
-
 .personal-info ul li span{
 	font-weight: 600;
 }
@@ -37,31 +48,38 @@
 }
 
 .info-detailed{
-	padding: 15px;
+	float: right;
+	padding: 4rem;
+	width: 65%;
 	background-color: #efeded;
-
 }
 
-.info-detailed h2{
-	height: 25px;
+.info-detailed {
+	p {
+		margin: 0.5rem 0 2rem 0;
+	}
 }
 
-.info-detailed .sub-tittle{
-	margin: 15px 0 15px 0;
-	width: 120px;
+
+.profession {
+	font-family: $open-sans;
+	@include font-size(16);
+	font-weight: 100;
+	margin-bottom: 2rem;
+	display: block;
+	color: #000;
 }
 
-.info-detailed .profession{
-	margin: 10px 0 20px;
-	font-weight: 600;
-}
 
+.content-detailed-tags {
+	margin-bottom: 2rem;
+}
 .info-detailed-tag {
 	background-color: #575757;
 	font-size: 12px;
 	font-family: "Open Sans", sans-serif;
 	font-weight: 700;
-	padding: 3px;
+	padding: 1rem 2rem;
 	color: white;
 	display: inline-block;
 	margin-bottom: 5px;
@@ -71,60 +89,18 @@
 	margin: 10px 5px;
 }
 
-.skills{
-	margin-bottom: 10px;
+.skills-profile{
+	margin-bottom: 2rem;
+	padding-left: 2rem;
 }
 
-.skills li{
+.skills-profile li{
 	list-style-image: url(../img/list-decoration.png);
 	line-height: 2.7rem
 }
 
-@media (min-width: 500px){
-	.info-detailed-tag {
-		background-color: #575757;
-		font-size: 10px;
-		font-family: "Open Sans", sans-serif;
-		font-weight: 700;
-		padding: 3px;
-		color: white;
-		margin-right: 15px;
-		display: inline-block;
-	}
-}
-
-@media (min-width: 600px){
-	.info-detailed {
-		width: 100%;
-	}
-	.info-conteiner{
-		margin: 0 auto;
-    	display: table;
-    	}
-	.personal-info ul {
-		margin: 10px 15px;
-		display: inline-block;
-		vertical-align: top;
-	}
-	.img-profile{
-		display: table;
-		margin: 0 auto;
-	}
-}
     
-@media (min-width: 900px){
-	.contact-info {
-		width: 30%;
-		float: left;
-		width: 30%;
-	}
-	.info-detailed {
-		width: 60%;
-		float: right;
-		padding: 25px 50px;
-		margin: 40px;
-	}
-}
+
 
 
 

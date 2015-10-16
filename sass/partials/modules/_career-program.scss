@@ -1,13 +1,13 @@
 .program-preview {
 	height: 33rem;
-	background-color: #fff;
+	background-color: $white;
 	@media(min-width: 980px){
 		height: 32rem;
 	}
 }
 
 .title-square {
-	color: #fff;
+	color: $white;
 	@include font-size(16);
 	padding: 1.5rem;
 	margin-top: 0;

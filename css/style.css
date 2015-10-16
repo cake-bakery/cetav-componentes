@@ -649,15 +649,13 @@ header {
   margin-top: 0; }
 
 .see-profile {
-  color: #fff;
-  padding: 1rem 2rem;
   float: right;
-  position: absolute;
+  margin-right: -95px;
+  margin-top: -25px;
+  color: #ff8f00;
   font-size: 14px;
   font-size: 1.4rem;
-  width: 10rem;
-  top: 24px;
-  right: 24px; }
+  font-weight: bold; }
 
 .filters {
   color: #575757;

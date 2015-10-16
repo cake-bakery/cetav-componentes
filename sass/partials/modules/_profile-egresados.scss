@@ -9,7 +9,7 @@
 
 .personal-info{
 	padding: 20px;
-	background-color: $grey-light;
+	background-color: #efeded;
 }
 
 .img-profile{
@@ -38,7 +38,8 @@
 
 .info-detailed{
 	padding: 15px;
-	background-color: $font-ligth;
+	background-color: #efeded;
+
 }
 
 .info-detailed h2{
@@ -52,7 +53,7 @@
 
 .info-detailed .profession{
 	margin: 10px 0 20px;
-	border-bottom: solid #000 1px;
+	font-weight: 600;
 }
 
 .info-detailed-tag {
@@ -72,6 +73,11 @@
 
 .skills{
 	margin-bottom: 10px;
+}
+
+.skills li{
+	list-style-image: url(../img/list-decoration.png);
+	line-height: 2.7rem
 }
 
 @media (min-width: 500px){
@@ -105,7 +111,7 @@
 		margin: 0 auto;
 	}
 }
-
+    
 @media (min-width: 900px){
 	.contact-info {
 		width: 30%;

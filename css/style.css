@@ -402,6 +402,7 @@ header {
       margin-left: 17%;
       width: 41%; }
   .footer .footer-container {
+    max-width: 1000px;
     background-color: #848286;
     height: 26px;
     overflow: hidden;
@@ -1140,6 +1141,7 @@ header {
     width: initial; }
 
 .info-details {
+  color: #848286;
   float: left;
   width: 80%;
   margin-left: 3rem; }
@@ -1150,13 +1152,18 @@ header {
     font-size: 16px;
     font-size: 1.6rem;
     margin: 16px 0; }
-    .info-details p .subtitle-details {
-      font-weight: bold; }
   .info-details .subtitle-title-details {
+    color: #848286;
     margin: 24px 0 16px 0;
     font-weight: bold;
     font-size: 18px;
     font-size: 1.8rem; }
+  .info-details a {
+    color: #848286; }
+
+.subtitle-details {
+  color: #292929;
+  font-weight: bold; }
 
 .title-details {
   border-bottom: 2px solid #00c9ed;
@@ -1165,6 +1172,9 @@ header {
   font-size: 2.1rem;
   margin-top: 0;
   padding-bottom: 1rem; }
+
+.orange-color {
+  color: #ff8f00; }
 
 .preview-squares-module {
   text-align: center;
@@ -1219,11 +1229,11 @@ header {
     padding: 0.3rem 1.3rem; }
   .square-preview-hover:hover .image-preview-module {
     opacity: 0.15;
-    -webkit-transition: 1.5s; }
+    -webkit-transition: 1.2s; }
     @media (min-width: 980px) {
       .square-preview-hover:hover .image-preview-module {
         width: 140%;
-        -webkit-transition: 1.5s; } }
+        -webkit-transition: 1.2s; } }
 
 .info-preview-module {
   bottom: 0%;
@@ -1263,7 +1273,7 @@ header {
 
 .input-main-form {
   border: none;
-  border-bottom: 1px solid #292929;
+  border-bottom: 2px solid #848286;
   font-size: 14px;
   font-size: 1.4rem;
   margin: 1rem 0;
@@ -1281,8 +1291,8 @@ header {
   width: 48%; }
 
 .settings-button {
-  border: 2px solid #00c9ed;
-  color: #00c9ed;
+  border: 2px solid #848286;
+  color: #848286;
   text-align: left;
   float: left; }
 
@@ -1299,12 +1309,12 @@ header {
     color: #fff; }
 
 .send-button {
-  border: 2px solid #2dcc70;
-  color: #2dcc70;
+  border: 2px solid #00c9ed;
+  color: #00c9ed;
   display: block;
   margin: 0 auto; }
   .send-button:hover {
-    background-color: #2dcc70;
+    background-color: #00c9ed;
     color: #fff; }
 
 .program-preview {
@@ -1316,8 +1326,8 @@ header {
 
 .title-square {
   color: #fff;
-  font-size: 16px;
-  font-size: 1.6rem;
+  font-size: 22px;
+  font-size: 2.2rem;
   padding: 1.5rem;
   margin-top: 0; }
 

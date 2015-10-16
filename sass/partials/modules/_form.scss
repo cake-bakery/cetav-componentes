@@ -10,13 +10,12 @@
 .input-main-form {
 
 	border:none;
-	border-bottom: 1px solid $grey-dark;
+	border-bottom: 2px solid $grey;
 	@include font-size(14);
 	margin: 1rem 0;
 	padding: 0.5rem 1rem;
 	width: 100%;
 }
-
 
 
 
@@ -31,8 +30,8 @@
 }
 
 .settings-button {
-	border: 2px solid $light-blue;
-	color: $light-blue;
+	border: 2px solid $grey;
+	color: $grey;
 	text-align: left;
 	float: left;
 	// &:hover {
@@ -54,12 +53,12 @@
 	}
 }
 .send-button {
-	border: 2px solid $success-green;
-	color: $success-green;
+	border: 2px solid $light-blue;
+	color: $light-blue;
 	display: block;
 	margin: 0 auto;
 	&:hover {
-		background-color: $success-green;
+		background-color: $light-blue;
 		color: #fff;
 	}
 }

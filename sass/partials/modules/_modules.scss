@@ -94,6 +94,7 @@
 }
 
 .info-details {
+	color: $grey;
 	float: left;
 	width: 80%;
 	margin-left: 3rem;
@@ -104,17 +105,23 @@
 	p {
 		@include font-size(16);
 		margin: 16px 0;
-		.subtitle-details {
-			font-weight: bold;
-		}
+		
 	}
 	.subtitle-title-details {
-			margin: 24px 0 16px 0;
-			font-weight: bold;
-			@include font-size(18);
-	}
+		color: $grey;
+		margin: 24px 0 16px 0;
+		font-weight: bold;
+		@include font-size(18);
+		}
+		a{
+			color: $grey;
+		}
 }
 
+.subtitle-details {
+	color: $grey-dark;
+	font-weight: bold;
+}
 .title-details {
 	border-bottom: 2px solid $light-blue;
 	color: $light-blue;
@@ -123,6 +130,8 @@
 	padding-bottom: 1rem;
 }
 
-
+.orange-color {
+	color: $orange;
+}
 
 	

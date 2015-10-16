@@ -8,7 +8,7 @@
 		margin: 0 auto;
     	padding: 1rem 2rem;
 	    @media (min-width: 880px) {
-	    	padding: 1rem 0;
+	    	padding: 3rem 0;
 	    }
 	}
 	.footer-list-items{
@@ -24,18 +24,17 @@
 	  	}
 		.footer-images-icon{
 			float: left;
-			margin-top: 16px;
-	    height: 24px;
-	    margin-right: 9px;
+			height: 24px;
+			margin-right: 9px;
 		}
 		.img-fb{
 			width: 13px;
-    	margin-top: 15px;
-    	margin-right: 9px;
+	    	margin-top: 15px;
+	    	margin-right: 9px;
 		}
 		.img-vimeo{
 			width: 28px;
-    	margin-top: 15px;
+    		margin-top: 15px;
 		}
 		.footer-list-items-title{
 			@include font-size(16);
@@ -45,15 +44,15 @@
 			text-align: left;
 		}
 		p{
-			@include font-size(12);
+			@include font-size(14);
 			font-family: $open-sans;
 			color: $grey;
 			@media (min-width: 600px) {
-    		width: 90%;
-				margin-right: 0;
+	    		width: 90%;
+	    		margin: 12px 0;
 	    	}
 	    	@media (min-width: 880px) {
-	    		width: 66%;
+	    		width: 90%;
 	    	}
 		}
 		.footer-list-items-button{
@@ -67,7 +66,7 @@
 		    margin-right: 8px;
 		    background: none;
 		    @media (min-width: 980px) {
-	    		width: 28%;
+	    		width: 38%;
 	    	}
 		    &:hover{
 		    	background: $orange;
@@ -92,25 +91,30 @@
 		}
 	}
 	.footer-container{
-		max-width: 1000px;
 		background-color: $grey;
-		height: 26px;
+		height: 32px;
 		overflow: hidden;
 		position: relative;
 		padding: 0 1rem;
-		p{
+		.size-footer-container {
+			max-width: 1000px;
+			margin:0 auto;
+			margin-top: 5px;
+			p{
 			float: left;
 			@include font-size(12);
 			font-family: $hind;
-    		margin-top: 3px;
+    	
     		color: #fff;
+			}
+			a{
+				@include font-size(12);
+				font-family: $hind;
+				float: right;
+			
+				color: #fff;
+			}
 		}
-		a{
-			@include font-size(12);
-			font-family: $hind;
-			float: right;
-			margin-top: 3px;
-			color: #fff;
-		}
+		
 	}	
 }

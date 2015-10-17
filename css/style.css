@@ -1301,7 +1301,7 @@ header {
   float: right; }
   .upload-button:hover {
     background: url(../img/upload-hover.png);
-    background-position: 93% center;
+    background-position: 90% center;
     background-repeat: no-repeat;
     background-color: #243842;
     color: #fff; }

@@ -1322,10 +1322,12 @@ header {
     color: #fff; }
 
 .career-program {
+  background-color: #505050;
   position: relative;
   padding-top: 5rem; }
 
 .program-preview {
+  z-index: 2;
   height: 33rem;
   background-color: #fff; }
   @media (min-width: 980px) {
@@ -1340,7 +1342,8 @@ header {
   margin-top: 0; }
 
 .list-program-preview {
-  padding: 0 1.5rem; }
+  padding: 0 1.5rem;
+  z-index: 2; }
   .list-program-preview li {
     display: block;
     font-size: 16px;
@@ -1380,7 +1383,7 @@ header {
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: -1; }
+  z-index: 1; }
 
 .line-grid {
   max-width: 1000px;

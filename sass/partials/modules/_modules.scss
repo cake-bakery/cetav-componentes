@@ -11,6 +11,7 @@
 }
 .content-title {
 	color: $light-blue;
+	font-family: $montserrat;
 	margin-bottom: 2rem;
 	@include font-size(36);
 }

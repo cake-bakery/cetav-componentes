@@ -1,18 +1,18 @@
 .container-admission{
 	margin: 0 auto;
 	padding: 0;
-	max-width: 1280px;
+	max-width: 1000px;
 }
 .admission-intro{
 	@media(min-width: 880px){
 		display: inline-block;
 		vertical-align: top;
-		width: 49%;
+		width: ;
 	}
 	.admission-intro-title{
 		@include font-size(48);
-		font-family: $hind;
-		width: 93%;
+		font-family: $montserrat;
+		width: 40%;
 		line-height: 120%;
 		color:$orange;
 	} 

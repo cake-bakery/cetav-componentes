@@ -3,8 +3,8 @@
 	max-width: 1000px;
 	width: 100%;
 	.requirements-title{
-		@include font-size(26);
-		font-family: $hind;
+		@include font-size(36);
+		font-family: $montserrat;
 		color: $orange;
 	}
 	.requirements-list{

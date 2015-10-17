@@ -16,11 +16,11 @@ a{
 }
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
-	font-family: $hind;
+	font-family: $montserrat;
 }
 h2{
 	@include font-size(25);
-	font-family: $hind;
+	font-family: $montserrat;
 }
 ul {
 	margin: 0;

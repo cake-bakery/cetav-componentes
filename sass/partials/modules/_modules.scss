@@ -13,6 +13,7 @@
 	color: $light-blue;
 	font-family: $montserrat;
 	margin-bottom: 2rem;
+
 	@include font-size(36);
 }
 .content-column-course {
@@ -125,7 +126,9 @@
 	border-bottom: 2px solid $light-blue;
 	color: $light-blue;
 	@include font-size(21);
+	max-height: 37px;
 	margin-top: 0;
+	overflow: hidden;
 	padding-bottom: 1rem;
 	h3 {
 		margin-left: 1rem;

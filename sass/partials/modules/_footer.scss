@@ -36,7 +36,7 @@
 		}
 		.footer-list-items-title{
 			@include font-size(16);
-			font-family: $hind;
+			font-family: $montserrat;
 			color: $orange;
 			margin-bottom: 0;
 			text-align: left;
@@ -101,13 +101,13 @@
 			p{
 			float: left;
 			@include font-size(12);
-			font-family: $hind;
+			font-family: $montserrat;
     	
     		color: #fff;
 			}
 			a{
 				@include font-size(12);
-				font-family: $hind;
+				font-family: $montserrat;
 				float: right;
 			
 				color: #fff;

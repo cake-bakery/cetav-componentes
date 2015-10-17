@@ -1,5 +1,5 @@
 .content-section {
-	background-color: $grey-light;
+	background-color: #243842;
 	padding: 5rem;
 	margin-bottom: 10rem;
 	max-width: 100%;
@@ -11,13 +11,16 @@
 }
 .content-title {
 	color: $light-blue;
+	font-family: $montserrat;
 	margin-bottom: 2rem;
-	@include font-size(24);
+
+	@include font-size(36);
 }
 .content-column-course {
 	@include font-size(16);
 	list-style: none;
 	text-align: left;
+	color: $white;
 	vertical-align: top;
 	@media (min-width: 720px) {
 		display: inline-block;
@@ -46,7 +49,7 @@
 	}
 	ul li {
 		line-height: 2.7rem;
-		list-style-image: url(../img/list-decoration.png);
+		list-style-type:disc;
 	}
 }
 .details-section {
@@ -93,11 +96,10 @@
 
 .info-details {
 	color: $grey;
-	float: left;
 	width: 80%;
 	margin-left: 3rem;
-
 	@media (min-width: 920px) {
+		display: inline-block;
 		width: 37rem;
 	}
 	p {
@@ -124,8 +126,15 @@
 	border-bottom: 2px solid $light-blue;
 	color: $light-blue;
 	@include font-size(21);
+	max-height: 37px;
 	margin-top: 0;
+	overflow: hidden;
 	padding-bottom: 1rem;
+	h3 {
+		margin-left: 1rem;
+		display: inline-block;
+		vertical-align: top;
+	}
 }
 
 .orange-color {

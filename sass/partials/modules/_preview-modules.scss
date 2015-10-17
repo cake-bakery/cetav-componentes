@@ -57,22 +57,22 @@
 .square-preview-hover {
 	  &:hover {
     // -webkit-transition: 0.5s;
-    border: 0.7rem solid $light-blue;
+    border: 0.5rem solid $light-blue;
 	@media (min-width: 980px) {
 		height: 290px;
 	}
     
     .info-preview-module {
-      padding:0.3rem 1.3rem;
+      padding:0.5rem 1.5rem;
       // -webkit-transition: 0.5s;
     }
     .image-preview-module {
 	opacity: 0.15;
 	@media (min-width: 980px) {
-		width: 140%;
-		-webkit-transition: 1.2s;
+		width: 110%;
+		-webkit-transition: 1s;
 	}
-	 -webkit-transition: 1.2s;
+	 -webkit-transition: 1s;
 	}
   }
 }

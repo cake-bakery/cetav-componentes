@@ -39,14 +39,14 @@
 		margin: 0 auto;
 		border-bottom: 1px $grey-lines solid;
 	}
-	.title-section{
-		max-width: 1000px;
-		color: $grey;
-		font-family: $montserrat;
-		@include font-size(32);
-		margin: 0 auto;
-		margin-bottom: 5rem;
-		text-align: left;
-	}
 }
 
+.title-section{
+	max-width: 1000px;
+	color: $grey;
+	font-family: $montserrat;
+	@include font-size(32);
+	margin: 0 auto;
+	margin-bottom: 5rem;
+	text-align: left;
+}

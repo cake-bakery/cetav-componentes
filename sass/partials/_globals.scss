@@ -28,12 +28,14 @@ ul {
 }
 //video
 iframe{
+	vertical-align: top;
 	float: right;
 	width: 100%;
 	height: 16rem;
-	margin-top: 7px;
+	margin-top: 9px;
 	@media(min-width: 480px){
     height: 30rem;
+    width: 50%;
   }
 }
 @media (min-width: 600px){

@@ -17,34 +17,21 @@
 		padding: 1rem;
 		text-align: center;
 		width: 100%;
-	    @media (min-width: 600px) {
-	    	text-align: left;
-	    	vertical-align: top;
-	    	width: 32%;
-	  	}
-		.footer-images-icon{
-			float: left;
-			height: 24px;
-			margin-right: 9px;
-		}
-		.img-fb{
-	    	margin-top: 15px;
-	    	margin-right: 9px;
-		}
-		.img-vimeo{
-    		margin-top: 15px;
-		}
+	  @media (min-width: 600px) {
+	   	text-align: left;
+	    vertical-align: top;
+	    width: 32%;
+	  }
 		.footer-list-items-title{
-			@include font-size(16);
 			font-family: $montserrat;
-			color: $orange;
+			color: $white;
 			margin-bottom: 0;
 			text-align: left;
 		}
 		p{
 			@include font-size(14);
 			font-family: $open-sans;
-			color: $grey;
+			color: $white;
 			@media (min-width: 600px) {
 	    		width: 90%;
 	    		margin: 12px 0;
@@ -56,28 +43,33 @@
 		.footer-list-items-button{
 			@include font-size(12);
 			font-family: $open-sans;
-			border:1px solid $orange;
-			color: $grey; 
+			border:1px solid $white;
+			border-radius: 3px;
+			color: $white; 
 			width: 80%;
 			margin: 0.5rem auto;
-	   		min-height: 35px;
-		    margin-right: 8px;
-		    background: none;
+	   	min-height: 35px;
+		  margin-right: 8px;
+		  background: none;
+		  -webkit-transition: all 0.5s;
+    	-o-transition: all 0.5s;
+    	transition: all 0.5s;
 		    @media (min-width: 980px) {
 	    		width: 38%;
 	    	}
 		    &:hover{
-		    	background: $orange;
-		    	color: $white;
+		    	background: $white;
+		    	color: $grey-dark;
 		    }
 		}
 		.wrap-image-footer {
 			position: relative;
-			margin-bottom: 1rem;
-			overflow: hidden;
+	    margin-bottom: 7px;
+	    overflow: hidden;
+	    margin-top: 28px;
 		}
 		.footer-list-items-image-parque{
-			border-right: 1px solid $grey;
+			border-right: 1px solid $white;
 			max-width: 125px;
 			padding-right: 16%;
 			width: 40%;
@@ -88,31 +80,35 @@
 	    width: 41%;
 		}
 	}
-	.footer-container{
-		background-color: $grey;
-		height: 32px;
-		overflow: hidden;
-		position: relative;
-		padding: 0 1rem;
-		.size-footer-container {
-			max-width: 1000px;
-			margin:0 auto;
-			margin-top: 5px;
-			p{
-			float: left;
-			@include font-size(12);
-			font-family: $montserrat;
-    	
-    		color: #fff;
-			}
-			a{
-				@include font-size(12);
-				font-family: $montserrat;
-				float: right;
-			
-				color: #fff;
+	.icons-rs{
+  	text-decoration: none;
+		li{
+			display: inline-block;
+			margin-right: 15px;
+		}
+		a{
+			&:hover{
+				border-bottom: none;
 			}
 		}
-		
+		.facebook-icon {
+			fill: $white;
+			height: 40px;
+			margin-top: 20px;
+			width: 40px;
+			&:hover{
+			  cursor: pointer;
+			  fill: #4966a7; 
+			}
+		}
+		.vimeo-icon {
+			fill: $white;
+			height: 40px;
+			width: 40px;
+			&:hover{
+			  cursor: pointer;
+			   fill: #17b3e8; 
+			}
+		}
 	}	
 }

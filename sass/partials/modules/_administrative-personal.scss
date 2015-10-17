@@ -31,9 +31,9 @@
 			margin: 5rem 2%;
 		}
 		.personal-list-items-title{
-			@include font-size(36);
+			@include font-size(20);
 			font-family: $montserrat;
-			margin-bottom: 0;
+			margin-bottom: 7px;
 		}
 		p{
 			@include font-size(15);

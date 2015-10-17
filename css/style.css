@@ -1274,6 +1274,7 @@ header {
   font-size: 1.4rem;
   font-weight: bold;
   border: none;
+  border-radius: 5px;
   padding: 1rem 2rem;
   margin: 1rem 0 2rem 0;
   width: 48%; }
@@ -1292,13 +1293,16 @@ header {
 
 .upload-button {
   background-image: url(../img/upload.png);
-  background-position: 93% center;
+  background-position: 90% center;
   background-repeat: no-repeat;
   border: 2px solid #243842;
   color: #243842;
   text-align: left;
   float: right; }
   .upload-button:hover {
+    background: url(../img/upload-hover.png);
+    background-position: 93% center;
+    background-repeat: no-repeat;
     background-color: #243842;
     color: #fff; }
 

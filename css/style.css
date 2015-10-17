@@ -1040,6 +1040,7 @@ header {
 
 .content-section {
   background-color: #243842;
+  background-color: #243842;
   padding: 5rem;
   margin-bottom: 10rem;
   max-width: 100%; }
@@ -1253,11 +1254,10 @@ header {
 
 .pay-form {
   margin: 0 auto;
-  text-align: center;
-  width: 95%; }
-  @media (min-width: 730px) {
+  text-align: center; }
+  @media (min-width: 480px) {
     .pay-form {
-      width: 60%; } }
+      width: 45rem; } }
 
 .input-main-form {
   border: none;
@@ -1278,22 +1278,28 @@ header {
   margin: 1rem 0 2rem 0;
   width: 48%; }
 
-.settings-button {
-  border: 2px solid #505050;
+.current-course {
+  border-bottom: 2px solid #505050;
   color: #505050;
-  text-align: left;
-  float: left; }
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  float: left;
+  line-height: 18px;
+  margin: 1rem 0 2rem 0;
+  padding: 1rem 2rem;
+  text-align: left; }
 
 .upload-button {
   background-image: url(../img/upload.png);
   background-position: 93% center;
   background-repeat: no-repeat;
-  border: 2px solid #00c9ed;
-  color: #00c9ed;
+  border: 2px solid #243842;
+  color: #243842;
   text-align: left;
   float: right; }
   .upload-button:hover {
-    background-color: #00c9ed;
+    background-color: #243842;
     color: #fff; }
 
 .send-button {

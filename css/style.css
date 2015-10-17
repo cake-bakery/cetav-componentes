@@ -261,7 +261,7 @@ iframe {
       margin: 0 auto;
       border-bottom: 1px #b2b2b2 solid; } }
   .modules-standart .title-section {
-    color: #ff8f00;
+    color: #505050;
     font-family: "Montserrat", sans-serif;
     font-size: 32px;
     font-size: 3.2rem;
@@ -437,29 +437,31 @@ header {
   max-width: 1000px; }
 
 @media (min-width: 880px) {
-  .admission-intro {
+  .container-title {
     display: inline-block;
-    vertical-align: top; } }
-.admission-intro .admission-intro-title {
+    vertical-align: top;
+    float: left;
+    width: 40%; } }
+.container-title .intro-title {
   font-size: 48px;
   font-size: 4.8rem;
   font-family: "Montserrat", sans-serif;
-  width: 40%;
   line-height: 120%;
   color: #ff8f00; }
-.admission-intro p {
+
+@media (min-width: 880px) {
+  .container-text {
+    float: right;
+    vertical-align: top;
+    width: 55%; } }
+.container-text p {
   font-size: 18px;
   font-size: 1.8rem;
   font-family: "Open Sans", sans-serif;
-  float: right;
-  margin-top: -38px;
   color: #505050; }
   @media (min-width: 320px) {
-    .admission-intro p {
+    .container-text p {
       margin-top: 9px; } }
-  @media (min-width: 880px) {
-    .admission-intro p {
-      margin-top: 4px; } }
 
 .container-requirements {
   margin: 0 auto;

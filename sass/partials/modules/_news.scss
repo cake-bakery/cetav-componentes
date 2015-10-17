@@ -15,10 +15,11 @@
 .information-preview{
 	width: 100%;
 	padding: 15px;
-	padding-bottom: 3rem;
+	padding-bottom: 4rem;
 }
 
 .tittle-preview {
+	color: $grey;
 	@include font-size(24);
 
 }
@@ -47,14 +48,14 @@
 
 .popular-new{
 	border-bottom: 3px solid $white;
-	padding: 30px 20px;
+	padding: 10px 20px 50px;
 	width: 100%;
 }
 
 .tittle-populars {
-	background-color: $grey;
+	background-color: $grey-light;
 	border-bottom: 3px solid $white;
-	color: $white;
+	color: $grey;
 	@include font-size(24);
 	padding: 20px;
 }
@@ -68,9 +69,13 @@
 }
 
 .more-preview{
-	color: $orange;
+	color: #ff8f00;
 	@include font-size(14);
 	font-weight: bold;
+    border: solid 1px;
+    padding: 4px;
+    float: left;
+    margin-top: 6px;
 }
 
 .search-aside {

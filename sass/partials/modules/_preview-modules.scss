@@ -21,7 +21,7 @@
 		margin: 0 auto;
 		margin-bottom: 5rem;
 		width: 45%;
-		&:nth-child(2n) {
+		&:nth-child(2n+1) {
         margin-right: 4%;
     	}
     	&:last-child {
@@ -34,7 +34,7 @@
 		width: 30%;
 		height: 290px;
 		margin-right: 4%;
-		&:nth-child(3n+1) {
+		&:nth-child(3n) {
         margin-right: 0;
     	}
     	&:last-child {

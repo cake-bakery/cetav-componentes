@@ -312,11 +312,13 @@ header {
     float: right;
     margin-right: 23px; }
     header .content-navigation-secondary a {
-      font-size: 14px;
-      font-size: 1.4rem;
+      font-size: 12px;
+      font-size: 1.2rem;
       font-family: "Montserrat", sans-serif;
       margin-right: 20px;
       color: white; }
+      header .content-navigation-secondary a:hover {
+        border-bottom: 1px solid white; }
     header .content-navigation-secondary img {
       width: 14px; }
   header .content-navigation-primary {
@@ -324,8 +326,8 @@ header {
     margin-top: 17px;
     margin-right: 23px; }
     header .content-navigation-primary a {
-      font-size: 16px;
-      font-size: 1.6rem;
+      font-size: 14px;
+      font-size: 1.4rem;
       font-family: "Montserrat", sans-serif;
       margin-left: 20px;
       color: white; }

@@ -1209,12 +1209,12 @@ header {
       position: absolute; } }
 
 .square-preview-hover:hover {
-  border: 0.7rem solid #00c9ed; }
+  border: 0.5rem solid #00c9ed; }
   @media (min-width: 980px) {
     .square-preview-hover:hover {
       height: 290px; } }
   .square-preview-hover:hover .info-preview-module {
-    padding: 0.3rem 1.3rem; }
+    padding: 0.5rem 1.5rem; }
   .square-preview-hover:hover .image-preview-module {
     opacity: 0.15;
     -webkit-transition: 1s; }

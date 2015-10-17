@@ -834,20 +834,19 @@ header .content-navigation-primary a {
   font-size: 14px;
   font-size: 1.4rem;
   font-weight: bold;
-  border: solid 1px;
   padding: 4px;
   float: left;
   margin-top: 6px;
 }
 
-/* line 81, ../sass/partials/modules/_news.scss */
+/* line 80, ../sass/partials/modules/_news.scss */
 .search-aside {
   position: relative;
   overflow: hidden;
   border-bottom: 3px solid white;
 }
 
-/* line 86, ../sass/partials/modules/_news.scss */
+/* line 85, ../sass/partials/modules/_news.scss */
 .new-search {
   border: 3px solid #ececec;
   width: 80%;
@@ -857,7 +856,7 @@ header .content-navigation-primary a {
   font-size: 20px;
 }
 
-/* line 94, ../sass/partials/modules/_news.scss */
+/* line 93, ../sass/partials/modules/_news.scss */
 .noticia-submit {
   background-image: url(../img/search.png);
   background-position: 50% center;
@@ -870,35 +869,35 @@ header .content-navigation-primary a {
   font-size: 20px;
 }
 
-/* line 106, ../sass/partials/modules/_news.scss */
+/* line 105, ../sass/partials/modules/_news.scss */
 .new {
   width: 62%;
   float: left;
   margin: 10px;
 }
 
-/* line 113, ../sass/partials/modules/_news.scss */
+/* line 112, ../sass/partials/modules/_news.scss */
 .new img {
   width: 100%;
 }
 
-/* line 118, ../sass/partials/modules/_news.scss */
+/* line 117, ../sass/partials/modules/_news.scss */
 .many-news {
   width: 65%;
   float: left;
 }
 
-/* line 122, ../sass/partials/modules/_news.scss */
+/* line 121, ../sass/partials/modules/_news.scss */
 .information-main {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 125, ../sass/partials/modules/_news.scss */
+/* line 124, ../sass/partials/modules/_news.scss */
 .information-main p {
   width: 100%;
 }
 
-/* line 129, ../sass/partials/modules/_news.scss */
+/* line 128, ../sass/partials/modules/_news.scss */
 .title-main {
   font-size: 32px;
   font-size: 3.2rem;
@@ -963,8 +962,7 @@ header .content-navigation-primary a {
   font-size: 14px;
   font-size: 1.4rem;
   font-weight: bold;
-  float: left;
-  border: solid 1px;
+  float: right;
   padding: 5px;
 }
 

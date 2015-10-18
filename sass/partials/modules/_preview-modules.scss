@@ -82,6 +82,7 @@
 	    height: 21.5rem;
 		width: 100%;
 		z-index: 2000;
+		-webkit-transition: 1s;
 
 	}
 
@@ -97,6 +98,7 @@
 		display: block;
 		border-bottom: 2px solid $light-blue;
 		width: 42%;
+		-webkit-transition: 1s;
 	}
 	.subtitle-preview-module {
 

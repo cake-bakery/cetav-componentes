@@ -1249,7 +1249,8 @@ info-container {
     margin-top: 20rem;
     height: 21.5rem;
     width: 100%;
-    z-index: 2000; }
+    z-index: 2000;
+    -webkit-transition: 1s; }
   .preview-squares-module-first .title-preview-module {
     font-size: 20px;
     font-size: 2rem;
@@ -1260,7 +1261,8 @@ info-container {
     color: #00c9ed;
     display: block;
     border-bottom: 2px solid #00c9ed;
-    width: 42%; }
+    width: 42%;
+    -webkit-transition: 1s; }
   .preview-squares-module-first .subtitle-preview-module {
     font-size: 16px;
     font-size: 1.6rem;

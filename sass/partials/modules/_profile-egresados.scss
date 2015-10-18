@@ -24,7 +24,8 @@
 	margin: 1.5rem 0.7rem;
 }
 .list-aside-profile-info {
- color: $grey;
+	color: $grey;
+	list-style: none;
 }
 
 .img-profile{
@@ -100,7 +101,9 @@
 	line-height: 2.7rem
 }
 
-    
+info-container{
+	margin-left: 34px;
+}
 
 
 

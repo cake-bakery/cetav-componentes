@@ -831,6 +831,7 @@ header {
       font-size: 18px;
       font-size: 1.8rem;
       border: 1px solid #505050;
+      border-radius: 3px;
       background: none;
       color: #505050;
       width: 45%;

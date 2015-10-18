@@ -29,6 +29,7 @@
 		.generations-intro-button{
 			@include font-size(18);
 			border: 1px solid $grey;
+			border-radius: 3px;
 			background: none;
 			color: $grey;
 			width: 45%;

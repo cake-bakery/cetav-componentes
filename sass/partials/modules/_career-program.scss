@@ -1,4 +1,10 @@
+.career-program {
+	background-color: $grey;
+	position: relative;
+	padding-top: 5rem;
+}
 .program-preview {
+	z-index: 2;
 	height: 33rem;
 	background-color: $white;
 	@media(min-width: 980px){
@@ -15,6 +21,7 @@
 
 .list-program-preview {
 	padding: 0 1.5rem;
+	z-index: 2;
 
 	li {
 		display: block;
@@ -29,7 +36,6 @@
 
 	}
 }
-
 
 .background-color-post {
  background-color: $post-color;
@@ -53,4 +59,16 @@
 
 .border-color-animacion {
  border: 2px solid $animacion-color;
+}
+
+.career-program::after {
+  content: "";
+  background-image: url(../img/background-ddw.jpg);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 1;   
 }

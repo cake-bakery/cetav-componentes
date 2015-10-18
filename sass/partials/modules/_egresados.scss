@@ -2,7 +2,6 @@
 	width: 100%;
 	margin: 20px 0;
 	text-align: center;
-	background-color: #efeded;
 	position: relative;
 	float: right;
 }
@@ -18,17 +17,16 @@
 .graduates-list img{
 	float: left;
 	border-radius: 100%;
-	margin: 1rem;
-	margin-left: 2rem;
+	padding: 5px;
 	width: 120px;
+    margin: 1rem 2rem 1rem 2rem;
+	border: solid 1px #eee;
+    box-shadow: 0px 6px 7px -2px #999;
 }
 
 .graduate-details{
-	background-color: #efeded;
-	position: relative;
-	float: right;
 	text-align: left;
-	padding: 2rem 145px 2rem 0;
+	padding: 1rem 0;
 }
 	
 .tittle-profile-preview {
@@ -46,13 +44,10 @@
 }
 
 .see-profile {
-	color: #fff;
-	padding: 1rem 2rem;
-	float: right;
-	position: absolute;
+	color: #ff8f00;
 	font-size: 14px;
 	font-size: 1.4rem;
-	width: 10rem;
-	top: 24px;
-	right: 24px;
+	font-weight: bold;
+    float: right;
+    padding: 5px;
 }

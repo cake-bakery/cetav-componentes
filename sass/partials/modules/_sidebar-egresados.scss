@@ -46,8 +46,44 @@
     font-family: "Open Sans", sans-serif;
     margin-right: 10px;
 }
-
-
+//--------------------First-proposal-------------------------
+.container-egresado{
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	.container-sidebar{
+		float: left;
+		display: inline-block;
+		background-color: $grey-dark;
+		padding: 48px;
+    width: 27%;
+    color: $white;
+		input{
+			display: list-item;
+			float: left;
+			margin-right: 6px;
+		}
+		p{
+			margin-top: -5px;
+			margin-bottom: 7px;
+		}
+		.content-career{
+			margin-bottom: 23px;
+		}
+		.content-availabity{
+			margin-bottom: 23px;
+		}
+		.sidebar-title{
+			@include font-size(20);
+			font-family: $montserrat;
+			margin-bottom: 10px;
+		}
+	}
+	.container-list{
+		float: right;
+	}
+}
 
 
 

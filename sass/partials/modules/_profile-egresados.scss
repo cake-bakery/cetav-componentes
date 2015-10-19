@@ -104,9 +104,114 @@
 info-container{
 	margin-left: 34px;
 }
-
-
-
+//-------------------------First-Proposal------------------
+.modules{
+	max-width: 1000px;
+	margin: 0 auto;
+	width: 100%;
+	.info-contact{
+		background-color: $grey-dark;
+		overflow: hidden;
+		float: left;
+		width: 28%;
+		position: relative;
+		p{
+  		@include font-size(14);
+			font-family: $open-sans;
+			margin-top: 15px;
+    	margin-bottom: 15px;
+		}
+	}
+	.profile-img{
+    height: 275px;
+    width: 285px;
+  }
+  .info-name{
+  	@include font-size(25);
+  	font-family: $montserrat;
+  	margin-bottom: 4px;
+  	margin-left: 14px;
+  	position: absolute;
+    top: 201px;
+    color: $white;
+    text-shadow: #555 2px 2px 3px;
+  }
+  .info-profession{
+  	@include font-size(15);
+  	padding-right: 68px;
+  	padding-bottom: 7px;
+  	margin-left: 14px;
+  	position: absolute;
+    top: 236px;
+    color: $white;
+    text-shadow: #000 2px 2px 3px;
+    font-weight: bold;
+  }
+  .info-personal{
+  	color: $grey-light;
+  	padding: 10px 27px;
+    margin-left: 5px;
+    a{
+  		vertical-align: top;
+  		margin-right: 30px;
+  		&:hover{
+				border-bottom: none;
+			}
+  	}
+  	svg{
+  		width: 20%;
+  	}
+  	.facebook-icon {
+			fill: $white;
+			height: 40px;
+			margin-top: 20px;
+			width: 40px;
+			&:hover{
+			  cursor: pointer;
+			  fill: #4966a7; 
+			}
+		}
+		.vimeo-icon {
+			fill: $white;
+			height: 40px;
+			width: 40px;
+			&:hover{
+			  cursor: pointer;
+			  fill: #17b3e8; 
+			}
+		}
+  	.info-personal-availabily{
+  		@include font-size(20);
+  		font-family: $montserrat;
+  		color: $orange;
+  	}
+  }
+  .details-graduate{
+  	float: right;
+  	width: 65%;
+  	p{
+  		@include font-size(16);
+  		font-family: $open-sans;
+  		color: $grey;
+			border-bottom: 1px solid $white;
+  	}
+  }
+  .detail-graduate-title{
+  	@include font-size(20);
+  	font-family: $montserrat;
+  	color: $orange;
+  	margin-top: 16px;
+  	margin-bottom: 8px;
+  	&:nth-child(1){
+			margin-top: 0;
+  	}
+  }
+  .detail-graduate-list-items{
+  	@include font-size(16);
+  	list-style: none;
+  	color: $grey;
+  }
+}
 
 
 		

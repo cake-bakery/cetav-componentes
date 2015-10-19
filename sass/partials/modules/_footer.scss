@@ -91,24 +91,5 @@
 				border-bottom: none;
 			}
 		}
-		.facebook-icon {
-			fill: $white;
-			height: 40px;
-			margin-top: 20px;
-			width: 40px;
-			&:hover{
-			  cursor: pointer;
-			  fill: #4966a7; 
-			}
-		}
-		.vimeo-icon {
-			fill: $white;
-			height: 40px;
-			width: 40px;
-			&:hover{
-			  cursor: pointer;
-			   fill: #17b3e8; 
-			}
-		}
 	}	
 }

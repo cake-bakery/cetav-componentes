@@ -24,4 +24,5 @@ getId("search-button").onclick = function() {
 
 getId("go-search").onclick = function() {
 getId("container-header").classList.remove('show-search');
+search = false;
 };

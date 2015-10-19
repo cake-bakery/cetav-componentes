@@ -1,0 +1,100 @@
+.populars {
+	width: 30%;
+	float: right;
+	background-color: $white;
+	padding:0  2rem;
+	box-shadow: 0px 0px 13px $box-shadow;
+}
+
+.tittle-populars {
+	color: $grey-dark;
+	@include font-size(24);
+	overflow: hidden;
+	position: relative;
+	padding: 3rem 0 1rem;
+	text-align: center;
+}
+
+.tittle-populars:before {
+    position: absolute;
+    top: 65%;
+	left: 0;
+    width: 13%;
+    height: 1px;
+    content: '\a0';
+    background-color: #A8A2A2;
+}
+.tittle-populars:after {
+	position: absolute;
+    top: 65%;
+    overflow: hidden;
+    right: 0;
+    width: 13%;
+    height: 1px;
+    content: '\a0';
+    background-color: #A8A2A2;
+}
+.popular-new {
+	border-bottom: 1px solid #A8A2A2;
+	display: block;
+	padding: 2rem;
+	color: $grey-dark;
+	position: relative;
+	overflow: hidden;
+	&:last-child {
+		border: none;
+	}
+}
+
+.sub-tittle-populars {
+	@include font-size(18);
+	margin-bottom: 1rem;
+}
+
+.date-preview {
+	display: block;
+	@include font-size(12);
+	margin-bottom: 1rem;
+}
+
+.more-preview {
+	color: $orange;
+	@include font-size(12);
+}
+
+.populars2 {
+	box-shadow: none;
+	width: 30%;
+	float: right;
+	background-color: $white;
+	padding:0  2rem;
+
+	.tittle-populars {
+		color: $grey-dark;
+		@include font-size(24);
+		overflow: hidden;
+		position: relative;
+		padding: 0 0 1rem;
+		text-align: center;
+	}
+
+	.tittle-populars:before {
+	    position: absolute;
+	    top: 43%;
+		left: 0;
+	    width: 13%;
+	    height: 1px;
+	    content: '\a0';
+	    background-color: #A8A2A2;
+	}
+	.tittle-populars:after {
+		position: absolute;
+	    top: 43%;
+	    overflow: hidden;
+	    right: 0;
+	    width: 13%;
+	    height: 1px;
+	    content: '\a0';
+	    background-color: #A8A2A2;
+	}
+}

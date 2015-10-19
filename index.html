@@ -13,14 +13,13 @@
 		<section class="modules-total">
 			<h2 class="title-section">Navegación</h2>
 			<header>
-				<div class="container-header">
+				<div id="container-header" class="container-header">
 					<div class="content-navigation">
 						<nav class="content-navigation-secondary">
 							<a href="#">La Institución</a>
 							<a href="#">Generaciones</a>
 							<a href="#">Noticias</a>
 							<a href="#">Mi cuenta</a>
-							<img src="img/search.png" alt=""/>
 						</nav><!--navigation-secondary-->
 					</div><!--content-navigation-->
 					<div class="content-navigation">
@@ -31,8 +30,15 @@
 							<a href="#">Cursos Libres</a>
 							<a href="#">Servicios</a>
 							<a href="#">Egresados</a>
+							<button id="search-button" class="button-search">Buscar</button>
 						</nav><!--navigation-primary-->
+
 					</div><!--content-navigation-->
+					<div class="search-box">
+						<input class="search-input" type="text" placeholder="Buscar">
+					<button id="go-search"class="go-search">Buscar</button>
+					</div>
+					
 				</div><!-- container-header -->
 			</header><!--Header navigation-->
 		</section><!--modules-standart-->
@@ -886,5 +892,6 @@ responsivo</p></li>
 				</ul><!--footer-list-->		
 			</footer><!--end-footer-->
 		</section><!--modules-standart-->	
+		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>

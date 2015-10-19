@@ -1,49 +1,115 @@
 header{
-	padding-top: 10px;
-	width: 100%;
-	max-width: 1000px;
-	margin: 0 auto;
-	.logo-cetav-img{
-		float: left;
-		width: 120px;
-		margin-left: 23px;
-	}
-	.content-navigation{
-		overflow: hidden;
-		&:nth-of-type(1){
-			background: $grey;
-			padding: 10px 0;
-		}
-		&:nth-of-type(2){
-			background-color: $grey-dark;
-			padding: 10px 0;
-		}
-	}
-	.content-navigation-secondary{
-		float: right;
-		margin-right: 23px;
-		a{
-			@include font-size(12);
-			font-family: $montserrat;
-			margin-right: 20px;
-			color: $white;
-			&:hover{
-				border-bottom: 1px solid $white;
-			}
-		}
-		img{
-			width: 14px;
-		}
-	}
-	.content-navigation-primary{
-		float: right;
-		margin-top: 17px;
-		margin-right: 23px;
-		a{
-			@include font-size(14);
-			font-family: $montserrat;
-			margin-left: 20px;
-			color: $white;
-		}
-	}
+  padding-top: 10px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  .logo-cetav-img{
+    float: left;
+    width: 120px;
+    margin-left: 23px;
+  }
+
+  .container-header {
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: padding 1s;
+  }
+  .content-navigation{
+    position: relative;
+    overflow: hidden;
+    z-index: 20;
+    &:nth-of-type(1){
+      background: $grey;
+      padding: 10px 0;
+    }
+    &:nth-of-type(2){
+      background-color: $grey-dark;
+      padding: 10px 0;
+      
+    }
+  }
+  .content-navigation-secondary{
+    float: right;
+    margin-right: 23px;
+
+    a{
+      @include font-size(12);
+      font-family: $montserrat;
+      margin-right: 20px;
+      color: $white;
+      &:hover{
+        border-bottom: 1px solid $white;
+      }
+    }
+    img{
+      width: 14px;
+    }
+  }
+  .content-navigation-primary{
+    float: right;
+    line-height: 5.5rem;
+    margin-right: 30px;
+    overflow: hidden;
+    position: relative;
+    a{
+      @include font-size(14);
+      font-family: $montserrat;
+      margin-left: 20px;
+      color: $white;
+    }
+  }
+  .button-search {
+    background-image: url(../img/search.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center;
+    background-size: contain;
+    text-indent: -200000%;
+    border: none;
+    position: relative;
+    margin: 0 1rem 1rem 1rem;
+    width: 2rem;
+    height: 2rem;
+    
+  }
+}
+
+.search-box {
+  bottom: 0rem;
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+
+.search-input {
+  background-color: $grey-light;
+  border: none;
+  float: left;
+  @include font-size(18);
+  height: 6rem;
+  padding: 0 2rem;
+  width: 90%;
+  z-index: 10;
+}
+
+.go-search {
+  display: block;
+  background-image: url(../img/search-white.png);
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: center;
+  background-size: 3rem;
+  background-color: $success-green;
+  text-indent: -200000%;
+  border: none;
+  padding-top: 1rem;
+  position: relative;
+  height: 6rem;
+  float: right;
+  width: 10%;
+}
+
+.show-search{
+  padding-bottom: 6rem;
+  -webkit-transition:1s;
 }

@@ -245,6 +245,40 @@ iframe {
     font-size: 17px;
     font-size: 1.7rem;
     margin: 0; } }
+.post {
+  border: 3px solid #819535; }
+
+.web {
+  border: 3px solid #922716; }
+
+.animation {
+  border: 3px solid #cc6220; }
+
+.facebook-icon {
+  fill: #fff;
+  height: 40px;
+  margin-top: 20px;
+  width: 40px; }
+  .facebook-icon:hover {
+    cursor: pointer;
+    fill: #4966a7; }
+
+.vimeo-icon {
+  fill: #fff;
+  height: 40px;
+  width: 40px; }
+  .vimeo-icon:hover {
+    cursor: pointer;
+    fill: #17b3e8; }
+
+.twitter-icon {
+  fill: #fff;
+  height: 40px;
+  width: 40px; }
+  .twitter-icon:hover {
+    cursor: pointer;
+    fill: #17b3e8; }
+
 .wrapper {
   max-width: 1000px;
   margin: 0 auto; }
@@ -416,21 +450,6 @@ header {
       margin-right: 15px; }
     .footer .icons-rs a:hover {
       border-bottom: none; }
-    .footer .icons-rs .facebook-icon {
-      fill: #fff;
-      height: 40px;
-      margin-top: 20px;
-      width: 40px; }
-      .footer .icons-rs .facebook-icon:hover {
-        cursor: pointer;
-        fill: #4966a7; }
-    .footer .icons-rs .vimeo-icon {
-      fill: #fff;
-      height: 40px;
-      width: 40px; }
-      .footer .icons-rs .vimeo-icon:hover {
-        cursor: pointer;
-        fill: #17b3e8; }
 
 .container-admission {
   margin: 0 auto;
@@ -811,6 +830,49 @@ header {
   float: right;
   padding: 5px; }
 
+.content-graduate {
+  display: inline-block;
+  vertical-align: top;
+  width: 22%; }
+  .content-graduate img {
+    width: 209px;
+    height: 193px; }
+  .content-graduate .graduate-intro {
+    background-color: #ECECEC;
+    border-bottom: 1px solid;
+    width: 95%;
+    margin-top: -2px;
+    padding: 11px;
+    text-align: center; }
+  .content-graduate .intro-title {
+    font-size: 19px;
+    font-size: 1.9rem;
+    font-family: "Montserrat", sans-serif;
+    margin: 0 0 6px;
+    color: #292929; }
+  .content-graduate .intro-profession {
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-family: "Montserrat", sans-serif;
+    color: #292929; }
+  .content-graduate .content-tag {
+    background-color: #ECECEC;
+    width: 95%;
+    padding: 11px;
+    text-align: center; }
+  .content-graduate .intro-tag {
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-family: "Open Sans", sans-serif;
+    display: list-item;
+    list-style: none;
+    margin-bottom: 6px; }
+  .content-graduate a {
+    color: #292929;
+    border: 1px solid;
+    padding: 4px;
+    border-radius: 3px; }
+
 .filters {
   color: #575757;
   border-radius: 20px;
@@ -860,10 +922,11 @@ header {
   .container-egresado .container-sidebar {
     float: left;
     display: inline-block;
-    background-color: #292929;
+    background-color: #ECECEC;
     padding: 48px;
     width: 27%;
-    color: #fff; }
+    color: #292929;
+    margin-right: 63px; }
     .container-egresado .container-sidebar input {
       display: list-item;
       float: left;
@@ -880,8 +943,6 @@ header {
       font-size: 2rem;
       font-family: "Montserrat", sans-serif;
       margin-bottom: 10px; }
-  .container-egresado .container-list {
-    float: right; }
 
 .graduate-info {
   width: 100%;
@@ -972,6 +1033,101 @@ header {
 
 info-container {
   margin-left: 34px; }
+
+.modules {
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%; }
+  .modules .info-contact {
+    background-color: #292929;
+    overflow: hidden;
+    float: left;
+    width: 28%;
+    position: relative; }
+    .modules .info-contact p {
+      font-size: 14px;
+      font-size: 1.4rem;
+      font-family: "Open Sans", sans-serif;
+      margin-top: 15px;
+      margin-bottom: 15px; }
+  .modules .profile-img {
+    height: 275px;
+    width: 285px; }
+  .modules .info-name {
+    font-size: 25px;
+    font-size: 2.5rem;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 4px;
+    margin-left: 14px;
+    position: absolute;
+    top: 201px;
+    color: #fff;
+    text-shadow: #555 2px 2px 3px; }
+  .modules .info-profession {
+    font-size: 15px;
+    font-size: 1.5rem;
+    padding-right: 68px;
+    padding-bottom: 7px;
+    margin-left: 14px;
+    position: absolute;
+    top: 236px;
+    color: #fff;
+    text-shadow: #000 2px 2px 3px;
+    font-weight: bold; }
+  .modules .info-personal {
+    color: #ECECEC;
+    padding: 10px 27px;
+    margin-left: 5px; }
+    .modules .info-personal a {
+      vertical-align: top;
+      margin-right: 30px; }
+      .modules .info-personal a:hover {
+        border-bottom: none; }
+    .modules .info-personal svg {
+      width: 20%; }
+    .modules .info-personal .facebook-icon {
+      fill: #fff;
+      height: 40px;
+      margin-top: 20px;
+      width: 40px; }
+      .modules .info-personal .facebook-icon:hover {
+        cursor: pointer;
+        fill: #4966a7; }
+    .modules .info-personal .vimeo-icon {
+      fill: #fff;
+      height: 40px;
+      width: 40px; }
+      .modules .info-personal .vimeo-icon:hover {
+        cursor: pointer;
+        fill: #17b3e8; }
+    .modules .info-personal .info-personal-availabily {
+      font-size: 20px;
+      font-size: 2rem;
+      font-family: "Montserrat", sans-serif;
+      color: #ff8f00; }
+  .modules .details-graduate {
+    float: right;
+    width: 65%; }
+    .modules .details-graduate p {
+      font-size: 16px;
+      font-size: 1.6rem;
+      font-family: "Open Sans", sans-serif;
+      color: #505050;
+      border-bottom: 1px solid #fff; }
+  .modules .detail-graduate-title {
+    font-size: 20px;
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
+    color: #ff8f00;
+    margin-top: 16px;
+    margin-bottom: 8px; }
+    .modules .detail-graduate-title:nth-child(1) {
+      margin-top: 0; }
+  .modules .detail-graduate-list-items {
+    font-size: 16px;
+    font-size: 1.6rem;
+    list-style: none;
+    color: #505050; }
 
 .container-generations {
   margin: 0 auto;

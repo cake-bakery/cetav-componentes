@@ -55,10 +55,11 @@
 	.container-sidebar{
 		float: left;
 		display: inline-block;
-		background-color: $grey-dark;
+		background-color: $grey-light;
 		padding: 48px;
     width: 27%;
-    color: $white;
+    color: $grey-dark;
+    margin-right: 63px;
 		input{
 			display: list-item;
 			float: left;
@@ -79,9 +80,6 @@
 			font-family: $montserrat;
 			margin-bottom: 10px;
 		}
-	}
-	.container-list{
-		float: right;
 	}
 }
 

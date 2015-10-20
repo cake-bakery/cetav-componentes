@@ -66,11 +66,11 @@ header{
     background-size: contain;
     text-indent: -200000%;
     border: none;
+    outline: none;
     position: relative;
     margin: 0 1rem 1rem 1rem;
     width: 2rem;
     height: 2rem;
-    
   }
 }
 
@@ -90,6 +90,7 @@ header{
   padding: 0 2rem;
   width: 90%;
   z-index: 10;
+  outline: none;
 }
 
 .go-search {
@@ -107,6 +108,7 @@ header{
   height: 6rem;
   float: right;
   width: 10%;
+  outline: none;
 }
 
 .show-search{

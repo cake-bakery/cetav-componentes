@@ -383,6 +383,7 @@ header {
     background-size: contain;
     text-indent: -200000%;
     border: none;
+    outline: none;
     position: relative;
     margin: 0 1rem 1rem 1rem;
     width: 2rem;
@@ -403,7 +404,8 @@ header {
   height: 6rem;
   padding: 0 2rem;
   width: 90%;
-  z-index: 10; }
+  z-index: 10;
+  outline: none; }
 
 .go-search {
   display: block;
@@ -419,7 +421,8 @@ header {
   position: relative;
   height: 6rem;
   float: right;
-  width: 10%; }
+  width: 10%;
+  outline: none; }
 
 .show-search {
   padding-bottom: 6rem;
@@ -712,7 +715,7 @@ header {
   width: 100%; }
 
 .information-main {
-  padding: 3rem; }
+  padding: 5rem; }
 
 .title-main {
   border-bottom: 1px solid #A8A2A2;
@@ -1583,9 +1586,9 @@ info-container {
     height: auto;
     z-index: 1000; }
   .preview-squares-module-first .square-preview-hover:hover .info-preview-module {
-    margin-top: 15rem;
-    height: 26.5rem;
-    padding: 6.5rem 3rem 6.5rem;
+    margin-top: 19rem;
+    height: 22.5rem;
+    padding: 3.5rem 3rem 0.5rem;
     -webkit-transition: 1s; }
   .preview-squares-module-first .square-preview-hover:hover .bottom-line {
     width: 100%;

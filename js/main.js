@@ -10,19 +10,11 @@ function getId(c){
  return elElemento;
 }
 
-var search = false;
+
 getId("search-button").onclick = function() {
-	if (!search) {
-		getId("container-header").classList.add('show-search');
-		search = true;
-	}else{
-		var id = this.getAttribute("data-menu");
-		getId("container-header").classList.remove('show-search');
-		search = false;
-	}
+		getId("container-header").classList.toggle('show-search');	
 };
 
 getId("go-search").onclick = function() {
-getId("container-header").classList.remove('show-search');
-search = false;
+getId("container-header").classList.toggle('show-search');
 };

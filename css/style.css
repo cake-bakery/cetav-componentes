@@ -1768,97 +1768,109 @@ info-container {
   color: #505050;
 }
 
-/* line 3, ../sass/partials/modules/_testimonials.scss */
+/* line 1, ../sass/partials/modules/_testimonials.scss */
+.testimonial-center {
+  margin-left: 10%;
+}
+
+/* line 6, ../sass/partials/modules/_testimonials.scss */
 .container-testimonials-post .testimonials-list-items:first-child {
   background-color: #819535;
 }
-/* line 7, ../sass/partials/modules/_testimonials.scss */
+/* line 10, ../sass/partials/modules/_testimonials.scss */
 .container-testimonials-post .triangle {
   border-color: #819535 transparent transparent transparent;
 }
 
-/* line 13, ../sass/partials/modules/_testimonials.scss */
+/* line 16, ../sass/partials/modules/_testimonials.scss */
 .container-testimonials-animacion .testimonials-list-items:first-child {
   background-color: #cc6220;
 }
-/* line 17, ../sass/partials/modules/_testimonials.scss */
+/* line 20, ../sass/partials/modules/_testimonials.scss */
 .container-testimonials-animacion .triangle {
   border-color: #cc6220 transparent transparent transparent;
 }
 
-/* line 23, ../sass/partials/modules/_testimonials.scss */
+/* line 26, ../sass/partials/modules/_testimonials.scss */
 .container-testimonials-ddw .testimonials-list-items:first-child {
   background-color: #922716;
 }
-/* line 27, ../sass/partials/modules/_testimonials.scss */
+/* line 30, ../sass/partials/modules/_testimonials.scss */
 .container-testimonials-ddw .triangle {
   border-color: #922716 transparent transparent transparent;
 }
 
-/* line 31, ../sass/partials/modules/_testimonials.scss */
+/* line 34, ../sass/partials/modules/_testimonials.scss */
 .container-testimonials {
   margin: 0 1rem;
   max-width: 1000px;
   overflow: hidden;
-  width: 20%;
-  display: inline-block;
 }
-/* line 39, ../sass/partials/modules/_testimonials.scss */
+/* line 38, ../sass/partials/modules/_testimonials.scss */
 .container-testimonials .testimonials-list-items {
   list-style: none;
   text-align: center;
   margin-bottom: 2rem;
 }
 @media (min-width: 480px) {
-  /* line 39, ../sass/partials/modules/_testimonials.scss */
+  /* line 38, ../sass/partials/modules/_testimonials.scss */
   .container-testimonials .testimonials-list-items {
     vertical-align: top;
     margin-bottom: -5px;
   }
 }
-/* line 47, ../sass/partials/modules/_testimonials.scss */
+/* line 46, ../sass/partials/modules/_testimonials.scss */
 .container-testimonials .testimonials-list-items img {
   overflow: hidden;
-  width: 100%;
-  margin-bottom: 5px;
-  box-shadow: 1px 3px 4px 0px #999;
+  width: 19.5%;
+  float: left;
 }
-/* line 53, ../sass/partials/modules/_testimonials.scss */
+/* line 51, ../sass/partials/modules/_testimonials.scss */
+.container-testimonials .testimonials-list-items .testimonials-list-container {
+  padding: 2rem 5% 0 26%;
+}
+/* line 54, ../sass/partials/modules/_testimonials.scss */
+.container-testimonials .testimonials-list-items .testimonial-profession {
+  float: right;
+  margin: 0 10px;
+  color: white;
+  font-size: 13px;
+  border-bottom: solid 1px;
+}
+/* line 61, ../sass/partials/modules/_testimonials.scss */
 .container-testimonials .testimonials-list-items:first-child {
   color: white;
   margin-bottom: 0rem;
 }
 @media (min-width: 480px) {
-  /* line 53, ../sass/partials/modules/_testimonials.scss */
+  /* line 61, ../sass/partials/modules/_testimonials.scss */
   .container-testimonials .testimonials-list-items:first-child {
     width: 62%;
   }
 }
 @media (min-width: 620px) {
-  /* line 53, ../sass/partials/modules/_testimonials.scss */
+  /* line 61, ../sass/partials/modules/_testimonials.scss */
   .container-testimonials .testimonials-list-items:first-child {
-    padding: 2rem 5%;
     padding: 0;
     width: 70%;
   }
 }
 @media (min-width: 740px) {
-  /* line 53, ../sass/partials/modules/_testimonials.scss */
+  /* line 61, ../sass/partials/modules/_testimonials.scss */
   .container-testimonials .testimonials-list-items:first-child {
-    padding: 2rem 5%;
     min-height: 15rem;
-    width: 100%;
+    float: right;
+    width: 83.6%;
   }
 }
 @media (min-width: 980px) {
-  /* line 53, ../sass/partials/modules/_testimonials.scss */
+  /* line 61, ../sass/partials/modules/_testimonials.scss */
   .container-testimonials .testimonials-list-items:first-child {
-    padding: 2rem 4%;
-    width: 100%;
+    width: 85%;
     margin-bottom: 20px;
   }
 }
-/* line 75, ../sass/partials/modules/_testimonials.scss */
+/* line 81, ../sass/partials/modules/_testimonials.scss */
 .container-testimonials .testimonials-list-items .testimonials-list-items-title {
   font-size: 20px;
   font-size: 2rem;
@@ -1868,7 +1880,7 @@ info-container {
   margin-top: 0;
   padding-bottom: 1rem;
 }
-/* line 83, ../sass/partials/modules/_testimonials.scss */
+/* line 89, ../sass/partials/modules/_testimonials.scss */
 .container-testimonials .testimonials-list-items p {
   padding-top: 1rem;
   font-size: 16px;
@@ -1876,12 +1888,12 @@ info-container {
   font-family: "Open Sans", sans-serif;
 }
 
-/* line 91, ../sass/partials/modules/_testimonials.scss */
+/* line 97, ../sass/partials/modules/_testimonials.scss */
 .triangle {
   display: none;
 }
 @media (min-width: 740px) {
-  /* line 91, ../sass/partials/modules/_testimonials.scss */
+  /* line 97, ../sass/partials/modules/_testimonials.scss */
   .triangle {
     border-style: solid;
     border-width: 15px 10px 0px 10px;
@@ -1898,34 +1910,34 @@ info-container {
 /*
 **Segunda propuesta de los testimonios**
 */
-/* line 113, ../sass/partials/modules/_testimonials.scss */
+/* line 119, ../sass/partials/modules/_testimonials.scss */
 .container-testimonials-post-two h3 {
   color: #819535;
 }
-/* line 116, ../sass/partials/modules/_testimonials.scss */
+/* line 122, ../sass/partials/modules/_testimonials.scss */
 .container-testimonials-post-two .profession-two {
   color: #819535;
 }
 
-/* line 121, ../sass/partials/modules/_testimonials.scss */
+/* line 127, ../sass/partials/modules/_testimonials.scss */
 .container-testimonials-animacion-two h3 {
   color: #cc6220;
 }
-/* line 124, ../sass/partials/modules/_testimonials.scss */
+/* line 130, ../sass/partials/modules/_testimonials.scss */
 .container-testimonials-animacion-two .profession-two {
   color: #cc6220;
 }
 
-/* line 129, ../sass/partials/modules/_testimonials.scss */
+/* line 135, ../sass/partials/modules/_testimonials.scss */
 .container-testimonials-ddw-two h3 {
   color: #922716;
 }
-/* line 133, ../sass/partials/modules/_testimonials.scss */
+/* line 139, ../sass/partials/modules/_testimonials.scss */
 .container-testimonials-ddw-two .profession-two {
   color: #922716;
 }
 
-/* line 137, ../sass/partials/modules/_testimonials.scss */
+/* line 143, ../sass/partials/modules/_testimonials.scss */
 .container-testimonials-two {
   background-color: white;
   box-shadow: 0px 0px 13px #c2bebe;
@@ -1935,38 +1947,38 @@ info-container {
   width: 20%;
   display: inline-block;
 }
-/* line 147, ../sass/partials/modules/_testimonials.scss */
+/* line 153, ../sass/partials/modules/_testimonials.scss */
 .container-testimonials-two .testimonials-list-items-two {
   list-style: none;
   text-align: center;
   margin-bottom: 2rem;
 }
 @media (min-width: 480px) {
-  /* line 147, ../sass/partials/modules/_testimonials.scss */
+  /* line 153, ../sass/partials/modules/_testimonials.scss */
   .container-testimonials-two .testimonials-list-items-two {
     vertical-align: top;
     margin-bottom: -5px;
   }
 }
-/* line 155, ../sass/partials/modules/_testimonials.scss */
+/* line 161, ../sass/partials/modules/_testimonials.scss */
 .container-testimonials-two .testimonials-list-items-two img {
   overflow: hidden;
   width: 100%;
   margin-bottom: 5px;
 }
-/* line 160, ../sass/partials/modules/_testimonials.scss */
+/* line 166, ../sass/partials/modules/_testimonials.scss */
 .container-testimonials-two .testimonials-list-items-two:nth-child(2) {
   color: #000;
   margin-bottom: 0rem;
 }
 @media (min-width: 480px) {
-  /* line 160, ../sass/partials/modules/_testimonials.scss */
+  /* line 166, ../sass/partials/modules/_testimonials.scss */
   .container-testimonials-two .testimonials-list-items-two:nth-child(2) {
     width: 62%;
   }
 }
 @media (min-width: 620px) {
-  /* line 160, ../sass/partials/modules/_testimonials.scss */
+  /* line 166, ../sass/partials/modules/_testimonials.scss */
   .container-testimonials-two .testimonials-list-items-two:nth-child(2) {
     padding: 2rem 5%;
     padding: 0;
@@ -1974,7 +1986,7 @@ info-container {
   }
 }
 @media (min-width: 740px) {
-  /* line 160, ../sass/partials/modules/_testimonials.scss */
+  /* line 166, ../sass/partials/modules/_testimonials.scss */
   .container-testimonials-two .testimonials-list-items-two:nth-child(2) {
     padding: 2rem 5%;
     min-height: 15rem;
@@ -1982,14 +1994,14 @@ info-container {
   }
 }
 @media (min-width: 980px) {
-  /* line 160, ../sass/partials/modules/_testimonials.scss */
+  /* line 166, ../sass/partials/modules/_testimonials.scss */
   .container-testimonials-two .testimonials-list-items-two:nth-child(2) {
     padding: 2rem 4%;
     width: 100%;
     margin-bottom: 20px;
   }
 }
-/* line 182, ../sass/partials/modules/_testimonials.scss */
+/* line 188, ../sass/partials/modules/_testimonials.scss */
 .container-testimonials-two .testimonials-list-items-two .testimonials-list-items-title-two {
   font-size: 20px;
   font-size: 2rem;
@@ -1999,7 +2011,7 @@ info-container {
   margin-top: 0;
   padding-bottom: 1rem;
 }
-/* line 190, ../sass/partials/modules/_testimonials.scss */
+/* line 196, ../sass/partials/modules/_testimonials.scss */
 .container-testimonials-two .testimonials-list-items-two p {
   padding-top: 1rem;
   font-size: 16px;
@@ -2007,13 +2019,13 @@ info-container {
   font-family: "Open Sans", sans-serif;
 }
 
-/* line 198, ../sass/partials/modules/_testimonials.scss */
+/* line 204, ../sass/partials/modules/_testimonials.scss */
 .profession-two {
   font-size: 13px;
   margin-top: 10px;
 }
 
-/* line 203, ../sass/partials/modules/_testimonials.scss */
+/* line 209, ../sass/partials/modules/_testimonials.scss */
 .second-testimonial-list {
   background-color: #ececec;
 }
@@ -2030,82 +2042,96 @@ info-container {
   text-align: center;
 }
 /* line 9, ../sass/partials/modules/_administrative-personal.scss */
+.container-personal .personal-link-container {
+  background-color: white;
+  width: 130px;
+  margin: 0 auto;
+}
+/* line 14, ../sass/partials/modules/_administrative-personal.scss */
+.container-personal .personal-list-border {
+  border: solid 1px;
+  padding: 10px;
+  height: 311px;
+}
+/* line 19, ../sass/partials/modules/_administrative-personal.scss */
 .container-personal .personal-list-items {
   display: inline-block;
   margin: 0;
 }
-/* line 12, ../sass/partials/modules/_administrative-personal.scss */
+/* line 23, ../sass/partials/modules/_administrative-personal.scss */
 .container-personal .personal-list-items img {
   overflow: hidden;
-  width: 20rem;
-  height: 20rem;
+  width: 17rem;
+  height: 17rem;
   box-shadow: 1px 3px 4px 0px #999;
 }
 @media (min-width: 319px) {
-  /* line 9, ../sass/partials/modules/_administrative-personal.scss */
+  /* line 19, ../sass/partials/modules/_administrative-personal.scss */
   .container-personal .personal-list-items {
     width: 80%;
     margin: 40px 10%;
   }
 }
 @media (min-width: 480px) {
-  /* line 9, ../sass/partials/modules/_administrative-personal.scss */
+  /* line 19, ../sass/partials/modules/_administrative-personal.scss */
   .container-personal .personal-list-items {
     width: 41%;
     margin: 5rem 4%;
   }
 }
 @media (min-width: 680px) {
-  /* line 9, ../sass/partials/modules/_administrative-personal.scss */
+  /* line 19, ../sass/partials/modules/_administrative-personal.scss */
   .container-personal .personal-list-items {
     width: 30%;
     margin: 5rem 5%;
   }
 }
 @media (min-width: 980px) {
-  /* line 9, ../sass/partials/modules/_administrative-personal.scss */
+  /* line 19, ../sass/partials/modules/_administrative-personal.scss */
   .container-personal .personal-list-items {
     width: 20%;
     margin: 5rem 2%;
   }
 }
-/* line 34, ../sass/partials/modules/_administrative-personal.scss */
+/* line 45, ../sass/partials/modules/_administrative-personal.scss */
 .container-personal .personal-list-items .personal-list-items-title {
   font-size: 20px;
   font-size: 2rem;
   font-family: "Montserrat", sans-serif;
   padding: 7px;
   border-bottom: solid 1px #505050;
+  margin: 0 auto;
+  width: 165px;
 }
-/* line 40, ../sass/partials/modules/_administrative-personal.scss */
+/* line 53, ../sass/partials/modules/_administrative-personal.scss */
 .container-personal .personal-list-items p {
   font-size: 12px;
   font-size: 1.2rem;
   font-family: "Open Sans", sans-serif;
   color: #292929;
   width: 100%;
-  margin: 6px 0px 12px;
+  margin: 10px 0;
 }
 @media (min-width: 320px) {
-  /* line 40, ../sass/partials/modules/_administrative-personal.scss */
+  /* line 53, ../sass/partials/modules/_administrative-personal.scss */
   .container-personal .personal-list-items p {
     width: 99%;
   }
 }
 @media (min-width: 680px) {
-  /* line 40, ../sass/partials/modules/_administrative-personal.scss */
+  /* line 53, ../sass/partials/modules/_administrative-personal.scss */
   .container-personal .personal-list-items p {
     width: 100%;
   }
 }
-/* line 53, ../sass/partials/modules/_administrative-personal.scss */
+/* line 66, ../sass/partials/modules/_administrative-personal.scss */
 .container-personal .personal-list-items a {
   font-size: 13px;
   font-size: 1.3rem;
   font-family: "Open Sans", sans-serif;
 }
 @media (min-width: 319px) {
-  /* line 53, ../sass/partials/modules/_administrative-personal.scss */
+  /* line 66, ../sass/partials/modules/_administrative-personal.scss */
   .container-personal .personal-list-items a {
     display: block;
     height: 32px;
@@ -2113,20 +2139,20 @@ info-container {
   }
 }
 @media (min-width: 680px) {
-  /* line 53, ../sass/partials/modules/_administrative-personal.scss */
+  /* line 66, ../sass/partials/modules/_administrative-personal.scss */
   .container-personal .personal-list-items a {
     display: inline-block;
     padding: 2px;
   }
 }
-/* line 65, ../sass/partials/modules/_administrative-personal.scss */
+/* line 78, ../sass/partials/modules/_administrative-personal.scss */
 .container-personal .personal-list-items a:nth-of-type(1) {
   margin-bottom: 5px;
   border: 1px solid #4c67a1;
   color: #4c67a1;
 }
 @media (min-width: 680px) {
-  /* line 65, ../sass/partials/modules/_administrative-personal.scss */
+  /* line 78, ../sass/partials/modules/_administrative-personal.scss */
   .container-personal .personal-list-items a:nth-of-type(1) {
     border: none;
     border-right: 1px solid #505050;
@@ -2134,13 +2160,13 @@ info-container {
     height: 19px;
   }
 }
-/* line 76, ../sass/partials/modules/_administrative-personal.scss */
+/* line 89, ../sass/partials/modules/_administrative-personal.scss */
 .container-personal .personal-list-items a:nth-of-type(2) {
   border: 1px solid #55acee;
   color: #55acee;
 }
 @media (min-width: 680px) {
-  /* line 76, ../sass/partials/modules/_administrative-personal.scss */
+  /* line 89, ../sass/partials/modules/_administrative-personal.scss */
   .container-personal .personal-list-items a:nth-of-type(2) {
     border: none;
   }

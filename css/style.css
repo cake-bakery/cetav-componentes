@@ -1944,7 +1944,7 @@ info-container {
   margin: 0 1rem;
   max-width: 1000px;
   overflow: hidden;
-  width: 20%;
+  width: 30%;
   display: inline-block;
 }
 /* line 153, ../sass/partials/modules/_testimonials.scss */
@@ -1963,22 +1963,24 @@ info-container {
 /* line 161, ../sass/partials/modules/_testimonials.scss */
 .container-testimonials-two .testimonials-list-items-two img {
   overflow: hidden;
-  width: 100%;
-  margin-bottom: 5px;
+  width: 75%;
+  margin-top: 15px;
+  border-radius: 100%;
+  box-shadow: 0px 1px 3px 1px #c2bebe;
 }
-/* line 166, ../sass/partials/modules/_testimonials.scss */
+/* line 168, ../sass/partials/modules/_testimonials.scss */
 .container-testimonials-two .testimonials-list-items-two:nth-child(2) {
   color: #000;
   margin-bottom: 0rem;
 }
 @media (min-width: 480px) {
-  /* line 166, ../sass/partials/modules/_testimonials.scss */
+  /* line 168, ../sass/partials/modules/_testimonials.scss */
   .container-testimonials-two .testimonials-list-items-two:nth-child(2) {
     width: 62%;
   }
 }
 @media (min-width: 620px) {
-  /* line 166, ../sass/partials/modules/_testimonials.scss */
+  /* line 168, ../sass/partials/modules/_testimonials.scss */
   .container-testimonials-two .testimonials-list-items-two:nth-child(2) {
     padding: 2rem 5%;
     padding: 0;
@@ -1986,7 +1988,7 @@ info-container {
   }
 }
 @media (min-width: 740px) {
-  /* line 166, ../sass/partials/modules/_testimonials.scss */
+  /* line 168, ../sass/partials/modules/_testimonials.scss */
   .container-testimonials-two .testimonials-list-items-two:nth-child(2) {
     padding: 2rem 5%;
     min-height: 15rem;
@@ -1994,14 +1996,14 @@ info-container {
   }
 }
 @media (min-width: 980px) {
-  /* line 166, ../sass/partials/modules/_testimonials.scss */
+  /* line 168, ../sass/partials/modules/_testimonials.scss */
   .container-testimonials-two .testimonials-list-items-two:nth-child(2) {
     padding: 2rem 4%;
     width: 100%;
     margin-bottom: 20px;
   }
 }
-/* line 188, ../sass/partials/modules/_testimonials.scss */
+/* line 190, ../sass/partials/modules/_testimonials.scss */
 .container-testimonials-two .testimonials-list-items-two .testimonials-list-items-title-two {
   font-size: 20px;
   font-size: 2rem;
@@ -2011,7 +2013,7 @@ info-container {
   margin-top: 0;
   padding-bottom: 1rem;
 }
-/* line 196, ../sass/partials/modules/_testimonials.scss */
+/* line 198, ../sass/partials/modules/_testimonials.scss */
 .container-testimonials-two .testimonials-list-items-two p {
   padding-top: 1rem;
   font-size: 16px;
@@ -2019,13 +2021,13 @@ info-container {
   font-family: "Open Sans", sans-serif;
 }
 
-/* line 204, ../sass/partials/modules/_testimonials.scss */
+/* line 206, ../sass/partials/modules/_testimonials.scss */
 .profession-two {
   font-size: 13px;
   margin-top: 10px;
 }
 
-/* line 209, ../sass/partials/modules/_testimonials.scss */
+/* line 211, ../sass/partials/modules/_testimonials.scss */
 .second-testimonial-list {
   background-color: #ececec;
 }

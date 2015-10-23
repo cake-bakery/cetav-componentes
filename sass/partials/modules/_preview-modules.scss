@@ -57,13 +57,13 @@
 		&:hover {
 			.info-preview-module {
 				    margin-top: 19rem;
-				    height: 22.5rem;
+				    height: 24.5rem;
 				    padding: 3.5rem 3rem 0.5rem;
-				    -webkit-transition: 1s;
+				    -webkit-transition: 0.5s;
 			}
 			.bottom-line {
 				width: 100%;
-				-webkit-transition: 1s;
+				-webkit-transition: 0.5s;
 			}
 		}
 	}
@@ -79,10 +79,10 @@
 		color: $grey;
 		padding:3rem 3rem;
 	    margin-top: 20rem;
-	    height: 21.5rem;
+	    height: 23.5rem;
 		width: 100%;
 		z-index: 2000;
-		-webkit-transition: 1s;
+		-webkit-transition: 0.5s;
 
 	}
 
@@ -106,14 +106,21 @@
 		margin: 1rem 0 0.5rem;
 	}
 	.date-preview-module {
+		display: block;
 		font-family: $open-sans;
-		@include font-size(14);
-		margin: 1.5rem 0 1rem;
+		@include font-size(13);
+		margin: 0.3rem 0 1rem;
 	}
 	.price-preview-module {
+		background-color: $light-blue;
+		border-radius: 5px;
+		color: $white;
+		float: left;
 		font-family: $open-sans;
+		font-weight: bold;
 		@include font-size(16);
 		margin-top: 0.5rem;
+		padding: 0.3rem 0.7rem;
 		display: block;
 	}
 }
@@ -204,7 +211,7 @@
 	}
 
 	.title-preview-module {
-		@include font-size(18);
+		@include font-size(20);
 		font-family: $montserrat;
 		margin-bottom: 2rem;
 
@@ -220,16 +227,22 @@
 		margin: 1rem 0 0.5rem;
 	}
 	.date-preview-module {
+		display: block;
 		font-family: $open-sans;
-		@include font-size(14);
+		@include font-size(12);
 		font-weight: bold;
-		margin: 1.5rem 0 1rem;
+		margin: 0.5rem 0 1.5rem;
 	}
 	.price-preview-module {
+		background-color: $white;
+		color: $light-blue;
 		font-family: $open-sans;
-		@include font-size(14);
+		@include font-size(16);
 		font-weight: bold;
+		float: left;
 		margin-top: 0.5rem;
+		margin-top: 0.5rem;
+		padding: 0.3rem 0.7rem;
 		display: block;
 	}
 }

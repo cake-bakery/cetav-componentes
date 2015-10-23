@@ -35,7 +35,7 @@
     background-color: #A8A2A2;
 }
 .popular-new {
-	border-bottom: 1px solid #A8A2A2;
+	border-bottom: 1px solid $grey-light;
 	display: block;
 	padding: 2rem;
 	color: $grey-dark;
@@ -48,7 +48,7 @@
 
 .sub-tittle-populars {
 	@include font-size(18);
-	margin-bottom: 1rem;
+	margin-bottom: 0.2rem;
 }
 
 .date-preview {
@@ -59,7 +59,7 @@
 
 .more-preview {
 	color: $orange;
-	@include font-size(12);
+	@include font-size(14);
 }
 
 .populars2 {

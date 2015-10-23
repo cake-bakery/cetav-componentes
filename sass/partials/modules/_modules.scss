@@ -58,7 +58,7 @@
 	padding:  1%;
 	max-width: 1000px;
 	margin: 0 auto;
-	}
+}
 .details-subsection {
 	overflow: hidden;
 	padding: 0 2%;
@@ -105,12 +105,12 @@
 	}
 	p {
 		@include font-size(14);
-		margin: 8px 0;
+		margin: 8px 0 0 1rem;
 		
 	}
 	.subtitle-title-details {
-		color: $grey;
-		margin: 24px 0 16px 0;
+		display: block;
+		margin: 3rem 0 16px 1rem;
 		font-weight: bold;
 		@include font-size(16);
 	}
@@ -128,8 +128,14 @@
 	@include font-size(21);
 	max-height: 37px;
 	margin-top: 0;
+	margin-bottom: 2rem;
 	overflow: hidden;
-	padding-bottom: 1rem;
+	padding-bottom: 2rem;
+	img {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
 	h3 {
 		margin-left: 1rem;
 		display: inline-block;

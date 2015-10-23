@@ -959,8 +959,6 @@ header {
     position: absolute;
     left: 245px;
     top: 113px; }
-    .content-graduate .triangle-link:nth-of-type(2n) {
-      border-color: transparent transparent transparent #922716; }
 
 .filters {
   border-radius: 1px;
@@ -1216,7 +1214,7 @@ header {
     .container-profiles .info-personal .info-personal-availabily {
       font-size: 14px;
       font-size: 1.4rem;
-      font-family: "Montserrat", sans-serif;
+      font-family: "Open Sans", sans-serif;
       color: #819535; }
   .container-profiles .details-graduate {
     float: right;
@@ -1448,7 +1446,7 @@ header {
   color: #922716; }
 
 .container-testimonials-two {
-  background-color: #fff;
+  background-color: white;
   box-shadow: 0px 0px 13px #c2bebe;
   margin: 0 1rem;
   max-width: 1000px;
@@ -1519,7 +1517,7 @@ header {
     width: 100%;
     text-align: center; }
   .container-personal .personal-link-container {
-    background-color: #fff;
+    background-color: white;
     width: 130px;
     margin: 0 auto; }
   .container-personal .personal-list-border {
@@ -1988,13 +1986,8 @@ header {
   padding: 3rem 3rem 0; }
 
 .square-preview-module {
-<<<<<<< HEAD
   background-color: #ececec;
-  margin-bottom: 5rem;
-=======
-  background-color: #ECECEC;
   margin-bottom: 3rem;
->>>>>>> aa2a4460607d5672b3e19269cd70d0f2553a6086
   overflow: hidden;
   position: relative;
   text-align: left;
@@ -2039,17 +2032,8 @@ header {
     display: block;
     font-size: 14px;
     font-size: 1.4rem;
-<<<<<<< HEAD
-    line-height: 5rem; }
-    @media (min-width: 600px) {
-      .list-program-preview li {
-        line-height: 4rem; } }
-    @media (min-width: 700px) {
-      .list-program-preview li {
-        line-height: 5rem; } }
-=======
+    line-height: 5rem;
     margin-bottom: 2rem; }
->>>>>>> aa2a4460607d5672b3e19269cd70d0f2553a6086
 
 .background-color-post {
   background-color: #819535; }

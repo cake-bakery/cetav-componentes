@@ -883,7 +883,7 @@ header {
   font-size: 28px;
   font-size: 2.8rem;
   font-family: "Montserrat", sans-serif;
-  color: #819535;
+  color: #292929;
   line-height: 3.8rem;
   margin-bottom: 6px; }
 
@@ -913,7 +913,7 @@ header {
   font-size: 1.6rem;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 25px;
-  color: #505050; }
+  color: #292929; }
 
 .content-graduate {
   width: 75%;
@@ -947,15 +947,16 @@ header {
     display: inline-block;
     margin-right: 5px;
     margin-bottom: 14px; }
-  .content-graduate .intro-link {
+  .content-graduate .profile-link {
     font-size: 14px;
-    font-size: 1.4rem; }
+    font-size: 1.4rem;
+    color: #505050; }
   .content-graduate .triangle-link {
     width: 0;
     height: 0;
     border-style: solid;
     border-width: 5px 0 5px 5px;
-    border-color: transparent transparent transparent #819535;
+    border-color: transparent transparent transparent #505050;
     position: absolute;
     left: 245px;
     top: 113px; }
@@ -1089,7 +1090,7 @@ header {
 
 .personal-info .sub-tittle {
   margin-bottom: 5px;
-  color: #819535; }
+  color: #292929; }
 
 .info-detailed {
   float: right;
@@ -1120,11 +1121,11 @@ header {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   padding: 1rem 2rem;
-  color: #819535;
+  color: #505050;
   display: inline-block;
   margin-bottom: 5px;
   border-radius: 13px;
-  border: 1px solid #819535; }
+  border: 1px solid #505050; }
 
 .rrss-graduate span {
   margin: 10px 5px; }
@@ -1169,12 +1170,12 @@ header {
     font-size: 2.5rem;
     font-family: "Montserrat", sans-serif;
     margin-bottom: 4px;
-    color: #819535; }
+    color: #292929; }
   .container-profiles .info-profession {
     font-size: 15px;
     font-size: 1.5rem;
     padding-right: 68px;
-    color: #819535;
+    color: #292929;
     font-weight: bold; }
   .container-profiles .info-personal {
     color: #505050;
@@ -1215,7 +1216,7 @@ header {
       font-size: 14px;
       font-size: 1.4rem;
       font-family: "Open Sans", sans-serif;
-      color: #819535; }
+      color: #292929; }
   .container-profiles .details-graduate {
     float: right;
     width: 65%; }
@@ -1237,7 +1238,7 @@ header {
     font-size: 20px;
     font-size: 2rem;
     font-family: "Montserrat", sans-serif;
-    color: #819535;
+    color: #292929;
     margin-top: 16px;
     margin-bottom: 15px; }
     .container-profiles .detail-graduate-title:nth-child(1) {
@@ -1297,9 +1298,9 @@ header {
     .container-generations .generations-intro .generations-intro-button {
       font-size: 16px;
       font-size: 1.6rem;
-      border: 1px solid #505050;
+      border: 2px solid #848286;
       background: none;
-      color: #505050;
+      color: #848286;
       border-radius: 6px;
       padding: 5px 8px;
       -webkit-transition: all 0.3s;
@@ -1309,7 +1310,7 @@ header {
       transition: all 0.3s; }
       .container-generations .generations-intro .generations-intro-button:hover {
         color: white;
-        background-color: #505050; }
+        background-color: #848286; }
 
 .container-career {
   margin: 0 auto;

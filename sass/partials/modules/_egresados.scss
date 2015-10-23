@@ -35,7 +35,7 @@
 .tittle-profile-preview {
 	@include font-size(28);
 	font-family: $montserrat;
-	color: $post-color; 
+	color: $grey-dark; 
 	line-height: 3.8rem; 
 	margin-bottom: 6px;
 }
@@ -63,7 +63,7 @@
 		@include font-size(16);
 		font-family: $montserrat;
 		margin-bottom: 25px;
-		color: $grey;
+		color: $grey-dark;
 	}
 	.content-graduate{
 		width: 75%;
@@ -100,15 +100,16 @@
     	margin-right: 5px;
 	    margin-bottom: 14px;
 		}
-		.intro-link{
+		.profile-link{
 			@include font-size(14);
+			color: $grey;
 		}
 		.triangle-link{
 			width: 0;
 			height: 0;
 			border-style: solid;
 			border-width: 5px 0 5px 5px;
-			border-color: transparent transparent transparent $post-color;
+			border-color: transparent transparent transparent $grey;
 	    position: absolute;
 	    left: 245px;
 	    top: 113px;

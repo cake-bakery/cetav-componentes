@@ -44,7 +44,7 @@
 
 .personal-info .sub-tittle{
 	margin-bottom: 5px;
-	color: $post-color;
+	color: $grey-dark;
 }
 
 .info-detailed{
@@ -77,11 +77,11 @@
 	font-family: $open-sans;
 	font-weight: 700;
 	padding: 1rem 2rem;
-	color: $post-color;
+	color: $grey;
 	display: inline-block;
 	margin-bottom: 5px;
 	border-radius: 13px;
-	border:1px solid $post-color;
+	border:1px solid $grey;
 }
 
 .rrss-graduate span{
@@ -133,12 +133,12 @@
   	@include font-size(25);
   	font-family: $montserrat;
   	margin-bottom: 4px;
-    color: $post-color;
+    color: $grey-dark;
   }
   .info-profession{
   	@include font-size(15);
   	padding-right: 68px;
-    color: $post-color;
+    color: $grey-dark;
     font-weight: bold;
   }
   .info-personal{
@@ -190,7 +190,7 @@
   	.info-personal-availabily{
   		@include font-size(14);
   		font-family: $open-sans;
-  		color: $post-color;
+  		color: $grey-dark;
   	}
   }
   .details-graduate{
@@ -216,7 +216,7 @@
   .detail-graduate-title{
   	@include font-size(20);
   	font-family: $montserrat;
-  	color: $post-color;
+  	color: $grey-dark;
   	margin-top: 16px;
   	margin-bottom: 15px;
   	&:nth-child(1){

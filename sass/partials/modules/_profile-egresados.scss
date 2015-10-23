@@ -9,83 +9,79 @@
 	float: left;
 	width: 30%;
 }
-
 .personal-info{
 	overflow: hidden;
+	padding: 16px;
+	margin-left: 31px;
 }
-
 .text-aside-profile-info {
 	margin: 1.5rem 0;
-	padding-left: 2rem;
 }
-
 .social-aside-profile-info {
 	display: inline-block;
-	margin: 1.5rem 0.7rem;
+	margin: 1.5rem 1rem 0 0;
 }
 .list-aside-profile-info {
 	color: $grey;
 	list-style: none;
 }
-
 .img-profile{
 	border-radius: 100%;
 	width: 280px;
-	padding: 10px;
-	display: table;
-	margin: 0 auto;
 	border: solid 1px #eee;
-    box-shadow: 0px 6px 7px -2px #999;
+  box-shadow: 0px 6px 7px -2px $grey;
+  margin-left: 8px;
 }
 
 .subtitle-detailed-information {
 	@include font-size(24);
+	color: $grey-dark;
 }
 .personal-info ul li span{
 	font-weight: 600;
+	color: $grey-dark;
 }
 
 .personal-info .sub-tittle{
 	margin-bottom: 5px;
+	color: $post-color;
 }
 
 .info-detailed{
 	float: right;
-	padding: 4rem;
-	width: 65%;
-	background-color: #efeded;
+	padding: 0 4rem;
+	width: 68%;
+	height: 566px;
+	border-left: 1px solid $grey-light;
 }
-
 .info-detailed {
 	p {
 		margin: 0.5rem 0 2rem 0;
+		color: $grey;
 	}
 }
-
 .profession {
-	font-family: $open-sans;
+	font-family: $montserrat;
 	@include font-size(16);
 	font-weight: 100;
 	margin-bottom: 2rem;
 	display: block;
-	color: #000;
+	color: $grey;
 }
-
-
 .content-detailed-tags {
 	margin-bottom: 2rem;
 	margin-top: 15px;
 }
 .info-detailed-tag {
-	background-color: #575757;
 	font-size: 12px;
-	font-family: "Open Sans", sans-serif;
+	font-family: $open-sans;
 	font-weight: 700;
 	padding: 1rem 2rem;
-	color: white;
+	color: $post-color;
 	display: inline-block;
 	margin-bottom: 5px;
-	border-radius: 30px;
+	border-radius: 13px;
+	border:1px solid $post-color;
 }
 
 .rrss-graduate span{
@@ -101,25 +97,32 @@
 	line-height: 2.7rem
 }
 
-info-container{
+.info-container{
 	margin-left: 34px;
 }
 //-------------------------First-Proposal------------------
-.modules{
+.container-profiles{
 	max-width: 1000px;
 	margin: 0 auto;
 	width: 100%;
+	.profiles-graduate{
+		background-color: $grey-light;
+	}
 	.info-contact{
-		background-color: $grey-dark;
+		background-color: $white;
+		box-shadow: 0 0 13px $box-shadow;
+		border-radius: 3px;
 		overflow: hidden;
 		float: left;
 		width: 28%;
 		position: relative;
+		z-index: 20;
 		p{
   		@include font-size(14);
 			font-family: $open-sans;
 			margin-top: 15px;
     	margin-bottom: 15px;
+    	line-height: 2.2rem;
 		}
 	}
 	.profile-img{
@@ -130,89 +133,120 @@ info-container{
   	@include font-size(25);
   	font-family: $montserrat;
   	margin-bottom: 4px;
-  	margin-left: 14px;
-  	position: absolute;
-    top: 201px;
-    color: $white;
-    text-shadow: #555 2px 2px 3px;
+    color: $post-color;
   }
   .info-profession{
   	@include font-size(15);
   	padding-right: 68px;
-  	padding-bottom: 7px;
-  	margin-left: 14px;
-  	position: absolute;
-    top: 236px;
-    color: $white;
-    text-shadow: #000 2px 2px 3px;
+    color: $post-color;
     font-weight: bold;
   }
   .info-personal{
-  	color: $grey-light;
+  	color: $grey;
   	padding: 10px 27px;
     margin-left: 5px;
-    a{
+    svg{
   		vertical-align: top;
   		margin-right: 30px;
   		&:hover{
 				border-bottom: none;
 			}
   	}
-  	svg{
-  		width: 20%;
+  	img{
+	  	margin-right: 10px;
+	    top: 4px;
+	    position: relative;
   	}
-  	.facebook-icon {
-			fill: $white;
+  	.circle{
+  		float: left;
+  	}
+  	.icon{
+  		width: 18%;
+  	}
+  	.icon-social-facebook {
+			fill: $grey;
 			height: 40px;
-			margin-top: 20px;
-			width: 40px;
 			&:hover{
 			  cursor: pointer;
 			  fill: #4966a7; 
 			}
 		}
-		.vimeo-icon {
-			fill: $white;
+		.icon-social-twitter{
+			fill: $grey;
 			height: 40px;
-			width: 40px;
+			&:hover{
+			  cursor: pointer;
+			  fill: #17b3e8; 
+			}
+		}
+		.icon-social-vimeo {
+			fill: $grey;
+			height: 40px;
 			&:hover{
 			  cursor: pointer;
 			  fill: #17b3e8; 
 			}
 		}
   	.info-personal-availabily{
-  		@include font-size(20);
-  		font-family: $montserrat;
-  		color: $orange;
+  		@include font-size(14);
+  		font-family: $open-sans;
+  		color: $post-color;
   	}
   }
   .details-graduate{
   	float: right;
   	width: 65%;
   	p{
-  		@include font-size(16);
+  		@include font-size(14);
   		font-family: $open-sans;
   		color: $grey;
-			border-bottom: 1px solid $white;
+  		margin-top: 12px;
+  	}
+  }
+  .details-graduate-container{
+  	background-color: $white;
+  	padding: 25px;
+  	margin-bottom: 15px;
+  	box-shadow: 0 0 13px $box-shadow;
+  	border-radius: 3px;
+  	p{
+  		line-height: 2.2rem;
   	}
   }
   .detail-graduate-title{
   	@include font-size(20);
   	font-family: $montserrat;
-  	color: $orange;
+  	color: $post-color;
   	margin-top: 16px;
-  	margin-bottom: 8px;
+  	margin-bottom: 15px;
   	&:nth-child(1){
 			margin-top: 0;
   	}
   }
   .detail-graduate-list-items{
-  	@include font-size(16);
+  	@include font-size(14);
   	list-style: none;
   	color: $grey;
+  	border:1px solid $grey;
+  	width: 30%;
+    margin: 3px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 4px;
+    text-align: center;
+    border-radius: 3px;
   }
 }
-
+.triangle-graduate{
+  width: 0;
+	height: 0;
+	border-style: solid;
+  border-width: 18.5px 25px 18.5px 0;
+	border-color: transparent $white transparent transparent;
+  position: absolute;
+  left: 147px;
+  top: 55px;
+}
 
 		
 

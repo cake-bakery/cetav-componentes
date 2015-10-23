@@ -1,101 +1,116 @@
 .graduate{
 	width: 100%;
-	margin: 20px 0;
+	margin: 11px 0;
 	text-align: center;
 	position: relative;
 	float: right;
+ 	border-bottom: 1px solid $grey-light;
+  padding-bottom: 28px;
 }
 .graduates-content{
 	margin: 50px 0;
 }
-
 .graduates-list{
 	float: right; 
 	width: 60%;
 }
-
+.graduate-title{
+	@include font-size(20);
+	font-family: $montserrat;
+	color: $grey-dark;
+	margin-bottom: 25px;
+}
 .graduates-list img{
 	float: left;
 	border-radius: 100%;
-	padding: 5px;
-	width: 120px;
-    margin: 1rem 2rem 1rem 2rem;
-	border: solid 1px #eee;
-    box-shadow: 0px 6px 7px -2px #999;
+	padding: 1px;
+	width: 139px;
+  margin: 1rem 2rem 1rem 0;
+  box-shadow: 0px 4px 7px -2px $grey;
 }
-
 .graduate-details{
 	text-align: left;
 	padding: 1rem 0;
 }
-	
 .tittle-profile-preview {
-	line-height: 3.8rem;
 	@include font-size(28);
+	font-family: $montserrat;
+	color: $post-color; 
+	line-height: 3.8rem; 
+	margin-bottom: 6px;
 }
-
 .profession-preview {
-    
-	display: block;
 	@include font-size(14);
-	margin: 1.5rem 0;
+	font-family: $open-sans;
+	color: $grey;
+	display: block;
+	margin: 0.9rem 0;
 	margin-top: 0;
-
 }
-
 .see-profile {
-	color: #ff8f00;
-	font-size: 14px;
-	font-size: 1.4rem;
-	font-weight: bold;
-    float: right;
-    padding: 5px;
+	@include font-size(14);
+	font-family: $montserrat;
+	color: $orange;
+  float: left;
+  margin-top: 0;
 }
 //--------------------First-proposal-------------------------
+	.container-list{
+		float: right;
+    width: 66%;
+	}
+	.list-subtitle{
+		@include font-size(16);
+		font-family: $montserrat;
+		margin-bottom: 25px;
+		color: $grey;
+	}
 	.content-graduate{
-		display: inline-block;
-		vertical-align: top;
-		width: 22%;
+		width: 75%;
+		background-color: $white;
+		margin-bottom: 25px;
+		box-shadow: 0 0 13px $box-shadow;
+		position: relative;
 		img{
-			width: 209px;
-    	height: 193px;
+			width: 33%;
+			float: left;
 		}
 		.graduate-intro{
-			background-color: $grey-light;
-			border-bottom: 1px solid;
-			width: 95%;
-    	margin-top: -2px;
-    	padding: 11px;
-    	text-align: center;
+			padding: 21px 20px 36px;
+			display: inline-block;
+			width: 64%;
 		}
 		.intro-title{
-			@include font-size(19);
+			@include font-size(20);
 			font-family: $montserrat;
-	    margin: 0 0 6px;
-	    color: $grey-dark;
+			margin-bottom: 3px;
 		}
 		.intro-profession{
 			@include font-size(14);
 			font-family: $montserrat;
-			color: $grey-dark;
 		}
 		.content-tag{
-			background-color: $grey-light;
-			width: 95%;
-			padding:11px;
-			text-align: center;
+   		margin-top: 11px;
 		}
 		.intro-tag{
 			@include font-size(14);			
 			font-family: $open-sans;
-	    display: list-item;
-	    list-style: none;
-	    margin-bottom: 6px;
+			color: $grey;
+	    display: inline-block;
+    	margin-right: 5px;
+	    margin-bottom: 14px;
 		}
-		a{
-			color: $grey-dark;
-			border: 1px solid;
-	    padding: 4px;
-	    border-radius: 3px;
+		.intro-link{
+			@include font-size(14);
+		}
+		.triangle-link{
+			width: 0;
+			height: 0;
+			border-style: solid;
+			border-width: 5px 0 5px 5px;
+			border-color: transparent transparent transparent $post-color;
+	    position: absolute;
+	    left: 245px;
+	    top: 113px;
 		}
 	}

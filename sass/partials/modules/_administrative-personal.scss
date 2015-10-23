@@ -51,7 +51,7 @@
 			width: 165px;
 		}
 		p{
-			@include font-size(12);
+			@include font-size(14);
 			font-family: $open-sans;
 			color: $grey-dark;
 			width: 100%;
@@ -64,7 +64,7 @@
 			}
 		}
 		a{
-			@include font-size(13);
+			@include font-size(14);
 			font-family: $open-sans;
     	@media(min-width: 319px){
 				display: block;

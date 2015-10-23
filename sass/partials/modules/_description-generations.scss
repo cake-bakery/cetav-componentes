@@ -14,26 +14,34 @@
 			width: 44%;
 		}
 		.generations-intro-title{
-			@include font-size(48);
+			@include font-size(40);
 			font-family: $montserrat;
 			color: $orange;
 			line-height: 120%;
 		}
 		p{
-			@include font-size(18);
+			@include font-size(16);
 			font-family: $open-sans;
 			margin: 2rem 0;
 			margin-top: 8px;
 			color: $grey;
 		}
 		.generations-intro-button{
-			@include font-size(18);
+			@include font-size(16);
 			border: 1px solid $grey;
-			border-radius: 3px;
 			background: none;
 			color: $grey;
-			width: 45%;
-			height: 48px;
+			border-radius: 6px;
+	    padding: 5px 8px;
+	    -webkit-transition: all 0.3s;
+	    -ms-transition: all 0.3s;
+	    -moz-transition: all 0.3s;
+	    -o-transition: all 0.3s;
+	    transition: all 0.3s;
+	    &:hover{
+	    	color: $white;
+	    	background-color: $grey;
+	    }
 		}
 	}
 }

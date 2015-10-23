@@ -41,19 +41,19 @@ iframe{
 @media (min-width: 600px){
 	p, li {
 		font-family: $open-sans;
-		@include font-size(17);
+		@include font-size(14);
 		margin: 0;
 	}
 }
 //---------colors graduate list----------------------
 .post{
-	border:3px solid $post-color;
+	color:$post-color;
 }
 .web{
-	border:3px solid $ddw-color;
+	color:$ddw-color;
 }
 .animation{
-	border:3px solid $animacion-color;
+	color: $animacion-color;
 }
 //------------Color-svg-------------------------------
 .facebook-icon {

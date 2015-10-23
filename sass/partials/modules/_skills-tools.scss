@@ -9,12 +9,11 @@
 		}
 	}
 }
-
 .item-grid {
 	list-style: none;
 	height: 18rem;
 	// border-bottom: 1px solid $grey-lines; 
-	@include font-size(16);
+	@include font-size(14);
 	text-align: center;
 	padding: 4rem;
 	@media (min-width: 480px) {

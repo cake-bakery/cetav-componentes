@@ -1,39 +1,40 @@
 .filters{
-	color: #575757;
-    border-radius: 20px;
+  border-radius: 1px;
 	color: $grey;
-	background-color: $grey-light;
+	background-color: none;
+	box-shadow: 0px 0px 18px $grey-light;
+	padding: 43px;
 	float: left;
 	width: 30%;
 	display: block;
 	form{
 		display: block;
-		margin-bottom: 3.5rem;
+		margin-bottom: 21px;
+    border-bottom: 1px solid $grey-light;
+    padding-bottom: 15px;
+    &:nth-child(3){
+			border-bottom: none;
+			padding-bottom: 0;
+    }
 	}
-
 	form p{
+		@include font-size(14);
 		margin: 10px 0;
+		color: $grey;
 	}
-
 	input{
 		background-color: $grey-light;
 		width: 20px;
 		height: 20px;
-		margin-left: 2rem;
 		float: left;
 	}
-
 	label{
-		display: inline-block;
-		margin: 0;
-		margin-left: 1rem;
 		vertical-align: top;
+		display: inline-block;
+		margin: -3px 0 0 16px;
 	}
 }
-
 .sub-tittle{
-    padding: 20px 20px 0;
-	color: $grey;
 	@include font-size(22);
 	font-family: $montserrat;
 }
@@ -42,9 +43,11 @@
 	margin-bottom: 2rem;
 }
 .tag-filter{
-    font-size: 14px;
-    font-family: "Open Sans", sans-serif;
-    margin-right: 10px;
+  @include font-size(14);
+  font-family: $open-sans;
+  color: $grey;
+  margin-right: 10px;
+  //border-bottom: 1px solid $post-color;
 }
 //--------------------First-proposal-------------------------
 .container-egresado{
@@ -55,25 +58,31 @@
 	.container-sidebar{
 		float: left;
 		display: inline-block;
-		background-color: $grey-light;
+		background-color: $white;
+		box-shadow: 0 0 13px $box-shadow;
 		padding: 48px;
     width: 27%;
     color: $grey-dark;
-    margin-right: 63px;
 		input{
 			display: list-item;
 			float: left;
 			margin-right: 6px;
 		}
 		p{
+			@include font-size(14);
+			color: $grey;
 			margin-top: -5px;
-			margin-bottom: 7px;
+			margin-bottom: 11px;
 		}
 		.content-career{
-			margin-bottom: 23px;
+			margin-bottom: 14px;
+	    border-bottom: 1px solid $white;
+	    padding-bottom: 8px;
 		}
 		.content-availabity{
-			margin-bottom: 23px;
+			margin-bottom: 14px;
+	    border-bottom: 1px solid $white;
+	    padding-bottom: 8px;
 		}
 		.sidebar-title{
 			@include font-size(20);

@@ -10,7 +10,6 @@ function getId(c){
  return elElemento;
 }
 
-
 getId("search-button").onclick = function() {
 		getId("container-header").classList.toggle('show-search');	
 };

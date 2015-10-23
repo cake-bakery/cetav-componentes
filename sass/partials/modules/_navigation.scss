@@ -1,7 +1,7 @@
 header{
   padding-top: 10px;
-  max-width: 1000px;
   margin: 0 auto;
+
   .logo-cetav-img{
     float: left;
     width: 120px;
@@ -51,9 +51,9 @@ header{
     overflow: hidden;
     position: relative;
     a{
-      @include font-size(14);
+      @include font-size(18);
       font-family: $montserrat;
-      margin-left: 20px;
+      margin-left: 40px;
       color: $white;
     }
   }
@@ -67,7 +67,6 @@ header{
     border: none;
     outline: none;
     position: relative;
-    margin: 0 1rem 1rem 1rem;
     width: 2rem;
     height: 2rem;
   }

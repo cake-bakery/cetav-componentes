@@ -104,19 +104,19 @@
 		width: 37rem;
 	}
 	p {
-		@include font-size(16);
-		margin: 16px 0;
+		@include font-size(14);
+		margin: 8px 0;
 		
 	}
 	.subtitle-title-details {
 		color: $grey;
 		margin: 24px 0 16px 0;
 		font-weight: bold;
-		@include font-size(18);
-		}
-		a{
-			color: $grey;
-		}
+		@include font-size(16);
+	}
+	a{
+		color: $grey;
+	}
 }
 
 .subtitle-details {
@@ -124,7 +124,6 @@
 	font-weight: bold;
 }
 .title-details {
-	border-bottom: 2px solid $light-blue;
 	color: $light-blue;
 	@include font-size(21);
 	max-height: 37px;

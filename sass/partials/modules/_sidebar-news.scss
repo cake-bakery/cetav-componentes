@@ -11,29 +11,9 @@
 	@include font-size(24);
 	overflow: hidden;
 	position: relative;
-	padding: 3rem 0 1rem;
-	text-align: center;
+	padding: 3rem 2rem 1rem;
 }
 
-.tittle-populars:before {
-    position: absolute;
-    top: 65%;
-	left: 0;
-    width: 13%;
-    height: 1px;
-    content: '\a0';
-    background-color: #A8A2A2;
-}
-.tittle-populars:after {
-	position: absolute;
-    top: 65%;
-    overflow: hidden;
-    right: 0;
-    width: 13%;
-    height: 1px;
-    content: '\a0';
-    background-color: #A8A2A2;
-}
 .popular-new {
 	border-bottom: 1px solid $grey-light;
 	display: block;
@@ -60,6 +40,7 @@
 .more-preview {
 	color: $orange;
 	@include font-size(14);
+	border-bottom: 2px solid $orange;
 }
 
 .populars2 {

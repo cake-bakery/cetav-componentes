@@ -74,3 +74,18 @@
 		color: #fff;
 	}
 }
+
+.inscription-button {
+	width: 20rem;
+	background-color: $light-blue;
+	color: $white;
+	display: block;
+	height: 6rem;
+	margin: 3rem auto;
+	@include font-size(16);
+	&:hover {
+		background-color: $light-blue;
+		@include font-size(18);
+		color: #fff;
+	}
+}

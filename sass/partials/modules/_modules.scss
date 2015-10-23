@@ -14,11 +14,10 @@
 	color: $light-blue;
 	font-family: $montserrat;
 	margin-bottom: 2rem;
-
-	@include font-size(36);
+	@include font-size(28);
 }
 .content-column-course {
-	@include font-size(16);
+	@include font-size(14);
 	list-style: none;
 	text-align: left;
 	color: $white;
@@ -96,7 +95,7 @@
 }
 
 .info-details {
-	color: $grey;
+
 	width: 80%;
 	margin-left: 3rem;
 	@media (min-width: 920px) {
@@ -104,13 +103,14 @@
 		width: 37rem;
 	}
 	p {
-		@include font-size(14);
-		margin: 8px 0 0 1rem;
-		
+		@include font-size(13);
+		margin: 7px 0 0 0.5rem;
+
 	}
 	.subtitle-title-details {
+
 		display: block;
-		margin: 3rem 0 16px 1rem;
+		margin: 3rem 0 16px 0rem;
 		font-weight: bold;
 		@include font-size(16);
 	}
@@ -120,6 +120,7 @@
 }
 
 .subtitle-details {
+	@include font-size(14);
 	color: $grey-dark;
 	font-weight: bold;
 }
@@ -137,7 +138,7 @@
 		left: 0;
 	}
 	h3 {
-		margin-left: 1rem;
+
 		display: inline-block;
 		vertical-align: top;
 	}
@@ -147,4 +148,4 @@
 	color: $orange;
 }
 
-	
+

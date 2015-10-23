@@ -245,15 +245,6 @@ iframe {
     font-size: 14px;
     font-size: 1.4rem;
     margin: 0; } }
-.post {
-  color: #819535; }
-
-.web {
-  color: #922716; }
-
-.animation {
-  color: #cc6220; }
-
 .facebook-icon {
   fill: #fff;
   height: 40px;
@@ -646,6 +637,10 @@ header {
     font-size: 13px;
     font-size: 1.3rem;
     margin-bottom: 1rem; }
+  .many-news-first .more-preview {
+    position: absolute;
+    bottom: 3rem;
+    left: 4rem; }
 
 .many-news-second {
   float: left;
@@ -762,27 +757,7 @@ header {
   font-size: 2.4rem;
   overflow: hidden;
   position: relative;
-  padding: 3rem 0 1rem;
-  text-align: center; }
-
-.tittle-populars:before {
-  position: absolute;
-  top: 65%;
-  left: 0;
-  width: 13%;
-  height: 1px;
-  content: '\a0';
-  background-color: #A8A2A2; }
-
-.tittle-populars:after {
-  position: absolute;
-  top: 65%;
-  overflow: hidden;
-  right: 0;
-  width: 13%;
-  height: 1px;
-  content: '\a0';
-  background-color: #A8A2A2; }
+  padding: 3rem 2rem 1rem; }
 
 .popular-new {
   border-bottom: 1px solid #ECECEC;
@@ -808,7 +783,8 @@ header {
 .more-preview {
   color: #ff8f00;
   font-size: 14px;
-  font-size: 1.4rem; }
+  font-size: 1.4rem;
+  border-bottom: 2px solid #ff8f00; }
 
 .populars2 {
   box-shadow: none;
@@ -1752,12 +1728,12 @@ header {
   color: #00c9ed;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 2rem;
-  font-size: 36px;
-  font-size: 3.6rem; }
+  font-size: 28px;
+  font-size: 2.8rem; }
 
 .content-column-course {
-  font-size: 16px;
-  font-size: 1.6rem;
+  font-size: 14px;
+  font-size: 1.4rem;
   list-style: none;
   text-align: left;
   color: #fff;
@@ -1823,7 +1799,6 @@ header {
     width: initial; }
 
 .info-details {
-  color: #505050;
   width: 80%;
   margin-left: 3rem; }
   @media (min-width: 920px) {
@@ -1831,12 +1806,12 @@ header {
       display: inline-block;
       width: 37rem; } }
   .info-details p {
-    font-size: 14px;
-    font-size: 1.4rem;
-    margin: 8px 0 0 1rem; }
+    font-size: 13px;
+    font-size: 1.3rem;
+    margin: 7px 0 0 0.5rem; }
   .info-details .subtitle-title-details {
     display: block;
-    margin: 3rem 0 16px 1rem;
+    margin: 3rem 0 16px 0rem;
     font-weight: bold;
     font-size: 16px;
     font-size: 1.6rem; }
@@ -1844,6 +1819,8 @@ header {
     color: #505050; }
 
 .subtitle-details {
+  font-size: 14px;
+  font-size: 1.4rem;
   color: #292929;
   font-weight: bold; }
 
@@ -1861,7 +1838,6 @@ header {
     top: 0;
     left: 0; }
   .title-details h3 {
-    margin-left: 1rem;
     display: inline-block;
     vertical-align: top; }
 
@@ -1914,6 +1890,9 @@ header {
     height: 24.5rem;
     padding: 3.5rem 3rem 0.5rem;
     -webkit-transition: 0.5s; }
+  .preview-squares-module-first .square-preview-hover:hover .price-preview-module {
+    bottom: 3.5rem;
+    -webkit-transition: 0.5s; }
   .preview-squares-module-first .square-preview-hover:hover .bottom-line {
     width: 100%;
     -webkit-transition: 0.5s; }
@@ -1958,14 +1937,17 @@ header {
     background-color: #00c9ed;
     border-radius: 5px;
     color: #fff;
-    float: left;
+    position: absolute;
+    bottom: 3rem;
+    left: 3rem;
     font-family: "Open Sans", sans-serif;
     font-weight: bold;
     font-size: 16px;
     font-size: 1.6rem;
     margin-top: 0.5rem;
     padding: 0.3rem 0.7rem;
-    display: block; }
+    display: block;
+    -webkit-transition: 0.5s; }
 
 .preview-squares-module-second {
   text-align: center;
@@ -2059,7 +2041,9 @@ header {
     font-size: 16px;
     font-size: 1.6rem;
     font-weight: bold;
-    float: left;
+    position: absolute;
+    left: 3rem;
+    bottom: 3rem;
     margin-top: 0.5rem;
     margin-top: 0.5rem;
     padding: 0.3rem 0.7rem;
@@ -2138,6 +2122,21 @@ header {
     font-size: 1.8rem;
     color: #fff; }
 
+.inscription-button {
+  width: 20rem;
+  background-color: #00c9ed;
+  color: #fff;
+  display: block;
+  height: 6rem;
+  margin: 3rem auto;
+  font-size: 16px;
+  font-size: 1.6rem; }
+  .inscription-button:hover {
+    background-color: #00c9ed;
+    font-size: 18px;
+    font-size: 1.8rem;
+    color: #fff; }
+
 .preview-squares-module {
   text-align: center;
   margin: 0 auto; }
@@ -2176,7 +2175,7 @@ header {
     .square-preview-module {
       display: inline-block;
       width: 30%;
-      height: 32rem;
+      height: 25rem;
       margin-right: 4%; }
       .square-preview-module:nth-child(3n) {
         margin-right: 0; }
@@ -2195,9 +2194,9 @@ header {
   z-index: 2; }
   .list-program-preview li {
     display: block;
-    font-size: 14px;
-    font-size: 1.4rem;
-    margin-bottom: 2rem; }
+    font-size: 13px;
+    font-size: 1.3rem;
+    margin-bottom: 1rem; }
 
 .background-color-post {
   background-color: #819535; }

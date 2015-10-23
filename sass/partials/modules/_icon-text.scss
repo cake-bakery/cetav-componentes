@@ -15,7 +15,6 @@
 		display: inline-block;
 		width: 80%;
     vertical-align: top;
-    
     @media(min-width: 319px){
 			width: 50%;
 			margin: 40px 10%;
@@ -35,12 +34,14 @@
 		}
     img{
     	width: 50%;
-    	border-bottom: 1px solid $orange;
+    	border: 1px solid $orange;
+    	border-radius: 800px;
     	margin-bottom: 11px;
 	    overflow: hidden;
+	    padding: 20px;
     }
     p{
-    	@include font-size(16);
+    	@include font-size(14);
     	font-family: $open-sans;
     	color: $grey;
     }

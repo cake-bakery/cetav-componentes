@@ -112,11 +112,11 @@
 		color: $grey;
 		margin: 24px 0 16px 0;
 		font-weight: bold;
-		@include font-size(18);
-		}
-		a{
-			color: $grey;
-		}
+		@include font-size(16);
+	}
+	a{
+		color: $grey;
+	}
 }
 
 .subtitle-details {
@@ -124,7 +124,6 @@
 	font-weight: bold;
 }
 .title-details {
-	border-bottom: 2px solid $light-blue;
 	color: $light-blue;
 	@include font-size(21);
 	max-height: 37px;

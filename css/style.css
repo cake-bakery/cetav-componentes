@@ -847,7 +847,7 @@ header {
   padding: 1px;
   width: 139px;
   margin: 1rem 2rem 1rem 0;
-  box-shadow: 0px 4px 7px -2px #505050; }
+  box-shadow: 0px 4px 7px -2px #292929; }
 
 .graduate-details {
   text-align: left;
@@ -859,7 +859,7 @@ header {
   font-family: "Montserrat", sans-serif;
   color: #292929;
   line-height: 3.8rem;
-  margin-bottom: 6px; }
+  margin-bottom: -2px; }
 
 .profession-preview {
   font-size: 14px;
@@ -867,8 +867,20 @@ header {
   font-family: "Open Sans", sans-serif;
   color: #505050;
   display: block;
-  margin: 0.9rem 0;
-  margin-top: 0; }
+  margin: 0 0 1.5rem 0;
+  margin-top: 0;
+  font-weight: bold; }
+
+.tag-filter {
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-family: "Open Sans", sans-serif;
+  color: #505050;
+  margin-right: 10px;
+  display: inline-block;
+  background-color: #ECECEC;
+  border-radius: 4px;
+  padding: 9px 16px; }
 
 .see-profile {
   font-size: 14px;
@@ -876,7 +888,7 @@ header {
   font-family: "Montserrat", sans-serif;
   color: #ff8f00;
   float: left;
-  margin-top: 0; }
+  margin-top: 2px; }
 
 .container-list {
   float: right;
@@ -997,13 +1009,6 @@ header {
 .actual-tag-filter {
   padding-left: 70px;
   margin-bottom: 2rem; }
-
-.tag-filter {
-  font-size: 14px;
-  font-size: 1.4rem;
-  font-family: "Open Sans", sans-serif;
-  color: #505050;
-  margin-right: 10px; }
 
 .container-egresado {
   max-width: 1000px;

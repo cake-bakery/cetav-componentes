@@ -20,13 +20,15 @@
 	color: $grey-dark;
 	margin-bottom: 25px;
 }
-.graduates-list img{
-	float: left;
-	border-radius: 100%;
-	padding: 1px;
-	width: 139px;
-  margin: 1rem 2rem 1rem 0;
-  box-shadow: 0px 4px 7px -2px $grey;
+.graduates-list{
+	img{
+		float: left;
+		border-radius: 100%;
+		padding: 1px;
+		width: 139px;
+	  margin: 1rem 2rem 1rem 0;
+	  box-shadow: 0px 4px 7px -2px $grey-dark;
+	}
 }
 .graduate-details{
 	text-align: left;
@@ -37,22 +39,33 @@
 	font-family: $montserrat;
 	color: $grey-dark; 
 	line-height: 3.8rem; 
-	margin-bottom: 6px;
+	margin-bottom: -2px;
 }
 .profession-preview {
 	@include font-size(14);
 	font-family: $open-sans;
 	color: $grey;
 	display: block;
-	margin: 0.9rem 0;
+	margin: 0 0 1.5rem 0;
 	margin-top: 0;
+	font-weight: bold;
+}
+.tag-filter{
+  @include font-size(14);
+  font-family: $open-sans;
+  color: $grey;
+  margin-right: 10px;
+  display: inline-block;
+  background-color: $grey-light;
+  border-radius: 4px;
+  padding: 9px 16px;
 }
 .see-profile {
 	@include font-size(14);
 	font-family: $montserrat;
 	color: $orange;
   float: left;
-  margin-top: 0;
+  margin-top: 2px;
 }
 //--------------------First-proposal-------------------------
 	.container-list{

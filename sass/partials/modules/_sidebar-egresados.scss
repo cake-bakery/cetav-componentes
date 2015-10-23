@@ -42,13 +42,7 @@
 	padding-left: 70px;
 	margin-bottom: 2rem;
 }
-.tag-filter{
-  @include font-size(14);
-  font-family: $open-sans;
-  color: $grey;
-  margin-right: 10px;
-  //border-bottom: 1px solid $post-color;
-}
+
 //--------------------First-proposal-------------------------
 .container-egresado{
 	max-width: 1000px;

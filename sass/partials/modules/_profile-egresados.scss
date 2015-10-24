@@ -1,106 +1,4 @@
-.graduate-info{
-	width: 100%;
-	overflow: hidden;
-}
-
-.contact-info{
-	overflow: hidden;
-	width: 30%;
-	float: left;
-	width: 30%;
-}
-.personal-info{
-	overflow: hidden;
-	padding: 16px;
-	margin-left: 31px;
-}
-.text-aside-profile-info {
-	margin: 1.5rem 0;
-}
-.social-aside-profile-info {
-	display: inline-block;
-	margin: 1.5rem 1rem 0 0;
-}
-.list-aside-profile-info {
-	color: $grey;
-	list-style: none;
-}
-.img-profile{
-	border-radius: 100%;
-	width: 280px;
-	border: solid 1px #eee;
-  box-shadow: 0px 6px 7px -2px $grey;
-  margin-left: 8px;
-}
-
-.subtitle-detailed-information {
-	@include font-size(24);
-	color: $grey-dark;
-}
-.personal-info ul li span{
-	font-weight: 600;
-	color: $grey-dark;
-}
-
-.personal-info .sub-tittle{
-	margin-bottom: 5px;
-	color: $grey-dark;
-}
-
-.info-detailed{
-	float: right;
-	padding: 0 4rem;
-	width: 68%;
-	height: 566px;
-	border-left: 1px solid $grey-light;
-}
-.info-detailed {
-	p {
-		margin: 0.5rem 0 2rem 0;
-		color: $grey;
-	}
-}
-.profession {
-	font-family: $montserrat;
-	@include font-size(16);
-	font-weight: 100;
-	margin-bottom: 2rem;
-	display: block;
-	color: $grey;
-}
-.content-detailed-tags {
-	margin-bottom: 2rem;
-	margin-top: 15px;
-}
-.info-detailed-tag {
-	font-size: 12px;
-	font-family: $open-sans;
-	font-weight: 700;
-	padding: 1rem 2rem;
-	color: $grey;
-	display: inline-block;
-	margin-bottom: 5px;
-	border-radius: 13px;
-	border:1px solid $grey;
-}
-
-.rrss-graduate span{
-	margin: 10px 5px;
-}
-
-.skills-profile{
-	margin-bottom: 2rem;
-	padding-left: 2rem;
-}
-
-.skills-profile li{
-	line-height: 2.7rem
-}
-
-.info-container{
-	margin-left: 34px;
-}
-//-------------------------First-Proposal------------------
+//sidebar contact
 .container-profiles{
 	max-width: 1000px;
 	margin: 0 auto;
@@ -117,13 +15,6 @@
 		width: 28%;
 		position: relative;
 		z-index: 20;
-		p{
-  		@include font-size(14);
-			font-family: $open-sans;
-			margin-top: 15px;
-    	margin-bottom: 22px;
-    	line-height: 2.2rem;
-		}
 	}
 	.profile-img{
     height: 275px;
@@ -145,27 +36,31 @@
   	color: $grey;
   	padding: 15px 27px 22px;
     margin-left: 5px;
-    svg{
-  		vertical-align: top;
-  		margin-right: 15px;
-  		margin-top: 9px; 
-  		&:hover{
-				border-bottom: none;
-			}
-  	}
-  	img{
+    margin-top: 6px;
+    img{
 	  	margin-right: 10px;
 	    top: 4px;
 	    position: relative;
   	}
-  	.circle{
-  		float: left;
+    p{
+  		@include font-size(14);
+			font-family: $open-sans;
+    	line-height: 36px;
+    	color: $grey;
+		}
+    svg{
+  		vertical-align: top;
+  		margin-right: 15px;
+  		margin-top: 23px; 
+  		&:hover{
+				border-bottom: none;
+			}
   	}
   	.icon{
-  		width: 18%;
+  		width: 19%;
   	}
   	.icon-social-facebook {
-			fill: $grey;
+			fill: $grey-dark;
 			height: 40px;
 			&:hover{
 			  cursor: pointer;
@@ -173,7 +68,7 @@
 			}
 		}
 		.icon-social-twitter{
-			fill: $grey;
+			fill: $grey-dark;
 			height: 40px;
 			&:hover{
 			  cursor: pointer;
@@ -181,22 +76,23 @@
 			}
 		}
 		.icon-social-vimeo {
-			fill: $grey;
+			fill: $grey-dark;
 			height: 40px;
 			&:hover{
 			  cursor: pointer;
 			  fill: #17b3e8; 
 			}
 		}
-  	.info-personal-availabily{
-  		@include font-size(14);
-  		font-family: $open-sans;
-  		color: $grey-dark;
-  	}
   }
-  .details-graduate{
+}
+// info about the graduate
+.details-graduate{
   	float: right;
   	width: 65%;
+  	background-color: $white;
+  	padding: 30px;
+  	box-shadow: 0 0 13px $box-shadow;
+  	border-radius: 3px;
   	p{
   		@include font-size(14);
   		font-family: $open-sans;
@@ -205,11 +101,10 @@
   	}
   }
   .details-graduate-container{
-  	background-color: $white;
-  	padding: 30px;
-  	margin-bottom: 15px;
-  	box-shadow: 0 0 13px $box-shadow;
-  	border-radius: 3px;
+  	margin-top: 26px;
+  	&:first-child{
+  		margin: 0;
+  	}
   	p{
   		line-height: 2.2rem;
   	}
@@ -235,8 +130,6 @@
     padding: 1rem 2rem;
     border-radius: 5px;
   }
-}
-
 
 		
 

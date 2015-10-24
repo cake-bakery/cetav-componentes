@@ -1,49 +1,3 @@
-.filters{
-  border-radius: 1px;
-	color: $grey;
-	background-color: none;
-	box-shadow: 0px 0px 18px $grey-light;
-	padding: 43px;
-	float: left;
-	width: 30%;
-	display: block;
-	form{
-		display: block;
-		margin-bottom: 21px;
-    border-bottom: 1px solid $grey-light;
-    padding-bottom: 15px;
-    &:nth-child(3){
-			border-bottom: none;
-			padding-bottom: 0;
-    }
-	}
-	form p{
-		@include font-size(14);
-		margin: 10px 0;
-		color: $grey;
-	}
-	input{
-		background-color: $grey-light;
-		width: 20px;
-		height: 20px;
-		float: left;
-	}
-	label{
-		vertical-align: top;
-		display: inline-block;
-		margin: -3px 0 0 16px;
-	}
-}
-.sub-tittle{
-	@include font-size(22);
-	font-family: $montserrat;
-}
-.actual-tag-filter {
-	padding-left: 70px;
-	margin-bottom: 2rem;
-}
-
-//--------------------First-proposal-------------------------
 .container-egresado{
 	max-width: 1000px;
 	margin: 0 auto;
@@ -55,34 +9,37 @@
 		background-color: $white;
 		box-shadow: 0 0 13px $box-shadow;
 		padding: 48px;
-    width: 27%;
+    width: 28%;
     color: $grey-dark;
 		input{
 			display: list-item;
 			float: left;
 			margin-right: 6px;
+			width: 20px;
+			height: 20px;
 		}
 		p{
 			@include font-size(14);
 			color: $grey;
-			margin-top: -5px;
 			margin-bottom: 11px;
 		}
-		.content-career{
-			margin-bottom: 14px;
-	    border-bottom: 1px solid $white;
-	    padding-bottom: 8px;
-		}
-		.content-availabity{
-			margin-bottom: 14px;
-	    border-bottom: 1px solid $white;
-	    padding-bottom: 8px;
-		}
-		.sidebar-title{
-			@include font-size(20);
-			font-family: $montserrat;
-			margin-bottom: 10px;
-		}
+	}
+	.content-career{
+	  border-bottom: 1px solid $grey-light;
+	  padding-bottom: 15px;
+	}
+	.content-availabity{
+		margin-top: 20px;
+	  border-bottom: 1px solid $grey-light;
+	  padding-bottom: 15px;
+	}
+	.content-generation{
+		margin-top: 20px;
+	}
+	.sidebar-title{
+		@include font-size(20);
+		font-family: $montserrat;
+		margin-bottom: 12px;
 	}
 }
 

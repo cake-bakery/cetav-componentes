@@ -5,7 +5,7 @@
 	width: 100%;
 	.course-info{
 		float: left;
-		width: 53%;
+		width: 49%;
 	}
 	.course-info-title{
 		@include font-size(40);
@@ -34,8 +34,8 @@
 	}
 	img{
 		float: right;
-		width: 40%;
-    height: 372px;
+		width: 48%;
+    height: 362px;
     box-shadow: 0 0 8px $grey;
 	}
 }

@@ -965,7 +965,7 @@ header {
   width: 100%; }
   .container-courses .course-info {
     float: left;
-    width: 53%; }
+    width: 49%; }
   .container-courses .course-info-title {
     font-size: 40px;
     font-size: 4rem;
@@ -991,8 +991,8 @@ header {
     color: #292929; }
   .container-courses img {
     float: right;
-    width: 40%;
-    height: 372px;
+    width: 48%;
+    height: 362px;
     box-shadow: 0 0 8px #848286; }
 
 .content-section {

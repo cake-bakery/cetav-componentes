@@ -6,11 +6,7 @@
 	.profiles-graduate{
 		background-color: $grey-light;
 	}
-	.info-contact{
-		background-color: $white;
-		box-shadow: 0 0 13px $box-shadow;
-		border-radius: 3px;
-		overflow: hidden;
+	.profiles-sidebar{
 		float: left;
 		width: 28%;
 		position: relative;
@@ -20,23 +16,14 @@
     height: 275px;
     width: 285px;
   }
-  .info-name{
-  	@include font-size(25);
-  	font-family: $montserrat;
-  	margin-bottom: 4px;
-    color: $grey-dark;
-  }
-  .info-profession{
-  	@include font-size(15);
-  	padding-right: 68px;
-    color: $grey-dark;
-    font-weight: bold;
-  }
-  .info-personal{
+  .profiles-sidebar-info{
+  	background-color: $white;
+		box-shadow: 0 0 13px $box-shadow;
+		border-radius: 3px;
+		overflow: hidden;
   	color: $grey;
-  	padding: 15px 27px 22px;
-    margin-left: 5px;
-    margin-top: 6px;
+  	padding: 15px 34px 22px;
+    margin-top: 22px;
     img{
 	  	margin-right: 10px;
 	    top: 4px;
@@ -86,13 +73,9 @@
   }
 }
 // info about the graduate
-.details-graduate{
+.profile-info{
   	float: right;
   	width: 65%;
-  	background-color: $white;
-  	padding: 30px;
-  	box-shadow: 0 0 13px $box-shadow;
-  	border-radius: 3px;
   	p{
   		@include font-size(14);
   		font-family: $open-sans;
@@ -100,8 +83,11 @@
   		margin-top: 12px;
   	}
   }
-  .details-graduate-container{
+  .profile-info-content{
   	margin-top: 26px;
+  	padding: 30px;
+  	box-shadow: 0 0 13px $box-shadow;
+  	border-radius: 3px;
   	&:first-child{
   		margin: 0;
   	}
@@ -109,7 +95,19 @@
   		line-height: 2.2rem;
   	}
   }
-  .detail-graduate-title{
+  .profile-info-content-name{
+  	@include font-size(25);
+  	font-family: $montserrat;
+  	margin-bottom: 4px;
+    color: $grey-dark;
+  }
+  .profile-info-content-profession{
+  	@include font-size(15);
+  	padding-right: 68px;
+    color: $grey-dark;
+    font-weight: bold;
+  }
+  .profile-info-content-title{
   	@include font-size(20);
   	font-family: $montserrat;
   	color: $grey-dark;
@@ -119,7 +117,7 @@
 			margin-top: 0;
   	}
   }
-  .detail-graduate-list-items{
+  .profile-info-content-items{
   	background-color: beige;
     @include font-size(14);
     font-family: "Open Sans", sans-serif;

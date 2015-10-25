@@ -1,9 +1,9 @@
-.container-egresado{
+.container-graduate{
 	max-width: 1000px;
 	margin: 0 auto;
 	padding: 0;
 	width: 100%;
-	.container-sidebar{
+	.graduate-sidebar{
 		float: left;
 		display: inline-block;
 		background-color: $white;
@@ -24,19 +24,19 @@
 			margin-bottom: 11px;
 		}
 	}
-	.content-career{
+	.graduate-sidebar-career{
 	  border-bottom: 1px solid $grey-light;
 	  padding-bottom: 15px;
 	}
-	.content-availabity{
+	.graduate-sidebar-availabity{
 		margin-top: 20px;
 	  border-bottom: 1px solid $grey-light;
 	  padding-bottom: 15px;
 	}
-	.content-generation{
+	.graduate-sidebar-generation{
 		margin-top: 20px;
 	}
-	.sidebar-title{
+	.graduate-sidebar-title{
 		@include font-size(20);
 		font-family: $montserrat;
 		margin-bottom: 12px;

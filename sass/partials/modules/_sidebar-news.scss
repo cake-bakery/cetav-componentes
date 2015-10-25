@@ -2,7 +2,7 @@
 	width: 30%;
 	float: right;
 	background-color: $white;
-	padding:2rem 2rem;
+	padding:20px 20px;
 	box-shadow: 0px 0px 13px $box-shadow;
 }
 
@@ -12,13 +12,13 @@
 	@include font-size(22);
 	overflow: hidden;
 	position: relative;
-	padding: 1rem 2rem 1rem;
+	padding: 10px 20px 10px;
 }
 
 .popular-new {
 	border-bottom: 1px solid $grey-light;
 	display: block;
-	padding: 2rem;
+	padding: 20px;
 	color: $grey-dark;
 	position: relative;
 	overflow: hidden;
@@ -29,13 +29,13 @@
 
 .sub-tittle-populars {
 	@include font-size(16);
-	margin-bottom: 0.2rem;
+	margin-bottom: 0.20px;
 }
 
 .date-preview {
 	display: block;
 	@include font-size(12);
-	margin-bottom: 1rem;
+	margin-bottom: 10px;
 }
 
 .more-preview {
@@ -50,14 +50,14 @@
 	width: 30%;
 	float: right;
 	background-color: $white;
-	padding:0  2rem;
+	padding:0  20px;
 
 	.tittle-populars {
 		color: $grey-dark;
 		@include font-size(24);
 		overflow: hidden;
 		position: relative;
-		padding: 0 0 1rem;
+		padding: 0 0 10px;
 		text-align: center;
 	}
 

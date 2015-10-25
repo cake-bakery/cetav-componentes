@@ -1,21 +1,24 @@
 .content-section {
 	background-color: #243842;
 	background-color: $blue-dark;
-	padding: 5rem;
-	margin-bottom: 10rem;
+	padding: 50px;
+	margin-bottom: 100px;
 	max-width: 100%;
 
 }
+
 .content-information{
 	max-width: 1000px;
 	margin: 0 auto;
 }
+
 .content-title {
 	color: $light-blue;
 	font-family: $montserrat;
-	margin-bottom: 2rem;
+	margin-bottom: 20px;
 	@include font-size(28);
 }
+
 .content-column-course {
 	@include font-size(14);
 	list-style: none;
@@ -44,25 +47,28 @@
     	}
 	}
 
-	ul {
-		padding-left: 2rem;
+	.curse-content-list {
+		padding-left: 20px;
 	}
-	ul li {
-		line-height: 2.7rem;
+
+	.curse-content-item {
+		line-height: 27px;
 		list-style-type:disc;
 	}
 }
+
 .details-section {
 	overflow: hidden;
 	padding:  1%;
 	max-width: 1000px;
 	margin: 0 auto;
 }
+
 .details-subsection {
 	overflow: hidden;
 	padding: 0 2%;
 	margin: 0 auto;
-	margin-bottom: 5rem;
+	margin-bottom: 50px;
 	@media (min-width: 540px) {
 		width: 80%;
 	}
@@ -72,7 +78,7 @@
 	}
 	@media (min-width: 920px) {
 		float: left;
-		width: 43rem;
+		width: 430px;
 		padding: 0;
 		position: relative;
 		&:nth-child(2n) {
@@ -82,70 +88,51 @@
 	}
 }
 
-
-.icon-detail {
-	float: left;
-	margin-top: 3px;
-	position: relative;
-	img {
-		width: 50%;
-		display: block;
-		width: initial;
-	}
-}
-
 .info-details {
-
 	width: 80%;
-	margin-left: 3rem;
+	margin-left: 30px;
 	@media (min-width: 920px) {
 		display: inline-block;
-		width: 37rem;
+		width: 370px;
 	}
-	p {
+	.title-details {
+		color: $light-blue;
+		border-bottom: 2px solid $light-blue;
+		@include font-size(21);
+		max-height: 37px;
+		margin-bottom: 20px;
+		padding-bottom: 20px;
+	}
+
+	.information-item {
 		@include font-size(13);
-		margin: 7px 0 0 0.5rem;
+		margin: 10px 0 0 0px;
 
 	}
 	.subtitle-title-details {
-
 		display: block;
-		margin: 3rem 0 16px 0rem;
+		margin: 20px 0 10px 0px;
 		font-weight: bold;
 		@include font-size(16);
 	}
+
+	
+
+	.subtitle-details {
+		@include font-size(14);
+		color: $grey-dark;
+		font-weight: bold;
+	}
+
+	.orange-color {
+		color: $orange;
+	}
+
 	a{
 		color: $grey;
 	}
 }
 
-.subtitle-details {
-	@include font-size(14);
-	color: $grey-dark;
-	font-weight: bold;
-}
-.title-details {
-	color: $light-blue;
-	@include font-size(21);
-	max-height: 37px;
-	margin-top: 0;
-	margin-bottom: 2rem;
-	overflow: hidden;
-	padding-bottom: 2rem;
-	img {
-		position: absolute;
-		top: 0;
-		left: 0;
-	}
-	h3 {
 
-		display: inline-block;
-		vertical-align: top;
-	}
-}
-
-.orange-color {
-	color: $orange;
-}
 
 

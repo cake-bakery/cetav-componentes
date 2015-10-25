@@ -1,14 +1,33 @@
-.pay-form {
+.width-form {
 	margin: 0 auto;
-	text-align: center;
 	@media (min-width: 480px) {
-		width: 45rem;
+		width: 450px;
 	}
+} 
+.pay-form {
+	
+	text-align: center;
+	height: 0px;
+	overflow: hidden;
+	transition: 2s;
+	-webkit-transition: 2s;
+	width: 100%;
 	span {
 		display: block;
-		margin: 3rem 0;
+		margin: 30px 0;
 		border-bottom: 1px solid $grey;
 	}
+}
+
+.current-course {
+	color: $grey;
+	@include font-size(16);
+	font-weight: bold;
+	float: left;
+	line-height: 18px;
+	margin: 10px 0 10px 0;
+	padding: 10px 20px 10px 0;
+	text-align: left;
 }
 
 .input-main-form {
@@ -17,23 +36,8 @@
 	background-color: $grey-light;
 	@include font-size(16);
 	margin: 1rem 0;
-	padding: 2rem 2rem;
+	padding: 20px 20px;
 	width: 100%;
-}
-
-
-
-
-
-.current-course {
-	color: $grey;
-	@include font-size(16);
-	font-weight: bold;
-	float: left;
-	line-height: 18px;
-	margin: 1rem 0 1rem 0;
-	padding: 1rem 2rem 1rem 0;
-	text-align: left;
 }
 
 .button {
@@ -42,22 +46,22 @@
 	font-weight: bold;
 	border:none;
 	border-radius: 5px;
-	padding: 2rem 3rem;
-	margin: 1.5rem 0 1.5rem 0;
+	padding: 20px 30px;
+	margin: 15px 0 15px 0;
 	width:50%;
 }
 
 .upload-button {
 	display: block;
 	background-image: url(../img/upload-hover.png);
-	background-position: 3rem center;
+	background-position: 30px center;
 	background-repeat: no-repeat;
 	background-color: $grey;
 	color: $white;
 	text-align: right;
 	&:hover {
 		background: url(../img/upload-hover.png);
-		background-position: 3rem center;
+		background-position: 30px center;
 		background-repeat: no-repeat;
 		background-color: $blue-dark;
 	}
@@ -66,26 +70,27 @@
 	background-color: $light-blue;
 	color: $white;
 	display: block;
-	height: 6rem;
+	height: 60px;
 	@include font-size(16);
 	&:hover {
-		background-color: $light-blue;
-		@include font-size(18);
-		color: #fff;
+		background-color: #00acea;
 	}
 }
 
 .inscription-button {
-	width: 20rem;
+	width: 200px;
 	background-color: $light-blue;
 	color: $white;
 	display: block;
-	height: 6rem;
-	margin: 3rem auto;
+	height: 60px;
+	margin: 30px auto;
 	@include font-size(16);
 	&:hover {
-		background-color: $light-blue;
-		@include font-size(18);
-		color: #fff;
+		background-color: #00acea;
 	}
+}
+
+.show-pay-form {
+	height: 410px;
+	-webkit-transition: 2s;
 }

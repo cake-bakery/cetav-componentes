@@ -17,3 +17,7 @@ getId("search-button").onclick = function() {
 getId("go-search").onclick = function() {
 getId("container-header").classList.toggle('show-search');
 };
+
+getId("show-pay-form").onclick = function() {
+		getId("pay-form").classList.toggle('show-pay-form');	
+};

@@ -1,124 +1,123 @@
 //sidebar contact
 .container-profiles{
-	max-width: 1000px;
-	margin: 0 auto;
-	width: 100%;
-	.profiles-graduate{
-		background-color: $grey-light;
-	}
-	.profiles-sidebar{
-		float: left;
-		width: 28%;
-		position: relative;
-		z-index: 20;
-	}
-	.profile-img{
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+  .profiles-graduate{
+    background-color: $grey-light;
+  }
+  .profiles-sidebar{
+    float: left;
+    width: 28%;
+    position: relative;
+    z-index: 20;
+    background-color: $white;
+    box-shadow: 0 0 13px $box-shadow;
+    border-radius: 3px;
+  }
+  .profile-img{
     height: 275px;
-    width: 285px;
+    width: 280px;
   }
   .profiles-sidebar-info{
-  	background-color: $white;
-		box-shadow: 0 0 13px $box-shadow;
-		border-radius: 3px;
-		overflow: hidden;
-  	color: $grey;
-  	padding: 15px 34px 22px;
-    margin-top: 22px;
+    overflow: hidden;
+    color: $grey;
+    padding: 15px 34px 22px;
     img{
-	  	margin-right: 10px;
-	    top: 4px;
-	    position: relative;
-  	}
+      margin-right: 10px;
+      top: 4px;
+      position: relative;
+    }
     p{
-  		@include font-size(14);
-			font-family: $open-sans;
-    	line-height: 36px;
-    	color: $grey;
-		}
+      @include font-size(14);
+      font-family: $open-sans;
+      line-height: 36px;
+      color: $grey;
+    }
     svg{
-  		vertical-align: top;
-  		margin-right: 15px;
-  		margin-top: 23px; 
-  		&:hover{
-				border-bottom: none;
-			}
-  	}
-  	.icon{
-  		width: 19%;
-  	}
-  	.icon-social-facebook {
-			fill: $grey-dark;
-			height: 40px;
-			&:hover{
-			  cursor: pointer;
-			  fill: #4966a7; 
-			}
-		}
-		.icon-social-twitter{
-			fill: $grey-dark;
-			height: 40px;
-			&:hover{
-			  cursor: pointer;
-			  fill: #17b3e8; 
-			}
-		}
-		.icon-social-vimeo {
-			fill: $grey-dark;
-			height: 40px;
-			&:hover{
-			  cursor: pointer;
-			  fill: #17b3e8; 
-			}
-		}
+      vertical-align: top;
+      margin-right: 15px;
+      margin-top: 23px; 
+      &:hover{
+        border-bottom: none;
+      }
+    }
+    .icon{
+      width: 19%;
+    }
+    .icon-social-facebook {
+      fill: $grey-dark;
+      height: 40px;
+      &:hover{
+        cursor: pointer;
+        fill: #4966a7; 
+      }
+    }
+    .icon-social-twitter{
+      fill: $grey-dark;
+      height: 40px;
+      &:hover{
+        cursor: pointer;
+        fill: #17b3e8; 
+      }
+    }
+    .icon-social-vimeo {
+      fill: $grey-dark;
+      height: 40px;
+      &:hover{
+        cursor: pointer;
+        fill: #17b3e8; 
+      }
+    }
   }
 }
 // info about the graduate
 .profile-info{
-  	float: right;
-  	width: 65%;
-  	p{
-  		@include font-size(14);
-  		font-family: $open-sans;
-  		color: $grey;
-  		margin-top: 12px;
-  	}
+    float: right;
+    width: 65%;
+    padding: 30px;
+    box-shadow: 0 0 13px $box-shadow;
+    border-radius: 3px;
+    p{
+      @include font-size(14);
+      font-family: $open-sans;
+      color: $grey;
+      margin-top: 12px;
+    }
   }
   .profile-info-content{
-  	margin-top: 26px;
-  	padding: 30px;
-  	box-shadow: 0 0 13px $box-shadow;
-  	border-radius: 3px;
-  	&:first-child{
-  		margin: 0;
-  	}
-  	p{
-  		line-height: 2.2rem;
-  	}
+    margin-top: 26px;
+    &:first-child{
+      margin: 0;
+    }
+    p{
+      line-height: 2.2rem;
+    }
   }
   .profile-info-content-name{
-  	@include font-size(25);
-  	font-family: $montserrat;
-  	margin-bottom: 4px;
+    @include font-size(25);
+    font-family: $montserrat;
+    margin-bottom: 4px;
     color: $grey-dark;
   }
   .profile-info-content-profession{
-  	@include font-size(15);
-  	padding-right: 68px;
+    @include font-size(15);
+    padding-right: 68px;
     color: $grey-dark;
     font-weight: bold;
   }
   .profile-info-content-title{
-  	@include font-size(20);
-  	font-family: $montserrat;
-  	color: $grey-dark;
-  	margin-top: 16px;
-  	margin-bottom: 15px;
-  	&:nth-child(1){
-			margin-top: 0;
-  	}
+    @include font-size(20);
+    font-family: $montserrat;
+    color: $grey-dark;
+    margin-top: 16px;
+    margin-bottom: 15px;
+    &:nth-child(1){
+      margin-top: 0;
+    }
   }
   .profile-info-content-items{
-  	background-color: beige;
+    background-color: beige;
     @include font-size(14);
     font-family: "Open Sans", sans-serif;
     color: #505050;
@@ -128,12 +127,3 @@
     padding: 1rem 2rem;
     border-radius: 5px;
   }
-
-		
-
-
-
-
-
-
-

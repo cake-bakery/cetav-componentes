@@ -24,7 +24,7 @@
 		width: 55%;
 	}
 p{
-		@include font-size(14);
+		@include font-size(16);
 		font-family: $open-sans;
 		color: $grey;
 	  @media(min-width: 320px){

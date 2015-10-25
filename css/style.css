@@ -1619,18 +1619,17 @@ header {
     float: left;
     width: 28%;
     position: relative;
-    z-index: 20; }
-  .container-profiles .profile-img {
-    height: 275px;
-    width: 285px; }
-  .container-profiles .profiles-sidebar-info {
+    z-index: 20;
     background-color: white;
     box-shadow: 0 0 13px #c2bebe;
-    border-radius: 3px;
+    border-radius: 3px; }
+  .container-profiles .profile-img {
+    height: 275px;
+    width: 280px; }
+  .container-profiles .profiles-sidebar-info {
     overflow: hidden;
     color: #848286;
-    padding: 15px 34px 22px;
-    margin-top: 22px; }
+    padding: 15px 34px 22px; }
     .container-profiles .profiles-sidebar-info img {
       margin-right: 10px;
       top: 4px;
@@ -1670,7 +1669,10 @@ header {
 
 .profile-info {
   float: right;
-  width: 65%; }
+  width: 65%;
+  padding: 30px;
+  box-shadow: 0 0 13px #c2bebe;
+  border-radius: 3px; }
   .profile-info p {
     font-size: 14px;
     font-size: 1.4rem;
@@ -1679,10 +1681,7 @@ header {
     margin-top: 12px; }
 
 .profile-info-content {
-  margin-top: 26px;
-  padding: 30px;
-  box-shadow: 0 0 13px #c2bebe;
-  border-radius: 3px; }
+  margin-top: 26px; }
   .profile-info-content:first-child {
     margin: 0; }
   .profile-info-content p {

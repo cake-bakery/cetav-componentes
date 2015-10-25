@@ -11,19 +11,18 @@
 		width: 28%;
 		position: relative;
 		z-index: 20;
+    background-color: $white;
+    box-shadow: 0 0 13px $box-shadow;
+    border-radius: 3px;
 	}
 	.profile-img{
     height: 275px;
-    width: 285px;
+    width: 280px;
   }
   .profiles-sidebar-info{
-  	background-color: $white;
-		box-shadow: 0 0 13px $box-shadow;
-		border-radius: 3px;
 		overflow: hidden;
   	color: $grey;
   	padding: 15px 34px 22px;
-    margin-top: 22px;
     img{
 	  	margin-right: 10px;
 	    top: 4px;
@@ -76,6 +75,9 @@
 .profile-info{
   	float: right;
   	width: 65%;
+    padding: 30px;
+    box-shadow: 0 0 13px $box-shadow;
+    border-radius: 3px;
   	p{
   		@include font-size(14);
   		font-family: $open-sans;
@@ -85,9 +87,6 @@
   }
   .profile-info-content{
   	margin-top: 26px;
-  	padding: 30px;
-  	box-shadow: 0 0 13px $box-shadow;
-  	border-radius: 3px;
   	&:first-child{
   		margin: 0;
   	}

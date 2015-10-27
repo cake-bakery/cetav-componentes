@@ -74,3 +74,38 @@ iframe{
 		fill: #17b3e8; 
 	}
 }
+svg{
+      vertical-align: top;
+      margin-right: 15px;
+      margin-top: 23px; 
+      &:hover{
+        border-bottom: none;
+      }
+    }
+    .icon{
+      width: 19%;
+    }
+    .icon-social-facebook {
+      fill: $grey-dark;
+      height: 40px;
+      &:hover{
+        cursor: pointer;
+        fill: #4966a7; 
+      }
+    }
+    .icon-social-twitter{
+      fill: $grey-dark;
+      height: 40px;
+      &:hover{
+        cursor: pointer;
+        fill: #17b3e8; 
+      }
+    }
+    .icon-social-vimeo {
+      fill: $grey-dark;
+      height: 40px;
+      &:hover{
+        cursor: pointer;
+        fill: #17b3e8; 
+      }
+      }

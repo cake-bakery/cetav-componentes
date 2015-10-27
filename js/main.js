@@ -10,14 +10,6 @@ function getId(c){
  return elElemento;
 }
 
-getId("search-button").onclick = function() {
-		getId("container-header").classList.toggle('show-search');	
-};
-
-getId("go-search").onclick = function() {
-getId("container-header").classList.toggle('show-search');
-};
-
 getId("show-pay-form").onclick = function() {
 		getId("pay-form").classList.toggle('show-pay-form');	
 };

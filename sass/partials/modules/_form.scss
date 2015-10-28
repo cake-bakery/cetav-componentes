@@ -5,25 +5,25 @@
 	}
 } 
 .pay-form {
-	
-	text-align: center;
 	height: 0px;
 	overflow: hidden;
+	text-align: center;
 	transition: 2s;
 	-webkit-transition: 2s;
 	width: 100%;
+
 	span {
+		border-bottom: 1px solid $grey;
 		display: block;
 		margin: 30px 0;
-		border-bottom: 1px solid $grey;
 	}
 }
 
 .current-course {
-	color: $grey;
 	@include font-size(16);
-	font-weight: bold;
+	color: $grey;
 	float: left;
+	font-weight: bold;
 	line-height: 18px;
 	margin: 10px 0 10px 0;
 	padding: 10px 20px 10px 0;
@@ -31,60 +31,61 @@
 }
 
 .input-main-form {
-	border-radius: 5px;
-	border:none;
-	background-color: $grey-light;
 	@include font-size(16);
+	background-color: $grey-light;
+	border:none;
+	border-radius: 5px;
 	margin: 1rem 0;
 	padding: 20px 20px;
 	width: 100%;
 }
 
 .button {
-	background-color: transparent;
 	@include font-size(14);
-	font-weight: bold;
+	background-color: transparent;
 	border:none;
 	border-radius: 5px;
-	padding: 20px 30px;
+	font-weight: bold;
 	margin: 15px 0 15px 0;
+	padding: 20px 30px;
 	width:50%;
 }
 
 .upload-button {
-	display: block;
 	background-image: url(../img/upload-hover.png);
+	background-color: $grey;
 	background-position: 30px center;
 	background-repeat: no-repeat;
-	background-color: $grey;
 	color: $white;
+	display: block;
 	text-align: right;
 	&:hover {
 		background: url(../img/upload-hover.png);
+		background-color: $blue-dark;
 		background-position: 30px center;
 		background-repeat: no-repeat;
-		background-color: $blue-dark;
 	}
 }
+
 .send-button {
+	@include font-size(16);
 	background-color: $light-blue;
 	color: $white;
 	display: block;
 	height: 60px;
-	@include font-size(16);
 	&:hover {
 		background-color: #00acea;
 	}
 }
 
 .inscription-button {
-	width: 200px;
+	@include font-size(16);
 	background-color: $light-blue;
 	color: $white;
 	display: block;
 	height: 60px;
 	margin: 30px auto;
-	@include font-size(16);
+	width: 200px;
 	&:hover {
 		background-color: #00acea;
 	}

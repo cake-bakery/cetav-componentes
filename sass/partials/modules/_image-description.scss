@@ -1,41 +1,48 @@
-.container-courses{
+.container-courses {
 	margin: 0 auto;
 	max-width: 1000px;
 	padding: 0;
 	width: 100%;
-	.course-info{
-		float: left;
-		width: 53%;
-	}
-	.course-info-title{
-		@include font-size(40);
-		font-family: $montserrat;
-		color: $light-blue;
-	}
-	.course-info-text{
-		@include font-size(16);
-		margin-top: 21px;
-		font-family: $open-sans;
-		color: $grey;
-	}
-	.course-info-details{
-		margin-top: 15px;
-	}
-	p{
-		@include font-size(16);
-		font-family: $open-sans;
-		display: list-item;
-		margin-bottom: 1px;
-		color: $grey;
-	}
-	span{
-		font-weight: bold;
-		color: $grey-dark;
-	}
-	img{
+	img {
 		float: right;
-		width: 40%;
-    height: 372px;
-    box-shadow: 0 0 8px $grey;
+		box-shadow: 0 0 8px $grey;
+	    height: 372px;
+	    width: 40%;
 	}
+}
+
+.course-info {
+	float: left;
+	width: 53%;
+
+	p {
+		@include font-size(16);
+		display: list-item;
+		color: $grey;
+		font-family: $open-sans;
+		margin-bottom: 1px;	
+	}
+
+	span {
+		color: $grey-dark;
+		font-weight: bold;
+	}
+}
+
+.course-info-title {
+	@include font-size(40);
+	color: $light-blue;
+	font-family: $montserrat;
+	margin: 0;
+}
+
+.course-info-text {
+	@include font-size(16);
+	color: $grey;
+	margin-top: 21px;
+	font-family: $open-sans;
+}
+
+.course-info-details {
+	margin-top: 15px;
 }

@@ -1,47 +1,48 @@
-.container-generations{
+.container-generations {
 	margin: 0 auto;
-	margin-bottom: 2rem;
+	margin-bottom: 20px;
 	max-width: 1000px;
 	padding: 0;
-	.generations-intro{
-		display: block;
-		overflow: hidden;
-		margin-top: 4rem;
-		@media(min-width: 880px){
-			margin-top: 0;
-			float: left;
-			vertical-align: top;
-			width: 44%;
-		}
-		.generations-intro-title{
-			@include font-size(40);
-			font-family: $montserrat;
-			color: $orange;
-			line-height: 120%;
-		}
-		p{
-			@include font-size(16);
-			font-family: $open-sans;
-			margin: 2rem 0;
-			margin-top: 8px;
-			color: $grey;
-		}
-		.generations-intro-button{
-			@include font-size(16);
-			border: 2px solid #848286;
-			background: none;
-			color: #848286;
-			border-radius: 6px;
-	    padding: 5px 8px;
-	    -webkit-transition: all 0.3s;
-	    -ms-transition: all 0.3s;
-	    -moz-transition: all 0.3s;
-	    -o-transition: all 0.3s;
-	    transition: all 0.3s;
-	    &:hover{
-	    	color: $white;
-	    	background-color: #848286;
-	    }
-		}
+}
+
+.generations-intro {
+	display: block;
+	margin-top: 4rem;
+	overflow: hidden;
+
+	@media(min-width: 880px) {
+		float: left;
+		margin-top: 0;
+		vertical-align: top;
+		width: 44%;
 	}
 }
+
+.generations-intro-title { 
+	@include font-size(40);
+	font-family: $montserrat;
+	color: $orange;
+	line-height: 120%;
+	margin-top: 51px;
+}
+
+.generations-intro-button {
+	@include font-size(16);
+	background: none;
+	border: 2px solid #848286;
+	border-radius: 6px;
+	color: #848286;
+	margin-top: 20px;
+	padding: 20px 70px;
+	-webkit-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	
+	&:hover{
+	   	color: $white;
+	    background-color: #848286;
+	}
+}
+	

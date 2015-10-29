@@ -557,36 +557,32 @@ header {
 
 .testimonial {
   display: inline-block;
-  margin: 40px;
-  width: 40%; }
+  margin: 40px; }
 
 .testimonial-info {
-  display: inline-block;
-  border-bottom: 2px solid #ECECEC; }
+  float: left;
+  width: 19%;
+  overflow: hidden; }
   .testimonial-info img {
-    border-radius: 50%;
-    height: 25%;
-    width: 25%; }
-  .testimonial-info div {
-    display: inline-block;
-    margin: 20px;
-    vertical-align: top; }
-  .testimonial-info h3 {
-    color: #922716;
-    font-size: 20px;
-    font-size: 2rem;
-    font-family: "Montserrat", sans-serif;
-    padding-bottom: 1rem; }
-  .testimonial-info span {
-    font-size: 14px;
-    font-size: 1.4rem;
-    color: #922716; }
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 50%; }
 
-.testimonial-contenido p {
-  padding-top: 1rem;
-  font-size: 14px;
-  font-size: 1.4rem;
-  font-family: "Open Sans", sans-serif; }
+.testimonial-contenido {
+  float: right;
+  width: 70%;
+  overflow: hidden; }
+  .testimonial-contenido p {
+    padding-top: 1rem;
+    font-size: 12px;
+    font-size: 1.2rem;
+    font-family: "Open Sans", sans-serif; }
+
+.personal-info-testimonial {
+  float: right;
+  margin-right: 5px;
+  text-align: right; }
 
 .container-career {
   margin: 0 auto;

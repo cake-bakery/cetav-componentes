@@ -2,44 +2,37 @@
 .testimonial{
 	display: inline-block;
 	margin: 40px;
-	width: 40%;
 }
 
 .testimonial-info{
-	display: inline-block;
-	border-bottom: 2px solid $grey-light;
+	float: left;
+	width: 19%;
+	overflow: hidden;
+	
 
 	img{
+		width: 100%;
+		margin: 0 auto;
+		margin-bottom: 20px;
 		border-radius:50%;
-		height: 25%;
-		width: 25%;
-	}
-
-	div{
-		display: inline-block;
-		margin: 20px;
-		vertical-align: top;
-	}
-
-	h3{
-		color: $ddw-color;
-		@include font-size(20);
-		font-family: $montserrat;
-		padding-bottom: 1rem;
-	}
-
-	span{
-		@include font-size(14);
-		color: $ddw-color;
 	}
 }
 
 .testimonial-contenido{
+	float: right;
+	width: 70%;
+	overflow: hidden;
 	p {
 		padding-top: 1rem;
-		@include font-size(14);
+		@include font-size(12);
 		font-family: $open-sans;
 	}
+}
+
+.personal-info-testimonial {
+	float: right;
+	margin-right: 5px;
+	text-align: right;
 }
 
 

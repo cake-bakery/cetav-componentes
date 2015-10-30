@@ -59,7 +59,7 @@
 		.personal-list-items-title{
 			color: $grey;
 			display: inline-block;
-			@include font-size(20);
+			@include font-size(22);
 			font-family: $montserrat;
 			padding: 2rem 0 0 0;
 			
@@ -67,28 +67,31 @@
 		}
 
 		p{
-			@include font-size(14);
-			font-family: $open-sans;
+			@include font-size(12);
 			color: $grey-dark;
-			width: 100%;
-			margin: 0 0 0rem;
+			font-family: $open-sans;
+			margin: 10px 0;
+			text-align: left;
+
 			@media(min-width: 320px){
 				width: 99%;
 			}
+
 			@media(min-width: 680px){
 				width: 100%;
 			}
 		}
 		.charge {
+			@include font-size(12);
 			background-color: $grey-light;
 			border-radius: 5px;
 			color: #505050;
 			display: inline-block;
+			font-family: $open-sans;
+			margin: 21px 0;
+			margin-bottom: 1rem;
 			padding: 0.5rem 1rem;
 			text-align: center;
-			/* font-weight: bold; */
-			margin: 0.5rem 0;
-			margin-bottom: 1rem;
 		}
 		.border-personal {
 			border-bottom: 1px solid $grey-lines;

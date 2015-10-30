@@ -8,15 +8,15 @@
 	text-align: center;
 	position: relative;
 	float: right;
- 	border-bottom: 1px solid #c2bebe;
-  padding-bottom: 29px;
-  img{
+ 	border-bottom: 1px solid $grey-light;
+  	padding-bottom: 29px;
+	img{
 		float: left;
 		border-radius: 100%;
 		padding: 1px;
 		width: 139px;
-	  margin: 1rem 2rem 1rem 0;
-	  box-shadow: 0px 4px 7px -2px $grey-dark;
+		margin: 1rem 2rem 1rem 0;
+		box-shadow: 0px 4px 7px -2px $grey-dark;
 	}
 }
 .graduates-content{
@@ -52,17 +52,18 @@
 .graduate-list-profile-info-tag{
   @include font-size(14);
   font-family: $open-sans;
-  color: $grey;
+  color: $post-color;
   margin-right: 10px;
   display: inline-block;
-  background-color: $grey-light;
+  border: 1px solid $post-color;
   border-radius: 4px;
   padding: 9px 16px;
 }
-.graduate-list-profile-info-link{
+
+.graduate-list-profile-info-link {
 	@include font-size(14);
 	font-family: $montserrat;
-	color: $orange;
-  float: left;
-  margin-top: 2px;
+	color: $grey;
+	float: left;
+	margin-top: 2px;
 }

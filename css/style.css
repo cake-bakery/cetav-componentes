@@ -686,17 +686,17 @@ header {
     .container-personal-first .personal-list-items .personal-list-items-title {
       color: #848286;
       display: inline-block;
-      font-size: 20px;
-      font-size: 2rem;
+      font-size: 22px;
+      font-size: 2.2rem;
       font-family: "Montserrat", sans-serif;
       padding: 2rem 0 0 0; }
     .container-personal-first .personal-list-items p {
-      font-size: 14px;
-      font-size: 1.4rem;
-      font-family: "Open Sans", sans-serif;
+      font-size: 12px;
+      font-size: 1.2rem;
       color: #292929;
-      width: 100%;
-      margin: 0 0 0rem; }
+      font-family: "Open Sans", sans-serif;
+      margin: 10px 0;
+      text-align: left; }
       @media (min-width: 320px) {
         .container-personal-first .personal-list-items p {
           width: 99%; } }
@@ -704,15 +704,17 @@ header {
         .container-personal-first .personal-list-items p {
           width: 100%; } }
     .container-personal-first .personal-list-items .charge {
+      font-size: 12px;
+      font-size: 1.2rem;
       background-color: #ECECEC;
       border-radius: 5px;
       color: #505050;
       display: inline-block;
+      font-family: "Open Sans", sans-serif;
+      margin: 21px 0;
+      margin-bottom: 1rem;
       padding: 0.5rem 1rem;
-      text-align: center;
-      /* font-weight: bold; */
-      margin: 0.5rem 0;
-      margin-bottom: 1rem; }
+      text-align: center; }
     .container-personal-first .personal-list-items .border-personal {
       border-bottom: 1px solid #b2b2b2;
       display: block;
@@ -1266,7 +1268,7 @@ header {
   text-align: center;
   position: relative;
   float: right;
-  border-bottom: 1px solid #c2bebe;
+  border-bottom: 1px solid #ECECEC;
   padding-bottom: 29px; }
   .graduate-list-profile img {
     float: left;
@@ -1312,10 +1314,10 @@ header {
   font-size: 14px;
   font-size: 1.4rem;
   font-family: "Open Sans", sans-serif;
-  color: #848286;
+  color: #819535;
   margin-right: 10px;
   display: inline-block;
-  background-color: #ECECEC;
+  border: 1px solid #819535;
   border-radius: 4px;
   padding: 9px 16px; }
 
@@ -1323,7 +1325,7 @@ header {
   font-size: 14px;
   font-size: 1.4rem;
   font-family: "Montserrat", sans-serif;
-  color: #ff8f00;
+  color: #848286;
   float: left;
   margin-top: 2px; }
 

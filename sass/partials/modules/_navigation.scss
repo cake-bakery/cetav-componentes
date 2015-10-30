@@ -1,8 +1,8 @@
-header{
+header {
   padding-top: 10px;
   margin: 0 auto;
 
-  .logo-cetav-img{
+  .logo-cetav-img {
     float: left;
     width: 120px;
     margin-left: 23px;
@@ -13,25 +13,25 @@ header{
     overflow: hidden;
     -webkit-transition: padding 1s;
   }
-  .content-navigation{
+  .content-navigation {
     position: relative;
     overflow: hidden;
     z-index: 20;
-    &:nth-of-type(1){
+    &:nth-of-type(1) {
       background: $grey;
       padding: 10px 0;
     }
-    &:nth-of-type(2){
+    &:nth-of-type(2) {
       background-color: $grey-dark;
       padding: 10px 0;
       
     }
   }
-  .content-navigation-secondary{
+  .content-navigation-secondary {
     float: right;
     margin-right: 23px;
 
-    a{
+    a {
       @include font-size(12);
       font-family: $montserrat;
       margin-left: 20px;
@@ -40,17 +40,18 @@ header{
         border-bottom: 1px solid $white;
       }
     }
-    img{
+    img {
       width: 14px;
     }
   }
-  .content-navigation-primary{
+  .content-navigation-primary {
     float: right;
     line-height: 55px;
     margin-right: 30px;
     overflow: hidden;
     position: relative;
-    a{
+
+    a {
       @include font-size(18);
       font-family: $montserrat;
       margin-left: 40px;
@@ -69,7 +70,7 @@ header{
     position: relative;
     width: 20px;
     height: 20px;
-    margin-left: 20px,
+    margin-left: 20px;
   }
 }
 
@@ -110,7 +111,7 @@ header{
   outline: none;
 }
 
-.show-search{
+.show-search {
   padding-bottom: 60px;
   -webkit-transition:1s;
 }

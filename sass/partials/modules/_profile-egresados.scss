@@ -199,7 +199,10 @@
     @include font-size(14);
     color: $grey;
     font-family: $open-sans;
-    text-align: left; 
+    text-align: left;
+    width: 47%;
+    float: left;
+    margin-right: 53px; 
 }
 
 .info-profile-skills {
@@ -218,7 +221,8 @@
     display: inline-block;
     font-family: $open-sans;
     list-style: none;
-    margin-right: 27px;
+    margin-bottom: 14px;
+    margin-right: 12px;
     padding: 10px;
 }
 

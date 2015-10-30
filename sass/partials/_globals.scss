@@ -66,30 +66,21 @@ svg {
 }
 
 .icon-social-facebook {
-  	fill: $grey-dark;
+	cursor: pointer;
+ 	fill: #4966a7; 
     height: 40px;
-    &:hover{
-    	cursor: pointer;
-        fill: #4966a7; 
-    }
 }
 
 .icon-social-twitter {
-    fill: $grey-dark;
+	cursor: pointer;
+    fill: #17b3e8; 
     height: 40px;
-    &:hover{
-    	cursor: pointer;
-        fill: #17b3e8; 
-    }
 }
 
 .icon-social-vimeo {
-    fill: $grey-dark;
+	cursor: pointer;
+	fill: #17b3e8; 
     height: 40px;
-    &:hover{
-        cursor: pointer;
-        fill: #17b3e8; 
-    }
 }
 //Color and hovers in Footer
 .facebook-icon {

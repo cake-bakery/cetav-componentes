@@ -1,139 +1,3 @@
-//sidebar contact
-
-  .profiles-graduate {
-    background-color: $grey-light;
-  }
-
-  .profiles-sidebar {
-    float: left;
-    width: 28%;
-    position: relative;
-    z-index: 20;
-    background-color: $white;
-    box-shadow: 0 0 13px $box-shadow;
-    border-radius: 3px;
-  }
-
-  .profile-img {
-    height: 275px;
-    width: 280px;
-  }
-
-  .profiles-sidebar-info {
-    overflow: hidden;
-    color: $grey;
-    padding: 15px 34px 22px;
-
-    img {
-        margin-right: 10px;
-        top: 4px;
-        position: relative;
-        width: 9%;
-    }
-
-    p {
-      @include font-size(14);
-      font-family: $open-sans;
-      line-height: 36px;
-      color: $grey;
-    }
-
-    svg {
-      vertical-align: top;
-      margin-right: 15px;
-      margin-top: 23px; 
-      &:hover {
-        border-bottom: none;
-      }
-    }
-
-    .icon {
-      width: 19%;
-    }
-
-    .icon-social-facebook {
-      fill: $grey-dark;
-      height: 40px;
-      &:hover {
-        cursor: pointer;
-        fill: #4966a7; 
-      }
-    }
-    .icon-social-twitter{
-      fill: $grey-dark;
-      height: 40px;
-      &:hover{
-        cursor: pointer;
-        fill: #17b3e8; 
-      }
-    }
-    .icon-social-vimeo {
-      fill: $grey-dark;
-      height: 40px;
-      &:hover{
-        cursor: pointer;
-        fill: #17b3e8; 
-      }
-    }
-  }
-
-// info about the graduate
-.profile-info{
-    float: right;
-    width: 65%;
-    padding: 30px;
-    box-shadow: 0 0 13px $box-shadow;
-    border-radius: 3px;
-    p{
-      @include font-size(14);
-      font-family: $open-sans;
-      color: $grey;
-      margin-top: 12px;
-    }
-  }
-  .profile-info-content {
-    margin-top: 26px;
-    &:first-child{
-      margin: 0;
-    }
-    p{
-      line-height: 2.2rem;
-    }
-  }
-  .profile-info-content-name {
-    @include font-size(25);
-    font-family: $montserrat;
-    margin-bottom: 4px;
-    color: $grey-dark;
-  }
-  .profile-info-content-profession {
-    @include font-size(15);
-    padding-right: 68px;
-    color: $grey-dark;
-    font-weight: bold;
-  }
-  .profile-info-content-title {
-    @include font-size(20);
-    font-family: $montserrat;
-    color: $grey-dark;
-    margin-top: 16px;
-    margin-bottom: 15px;
-    &:nth-child(1){
-      margin-top: 0;
-    }
-  }
-  .profile-info-content-items {
-    background-color: beige;
-    @include font-size(14);
-    font-family: "Open Sans", sans-serif;
-    color: #505050;
-    display: inline-block;
-    margin-right: 5px;
-    margin-bottom: 14px;
-    padding: 1rem 2rem;
-    border-radius: 5px;
-  }
-
 // Proposal second
 .info-profile {
     text-align: center;
@@ -143,8 +7,8 @@
 .info-profile-img {
     border-radius: 800px;
     box-shadow: 0px 4px 7px -2px $grey;
-    margin-bottom: 10px;
-    width: 22%;
+    margin-bottom: 18px;
+    width: 20%;
 }
 
 .info-profile-title {
@@ -162,7 +26,11 @@
     @include font-size(16);
     color: $grey-dark;
     font-weight: bold;
-    margin-top: 4px;
+    margin-top: 15px;
+}
+
+.info-profile-rrss{
+    margin-top: 18px
 }
 
 .icon-profile {
@@ -181,7 +49,7 @@
 .info-profile-contact-list-items {
     display: inline-block;
     list-style: none;
-    width: 20%;
+    width: 24%;
 
     img {
         margin-bottom: 6px;
@@ -195,29 +63,35 @@
     }
 }
 
-.info-profile-about {
+.info-profile-content{
+  width: 87%;
+  margin: 0 auto;
+}
+
+.info-profile-content-about {
     @include font-size(14);
     color: $grey;
     font-family: $open-sans;
     text-align: left;
-    width: 47%;
+    width: 53%;
     float: left;
-    margin-right: 53px; 
 }
 
-.info-profile-skills {
-    margin-top: 30px;
+.info-profile-content-skills {
+    display: inline-block;
+    float: right;
+    width: 38%;
 }
 
-.info-profile-skills-list {
+.info-profile-content-skills-list {
     text-align: left;
 }
 
-.info-profile-skills-list-items {
+.info-profile-content-skills-list-items {
     @include font-size(14);
-    background-color: $grey;
+    border:1px solid $post-color;
     border-radius: 3px;
-    color: $white;
+    color: $post-color;
     display: inline-block;
     font-family: $open-sans;
     list-style: none;
@@ -226,8 +100,10 @@
     padding: 10px;
 }
 
-.info-profile-education {
+.info-profile-content-education {
+    float: left;
     margin-top: 30px;
+    width: 53%;
 
     p {
         @include font-size(14);

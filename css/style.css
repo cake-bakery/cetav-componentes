@@ -250,25 +250,19 @@ svg {
   width: 19%; }
 
 .icon-social-facebook {
-  fill: #292929;
+  cursor: pointer;
+  fill: #4966a7;
   height: 40px; }
-  .icon-social-facebook:hover {
-    cursor: pointer;
-    fill: #4966a7; }
 
 .icon-social-twitter {
-  fill: #292929;
+  cursor: pointer;
+  fill: #17b3e8;
   height: 40px; }
-  .icon-social-twitter:hover {
-    cursor: pointer;
-    fill: #17b3e8; }
 
 .icon-social-vimeo {
-  fill: #292929;
+  cursor: pointer;
+  fill: #17b3e8;
   height: 40px; }
-  .icon-social-vimeo:hover {
-    cursor: pointer;
-    fill: #17b3e8; }
 
 .facebook-icon {
   fill: #fff;
@@ -1333,120 +1327,6 @@ header {
   float: left;
   margin-top: 2px; }
 
-.profiles-graduate {
-  background-color: #ECECEC; }
-
-.profiles-sidebar {
-  float: left;
-  width: 28%;
-  position: relative;
-  z-index: 20;
-  background-color: #fff;
-  box-shadow: 0 0 13px #C2BEBE;
-  border-radius: 3px; }
-
-.profile-img {
-  height: 275px;
-  width: 280px; }
-
-.profiles-sidebar-info {
-  overflow: hidden;
-  color: #848286;
-  padding: 15px 34px 22px; }
-  .profiles-sidebar-info img {
-    margin-right: 10px;
-    top: 4px;
-    position: relative;
-    width: 9%; }
-  .profiles-sidebar-info p {
-    font-size: 14px;
-    font-size: 1.4rem;
-    font-family: "Open Sans", sans-serif;
-    line-height: 36px;
-    color: #848286; }
-  .profiles-sidebar-info svg {
-    vertical-align: top;
-    margin-right: 15px;
-    margin-top: 23px; }
-    .profiles-sidebar-info svg:hover {
-      border-bottom: none; }
-  .profiles-sidebar-info .icon {
-    width: 19%; }
-  .profiles-sidebar-info .icon-social-facebook {
-    fill: #292929;
-    height: 40px; }
-    .profiles-sidebar-info .icon-social-facebook:hover {
-      cursor: pointer;
-      fill: #4966a7; }
-  .profiles-sidebar-info .icon-social-twitter {
-    fill: #292929;
-    height: 40px; }
-    .profiles-sidebar-info .icon-social-twitter:hover {
-      cursor: pointer;
-      fill: #17b3e8; }
-  .profiles-sidebar-info .icon-social-vimeo {
-    fill: #292929;
-    height: 40px; }
-    .profiles-sidebar-info .icon-social-vimeo:hover {
-      cursor: pointer;
-      fill: #17b3e8; }
-
-.profile-info {
-  float: right;
-  width: 65%;
-  padding: 30px;
-  box-shadow: 0 0 13px #C2BEBE;
-  border-radius: 3px; }
-  .profile-info p {
-    font-size: 14px;
-    font-size: 1.4rem;
-    font-family: "Open Sans", sans-serif;
-    color: #848286;
-    margin-top: 12px; }
-
-.profile-info-content {
-  margin-top: 26px; }
-  .profile-info-content:first-child {
-    margin: 0; }
-  .profile-info-content p {
-    line-height: 2.2rem; }
-
-.profile-info-content-name {
-  font-size: 25px;
-  font-size: 2.5rem;
-  font-family: "Montserrat", sans-serif;
-  margin-bottom: 4px;
-  color: #292929; }
-
-.profile-info-content-profession {
-  font-size: 15px;
-  font-size: 1.5rem;
-  padding-right: 68px;
-  color: #292929;
-  font-weight: bold; }
-
-.profile-info-content-title {
-  font-size: 20px;
-  font-size: 2rem;
-  font-family: "Montserrat", sans-serif;
-  color: #292929;
-  margin-top: 16px;
-  margin-bottom: 15px; }
-  .profile-info-content-title:nth-child(1) {
-    margin-top: 0; }
-
-.profile-info-content-items {
-  background-color: beige;
-  font-size: 14px;
-  font-size: 1.4rem;
-  font-family: "Open Sans", sans-serif;
-  color: #505050;
-  display: inline-block;
-  margin-right: 5px;
-  margin-bottom: 14px;
-  padding: 1rem 2rem;
-  border-radius: 5px; }
-
 .info-profile {
   text-align: center;
   width: 100%; }
@@ -1454,8 +1334,8 @@ header {
 .info-profile-img {
   border-radius: 800px;
   box-shadow: 0px 4px 7px -2px #848286;
-  margin-bottom: 10px;
-  width: 22%; }
+  margin-bottom: 18px;
+  width: 20%; }
 
 .info-profile-title {
   font-size: 24px;
@@ -1472,7 +1352,10 @@ header {
   font-size: 1.6rem;
   color: #292929;
   font-weight: bold;
-  margin-top: 4px; }
+  margin-top: 15px; }
+
+.info-profile-rrss {
+  margin-top: 18px; }
 
 .icon-profile {
   display: inline-block;
@@ -1488,7 +1371,7 @@ header {
 .info-profile-contact-list-items {
   display: inline-block;
   list-style: none;
-  width: 20%; }
+  width: 24%; }
   .info-profile-contact-list-items img {
     margin-bottom: 6px;
     width: 28px; }
@@ -1498,28 +1381,33 @@ header {
     color: #848286;
     font-family: "Open Sans", sans-serif; }
 
-.info-profile-about {
+.info-profile-content {
+  width: 87%;
+  margin: 0 auto; }
+
+.info-profile-content-about {
   font-size: 14px;
   font-size: 1.4rem;
   color: #848286;
   font-family: "Open Sans", sans-serif;
   text-align: left;
-  width: 47%;
-  float: left;
-  margin-right: 53px; }
+  width: 53%;
+  float: left; }
 
-.info-profile-skills {
-  margin-top: 30px; }
+.info-profile-content-skills {
+  display: inline-block;
+  float: right;
+  width: 38%; }
 
-.info-profile-skills-list {
+.info-profile-content-skills-list {
   text-align: left; }
 
-.info-profile-skills-list-items {
+.info-profile-content-skills-list-items {
   font-size: 14px;
   font-size: 1.4rem;
-  background-color: #848286;
+  border: 1px solid #819535;
   border-radius: 3px;
-  color: #fff;
+  color: #819535;
   display: inline-block;
   font-family: "Open Sans", sans-serif;
   list-style: none;
@@ -1527,9 +1415,11 @@ header {
   margin-right: 12px;
   padding: 10px; }
 
-.info-profile-education {
-  margin-top: 30px; }
-  .info-profile-education p {
+.info-profile-content-education {
+  float: left;
+  margin-top: 30px;
+  width: 53%; }
+  .info-profile-content-education p {
     font-size: 14px;
     font-size: 1.4rem;
     color: #848286;

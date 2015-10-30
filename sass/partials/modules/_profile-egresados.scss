@@ -1,9 +1,10 @@
 //sidebar contact
 
-  .profiles-graduate{
+  .profiles-graduate {
     background-color: $grey-light;
   }
-  .profiles-sidebar{
+
+  .profiles-sidebar {
     float: left;
     width: 28%;
     position: relative;
@@ -12,40 +13,48 @@
     box-shadow: 0 0 13px $box-shadow;
     border-radius: 3px;
   }
-  .profile-img{
+
+  .profile-img {
     height: 275px;
     width: 280px;
   }
-  .profiles-sidebar-info{
+
+  .profiles-sidebar-info {
     overflow: hidden;
     color: $grey;
     padding: 15px 34px 22px;
-    img{
-      margin-right: 10px;
-      top: 4px;
-      position: relative;
+
+    img {
+        margin-right: 10px;
+        top: 4px;
+        position: relative;
+        width: 9%;
     }
-    p{
+    
+    p {
       @include font-size(14);
       font-family: $open-sans;
       line-height: 36px;
       color: $grey;
     }
-    svg{
+
+    svg {
       vertical-align: top;
       margin-right: 15px;
       margin-top: 23px; 
-      &:hover{
+      &:hover {
         border-bottom: none;
       }
     }
-    .icon{
+
+    .icon {
       width: 19%;
     }
+
     .icon-social-facebook {
       fill: $grey-dark;
       height: 40px;
-      &:hover{
+      &:hover {
         cursor: pointer;
         fill: #4966a7; 
       }
@@ -124,3 +133,102 @@
     padding: 1rem 2rem;
     border-radius: 5px;
   }
+
+// Proposal second
+.info-profile {
+    text-align: center;
+    width: 100%;
+}
+
+.info-profile-img {
+    border-radius: 800px;
+    box-shadow: 0 0 13px $grey;
+    margin-bottom: 10px;
+    width: 22%;
+}
+
+.info-profile-title {
+    @include font-size(24);
+    color: $grey-dark;
+    font-family: $montserrat;
+}
+
+.title {
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.info-profile-profession {
+    @include font-size(16);
+    color: $grey-dark;
+    font-weight: bold;
+    margin-top: 4px;
+}
+
+.icon-profile {
+    display: inline-block;
+    margin-top: 9px;
+    width: 4%;
+}
+
+.info-profile-contact {
+    border-bottom: 1px solid $grey-light;
+    border-top: 1px solid $grey-light;
+    margin: 25px 0;
+    padding: 24px 0;
+}
+
+.info-profile-contact-list-items {
+    display: inline-block;
+    list-style: none;
+    width: 20%;
+
+    img {
+        margin-bottom: 6px;
+        width: 28px;
+    }
+
+    p{
+        @include font-size(16);
+        color: $grey;
+        font-family: $open-sans;
+    }
+}
+
+.info-profile-about {
+    @include font-size(14);
+    color: $grey;
+    font-family: $open-sans;
+    text-align: left; 
+}
+
+.info-profile-skills {
+    margin-top: 25px;
+}
+
+.info-profile-skills-list {
+    text-align: left;
+}
+
+.info-profile-skills-list-items {
+    @include font-size(14);
+    background-color: $grey;
+    border-radius: 3px;
+    color: $white;
+    display: inline-block;
+    font-family: $open-sans;
+    list-style: none;
+    margin-right: 27px;
+    padding: 10px;
+}
+
+.info-profile-education {
+    margin-top: 25px;
+
+    p {
+        @include font-size(14);
+        color: $grey;
+        font-family: $open-sans;
+        text-align: left;
+    }
+}

@@ -557,36 +557,32 @@ header {
 
 .testimonial {
   display: inline-block;
-  margin: 40px;
-  width: 40%; }
+  margin: 40px; }
 
 .testimonial-info {
-  display: inline-block;
-  border-bottom: 2px solid #ececec; }
+  float: left;
+  width: 19%;
+  overflow: hidden; }
   .testimonial-info img {
-    border-radius: 50%;
-    height: 25%;
-    width: 25%; }
-  .testimonial-info div {
-    display: inline-block;
-    margin: 20px;
-    vertical-align: top; }
-  .testimonial-info h3 {
-    color: #922716;
-    font-size: 20px;
-    font-size: 2rem;
-    font-family: "Montserrat", sans-serif;
-    padding-bottom: 1rem; }
-  .testimonial-info span {
-    font-size: 14px;
-    font-size: 1.4rem;
-    color: #922716; }
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 50%; }
 
-.testimonial-contenido p {
-  padding-top: 1rem;
-  font-size: 14px;
-  font-size: 1.4rem;
-  font-family: "Open Sans", sans-serif; }
+.testimonial-contenido {
+  float: right;
+  width: 70%;
+  overflow: hidden; }
+  .testimonial-contenido p {
+    padding-top: 1rem;
+    font-size: 12px;
+    font-size: 1.2rem;
+    font-family: "Open Sans", sans-serif; }
+
+.personal-info-testimonial {
+  float: right;
+  margin-right: 5px;
+  text-align: right; }
 
 .container-career {
   margin: 0 auto;
@@ -1333,7 +1329,8 @@ header {
   .profiles-sidebar-info img {
     margin-right: 10px;
     top: 4px;
-    position: relative; }
+    position: relative;
+    width: 9%; }
   .profiles-sidebar-info p {
     font-size: 14px;
     font-size: 1.4rem;
@@ -1422,6 +1419,91 @@ header {
   margin-bottom: 14px;
   padding: 1rem 2rem;
   border-radius: 5px; }
+
+.info-profile {
+  text-align: center;
+  width: 100%; }
+
+.info-profile-img {
+  border-radius: 800px;
+  box-shadow: 0 0 13px #848286;
+  margin-bottom: 10px;
+  width: 22%; }
+
+.info-profile-title {
+  font-size: 24px;
+  font-size: 2.4rem;
+  color: #292929;
+  font-family: "Montserrat", sans-serif; }
+
+.title {
+  margin-bottom: 16px;
+  text-align: left; }
+
+.info-profile-profession {
+  font-size: 16px;
+  font-size: 1.6rem;
+  color: #292929;
+  font-weight: bold;
+  margin-top: 4px; }
+
+.icon-profile {
+  display: inline-block;
+  margin-top: 9px;
+  width: 4%; }
+
+.info-profile-contact {
+  border-bottom: 1px solid #ececec;
+  border-top: 1px solid #ececec;
+  margin: 25px 0;
+  padding: 24px 0; }
+
+.info-profile-contact-list-items {
+  display: inline-block;
+  list-style: none;
+  width: 20%; }
+  .info-profile-contact-list-items img {
+    margin-bottom: 6px;
+    width: 28px; }
+  .info-profile-contact-list-items p {
+    font-size: 16px;
+    font-size: 1.6rem;
+    color: #848286;
+    font-family: "Open Sans", sans-serif; }
+
+.info-profile-about {
+  font-size: 14px;
+  font-size: 1.4rem;
+  color: #848286;
+  font-family: "Open Sans", sans-serif;
+  text-align: left; }
+
+.info-profile-skills {
+  margin-top: 25px; }
+
+.info-profile-skills-list {
+  text-align: left; }
+
+.info-profile-skills-list-items {
+  font-size: 14px;
+  font-size: 1.4rem;
+  background-color: #848286;
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  list-style: none;
+  margin-right: 27px;
+  padding: 10px; }
+
+.info-profile-education {
+  margin-top: 25px; }
+  .info-profile-education p {
+    font-size: 14px;
+    font-size: 1.4rem;
+    color: #848286;
+    font-family: "Open Sans", sans-serif;
+    text-align: left; }
 
 .news-section-main-first {
   background-color: #ececec; }

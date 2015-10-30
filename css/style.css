@@ -573,6 +573,7 @@ header {
   border-radius: 50%; }
 
 .testimonial-contenido {
+  color: #848286;
   float: right;
   width: 75%;
   overflow: hidden; }
@@ -580,6 +581,7 @@ header {
     padding-top: 1rem;
     font-size: 12px;
     font-size: 1.2rem;
+    font-style: italic;
     font-family: "Open Sans", sans-serif;
     margin-bottom: 10px;
     padding-bottom: 10px;
@@ -589,6 +591,9 @@ header {
   float: right;
   margin-right: 5px;
   text-align: right; }
+  .personal-info-testimonial h3 {
+    color: #292929;
+    margin-bottom: 3px; }
 
 .container-career {
   margin: 0 auto;

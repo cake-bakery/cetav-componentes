@@ -1,5 +1,5 @@
 
-.testimonial{
+.testimonial {
 	width: 95%;
 	margin: 0 auto;
 	margin-bottom: 50px;
@@ -20,21 +20,21 @@
 	}
 }
 
-.testimonial-img{
+.testimonial-img {
 	border-radius: 50%;
+	box-shadow: 0px 4px 7px -2px $grey;
     position: absolute;
     left: 0;
     top: 6%;
     width: 90px;
-    
-	
 }
 
-.testimonial-contenido{
+.testimonial-contenido {
 	color: $grey;
 	float: right;
 	width: 75%;
 	overflow: hidden;
+
 	p {
 		padding-top: 1rem;
 		@include font-size(12);
@@ -50,9 +50,17 @@
 	float: right;
 	margin-right: 5px;
 	text-align: right;
+
 	h3 {
+		@include font-size(14);
 		color: $grey-dark;
+		font-family: $montserrat;
 		margin-bottom: 3px;
+	}
+
+	span{
+		@include font-size(12);
+		font-family: $open-sans;
 	}
 }
 

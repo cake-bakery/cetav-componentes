@@ -241,7 +241,7 @@ iframe {
 
 svg {
   margin-right: 15px;
-  margin-top: 23px;
+  margin-top: 11px;
   vertical-align: top; }
   svg:hover {
     border-bottom: none; }
@@ -575,6 +575,7 @@ header {
 
 .testimonial-img {
   border-radius: 50%;
+  box-shadow: 0px 4px 7px -2px #848286;
   position: absolute;
   left: 0;
   top: 6%;
@@ -600,8 +601,15 @@ header {
   margin-right: 5px;
   text-align: right; }
   .personal-info-testimonial h3 {
+    font-size: 14px;
+    font-size: 1.4rem;
     color: #292929;
+    font-family: "Montserrat", sans-serif;
     margin-bottom: 3px; }
+  .personal-info-testimonial span {
+    font-size: 12px;
+    font-size: 1.2rem;
+    font-family: "Open Sans", sans-serif; }
 
 .container-career {
   margin: 0 auto;
@@ -660,7 +668,8 @@ header {
     vertical-align: top; }
     .container-personal-first .personal-list-items .image-personal {
       border-radius: 50%;
-      width: 100%; }
+      box-shadow: 0px 4px 7px -2px #848286;
+      width: 94%; }
     @media (min-width: 319px) {
       .container-personal-first .personal-list-items {
         width: 80%;
@@ -693,8 +702,7 @@ header {
       font-family: "Open Sans", sans-serif;
       color: #292929;
       width: 100%;
-      margin: 0 0 0rem;
-      padding: 0 1rem; }
+      margin: 0 0 0rem; }
       @media (min-width: 320px) {
         .container-personal-first .personal-list-items p {
           width: 99%; } }
@@ -1498,7 +1506,7 @@ header {
   text-align: left; }
 
 .info-profile-skills {
-  margin-top: 25px; }
+  margin-top: 30px; }
 
 .info-profile-skills-list {
   text-align: left; }
@@ -1516,7 +1524,7 @@ header {
   padding: 10px; }
 
 .info-profile-education {
-  margin-top: 25px; }
+  margin-top: 30px; }
   .info-profile-education p {
     font-size: 14px;
     font-size: 1.4rem;

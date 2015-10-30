@@ -556,21 +556,29 @@ header {
     background-color: #848286; }
 
 .testimonial {
-  display: inline-block;
-  height: 110px;
-  width: 45%;
-  margin: 40px 9% 40px 0;
-  position: relative; }
-  .testimonial:nth-child(2n) {
-    margin-right: 0; }
+  width: 95%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  position: relative;
+  overflow: hidden;
+  vertical-align: top; }
+  @media (min-width: 640px) {
+    .testimonial {
+      width: 70%; } }
+  @media (min-width: 980px) {
+    .testimonial {
+      display: inline-block;
+      width: 45%;
+      margin: 40px 9% 40px 0; }
+      .testimonial:nth-child(2n) {
+        margin-right: 0; } }
 
 .testimonial-img {
+  border-radius: 50%;
   position: absolute;
-  top: 50%;
   left: 0;
-  margin: -45px 0%;
-  width: 20%;
-  border-radius: 50%; }
+  top: 6%;
+  width: 90px; }
 
 .testimonial-contenido {
   color: #848286;

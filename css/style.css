@@ -608,18 +608,18 @@ header {
       font-size: 1.4rem;
       color: #fff; }
     .generations-video .reel-overlay .play-video-wrap {
-      border: 6px solid #fff;
+      border: 3px solid #fff;
       border-radius: 50%;
       display: inline-block;
       cursor: pointer;
       height: 80px;
       margin-top: 40px;
       position: relative;
-      padding: 14px;
-      padding-left: 11px;
+      padding: 17px;
+      padding-left: 14px;
       width: 80px; }
       .generations-video .reel-overlay .play-video-wrap:hover {
-        border: 6px solid #ff8f00; }
+        border: 3px solid #ff8f00; }
         .generations-video .reel-overlay .play-video-wrap:hover .play-video {
           border-width: 20px 0 20px 34.6px;
           border-color: transparent transparent transparent #ff8f00; }

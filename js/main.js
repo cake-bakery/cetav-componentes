@@ -11,5 +11,9 @@ function getId(c){
 }
 
 getId("show-pay-form").onclick = function() {
-		getId("pay-form").classList.toggle('show-pay-form');	
+	this.classList.toggle('hide-button');
+	getId("pay-form").classList.toggle('show-pay-form');
+	setTimeout(function(){
+		getId("show-pay-form").style.display='none';
+	}, 1000);	
 };

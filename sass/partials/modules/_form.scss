@@ -8,8 +8,8 @@
 	height: 0px;
 	overflow: hidden;
 	text-align: center;
-	transition: 2s;
-	-webkit-transition: 2s;
+	transition: 1s;
+	-webkit-transition: 1s;
 	width: 100%;
 
 	span {
@@ -56,6 +56,7 @@
 	background-color: $grey;
 	background-position: 30px center;
 	background-repeat: no-repeat;
+
 	color: $white;
 	display: block;
 	text-align: right;
@@ -83,6 +84,7 @@
 	background-color: $light-blue;
 	color: $white;
 	display: block;
+	outline: none;
 	height: 60px;
 	margin: 30px auto;
 	width: 200px;
@@ -93,5 +95,13 @@
 
 .show-pay-form {
 	height: 410px;
-	-webkit-transition: 2s;
+	-webkit-transition: 1s;
+}
+
+.hide-button {
+	border: none;
+	height: 0;
+	margin: 0 auto;
+	padding: 0;
+	-webkit-transition: 1s;
 }

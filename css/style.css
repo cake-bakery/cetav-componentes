@@ -1004,8 +1004,8 @@ header {
   height: 0px;
   overflow: hidden;
   text-align: center;
-  transition: 2s;
-  -webkit-transition: 2s;
+  transition: 1s;
+  -webkit-transition: 1s;
   width: 100%; }
   .pay-form span {
     border-bottom: 1px solid #848286;
@@ -1074,6 +1074,7 @@ header {
   background-color: #00c9ed;
   color: #fff;
   display: block;
+  outline: none;
   height: 60px;
   margin: 30px auto;
   width: 200px; }
@@ -1082,7 +1083,14 @@ header {
 
 .show-pay-form {
   height: 410px;
-  -webkit-transition: 2s; }
+  -webkit-transition: 1s; }
+
+.hide-button {
+  border: none;
+  height: 0;
+  margin: 0 auto;
+  padding: 0;
+  -webkit-transition: 1s; }
 
 .preview-squares-module {
   margin: 0 auto;

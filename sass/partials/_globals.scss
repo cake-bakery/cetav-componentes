@@ -38,17 +38,7 @@ p {
 }
 
 //Video in generation and Description - video 
-iframe {
-	float: right;
-	height: 160px;
-	margin-top: 9px;
-	vertical-align: top;
-	width: 100%;
-	@media(min-width: 480px){
-	    height: 30rem;
-	    width: 50%;
-  	}
-}
+
 
 // SVG
 //Color and hovers in administrative personal and graduate profile 
@@ -102,4 +92,54 @@ svg {
 		cursor: pointer;
 		fill: #17b3e8; 
 	}
+}
+
+%triangle-link {
+	display: inline-block;
+	margin-left: 10px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 7.5px 0 7.5px 13.0px;
+	border-color: transparent transparent transparent $white;
+}
+
+.triangle-link-white {
+	@extend %triangle-link;
+	border-color: transparent transparent transparent $white;
+}
+
+.triangle-link-ddw {
+	@extend %triangle-link;
+	border-color: transparent transparent transparent $ddw-color;
+}
+
+.triangle-link-curse {
+	@extend %triangle-link;
+	border-color: transparent transparent transparent $light-blue;
+}
+
+%triangle-download {
+	display: inline-block;
+	margin-left: 10px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 7.5px 0 7.5px;
+	border-color: $white transparent transparent transparent;
+}
+
+.triangle-download-white {
+	@extend %triangle-download;
+	border-color: $white transparent transparent transparent;
+}
+
+.triangle-download-ddw {
+	@extend %triangle-download;
+	border-color: $ddw-color transparent transparent transparent;
+}
+
+.triangle-download-curse {
+	@extend %triangle-download;
+	border-color: $light-blue transparent transparent transparent;
 }

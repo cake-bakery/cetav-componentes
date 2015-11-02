@@ -228,17 +228,6 @@ h2 {
 p {
   margin: 0; }
 
-iframe {
-  float: right;
-  height: 160px;
-  margin-top: 9px;
-  vertical-align: top;
-  width: 100%; }
-  @media (min-width: 480px) {
-    iframe {
-      height: 30rem;
-      width: 50%; } }
-
 svg {
   margin-right: 15px;
   margin-top: 11px;
@@ -280,6 +269,42 @@ svg {
   .vimeo-icon:hover {
     cursor: pointer;
     fill: #17b3e8; }
+
+.triangle-link-white, .triangle-link-ddw, .triangle-link-curse, .generations-video .reel-overlay .play-video, .program-button:hover .triangle-link-ddw {
+  display: inline-block;
+  margin-left: 10px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 7.5px 0 7.5px 13.0px;
+  border-color: transparent transparent transparent #fff; }
+
+.triangle-link-white {
+  border-color: transparent transparent transparent #fff; }
+
+.triangle-link-ddw {
+  border-color: transparent transparent transparent #922716; }
+
+.triangle-link-curse {
+  border-color: transparent transparent transparent #00c9ed; }
+
+.triangle-download-white, .triangle-download-ddw, .triangle-download-curse, .program-button:hover .triangle-download-ddw {
+  display: inline-block;
+  margin-left: 10px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 7.5px 0 7.5px;
+  border-color: #fff transparent transparent transparent; }
+
+.triangle-download-white {
+  border-color: #fff transparent transparent transparent; }
+
+.triangle-download-ddw {
+  border-color: #922716 transparent transparent transparent; }
+
+.triangle-download-curse {
+  border-color: #00c9ed transparent transparent transparent; }
 
 .wrapper {
   max-width: 1000px;
@@ -507,29 +532,29 @@ header {
     font-family: "Open Sans", sans-serif; }
 
 .container-generations {
-  margin: 0 auto;
-  margin-bottom: 20px;
+  margin: 20px auto;
   max-width: 1000px;
-  padding: 0; }
+  overflow: hidden;
+  padding: 0;
+  position: relative; }
 
 .generations-intro {
   display: block;
-  margin-top: 4rem;
+  margin-top: 40px;
   overflow: hidden; }
   @media (min-width: 880px) {
     .generations-intro {
       float: left;
-      margin-top: 0;
+      margin-top: 65px;
       vertical-align: top;
-      width: 44%; } }
+      width: 30%; } }
 
 .generations-intro-title {
   font-size: 40px;
   font-size: 4rem;
   font-family: "Montserrat", sans-serif;
   color: #ff8f00;
-  line-height: 120%;
-  margin-top: 51px; }
+  line-height: 120%; }
 
 .generations-intro-button {
   font-size: 16px;
@@ -548,6 +573,54 @@ header {
   .generations-intro-button:hover {
     color: #fff;
     background-color: #848286; }
+
+.generations-video {
+  float: right;
+  width: 70%;
+  position: relative; }
+  .generations-video iframe {
+    width: 100%;
+    height: 400px; }
+  .generations-video .video-information {
+    height: 400px;
+    position: absolute;
+    top: 0;
+    width: 100%; }
+    .generations-video .video-information img {
+      width: 100%; }
+  .generations-video .reel-overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    height: 400px;
+    width: 100%;
+    padding: 80px 200px;
+    text-align: center; }
+    .generations-video .reel-overlay h3 {
+      color: #fff;
+      font-size: 26px;
+      font-size: 2.6rem;
+      font-family: "Montserrat", sans-serif;
+      margin-bottom: 20px; }
+    .generations-video .reel-overlay p {
+      font-size: 14px;
+      font-size: 1.4rem;
+      color: #fff; }
+    .generations-video .reel-overlay .play-video-wrap {
+      border: 8px solid #fff;
+      border-radius: 50%;
+      display: inline-block;
+      cursor: pointer;
+      height: 100px;
+      margin-top: 20px;
+      padding-left: 29px;
+      position: relative;
+      padding: 20px;
+      width: 100px; }
+    .generations-video .reel-overlay .play-video {
+      display: block;
+      border-width: 20px 0 20px 34.6px;
+      text-indent: -10000%; }
 
 .testimonial {
   width: 95%;
@@ -610,6 +683,18 @@ header {
   max-width: 1000px;
   padding: 0;
   width: 100%; }
+  .container-career iframe {
+    float: right;
+    height: 160px;
+    margin-top: 9px;
+    vertical-align: top;
+    width: 100%; }
+    @media (min-width: 480px) {
+      .container-career iframe {
+        height: 30rem;
+        width: 50%; } }
+    .container-career iframe .title {
+      display: none; }
   .container-career .career-intro {
     margin: 2rem 0; }
     @media (min-width: 880px) {
@@ -1135,7 +1220,7 @@ header {
       .square-preview-module:nth-child(3n) {
         margin-right: 0; }
       .square-preview-module:last-child {
-        background-color: transparent;
+        padding: 60px 0;
         margin-right: 0%; } }
 
 .title-square {
@@ -1143,30 +1228,45 @@ header {
   font-size: 2rem;
   color: #fff;
   margin-top: 0;
-  padding: 1.5rem; }
+  padding: 15px; }
 
 .list-program-preview {
-  padding: 2.5rem;
+  padding: 25px;
   z-index: 2; }
   .list-program-preview li {
     font-size: 14px;
     font-size: 1.4rem;
     display: block;
-    margin-bottom: 1rem; }
+    margin-bottom: 10px; }
 
 .program-button {
   font-size: 18px;
   font-size: 1.8rem;
-  border: none;
-  height: 120px;
-  width: 100%; }
+  background-color: #fff;
+  border: 2px solid #922716;
+  border-radius: 5px;
+  color: #922716;
+  display: block;
+  height: 50px;
+  line-height: 15px;
+  margin: 10px auto;
+  padding: 0 20px;
+  width: 80%;
+  transition: 0.2s; }
+  .program-button:hover {
+    background-color: #922716;
+    color: #fff;
+    transition: 0.2s; }
+    .program-button:hover .triangle-link-ddw {
+      border-color: transparent transparent transparent #ffffff;
+      transition: 0.2s; }
+    .program-button:hover .triangle-download-ddw {
+      border-color: #ffffff transparent transparent transparent;
+      transition: 0.2s; }
 
 .download-program-button {
   color: #fff;
   margin-bottom: 10px; }
-
-.program-admision-button {
-  background-color: #fff; }
 
 .background-color-post {
   background-color: #819535; }
@@ -1176,15 +1276,6 @@ header {
 
 .background-color-animacion {
   background-color: #cc6220; }
-
-.border-color-post {
-  border: 2px solid #819535; }
-
-.border-color-ddw {
-  border: 2px solid #922716; }
-
-.border-color-animacion {
-  border: 2px solid #cc6220; }
 
 .career-program::after {
   background-image: url(../img/background-ddw.jpg);

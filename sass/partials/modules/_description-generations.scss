@@ -84,7 +84,7 @@
 			color: $white;
 		}
 		.play-video-wrap {
-			border: 6px solid #fff;
+			border: 6px solid $white;
 			border-radius: 50%;
 			display: inline-block;
 			cursor: pointer;
@@ -92,8 +92,16 @@
 			margin-top: 40px;
 			position: relative;
 			padding: 14px;	
-			padding-left: 10px;		
+			padding-left: 11px;		
 			width: 80px;
+			&:hover{
+				border: 6px solid $orange;
+				.play-video {
+					@extend %triangle-link;
+					border-width: 20px 0 20px 34.6px;
+					border-color: transparent transparent transparent $orange;
+				}
+			}
 		}
 
 		.play-video {

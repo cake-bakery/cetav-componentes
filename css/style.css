@@ -270,7 +270,7 @@ svg {
     cursor: pointer;
     fill: #17b3e8; }
 
-.triangle-link-white, .triangle-link-ddw, .triangle-link-curse, .generations-video .reel-overlay .play-video, .program-button:hover .triangle-link-ddw {
+.triangle-link-white, .triangle-link-ddw, .triangle-link-curse, .generations-video .reel-overlay .play-video-wrap:hover .play-video, .generations-video .reel-overlay .play-video, .program-button:hover .triangle-link-ddw {
   display: inline-block;
   margin-left: 10px;
   width: 0;
@@ -616,8 +616,13 @@ header {
       margin-top: 40px;
       position: relative;
       padding: 14px;
-      padding-left: 10px;
+      padding-left: 11px;
       width: 80px; }
+      .generations-video .reel-overlay .play-video-wrap:hover {
+        border: 6px solid #ff8f00; }
+        .generations-video .reel-overlay .play-video-wrap:hover .play-video {
+          border-width: 20px 0 20px 34.6px;
+          border-color: transparent transparent transparent #ff8f00; }
     .generations-video .reel-overlay .play-video {
       display: block;
       border-width: 20px 0 20px 34.6px;

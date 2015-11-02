@@ -608,16 +608,16 @@ header {
       font-size: 1.4rem;
       color: #fff; }
     .generations-video .reel-overlay .play-video-wrap {
-      border: 8px solid #fff;
+      border: 6px solid #fff;
       border-radius: 50%;
       display: inline-block;
       cursor: pointer;
-      height: 100px;
-      margin-top: 20px;
-      padding-left: 29px;
+      height: 80px;
+      margin-top: 40px;
       position: relative;
-      padding: 20px;
-      width: 100px; }
+      padding: 14px;
+      padding-left: 10px;
+      width: 80px; }
     .generations-video .reel-overlay .play-video {
       display: block;
       border-width: 20px 0 20px 34.6px;

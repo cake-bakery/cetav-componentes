@@ -1359,11 +1359,12 @@ header {
 
 .graduate-list {
   float: right;
-  width: 60%; }
+  width: 60%;
+  margin-right: 87px; }
 
 .graduate-list-profile {
-  width: 100%;
-  margin: 11px 0;
+  width: 90%;
+  margin: 11px 0 11px 87px;
   text-align: center;
   position: relative;
   float: right;
@@ -1373,7 +1374,7 @@ header {
     float: left;
     border-radius: 100%;
     padding: 1px;
-    width: 139px;
+    width: 104px;
     margin: 1rem 2rem 1rem 0;
     box-shadow: 0px 4px 7px -2px #292929; }
 
@@ -1389,44 +1390,54 @@ header {
 
 .graduate-list-profile-info {
   text-align: left;
-  padding: 1rem 0; }
+  margin-top: 20px; }
 
 .graduate-list-profile-info-title {
-  font-size: 28px;
-  font-size: 2.8rem;
+  font-size: 21px;
+  font-size: 2.1rem;
   font-family: "Montserrat", sans-serif;
   color: #292929;
   line-height: 3.8rem;
   margin-bottom: -2px; }
 
 .graduate-list-profile-info-profession {
-  font-size: 14px;
-  font-size: 1.4rem;
+  font-size: 13px;
+  font-size: 1.3rem;
   font-family: "Open Sans", sans-serif;
   color: #292929;
   display: block;
-  margin: 0 0 1.5rem 0;
+  margin: 0 0 8px 0;
   margin-top: 0;
   font-weight: bold; }
 
 .graduate-list-profile-info-tag {
-  font-size: 14px;
-  font-size: 1.4rem;
+  font-size: 13px;
+  font-size: 1.3rem;
   font-family: "Open Sans", sans-serif;
-  color: #819535;
+  color: #848286;
   margin-right: 10px;
   display: inline-block;
-  border: 1px solid #819535;
-  border-radius: 4px;
-  padding: 9px 16px; }
+  border-radius: 4px; }
 
 .graduate-list-profile-info-link {
   font-size: 14px;
   font-size: 1.4rem;
   font-family: "Montserrat", sans-serif;
-  color: #848286;
+  color: #fff;
   float: left;
-  margin-top: 2px; }
+  top: 35px;
+  right: 0;
+  position: absolute;
+  background-color: #819535;
+  padding: 6px 16px;
+  border-radius: 3px; }
+  .graduate-list-profile-info-link:hover {
+    background-color: #6C9535;
+    -webkit-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s; }
 
 .info-profile {
   text-align: center;
@@ -1508,7 +1519,7 @@ header {
   font-size: 1.4rem;
   border: 1px solid #819535;
   border-radius: 3px;
-  color: #819535;
+  color: #848286;
   display: inline-block;
   font-family: "Open Sans", sans-serif;
   list-style: none;

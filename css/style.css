@@ -584,6 +584,7 @@ header {
   .generations-video .video-information {
     height: 400px;
     position: absolute;
+    overflow: hidden;
     top: 0;
     width: 100%; }
     .generations-video .video-information img {

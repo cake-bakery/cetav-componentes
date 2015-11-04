@@ -47,7 +47,7 @@
         	margin-right: 0;
     	}
     	&:last-child {
-    		background-color: transparent;
+    		padding: 60px 0;
         	margin-right: 0%;
     	}
 	}
@@ -57,34 +57,55 @@
 	@include font-size(20);
 	color: $white;
 	margin-top: 0;
-	padding: 1.5rem;
+	padding: 15px;
 }
 
 .list-program-preview {
-	padding: 2.5rem;
+	padding: 25px;
 	z-index: 2;
 
 	li {
 		@include font-size(14);
 		display: block;
-		margin-bottom: 1rem;
+		margin-bottom: 10px;
 	}
 }
 
 .program-button {
 	@include font-size(18);
-	border: none;
-	height: 120px;
-	width: 100%;
+	background-color: $white;
+	border: 2px solid $ddw-color;
+	border-radius: 5px;
+	color: $ddw-color;
+	display: block;
+	height: 50px;
+	line-height: 15px;
+	margin: 10px auto;
+	padding: 0 20px;
+	width: 80%;
+	transition:0.2s;
+	
+	&:hover{
+		background-color: $ddw-color;
+		color: $white;
+		transition:0.2s;
+		.triangle-link-ddw {
+			@extend %triangle-link;
+			border-color: transparent transparent transparent #ffffff;
+			transition:0.2s;
+		}
+		.triangle-download-ddw {
+			@extend %triangle-download;
+			border-color: #ffffff transparent transparent transparent ;
+			transition:0.2s;
+		}
+	}
+	
 }
 
 .download-program-button {
 	color: $white;
 	margin-bottom: 10px;
-}
-
-.program-admision-button {
- 	background-color: $white;
 }
 
 .background-color-post {
@@ -97,18 +118,6 @@
 
 .background-color-animacion {
  	background-color: $animacion-color;
-}
-
-.border-color-post {
- 	border: 2px solid $post-color;
-}
-
-.border-color-ddw {
- border: 2px solid $ddw-color;
-}
-
-.border-color-animacion {
- border: 2px solid $animacion-color;
 }
 
 .career-program::after {

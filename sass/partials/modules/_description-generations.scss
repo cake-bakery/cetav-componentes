@@ -1,20 +1,21 @@
 .container-generations {
-	margin: 0 auto;
-	margin-bottom: 20px;
+	margin: 20px auto;
 	max-width: 1000px;
+	overflow: hidden;
 	padding: 0;
+	position: relative;
 }
 
 .generations-intro {
 	display: block;
-	margin-top: 4rem;
+	margin-top: 40px;
 	overflow: hidden;
 
 	@media(min-width: 880px) {
 		float: left;
-		margin-top: 0;
+		margin-top: 65px;
 		vertical-align: top;
-		width: 44%;
+		width: 30%;
 	}
 }
 
@@ -23,7 +24,6 @@
 	font-family: $montserrat;
 	color: $orange;
 	line-height: 120%;
-	margin-top: 51px;
 }
 
 .generations-intro-button {
@@ -45,4 +45,72 @@
 	    background-color: #848286;
 	}
 }
-	
+
+.generations-video {
+	float: right;
+	width: 70%;
+	position: relative;
+	iframe{
+		width: 100%;
+		height: 400px;
+
+	}
+	.video-information {
+		height: 400px;
+		position: absolute;
+		overflow: hidden;
+		top: 0;
+		width: 100%;
+		img {
+			width: 100%;
+		}
+	}
+	.reel-overlay {
+		background-color: rgba(0,0,0,0.8);
+		position: absolute;
+		top: 0;
+		height: 400px;
+		width: 100%;
+		padding: 80px 200px;
+		text-align: center;
+		h3 {
+			color: $white;
+			@include font-size(26);
+			font-family: $montserrat;
+			margin-bottom: 20px;
+		}
+		p{
+			@include font-size(14);
+			color: $white;
+		}
+		.play-video-wrap {
+			border: 3px solid #fff;
+			border-radius: 50%;
+			display: inline-block;
+			cursor: pointer;
+			height: 80px;
+			margin-top: 40px;
+			position: relative;
+			padding: 17px;
+			padding-left: 14px;
+			width: 80px;
+			&:hover{
+				border: 3px solid $orange;
+				.play-video {
+					@extend %triangle-link;
+					border-width: 20px 0 20px 34.6px;
+					border-color: transparent transparent transparent $orange;
+				}
+			}
+		}
+
+		.play-video {
+			@extend %triangle-link;
+			display: block;
+			border-width: 20px 0 20px 34.6px;
+			text-indent: -10000%;
+		}
+
+
+	}
+}

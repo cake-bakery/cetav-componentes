@@ -48,7 +48,6 @@
 	display: block;
 	margin: 0 0 8px 0;
 	margin-top: 0;
-	font-weight: bold;
 }
 .graduate-list-profile-info-tag{
   @include font-size(13);
@@ -67,11 +66,11 @@
 	top: 35px;
 	right: 0;
 	position: absolute;
-	background-color: $post-color;
+	background-color: $orange-light;
 	padding: 6px 16px;
 	border-radius: 3px;
 	&:hover{
-		background-color: #6C9535;
+		background-color: #FAA853;
 	    -webkit-transition: all 0.3s;
 	    -ms-transition: all 0.3s;
 	    -moz-transition: all 0.3s;

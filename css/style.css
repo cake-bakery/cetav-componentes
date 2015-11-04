@@ -1316,8 +1316,7 @@ header {
   color: #292929;
   display: block;
   margin: 0 0 8px 0;
-  margin-top: 0;
-  font-weight: bold; }
+  margin-top: 0; }
 
 .graduate-list-profile-info-tag {
   font-size: 13px;
@@ -1337,11 +1336,11 @@ header {
   top: 35px;
   right: 0;
   position: absolute;
-  background-color: #819535;
+  background-color: #fab853;
   padding: 6px 16px;
   border-radius: 3px; }
   .graduate-list-profile-info-link:hover {
-    background-color: #6C9535;
+    background-color: #FAA853;
     -webkit-transition: all 0.3s;
     -ms-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -1372,7 +1371,6 @@ header {
   font-size: 16px;
   font-size: 1.6rem;
   color: #292929;
-  font-weight: bold;
   margin-top: 15px; }
 
 .info-profile-rrss {
@@ -1426,7 +1424,7 @@ header {
 .info-profile-content-skills-list-items {
   font-size: 14px;
   font-size: 1.4rem;
-  border: 1px solid #819535;
+  border: 1px solid #fab853;
   border-radius: 3px;
   color: #848286;
   display: inline-block;

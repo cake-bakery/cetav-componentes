@@ -25,7 +25,6 @@
 .info-profile-profession {
     @include font-size(16);
     color: $grey-dark;
-    font-weight: bold;
     margin-top: 15px;
 }
 
@@ -89,7 +88,7 @@
 
 .info-profile-content-skills-list-items {
     @include font-size(14);
-    border:1px solid $post-color;
+    border:1px solid $orange-light;
     border-radius: 3px;
     color: $grey;
     display: inline-block;

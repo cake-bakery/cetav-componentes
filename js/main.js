@@ -11,10 +11,6 @@ function getId(c){
 }
 
 getId("show-pay-form").onclick = function() {
-<<<<<<< HEAD
-		getId("pay-form").classList.toggle('show-pay-form');	
-};
-=======
 	this.classList.toggle('hide-button');
 	getId("pay-form").classList.toggle('show-pay-form');
 	setTimeout(function(){
@@ -29,5 +25,3 @@ getId("play-gen-video").onclick = function() {
 	getId("video-generation-info").style.display='none';
 	console.log('play-video');
 };
-
->>>>>>> 4b553c04cc3e7dbad7256332e78c304ea02f549e

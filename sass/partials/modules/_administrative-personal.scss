@@ -30,7 +30,6 @@
 		position: relative;
 		height: 43rem;
 		vertical-align: top;
-		// padding: 0 1rem;
 		.image-personal{
 			border-radius: 50%;
 			box-shadow: 0px 4px 7px -2px $grey;
@@ -88,6 +87,7 @@
 			color: #505050;
 			display: inline-block;
 			font-family: $open-sans;
+			height: 45px;
 			margin: 21px 0;
 			margin-bottom: 1rem;
 			padding: 0.5rem 1rem;

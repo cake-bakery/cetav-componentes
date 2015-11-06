@@ -92,15 +92,18 @@
 
 .info-profile-content-skills-list-items {
     @include font-size(14);
-    border:1px solid $orange-light;
-    border-radius: 3px;
-    color: $grey;
+    background-color: $orange-light;
+    border: 1px dashed $white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 2px $orange-light;
+    color: $white;
     display: inline-block;
     font-family: $open-sans;
     list-style: none;
     margin-bottom: 14px;
     margin-right: 12px;
-    padding: 10px;
+    padding: 4px;
+    
 }
 
 .info-profile-content-education {

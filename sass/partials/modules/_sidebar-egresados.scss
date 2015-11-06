@@ -2,11 +2,11 @@
 .graduate-sidebar{
 	float: left;
 	display: inline-block;
-	background-color: $white;
+	background-color: $blue-dark;
 	box-shadow: 0 0 13px $box-shadow;
 	padding: 48px;
   width: 28%;
-  color: $grey-dark;
+  color: $white;
 	input{
 		display: list-item;
 		float: left;
@@ -16,7 +16,7 @@
 	}
 	p{
 		@include font-size(14);
-		color: $grey;
+		color: $white;
 		margin-bottom: 11px;
 	}
 }

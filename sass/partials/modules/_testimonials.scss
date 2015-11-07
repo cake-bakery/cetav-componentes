@@ -38,11 +38,10 @@
 	p {
 		padding-top: 1rem;
 		@include font-size(12);
-		font-style: italic;
 		font-family: $open-sans;
 		margin-bottom: 10px;
 		padding-bottom: 10px;
-		border-bottom: 1px solid $grey-light;
+		border-bottom: 1px solid $ddw-color;
 	}
 }
 
@@ -61,6 +60,7 @@
 	span{
 		@include font-size(12);
 		font-family: $open-sans;
+		color: $ddw-color;
 	}
 }
 

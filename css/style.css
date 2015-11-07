@@ -1098,7 +1098,9 @@ header {
   border-radius: 12px; }
 
 .width-form {
-  margin: 0 auto; }
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative; }
   @media (min-width: 480px) {
     .width-form {
       width: 450px; } }
@@ -1176,11 +1178,13 @@ header {
   font-size: 1.6rem;
   background-color: #00c9ed;
   color: #fff;
-  display: block;
-  outline: none;
   height: 60px;
-  margin: 30px auto;
-  width: 200px; }
+  width: 200px;
+  position: absolute;
+  top: 0;
+  left: 15%;
+  transform-style: preserve-3d;
+  transition: transform 1s; }
   .inscription-button:hover {
     background-color: #00acea; }
 
@@ -1188,12 +1192,29 @@ header {
   height: 410px;
   -webkit-transition: 1s; }
 
-.hide-button {
-  border: none;
-  height: 0;
+.flip-wrap {
+  display: block;
   margin: 0 auto;
-  padding: 0;
+  height: 90px;
+  width: 300px;
+  position: relative;
+  overflow: hidden;
+  perspective: 800px; }
+
+.hide-button {
+  transform: rotateX(93deg);
+  transform-origin: center;
+  -webkit-transform: rotateX(93deg);
+  -webkit-transform-origin: center;
+  transform-style: preserve-3d;
+  transition: 1s;
+  -webkit-transform-style: preserve-3d;
   -webkit-transition: 1s; }
+
+.hide-flip-wrap {
+  height: 0;
+  -webkit-transition: 2s;
+  transition: 2s; }
 
 .preview-squares-module {
   margin: 0 auto;

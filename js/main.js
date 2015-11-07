@@ -12,10 +12,11 @@ function getId(c){
 
 getId("show-pay-form").onclick = function() {
 	this.classList.toggle('hide-button');
+	getId("flip-wrap").classList.toggle('hide-flip-wrap');
 	getId("pay-form").classList.toggle('show-pay-form');
 	setTimeout(function(){
 		getId("show-pay-form").style.display='none';
-	}, 1000);	
+	}, 2000);	
 };
 
 getId("play-gen-video").onclick = function() {

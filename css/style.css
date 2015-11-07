@@ -317,6 +317,16 @@ svg {
 .triangle-download-curse {
   border-color: #00c9ed transparent transparent transparent; }
 
+.download-pdf {
+  background-image: url(../img/pdf.png);
+  background-position: center right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  padding: 9px 12px;
+  text-indent: -1000%;
+  margin-left: 10px; }
+
 .wrapper {
   max-width: 1000px;
   margin: 0 auto; }
@@ -1226,6 +1236,7 @@ header {
   position: absolute;
   top: 0;
   left: 15%;
+  outline: none;
   transform-style: preserve-3d;
   transition: transform 1s; }
   .inscription-button:hover {

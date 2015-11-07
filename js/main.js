@@ -26,3 +26,11 @@ getId("play-gen-video").onclick = function() {
 	getId("video-generation-info").style.display='none';
 	console.log('play-video');
 };
+
+getId("play-description-video").onclick = function() {
+	var iframe = getId('description-video');
+	var player = $f(iframe);
+	player.api("play");
+	getId("video-generation-info").style.display='none';
+	console.log('play-video');
+};

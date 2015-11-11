@@ -1603,7 +1603,7 @@ header {
     font-family: "Open Sans", sans-serif; }
 
 .info-profile-content {
-  width: 87%;
+  width: 84%;
   margin: 0 auto; }
 
 .info-profile-content-about {
@@ -1618,7 +1618,7 @@ header {
 .info-profile-content-skills {
   display: inline-block;
   float: right;
-  width: 38%; }
+  width: 43%; }
 
 .info-profile-content-skills-list {
   text-align: left; }

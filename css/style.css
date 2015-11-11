@@ -1,9 +1,11 @@
-/*----------Indice-------------
-		#partials
-		#modules
+/* ==|====================
 
-	Importar-las-hojas-scss
-*/
+   -------INDEX--------
+   #Particials
+   #Modules
+   ======================= */
+/* #Particials
+   ========================================================================== */
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 article,
@@ -327,6 +329,8 @@ svg {
   text-indent: -1000%;
   margin-left: 10px; }
 
+/* #Modules
+   ========================================================================== */
 .modules-standart {
   max-width: 1280px;
   padding: 10rem;
@@ -993,7 +997,6 @@ header {
   .course-info p {
     font-size: 16px;
     font-size: 1.6rem;
-    display: list-item;
     color: #848286;
     font-family: "Open Sans", sans-serif;
     margin-bottom: 1px; }

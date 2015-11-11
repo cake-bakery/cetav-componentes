@@ -1,17 +1,19 @@
-/*----------Indice-------------
-		#partials
-		#modules
+/* ==|====================
 
-	Importar-las-hojas-scss
-*/
+   -------INDEX--------
+   #Particials
+   #Modules
+   ======================= */
 
-//  #partials
+/* #Particials
+   ========================================================================== */
 @import "partials/normalize";
 @import "partials/variables";
 @import "partials/mixins";
 @import "partials/globals";
 
-//	#modules
+/* #Modules
+   ========================================================================== */
 @import "partials/modules/sections";
 @import "partials/modules/buttons";
 @import "partials/modules/navigation";

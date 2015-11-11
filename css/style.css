@@ -281,7 +281,7 @@ svg {
     cursor: pointer;
     fill: #17b3e8; }
 
-.triangle-link-white, .triangle-link-ddw, .triangle-link-curse, .generations-intro-button .triangle-link-anuario, .generations-intro-button:hover .triangle-link-anuario, .generations-video .reel-overlay .play-video, .career-video .reel-overlay .play-video, .program-button:hover .triangle-link-ddw {
+.triangle-link-white, .triangle-link-ddw, .triangle-link-curse, .program-button:hover .triangle-link-ddw, .generations-intro-button .triangle-link-anuario, .generations-intro-button:hover .triangle-link-anuario, .play-video {
   display: inline-block;
   margin-left: 10px;
   width: 0;
@@ -327,13 +327,6 @@ svg {
   text-indent: -1000%;
   margin-left: 10px; }
 
-.wrapper {
-  max-width: 1000px;
-  margin: 0 auto; }
-
-.egresados-content {
-  height: 500px; }
-
 .modules-standart {
   max-width: 1280px;
   padding: 10rem;
@@ -378,6 +371,139 @@ svg {
 .width-subsection {
   max-width: 1280px;
   margin: 0 auto; }
+
+/* ==|====================
+   Partials/Modules/Buttons
+
+   -------INDEX--------
+   #Career Program
+   #Play Video
+   #Footer
+   #Egresados
+   ======================= */
+/* #Career Program
+   ========================================================================== */
+.program-button {
+  background-color: white;
+  border: 2px solid #922716;
+  border-radius: 5px;
+  color: #922716;
+  display: block;
+  font-size: 18px;
+  font-size: 1.8rem;
+  height: 50px;
+  line-height: 15px;
+  margin: 10px auto;
+  padding: 0 20px;
+  transition: 0.2s;
+  width: 80%; }
+  .program-button:hover {
+    background-color: #922716;
+    color: white;
+    transition: 0.2s; }
+    .program-button:hover .triangle-link-ddw {
+      border-color: transparent transparent transparent #ffffff;
+      transition: 0.2s; }
+    .program-button:hover .triangle-download-ddw {
+      border-color: white transparent transparent transparent;
+      transition: 0.2s; }
+
+.download-program-button {
+  color: white;
+  margin-bottom: 10px; }
+
+.generations-intro-button {
+  background: none;
+  border: 2px solid #848286;
+  border-radius: 6px;
+  color: #848286;
+  font-size: 23px;
+  font-size: 2.3rem;
+  margin-top: 20px;
+  padding: 20px 38px 20px 43px;
+  -webkit-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s; }
+  .generations-intro-button .triangle-link-anuario {
+    border-color: transparent transparent transparent #848286; }
+  .generations-intro-button:hover {
+    color: white;
+    background-color: #848286; }
+    .generations-intro-button:hover .triangle-link-anuario {
+      border-color: transparent transparent transparent white; }
+
+/* #Career Program
+   ==========================================================================
+ * buttons of play of description generation and description video
+ */
+.play-video-wrap {
+  border: 3px solid #ff8f00;
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+  height: 60px;
+  margin-top: 40px;
+  padding: 15px;
+  padding-left: 10px;
+  position: relative;
+  width: 60px; }
+
+.play-video {
+  display: block;
+  border-width: 12px 0 12px 18.6px;
+  border-color: transparent transparent transparent #ff8f00;
+  text-indent: -10000%; }
+
+/* #Footer
+   ========================================================================== */
+.footer-list-items-button {
+  font-size: 12px;
+  font-size: 1.2rem;
+  background: none;
+  border: 1px solid white;
+  border-radius: 3px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  margin: 0.5rem auto;
+  margin-right: 8px;
+  min-height: 35px;
+  padding: 12px 12px;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  width: 80%; }
+  @media (min-width: 980px) {
+    .footer-list-items-button {
+      width: 38%; } }
+  .footer-list-items-button:hover {
+    background: white;
+    color: #292929; }
+
+/* #Egresados
+   ========================================================================== 
+ * List of graduate
+ */
+.graduate-list-profile-info-link {
+  background-color: #fab853;
+  border-radius: 3px;
+  color: white;
+  float: left;
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  padding: 6px 16px;
+  right: 0;
+  top: 35px; }
+  .graduate-list-profile-info-link:hover {
+    background-color: #FAA853;
+    -webkit-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s; }
 
 header {
   padding-top: 10px;
@@ -577,28 +703,6 @@ header {
   color: #ff8f00;
   line-height: 120%; }
 
-.generations-intro-button {
-  font-size: 23px;
-  font-size: 2.3rem;
-  background: none;
-  border: 2px solid #848286;
-  border-radius: 6px;
-  color: #848286;
-  margin-top: 20px;
-  padding: 20px 38px 20px 43px;
-  -webkit-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s; }
-  .generations-intro-button .triangle-link-anuario {
-    border-color: transparent transparent transparent #848286; }
-  .generations-intro-button:hover {
-    color: white;
-    background-color: #848286; }
-    .generations-intro-button:hover .triangle-link-anuario {
-      border-color: transparent transparent transparent white; }
-
 .generations-video {
   float: right;
   width: 70%;
@@ -634,22 +738,6 @@ header {
       font-size: 14px;
       font-size: 1.4rem;
       color: white; }
-    .generations-video .reel-overlay .play-video-wrap {
-      border: 3px solid #ff8f00;
-      border-radius: 50%;
-      display: inline-block;
-      cursor: pointer;
-      height: 60px;
-      margin-top: 40px;
-      position: relative;
-      padding: 15px;
-      padding-left: 10px;
-      width: 60px; }
-    .generations-video .reel-overlay .play-video {
-      display: block;
-      border-width: 12px 0 12px 18.6px;
-      border-color: transparent transparent transparent #ff8f00;
-      text-indent: -10000%; }
 
 .testimonial {
   width: 95%;
@@ -770,22 +858,6 @@ header {
       font-size: 14px;
       font-size: 1.4rem;
       color: white; }
-    .career-video .reel-overlay .play-video-wrap {
-      border: 3px solid #ff8f00;
-      border-radius: 50%;
-      display: inline-block;
-      cursor: pointer;
-      height: 60px;
-      margin-top: 40px;
-      position: relative;
-      padding: 15px;
-      padding-left: 10px;
-      width: 60px; }
-    .career-video .reel-overlay .play-video {
-      display: block;
-      border-width: 12px 0 12px 18.6px;
-      border-color: transparent transparent transparent #ff8f00;
-      text-indent: -10000%; }
 
 .container-personal-first {
   margin: 0 auto;
@@ -1332,35 +1404,6 @@ header {
     display: block;
     margin-bottom: 10px; }
 
-.program-button {
-  font-size: 18px;
-  font-size: 1.8rem;
-  background-color: white;
-  border: 2px solid #922716;
-  border-radius: 5px;
-  color: #922716;
-  display: block;
-  height: 50px;
-  line-height: 15px;
-  margin: 10px auto;
-  padding: 0 20px;
-  width: 80%;
-  transition: 0.2s; }
-  .program-button:hover {
-    background-color: #922716;
-    color: white;
-    transition: 0.2s; }
-    .program-button:hover .triangle-link-ddw {
-      border-color: transparent transparent transparent #ffffff;
-      transition: 0.2s; }
-    .program-button:hover .triangle-download-ddw {
-      border-color: white transparent transparent transparent;
-      transition: 0.2s; }
-
-.download-program-button {
-  color: white;
-  margin-bottom: 10px; }
-
 .background-color-post {
   background-color: #819535; }
 
@@ -1509,26 +1552,6 @@ header {
   margin-right: 10px;
   display: inline-block;
   border-radius: 4px; }
-
-.graduate-list-profile-info-link {
-  font-size: 14px;
-  font-size: 1.4rem;
-  font-family: "Montserrat", sans-serif;
-  color: white;
-  float: left;
-  top: 35px;
-  right: 0;
-  position: absolute;
-  background-color: #fab853;
-  padding: 6px 16px;
-  border-radius: 3px; }
-  .graduate-list-profile-info-link:hover {
-    background-color: #FAA853;
-    -webkit-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s; }
 
 .info-profile {
   text-align: center;
@@ -1861,29 +1884,6 @@ header {
   color: white;
   margin-bottom: 0;
   text-align: left; }
-
-.footer-list-items-button {
-  font-size: 12px;
-  font-size: 1.2rem;
-  background: none;
-  border: 1px solid white;
-  border-radius: 3px;
-  color: white;
-  font-family: "Open Sans", sans-serif;
-  margin: 0.5rem auto;
-  margin-right: 8px;
-  min-height: 35px;
-  padding: 12px 12px;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  width: 80%; }
-  @media (min-width: 980px) {
-    .footer-list-items-button {
-      width: 38%; } }
-  .footer-list-items-button:hover {
-    background: white;
-    color: #292929; }
 
 .wrap-image-footer {
   margin-bottom: 7px;

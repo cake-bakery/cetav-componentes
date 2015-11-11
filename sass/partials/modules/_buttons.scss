@@ -1,0 +1,156 @@
+/* ==|====================
+   Partials/Modules/Buttons
+
+   -------INDEX--------
+   #Career Program
+   #Play Video
+   #Footer
+   #Egresados
+   ======================= */
+
+/* #Career Program
+   ========================================================================== */
+.program-button {
+	background-color: $white;
+	border: 2px solid $ddw-color;
+	border-radius: 5px;
+	color: $ddw-color;
+	display: block;
+	@include font-size(18);
+	height: 50px;
+	line-height: 15px;
+	margin: 10px auto;
+	padding: 0 20px;
+	transition:0.2s;
+	width: 80%;
+	
+	&:hover {
+		background-color: $ddw-color;
+		color: $white;
+		transition:0.2s;
+		.triangle-link-ddw {
+			@extend %triangle-link;
+			border-color: transparent transparent transparent #ffffff;
+			transition:0.2s;
+		}
+		.triangle-download-ddw {
+			@extend %triangle-download;
+			border-color: #ffffff transparent transparent transparent ;
+			transition:0.2s;
+		}
+	}
+	
+}
+
+.download-program-button {
+	color: $white;
+	margin-bottom: 10px;
+}
+
+// #Description  generations
+.generations-intro-button {
+	background: none;
+	border: 2px solid #848286;
+	border-radius: 6px;
+	color: #848286;
+	@include font-size(23);
+	margin-top: 20px;
+	padding: 20px 38px 20px 43px;
+	-webkit-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+
+	.triangle-link-anuario {
+		border-color: transparent transparent transparent #848286;
+		@extend %triangle-link;
+	}
+
+	&:hover{
+	   	color: $white;
+	    background-color: #848286;
+	    .triangle-link-anuario {
+			@extend %triangle-link;
+			border-color: transparent transparent transparent $white;
+		}
+	}
+}
+
+/* #Career Program
+   ==========================================================================
+ * buttons of play of description generation and description video
+ */
+.play-video-wrap {
+	border: 3px solid $orange;
+	border-radius: 50%;
+	cursor: pointer;
+	display: inline-block;
+	height: 60px;
+	margin-top: 40px;
+	padding: 15px;
+	padding-left: 10px;
+	position: relative;
+	width: 60px;
+}
+
+.play-video {
+	@extend %triangle-link;
+	display: block;
+	border-width: 12px 0 12px 18.6px;
+	border-color: transparent transparent transparent $orange;
+	text-indent: -10000%;
+}
+
+/* #Footer
+   ========================================================================== */
+.footer-list-items-button {
+	@include font-size(12);
+	background: none;
+	border:1px solid $white;
+	border-radius: 3px;
+	color: $white; 
+	font-family: $open-sans;
+	margin: 0.5rem auto;
+	margin-right: 8px;
+	min-height: 35px;
+	padding: 12px 12px;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    width: 80%;
+    
+	@media (min-width: 980px) {
+	    width: 38%;
+	}
+	&:hover {
+		background: $white;
+		color: $grey-dark;
+	}
+}
+
+/* #Egresados
+   ========================================================================== 
+ * List of graduate
+ */
+.graduate-list-profile-info-link {
+	background-color: $orange-light;
+	border-radius: 3px;
+	color: $white;
+	float: left;
+	@include font-size(14);
+	font-family: $montserrat;
+	position: absolute;
+	padding: 6px 16px;
+	right: 0;
+	top: 35px;
+
+	&:hover {
+		background-color: #FAA853;
+	    -webkit-transition: all 0.3s;
+	    -ms-transition: all 0.3s;
+	    -moz-transition: all 0.3s;
+	    -o-transition: all 0.3s;
+	    transition: all 0.3s;
+	}
+}

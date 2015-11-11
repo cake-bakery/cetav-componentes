@@ -1,0 +1,18 @@
+# Logs
+logs
+*.log
+
+# Runtime data
+*.seed
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+.sass-cache
+.css.map
+.DS_Store
+_MACOSX
+SLCache
+Thumbs.db

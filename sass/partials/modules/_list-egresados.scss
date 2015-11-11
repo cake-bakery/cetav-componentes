@@ -63,25 +63,3 @@
   display: inline-block;
   border-radius: 4px;
 }
-
-.graduate-list-profile-info-link {
-	@include font-size(14);
-	font-family: $montserrat;
-	color: $white;
-	float: left;
-	top: 35px;
-	right: 0;
-	position: absolute;
-	background-color: $orange-light;
-	padding: 6px 16px;
-	border-radius: 3px;
-
-	&:hover{
-		background-color: #FAA853;
-	    -webkit-transition: all 0.3s;
-	    -ms-transition: all 0.3s;
-	    -moz-transition: all 0.3s;
-	    -o-transition: all 0.3s;
-	    transition: all 0.3s;
-	}
-}

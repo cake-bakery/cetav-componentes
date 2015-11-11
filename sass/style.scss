@@ -10,10 +10,10 @@
 @import "partials/variables";
 @import "partials/mixins";
 @import "partials/globals";
-@import "partials/layout";
 
 //	#modules
 @import "partials/modules/sections";
+@import "partials/modules/buttons";
 @import "partials/modules/navigation";
 @import "partials/modules/title-description";
 @import "partials/modules/icon-text";

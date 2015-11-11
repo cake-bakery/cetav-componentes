@@ -26,33 +26,6 @@
 	line-height: 120%;
 }
 
-.generations-intro-button {
-	@include font-size(23);
-	background: none;
-	border: 2px solid #848286;
-	border-radius: 6px;
-	color: #848286;
-	margin-top: 20px;
-	padding: 20px 38px 20px 43px;
-	-webkit-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-	.triangle-link-anuario {
-		@extend %triangle-link;
-		border-color: transparent transparent transparent #848286;
-	}
-	&:hover{
-	   	color: $white;
-	    background-color: #848286;
-	    .triangle-link-anuario {
-		@extend %triangle-link;
-		border-color: transparent transparent transparent $white
-	}
-	}
-}
-
 .generations-video {
 	float: right;
 	width: 70%;
@@ -91,26 +64,6 @@
 		p{
 			@include font-size(14);
 			color: $white;
-		}
-		.play-video-wrap {
-			    border: 3px solid $orange;
-			    border-radius: 50%;
-			    display: inline-block;
-			    cursor: pointer;
-			    height: 60px;
-			    margin-top: 40px;
-			    position: relative;
-			    padding: 15px;
-			    padding-left: 10px;
-			    width: 60px;
-		}
-
-		.play-video {
-			@extend %triangle-link;
-			display: block;
-		    border-width: 12px 0 12px 18.6px;
-		    border-color: transparent transparent transparent $orange;
-			text-indent: -10000%;
 		}
 	}
 }

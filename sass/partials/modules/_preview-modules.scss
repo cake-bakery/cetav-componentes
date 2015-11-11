@@ -1,9 +1,9 @@
-
 .preview-squares-module-second {
 	text-align: center;
 	max-width: 1000px;
 	margin: 0 auto;
 	padding: 50px 20px 0;
+
 	.course-preview-module {
 		margin-bottom: 50px;
 		overflow: hidden;
@@ -49,18 +49,19 @@
 		z-index: -1;
 	}
 
-
 	.course-preview-module {
 		&:hover {
 			.overlay-square {
-					opacity: 1;
-				    -webkit-transition: 1s;
+				opacity: 1;
+				-webkit-transition: 1s;
 			}
 		}
 	}
+
 	.link-preview-module {
 		overflow: hidden;
 	}
+
 	.info-preview-module {
 	    color: $white;
 	    padding: 30px 20px;
@@ -88,18 +89,20 @@
 		@include font-size(20);
 		font-family: $montserrat;
 		margin-bottom: 20px;
-
 	}
+
 	.bottom-line {
 		color: $light-blue;
 		display: block;
 		border-bottom: 2px solid $light-blue;
 		width: 42%;
 	}
+
 	.subtitle-preview-module {
 		@include font-size(16);
 		margin: 1rem 0 0.50px;
 	}
+
 	.date-preview-module {
 		display: block;
 		font-family: $open-sans;
@@ -107,6 +110,7 @@
 		font-weight: bold;
 		margin: 5px 0 1.50px;
 	}
+
 	.price-preview-module {
 		background-color: $white;
 		color: $light-blue;

@@ -1,17 +1,4 @@
-.container-courses {
-	padding: 0;
-	width: 100%;
-	img {
-		float: right;
-		box-shadow: 0 0 8px $grey;
-	    height: 372px;
-	    width: 40%;
-	}
-}
-
-.course-info {
-	float: left;
-	width: 53%;
+.course-intro {
 
 	p {
 		@include font-size(16);
@@ -26,20 +13,27 @@
 	}
 }
 
-.course-info-title {
+.course-intro-title {
 	@include font-size(40);
 	color: $light-blue;
 	font-family: $montserrat;
 	margin: 0;
 }
 
-.course-info-text {
+.course-intro-text {
 	@include font-size(16);
 	color: $grey;
-	margin-top: 21px;
 	font-family: $open-sans;
+	margin-top: 21px;
 }
 
-.course-info-details {
+.course-intro-details {
 	margin-top: 15px;
+}
+
+.course-image {
+	float: right;
+	box-shadow: 0 0 8px $grey;
+	height: 370px;
+	width: 80%;
 }

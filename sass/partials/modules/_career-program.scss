@@ -1,5 +1,4 @@
 .preview-squares-module {
-	margin: 0 auto;
 	text-align: center;
 }
 .career-program {
@@ -8,10 +7,6 @@
 	position: relative;
 }
 
-.programs-width {
-	margin: 0 auto;
-	max-width: 1000px;
-}
 .square-preview-module {
 	background-color: $white;
 	height: 300px;
@@ -71,17 +66,8 @@
 	}
 }
 
-
-.background-color-post {
- 	background-color: $post-color;
-}
-
 .background-color-ddw {
  	background-color: $ddw-color;
-}
-
-.background-color-animacion {
- 	background-color: $animacion-color;
 }
 
 .career-program::after {

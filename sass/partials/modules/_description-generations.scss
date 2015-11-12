@@ -1,9 +1,3 @@
-.container-generations {
-	margin: 20px auto;
-	overflow: hidden;
-	padding: 0;
-	position: relative;
-}
 
 .generations-intro {
 	display: block;
@@ -27,7 +21,7 @@
 
 .generations-video {
 	float: right;
-	width: 70%;
+	width: 62%;
 	position: relative;
 	overflow: hidden;
 	height: 400px;
@@ -52,7 +46,7 @@
 		top: 0;
 		height: 400px;
 		width: 100%;
-		padding: 80px 200px;
+		padding: 80px 123px;
 		text-align: center;
 		h3 {
 			color: $white;

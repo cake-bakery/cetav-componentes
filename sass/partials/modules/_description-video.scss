@@ -3,29 +3,21 @@
 	width: 100%;
 	
 }
-	.career-intro{
-		margin: 2rem 0;
-		@media(min-width: 880px){
-			margin-top: 0;
-			float: left;
-			vertical-align: top;
-			width: 44%;
-		}
-		.career-intro-title{
-			@include font-size(40);
-			font-family: $montserrat;
-			color: $orange;
-			line-height: 120%;
-		}
-		p{
-			@include font-size(16);
-			font-family: $open-sans;
-			margin: 2rem 0;
-			margin-top: 7px;
-			color: $grey;
-		}
+.career-intro-title{
+	@include font-size(40);
+	font-family: $montserrat;
+	color: $orange;
+	line-height: 120%;
+}
+
+.career-intro-text{
+	@include font-size(16);
+	font-family: $open-sans;
+	margin: 2rem 0;
+	margin-top: 7px;
+	color: $grey;
+}
 		
-	}
 .career-video {
 	float: right;
 	width: 50%;

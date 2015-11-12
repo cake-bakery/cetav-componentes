@@ -1,5 +1,5 @@
 .populars {
-	width: 30%;
+	width: 27%;
 	float: right;
 	background-color: $white;
 	padding:20px 20px;
@@ -29,7 +29,7 @@
 
 .sub-tittle-populars {
 	@include font-size(16);
-	margin-bottom: 0.20px;
+	margin-bottom: 7px;
 }
 
 .date-preview {
@@ -41,7 +41,6 @@
 .more-preview {
 	color: $orange;
 	@include font-size(14);
-	border-bottom: 2px solid $orange;
 	padding-bottom: 1px;
 }
 

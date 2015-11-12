@@ -8,7 +8,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>CETAV-Componentes</title>
 		<link rel="stylesheet" href="css/style.css">
-		<script src="http://f.vimeocdn.com/js/froogaloop2.min.js"></script>
 	</head>
 	<body>
 		<section class="modules-total">
@@ -44,18 +43,19 @@
 
 		<section class="modules-standart">
 			<h2 class="title-section">Título y Descripción</h2>
-			<div class="container-admission">
-				<div class="container-title">
+			<div class="max-width-content">
+				<div class="width-description-left container-title">
 					<h2 class="intro-title">¿Cuál es el proceso para estudiar en el CETAV?</h2>
-				</div><!--container-admission-intro-->
-				<div class="container-text">
+				</div><!--width-description-principal container-title-->
+				<div class="width-description-right container-text">
 					<p>Cada dos años el CETAV realiza un proceso de reclutamiento en conjunto con el programa EMPLEATE. Si te interesa ingresar,  es indispensable cumplir con los siguientes requisitos.</p>
 				</div><!--container-admission-intro-->
-			</div><!--container-admission-->
+			</div><!--max-width-content-->
 		</section><!--modules-standart-->
+
 		<section class="modules-standart">
 			<h2 class="title-section">Iconos y texto</h2>
-			<div class="container-requirements">
+			<div class="max-width-content">
 				<ul class="requirements-list">
 					<li class="requirements-list-items">
 						<img src="img/age.png" alt="">
@@ -74,12 +74,12 @@
 						<p>Conocimientos básicos en Photoshop e Ilustrator</p>
 					</li>
 				</ul><!--requirements-list-->
-			</div><!--container-requirements-->
+			</div><!--max-width-content-->
 		</section><!--modules-standart-->
 
 		<section class="modules-standart">
 			<h2 class="title-section">Descripción, video y link</h2>
-			<div class="container-generations">
+			<div class="max-width-content">
 				<div class="generations-intro">
 					<h2 class="generations-intro-title">Generación 2015</h2>
 					<button class="generations-intro-button">Ver anuario <i class="triangle-link-anuario"></i></button>
@@ -96,14 +96,13 @@
 							</div>
 						</div>
 					</div>
-					
 				</div><!--generations-intro-->
-			</div><!--container-generations-->
+			</div><!--max-width-content-->
 		</section><!--module-->
 
 		<section class="modules-total second-testimonial-list">
 			<h2 class="title-section">Testimonios</h2>
-			<div class="width-subsection">
+			<div class="max-width-content">
 				<div class="testimonial">
 						<img class="testimonial-img" src="img/testimonial-img.jpg" alt="">
 					<div class="testimonial-contenido">
@@ -129,12 +128,12 @@
 
 		<section class="modules-standart">
 			<h2 class="title-section">Descripción y video</h2>
-			<div class="container-career">
-				<div class="career-intro">
+			<div class="max-width-content">
+				<div class="width-description-left career-intro">
 					<h2 class="career-intro-title">¿Por qué estudiar diseño y desarrollo WEB?</h2>
-					<p>Porque mediante una capacitación teórica y práctica en diseño y programación orientada a las aplicaciones y sitios web, los estudiantes conocerán los diferentes lenguajes de programación, sistemas de interactividad, navegabilidad y ujos de trabajo asociado convirtiéndose en desarrolladores web Front End.</p>
-				</div><!--career-intro-->
-				<div class="career-video">
+					<p class="career-intro-text">Porque mediante una capacitación teórica y práctica en diseño y programación orientada a las aplicaciones y sitios web, los estudiantes conocerán los diferentes lenguajes de programación, sistemas de interactividad, navegabilidad y ujos de trabajo asociado convirtiéndose en desarrolladores web Front End.</p>
+				</div><!--width-intro-->
+				<div class="width-description-right career-video">
 					<iframe id="description-video" src="https://player.vimeo.com/video/82142254" width="475" height="481" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
 					<div id= "video-descripcion-info" class="video-information">
 						<img src="img/generacion-2015.JPG">
@@ -272,25 +271,27 @@
 
 		<section class="modules-standart">
 			<h2 class="title-section">Información e Imagen - Cursos libres</h2>
-			<div class="container-courses">
-				<div class="course-info">
-					<h2 class="course-info-title">Curso Toon Boom Harmony</h2>
-					<p class="course-info-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non aliquet nisi, nec auctor nulla. Praesent laoreet augue metus, at finibus orci vestibulum ac. Nunc lobortis augue nisi, non tempus orci porta et. Aliquam malesuada, augue id imperdiet posuere, nisl libero sodales diam, nec ullamcorper ante lacus nec elit. Maecenas id libero euismod, ornare metus in, malesuada ex. </p>
-					<div class="course-info-details">
+			<div class="max-width-content">
+				<div class="width-description-left course-intro">
+					<h2 class="course-intro-title">Curso Toon Boom Harmony</h2>
+					<p class="course-intro-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non aliquet nisi, nec auctor nulla. Praesent laoreet augue metus, at finibus orci vestibulum ac. Nunc lobortis augue nisi, non tempus orci porta et. Aliquam malesuada, augue id imperdiet posuere, nisl libero sodales diam, nec ullamcorper ante lacus nec elit. Maecenas id libero euismod, ornare metus in, malesuada ex. </p>
+					<div class="course-intro-details">
 						<p><span>Profesor</span>: Johel Rivera</p>
 						<p><span>Inicio</span>: 21 de julio - 13 de agosto</p>
 						<p><span>Horario</span>: Martes y jueves de 6 p.m a 9 p.m</p>
 						<p><span>Duracion</span>: 24 horas</p>
-					</div><!--course-info-details-->
-				</div><!--course-info-->
-				<img src="img/course.png" alt="imagen acerca de Toon Boom Harmony" />
+					</div><!--course-intro-details-->
+				</div><!--course-intro-->
+				<div class="width-description-right">
+					<img class="course-image" src="img/course.png" alt="imagen acerca de Toon Boom Harmony" />
+				</div><!-- width-description-right course-image -->
 			</div><!--container-courses-->
 		</section><!--module-standart-->
 
 		<section class="modules-total">
 			<h2 class="title-section">Contenido e información de curso libre</h2>
 			<section class="content-section">
-				<div class="width-subsection">
+				<div class="max-width-content">
 					<h2 class="content-title">Contenido</h2>
 					<ul class="content-course-list">
 						<li class="content-column-course">
@@ -341,7 +342,7 @@
 					</ul>
 				</div>
 			</section><!--content-course-->
-			<section class="width-subsection">
+			<section class="max-width-content">
 				<div class="details-subsection">
 					<div class="info-details">
 						<h3 div class="title-details">Costo e Inscripción</h3>
@@ -388,7 +389,7 @@
 		<section  class="modules-total">
 			<h2 class="title-section">Programa de carrera</h2>
 			<section class="career-program preview-squares-module">
-				<div class="width-subsection">
+				<div class="max-width-content">
 					<div class="square-preview-module program-preview ">
 						<h2 class="title-square background-color-ddw">I Cuatrimestre</h2>
 						<ul class="list-program-preview ">
@@ -467,7 +468,7 @@ responsivo</p></li>
 
 		<section class="modules-standart">
 			<h2 class="title-section">Lista de Egresados</h2>
-			<div class="width-subsection">
+			<div class="max-width-content">
 				<div class="graduate-sidebar">
 					<div class="graduate-sidebar-career">
 						<h3 class="graduate-sidebar-title">Carreras</h3>
@@ -514,7 +515,7 @@ responsivo</p></li>
 		
 		<section class="modules-standart">
 			<h2 class="title-section">Perfil del egresado</h2>
-			<div class="width-subsection">
+			<div class="max-width-content">
 				<div class="info-profile">
 					<img class="info-profile-img" src="img/testimonial-img.jpg" alt=""/>
 					<h2 class="info-profile-title">Andrey Mora Fernandez</h2>
@@ -586,28 +587,28 @@ responsivo</p></li>
 						</div><!-- info-profile-content-education -->
 					</div><!--info-profile-content-->
 				</div><!--info-profile-->
-			</div> <!--width-subsection-->
+			</div> <!--max-width-content-->
 		</section><!-- modules-standart -->
 
 		<section class="modules-total news-section-main-first">
 			<h2 class="title-section">Noticias</h2>
-			<div class="width-subsection">
+			<div class="max-width-content">
 				<aside class="populars">
 					<h3 class="tittle-populars">Recientes</h3>
 					<div class="popular-new">
 						<h3 class="sub-tittle-populars">Showcase</h3>
 						<span class="date-preview">12 de octubre 2015</span>
-						<a href="#"  class="more-preview">Ver noticia</a>
+						<a href="#"  class="more-preview"><img class="icon-arrow" src="img/arrow-news.png" alt="">Ver noticia</a>
 					</div><!--populars-new-->
 					<div class="popular-new">
 						<h3 class="sub-tittle-populars">Visitas de Empresas</h3>
 						<span class="date-preview">12 de octubre 2015</span>
-						<a href="#"  class="more-preview">Ver noticia</a>
+						<a href="#"  class="more-preview"><img class="icon-arrow" src="img/arrow-news.png" alt="">Ver noticia</a>
 					</div><!--populars-new-->
 					<div class="popular-new">
 						<h3 class="sub-tittle-populars">Showcase</h3>
 						<span class="date-preview">12 de octubre 2015</span>
-						<a href="#"  class="more-preview">Ver noticia</a>
+						<a href="#"  class="more-preview"><img class="icon-arrow" src="img/arrow-news.png" alt="">Ver noticia</a>
 					</div><!--populars-new-->
 				</aside><!-- populars -->
 				<div class="many-news-first">
@@ -619,7 +620,7 @@ responsivo</p></li>
 							<span class="date-new-preview">12 de octubre 2015</span>
 							<span class="border-new"></span>
 							<p>Como parte de nuestro compromiso con la inserción laboral y la articulación con la industria, recibimos la visita de empresas.</p>
-							<a class="more-preview" href="#">Ver toda la noticia</a>
+							<a class="more-preview" href="#"><img class="icon-arrow" src="img/arrow-news.png" alt="">Ver toda la noticia</a>
 						</div><!-- information-new-preview -->
 					</div><!-- news-preview -->
 					<div class="news-preview">
@@ -630,7 +631,7 @@ responsivo</p></li>
 							<span class="date-new-preview">12 de octubre 2015</span>
 							<span class="border-new"></span>
 							<p>Nuestros estudiantes mostraron sus competencias a potenciales empleadores, con representación de veinte empresas.</p>
-							<a class="more-preview" href="#">Ver toda la noticia</a>
+							<a class="more-preview" href="#"><img class="icon-arrow" src="img/arrow-news.png" alt="">Ver toda la noticia</a>
 						</div><!-- information-new-preview -->
 					</div><!-- news-preview -->
 					<div class="news-preview">
@@ -641,7 +642,7 @@ responsivo</p></li>
 							<span class="date-new-preview">12 de octubre 2015</span>
 							<span class="border-new"></span>
 							<p>Nuestros estudiantes mostraron sus competencias a potenciales empleadores, con representación de veinte empresas.</p>
-							<a class="more-preview" href="#">Ver toda la noticia</a>
+							<a class="more-preview" href="#"><img class="icon-arrow" src="img/arrow-news.png" alt="">Ver toda la noticia</a>
 						</div><!-- information-new-preview -->
 					</div><!-- news-preview -->
 					<div class="news-preview">
@@ -652,32 +653,32 @@ responsivo</p></li>
 							<span class="date-new-preview">12 de octubre 2015</span>
 							<span class="border-new"></span>
 							<p>Como parte de nuestro compromiso con la inserción laboral y la articulación con la industria, recibimos la visita de empresas.</p>
-							<a class="more-preview" href="#">Ver toda la noticia</a>
+							<a class="more-preview" href="#"><img class="icon-arrow" src="img/arrow-news.png" alt="">Ver toda la noticia</a>
 						</div><!-- information-new-preview -->
 					</div><!-- news-preview -->
 				</div><!-- many-news-first -->
-			</div><!-- width-subsection -->
+			</div><!-- max-width-content -->
 		</section><!--module-standart-->
 
 		<section class="modules-total news-section-main-first">
 			<h2 class="title-section">Noticia</h2>
-			<div class="width-subsection">
+			<div class="max-width-content">
 				<aside class="populars">
 					<h3 class="tittle-populars">Recientes</h3>
 					<div class="popular-new">
 						<h3 class="sub-tittle-populars">Showcase</h3>
 						<span class="date-preview">12 de octubre 2015</span>
-						<a href="#"  class="more-preview">Ver noticia</a>
+						<a href="#"  class="more-preview"><img class="icon-arrow" src="img/arrow-news.png" alt="">Ver noticia</a>
 					</div><!-- popular-new -->
 					<div class="popular-new">
 						<h3 class="sub-tittle-populars">Visitas de Empresas</h3>
 						<span class="date-preview">12 de octubre 2015</span>
-						<a href="#"  class="more-preview">Ver noticia</a>
+						<a href="#"  class="more-preview"><img class="icon-arrow" src="img/arrow-news.png" alt="">Ver noticia</a>
 					</div><!-- popular-new -->
 					<div class="popular-new">
 						<h3 class="sub-tittle-populars">Showcase</h3>
 						<span class="date-preview">12 de octubre 2015</span>
-						<a href="#"  class="more-preview">Ver noticia</a>
+						<a href="#"  class="more-preview"><img class="icon-arrow" src="img/arrow-news.png" alt="">Ver noticia</a>
 					</div><!-- popular-new -->
 				</aside>
 				<div class="new-first">
@@ -689,7 +690,7 @@ responsivo</p></li>
 						<p>Quisque erat turpis, vehicula quis consequat et, egestas id neque. Donec gravida ullamcorper turpis eget ultricies. Morbi sed ultrices libero, et mollis ante. Sed neque nulla, eleifend sed enim at, malesuada accumsan augue. Mauris pretium blandit erat. Integer tempus metus sit amet dolor accumsan, nec pharetra dolor sollicitudin. Phasellus urna tortor, tempor at egestas in, fermentum egestas nisi. Donec quis ligula metus. Suspendisse erat velit, tincidunt a placerat vel, eleifend ut lacus.</p>
 					</div><!-- information-main -->
 				</div><!-- new-first -->
-			</div><!-- width-subsection -->
+			</div><!-- max-width-content -->
 		</section><!--modules-standart-->
 
 		<section class="modules-total">
@@ -733,6 +734,7 @@ responsivo</p></li>
 				</ul><!--footer-list-->
 			</footer><!--end-footer-->
 		</section><!--modules-standart-->
+		<script src="http://f.vimeocdn.com/js/froogaloop2.min.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>

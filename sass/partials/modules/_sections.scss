@@ -42,7 +42,25 @@
 	text-align: left;
 }
 
-.width-subsection {
+.max-width-content {
 	max-width: 1150px;
 	margin: 0 auto;
+	padding: 0;
+}
+
+.width-description-left{
+	margin: 2rem 0;
+	@media(min-width: 880px){
+		margin-top: 0;
+		float: left;
+		vertical-align: top;
+		width: 44%;
+	}
+}
+
+.width-description-right{
+	margin-top: 0;
+	float: right;
+	vertical-align: top;
+	width: 55%;
 }

@@ -6,6 +6,11 @@
 		width: 450px;
 	}
 } 
+
+.title-form {
+	text-align: center;
+}
+
 .pay-form {
 	height: 0px;
 	overflow: hidden;
@@ -58,7 +63,6 @@
 	background-color: $grey;
 	background-position: 30px center;
 	background-repeat: no-repeat;
-
 	color: $white;
 	display: block;
 	text-align: right;

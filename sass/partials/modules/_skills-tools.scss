@@ -1,52 +1,77 @@
+.section-skills {
+    background-color: #243842;
+	width: 100%;
+	margin: 0;
+}
+
+.section-skills:after {
+	content: "";
+	background-image: url(../img/animacion-back.png);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: .5;
+}
+
+.title-skills{
+	color: $white;
+	margin-bottom: 20px;
+}
+.content {
+	position: relative;
+	z-index: 1;
+}
+
 .line-grid {
-	max-width: 1000px;
-	overflow: hidden;
-	margin: 0 auto;
-	@media (min-width: 480px) {
-		// border-bottom: 1px solid $grey-lines;
-		&:last-child {
-	        border: 0;
-		}
-	}
+	width: 49%;
+	display: inline-block;
 }
 .item-grid {
+	color: white;
 	list-style: none;
-	height: 18rem;
-	// border-bottom: 1px solid $grey-lines; 
-	@include font-size(14);
-	text-align: center;
-	padding: 4rem;
-	@media (min-width: 480px) {
-		// border-right: 1px solid $grey-lines;
-		border-bottom: 0; 
-		float: left;
-		padding: 9rem 4rem 4rem 4rem;
-		height: 30rem;
-		width: 50%;
-		// &:nth-child(2n) {
-		//     border-right: 0;
-		// }
-		// &:nth-child(1), &:nth-child(2) {
-		//     border-bottom: 1px solid $grey-lines;
-		//}
-	}
-	@media (min-width: 980px) {
-		// border-right: 1px solid $grey-lines;
-		height: 20rem;
-		padding: 4rem;
-		width: 25%;
-		// &:nth-child(2n) {
-	 //    	border-right: 1px solid $grey-lines;
-		// }
-		// &:nth-child(1), &:nth-child(2) {
-	 //    	border-bottom:0;
-		// }
-		// &:last-child {
-	 //        border: 0;
-		// }
-	}
-	img {
-		width: 60px;
-		height: initial;
-	}
+    line-height: 27px;
+    list-style-type: disc;
+    margin-left: 15px;
+	@include font-size(16);
 }
+
+// .line-grid {
+// 	overflow: hidden;
+	
+// 	@media (min-width: 480px) {
+// 		&:last-child {
+// 	        border: 0;
+// 		}
+// 	}
+// }
+
+// .item-grid {
+// 	list-style: none;
+// 	height: 18rem; 
+// 	@include font-size(14);
+// 	text-align: center;
+// 	padding: 4rem;
+
+// 	@media (min-width: 480px) {
+// 		border-bottom: 0; 
+// 		float: left;
+// 		padding: 9rem 4rem 4rem 4rem;
+// 		height: 30rem;
+// 		width: 50%;
+// 	}
+
+// 	@media (min-width: 980px) {
+// 		height: 20rem;
+// 		padding: 4rem;
+// 		width: 25%;
+// 	}
+
+// 	img {
+// 		width: 60px;
+// 		height: initial;
+// 	}
+// }

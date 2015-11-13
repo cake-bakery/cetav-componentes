@@ -1,5 +1,4 @@
-
-.graduate-sidebar{
+.graduate-sidebar {
 	float: left;
 	display: inline-block;
 	background-color: $blue-dark;
@@ -7,34 +6,38 @@
 	padding: 48px;
  	width: 25%;
   	color: $white;
-	input{
+
+	input {
 		display: list-item;
 		float: left;
 		margin-right: 6px;
 		width: 20px;
 		height: 20px;
 	}
-	p{
+
+	p {
 		@include font-size(14);
 		color: $white;
 		margin-bottom: 11px;
 	}
 }
-.graduate-sidebar-career{
+
+.graduate-sidebar-career {
   border-bottom: 1px solid $grey-light;
   padding-bottom: 15px;
 }
-.graduate-sidebar-availabity{
+
+.graduate-sidebar-availabity {
 	margin-top: 20px;
   border-bottom: 1px solid $grey-light;
   padding-bottom: 15px;
 }
-.graduate-sidebar-generation{
+
+.graduate-sidebar-generation {
 	margin-top: 20px;
 }
-.graduate-sidebar-title{
-	@include font-size(20);
-	font-family: $montserrat;
+
+.graduate-sidebar-title {
 	margin-bottom: 12px;
 }
 

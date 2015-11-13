@@ -12,9 +12,7 @@
 }
 
 .info-profile-title {
-    @include font-size(24);
     color: $grey-dark;
-    font-family: $montserrat;
 }
 
 .title {
@@ -32,7 +30,8 @@
     margin-top: 18px;
 
     svg{
-        margin: 0 -26px;
+        margin: 0 2px;
+        width: 5%;
     }
 }
 
@@ -92,10 +91,10 @@
 
 .info-profile-content-skills-list-items {
     @include font-size(14);
-    background-color: $orange-light;
+    background-color: $blue-dark;
     border: 1px dashed $white;
     border-radius: 5px;
-    box-shadow: 0px 0px 0px 2px $orange-light;
+    box-shadow: 0px 0px 0px 2px $blue-dark;
     color: $white;
     display: inline-block;
     font-family: $open-sans;

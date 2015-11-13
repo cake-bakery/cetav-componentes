@@ -7,9 +7,7 @@
 }
 
 .tittle-populars {
-
 	color: $grey;
-	@include font-size(22);
 	overflow: hidden;
 	position: relative;
 	padding: 10px 20px 10px;
@@ -22,13 +20,13 @@
 	color: $grey-dark;
 	position: relative;
 	overflow: hidden;
+
 	&:last-child {
 		border: none;
 	}
 }
 
 .sub-tittle-populars {
-	@include font-size(16);
 	margin-bottom: 7px;
 }
 
@@ -58,25 +56,26 @@
 		position: relative;
 		padding: 0 0 10px;
 		text-align: center;
-	}
 
-	.tittle-populars:before {
-	    position: absolute;
-	    top: 43%;
-		left: 0;
-	    width: 13%;
-	    height: 1px;
-	    content: '\a0';
-	    background-color: #A8A2A2;
-	}
-	.tittle-populars:after {
-		position: absolute;
-	    top: 43%;
-	    overflow: hidden;
-	    right: 0;
-	    width: 13%;
-	    height: 1px;
-	    content: '\a0';
-	    background-color: #A8A2A2;
+		&:before {
+		    position: absolute;
+		    top: 43%;
+			left: 0;
+		    width: 13%;
+		    height: 1px;
+		    content: '\a0';
+		    background-color: #A8A2A2;
+		}
+		
+		&:after {
+			position: absolute;
+		    top: 43%;
+		    overflow: hidden;
+		    right: 0;
+		    width: 13%;
+		    height: 1px;
+		    content: '\a0';
+		    background-color: #A8A2A2;
+		}
 	}
 }

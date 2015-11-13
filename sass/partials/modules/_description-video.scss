@@ -3,12 +3,6 @@
 	width: 100%;
 	
 }
-.career-intro-title{
-	@include font-size(40);
-	font-family: $montserrat;
-	color: $orange;
-	line-height: 120%;
-}
 
 .career-intro-text{
 	@include font-size(16);

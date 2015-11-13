@@ -134,7 +134,7 @@
  * List of graduate
  */
 .graduate-list-profile-info-link {
-	background-color: $orange-light;
+	background-color: #405C6A;
 	border-radius: 3px;
 	color: $white;
 	float: left;
@@ -146,7 +146,7 @@
 	top: 35px;
 
 	&:hover {
-		background-color: #FAA853;
+		background-color: $blue-dark;
 	    -webkit-transition: all 0.3s;
 	    -ms-transition: all 0.3s;
 	    -moz-transition: all 0.3s;

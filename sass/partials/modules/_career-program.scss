@@ -1,5 +1,4 @@
 .preview-squares-module {
-	margin: 0 auto;
 	text-align: center;
 }
 .career-program {
@@ -8,10 +7,6 @@
 	position: relative;
 }
 
-.programs-width {
-	margin: 0 auto;
-	max-width: 1000px;
-}
 .square-preview-module {
 	background-color: $white;
 	height: 300px;
@@ -49,7 +44,7 @@
     	}
     	&:last-child {
     		padding: 60px 0;
-        	margin-right: 0%;
+        margin-right: 0;
     	}
 	}
 }
@@ -72,38 +67,6 @@
 	}
 }
 
-.program-button {
-	@include font-size(18);
-	background-color: $white;
-	border: 2px solid $ddw-color;
-	border-radius: 5px;
-	color: $ddw-color;
-	display: block;
-	height: 50px;
-	line-height: 15px;
-	margin: 10px auto;
-	padding: 0 20px;
-	width: 80%;
-	transition:0.2s;
-	
-	&:hover{
-		background-color: $ddw-color;
-		color: $white;
-		transition:0.2s;
-		.triangle-link-ddw {
-			@extend %triangle-link;
-			border-color: transparent transparent transparent #ffffff;
-			transition:0.2s;
-		}
-		.triangle-download-ddw {
-			@extend %triangle-download;
-			border-color: #ffffff transparent transparent transparent ;
-			transition:0.2s;
-		}
-	}
-	
-}
-
 .download-program-button {
 	color: $white;
 	margin-bottom: 10px;
@@ -122,7 +85,7 @@
 }
 
 .program-preview-dowload {
-	box-shadow: none;
+
 }
 
 // .preview-squares-module {

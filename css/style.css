@@ -413,7 +413,7 @@ svg {
   display: block;
   height: 50px;
   line-height: 15px;
-  margin: 10px auto;
+  margin: 25px auto;
   padding: 0 20px;
   width: 80%;
   transition: 0.2s; }
@@ -1324,7 +1324,6 @@ header {
       .square-preview-module:nth-child(3n) {
         margin-right: 0; }
       .square-preview-module:last-child {
-        padding: 60px 0;
         margin-right: 0; } }
 
 .title-square {

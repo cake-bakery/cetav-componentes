@@ -16,7 +16,7 @@ body {
 a {
 	color: $grey-light;
 	text-decoration: none;
-	
+
 }
 
 ul {
@@ -24,7 +24,7 @@ ul {
 	padding: 0;
 }
 
-//title, sub-title and text margin 
+//title, sub-title and text margin
 h2 {
 	margin: 0;
 	font-family: $montserrat;
@@ -42,7 +42,7 @@ h3 {
 h4{
 	margin: 0;
 	font-family: $montserrat;
-	@include font-size(24);
+	@include font-size(22);
 }
 
 h5{
@@ -55,7 +55,7 @@ p {
 	margin: 0;
 }
 
-//Video in generation and Description - video 
+//Video in generation and Description - video
 iframe {
 	float: right;
 	height: 160px;
@@ -68,10 +68,10 @@ iframe {
   	}
 }
 // SVG
-//Color and hovers in administrative personal and graduate profile 
+//Color and hovers in administrative personal and graduate profile
 svg {
 	margin-right: 15px;
-	margin-top: 11px; 
+	margin-top: 11px;
 	vertical-align: top;
 	&:hover{
     	border-bottom: none;
@@ -84,35 +84,35 @@ svg {
 
 .icon-social-facebook {
 	cursor: pointer;
- 	fill: #4966a7; 
+ 	fill: #4966a7;
     height: 40px;
     width: 15%;
 }
 
 .icon-social-twitter {
 	cursor: pointer;
-    fill: #17b3e8; 
+    fill: #17b3e8;
     height: 40px;
     width: 15%;
 }
 
 .icon-social-vimeo {
 	cursor: pointer;
-	fill: #17b3e8; 
+	fill: #17b3e8;
     height: 40px;
     width: 15%;
 }
 //Color and hovers in Footer
 .icon-facebook {
 	cursor: pointer;
-	fill: $white; 
+	fill: $white;
     height: 40px;
     width: 5%;
 }
 
 .icon-vimeo {
 	cursor: pointer;
-	fill: $white; 
+	fill: $white;
     height: 40px;
     width: 5%;
 }
@@ -167,13 +167,13 @@ svg {
 	border-color: $light-blue transparent transparent transparent;
 }
 
-.download-pdf {
-	background-image: url(../img/pdf.png);
-	background-position: center right;
-	background-size: cover;
-	background-repeat: no-repeat;
-	display: inline-block;
-	padding: 9px 12px;
-	text-indent: -1000%;
-	margin-left: 10px;
-}
+// .download-pdf {
+// 	background-image: url(../img/pdf.png);
+// 	background-position: center right;
+// 	background-size: cover;
+// 	background-repeat: no-repeat;
+// 	display: inline-block;
+// 	padding: 9px 12px;
+// 	text-indent: -1000%;
+// 	margin-left: 10px;
+// }

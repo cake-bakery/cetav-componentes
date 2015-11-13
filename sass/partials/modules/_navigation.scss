@@ -24,7 +24,7 @@ header {
     &:nth-of-type(2) {
       background-color: $grey-dark;
       padding: 10px 0;
-      
+
     }
   }
   .content-navigation-secondary {
@@ -72,25 +72,6 @@ header {
     height: 20px;
     margin-left: 20px;
   }
-}
-
-.search-box {
-  bottom: 0;
-  position: absolute;
-  left: 0;
-  width: 100%;
-}
-
-.search-input {
-  background-color: $grey-light;
-  border: none;
-  float: left;
-  @include font-size(18);
-  height: 60px;
-  padding: 0 20px;
-  width: 90%;
-  z-index: 10;
-  outline: none;
 }
 
 .go-search {

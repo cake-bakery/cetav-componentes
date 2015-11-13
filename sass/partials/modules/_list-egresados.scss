@@ -1,16 +1,15 @@
 .graduate-list {
-	float: right; 
+	float: right;
 	width: 65%;
 }
 
 .graduate-list-profile {
 	width: 90%;
-	margin: 11px 0 11px 87px;
-	text-align: center;
+	margin: 11px 0;
 	position: relative;
 	float: right;
  	border-bottom: 1px solid $grey-light;
-  	padding-bottom: 29px;
+  padding-bottom: 29px;
 
 	img {
 		float: left;
@@ -39,8 +38,8 @@
 }
 
 .graduate-list-profile-info-title {
-	color: $grey-dark; 
-	line-height: 38px; 
+	color: $grey-dark;
+	line-height: 38px;
 	margin-bottom: -2px;
 }
 

@@ -40,17 +40,17 @@
 	padding: 0;
 }
 
-.width-description-left{
+.width-column-left{
 	margin: 2rem 0;
 	@media(min-width: 880px){
 		margin-top: 0;
 		float: left;
 		vertical-align: top;
-		width: 44%;
+		width: 40%;
 	}
 }
 
-.width-description-right{
+.width-column-right{
 	margin-top: 0;
 	float: right;
 	vertical-align: top;

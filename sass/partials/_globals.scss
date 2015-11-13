@@ -103,25 +103,18 @@ svg {
     width: 15%;
 }
 //Color and hovers in Footer
-.facebook-icon {
-	fill: $white;
-	height: 40px;
-	margin-top: 20px;
-	width: 40px;
-	&:hover{
-		cursor: pointer;
-		fill: #4966a7; 
-	}
+.icon-facebook {
+	cursor: pointer;
+	fill: $white; 
+    height: 40px;
+    width: 5%;
 }
 
-.vimeo-icon {
-	fill: $white;
-	height: 40px;
-	width: 40px;
-	&:hover{
-		cursor: pointer;
-		fill: #17b3e8; 
-	}
+.icon-vimeo {
+	cursor: pointer;
+	fill: $white; 
+    height: 40px;
+    width: 5%;
 }
 
 %triangle-link {

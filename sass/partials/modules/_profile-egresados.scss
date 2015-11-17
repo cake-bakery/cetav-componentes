@@ -92,7 +92,6 @@
 .info-profile-content-skills-list-items {
     @include font-size(14);
     background-color: $blue-dark;
-    border: 1px dashed $white;
     border-radius: 5px;
     box-shadow: 0px 0px 0px 2px $blue-dark;
     color: $white;

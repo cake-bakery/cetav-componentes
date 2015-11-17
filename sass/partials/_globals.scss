@@ -127,6 +127,11 @@ svg {
 	border-color: transparent transparent transparent $white;
 }
 
+.triangle-link-blue {
+	@extend %triangle-link;
+	border-color: transparent transparent transparent $light-blue;
+}
+
 .triangle-link-white {
 	@extend %triangle-link;
 	border-color: transparent transparent transparent $white;
@@ -167,13 +172,3 @@ svg {
 	border-color: $light-blue transparent transparent transparent;
 }
 
-// .download-pdf {
-// 	background-image: url(../img/pdf.png);
-// 	background-position: center right;
-// 	background-size: cover;
-// 	background-repeat: no-repeat;
-// 	display: inline-block;
-// 	padding: 9px 12px;
-// 	text-indent: -1000%;
-// 	margin-left: 10px;
-// }

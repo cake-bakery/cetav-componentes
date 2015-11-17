@@ -8,10 +8,21 @@
    #Egresados
    ======================= */
 
+.button{
+	background: none;
+	padding: 15px 40px;
+	transition:0.2s;
+	@include font-size(18);
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
 /* #Career Program
    ========================================================================== */
 .program-button {
-	@include font-size(18);
 	background-color: $white;
 	border: 1px solid $ddw-color;
 	color: $ddw-color;
@@ -19,9 +30,7 @@
 	height: 50px;
 	line-height: 15px;
 	margin: 25px auto;
-	padding: 0 20px;
 	width: 80%;
-	transition:0.2s;
 
 	&:hover{
 		background-color: $ddw-color;
@@ -47,18 +56,9 @@
 
 // #Description  generations
 .generations-intro-button {
-	background: none;
 	border: 2px solid #848286;
-	border-radius: 6px;
 	color: #848286;
-	@include font-size(23);
 	margin-top: 20px;
-	padding: 20px 38px 20px 43px;
-	-webkit-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
 
 	.triangle-link-anuario {
 		border-color: transparent transparent transparent #848286;
@@ -75,21 +75,63 @@
 	}
 }
 
+.upload-button {
+	background-image: url(../img/upload-hover.png);
+	border:1px solid $grey;
+	background-position: 30px center;
+	background-repeat: no-repeat;
+	color: $grey;
+	display: block;
+	text-align: right;
+	margin-top: 8px;
+	&:hover {
+		background: url(../img/upload-hover.png);
+		background-color: $blue-dark;
+		color: $white;
+		background-position: 30px center;
+		background-repeat: no-repeat;
+	}
+}
+
+.send-button {
+	border:1px solid $light-blue;
+	color: $light-blue;
+	display: block;
+	&:hover {
+		background-color: #00acea;
+		color: $white;
+	}
+}
+
+.inscription-button {
+	background-color: transparent;
+	border:1px solid $light-blue;
+	font-weight: bold;
+	color: $light-blue;
+	position: absolute;
+	top:0;
+	left: 15%;
+	outline: none;
+	transform-style: preserve-3d;
+	transition: transform 1s;
+	&:hover {
+		background-color: #00acea;
+		color: $white;
+	}
+}
 /* #Career Program
    ==========================================================================
  * buttons of play of description generation and description video
  */
 .play-video-wrap {
 	border: 3px solid $orange;
-	border-radius: 50%;
+	border-radius:800%; 
 	cursor: pointer;
 	display: inline-block;
-	height: 60px;
 	margin-top: 40px;
-	padding: 15px;
-	padding-left: 10px;
 	position: relative;
-	width: 60px;
+	width: 15%;
+    height: 62px;
 }
 
 .play-video {
@@ -98,6 +140,9 @@
 	border-width: 12px 0 12px 18.6px;
 	border-color: transparent transparent transparent $orange;
 	text-indent: -10000%;
+	position: absolute;
+    left: 19%;
+    top: 14px;
 }
 
 /* #Footer
@@ -132,9 +177,8 @@
  * List of graduate
  */
 .graduate-list-profile-info-link {
-	background-color: #405C6A;
-	border-radius: 3px;
-	color: $white;
+	border:1px solid #405C6A;
+	color: #405C6A;
 	float: left;
 	@include font-size(14);
 	font-family: $montserrat;
@@ -145,6 +189,7 @@
 
 	&:hover {
 		background-color: $blue-dark;
+		color: $white;
 	    -webkit-transition: all 0.3s;
 	    -ms-transition: all 0.3s;
 	    -moz-transition: all 0.3s;

@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "CP850";
 /* ==|====================
 
    -------INDEX--------
@@ -35,8 +35,8 @@ audio:not([controls]) {
   display: none; }
 
 html {
-  background: #fff;
-  color: #000;
+  background: white;
+  color: black;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%; }
 
@@ -215,7 +215,7 @@ body {
   margin: 0; }
 
 a {
-  color: #ECECEC;
+  color: #ececec;
   text-decoration: none; }
 
 ul {
@@ -292,27 +292,30 @@ svg {
 
 .icon-facebook {
   cursor: pointer;
-  fill: #fff;
+  fill: white;
   height: 40px;
   width: 5%; }
 
 .icon-vimeo {
   cursor: pointer;
-  fill: #fff;
+  fill: white;
   height: 40px;
   width: 5%; }
 
-.triangle-link-white, .triangle-link-ddw, .triangle-link-curse, .program-button:hover .triangle-link-ddw, .generations-intro-button .triangle-link-anuario, .generations-intro-button:hover .triangle-link-anuario, .play-video {
+.triangle-link-blue, .triangle-link-white, .triangle-link-ddw, .triangle-link-curse, .program-button:hover .triangle-link-ddw, .generations-intro-button .triangle-link-anuario, .generations-intro-button:hover .triangle-link-anuario, .play-video {
   display: inline-block;
   margin-left: 10px;
   width: 0;
   height: 0;
   border-style: solid;
   border-width: 7.5px 0 7.5px 13.0px;
-  border-color: transparent transparent transparent #fff; }
+  border-color: transparent transparent transparent white; }
+
+.triangle-link-blue {
+  border-color: transparent transparent transparent #00c9ed; }
 
 .triangle-link-white {
-  border-color: transparent transparent transparent #fff; }
+  border-color: transparent transparent transparent white; }
 
 .triangle-link-ddw {
   border-color: transparent transparent transparent #922716; }
@@ -327,10 +330,10 @@ svg {
   height: 0;
   border-style: solid;
   border-width: 10px 7.5px 0 7.5px;
-  border-color: #fff transparent transparent transparent; }
+  border-color: white transparent transparent transparent; }
 
 .triangle-download-white {
-  border-color: #fff transparent transparent transparent; }
+  border-color: white transparent transparent transparent; }
 
 .triangle-download-ddw {
   border-color: #922716 transparent transparent transparent; }
@@ -402,57 +405,95 @@ svg {
    #Footer
    #Egresados
    ======================= */
+.button {
+  background: none;
+  padding: 15px 40px;
+  transition: 0.2s;
+  font-size: 18px;
+  font-size: 1.8rem;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s; }
+
 /* #Career Program
    ========================================================================== */
 .program-button {
-  font-size: 18px;
-  font-size: 1.8rem;
-  background-color: #fff;
+  background-color: white;
   border: 1px solid #922716;
   color: #922716;
   display: block;
   height: 50px;
   line-height: 15px;
   margin: 25px auto;
-  padding: 0 20px;
-  width: 80%;
-  transition: 0.2s; }
+  width: 80%; }
   .program-button:hover {
     background-color: #922716;
-    color: #fff;
+    color: white;
     transition: 0.2s; }
     .program-button:hover .triangle-link-ddw {
-      border-color: transparent transparent transparent #fff;
+      border-color: transparent transparent transparent white;
       transition: 0.2s; }
     .program-button:hover .triangle-download-ddw {
-      border-color: #fff transparent transparent transparent;
+      border-color: white transparent transparent transparent;
       transition: 0.2s; }
 
 .download-program-button {
-  color: #fff;
+  color: white;
   margin-bottom: 10px; }
 
 .generations-intro-button {
-  background: none;
   border: 2px solid #848286;
-  border-radius: 6px;
   color: #848286;
-  font-size: 23px;
-  font-size: 2.3rem;
-  margin-top: 20px;
-  padding: 20px 38px 20px 43px;
-  -webkit-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s; }
+  margin-top: 20px; }
   .generations-intro-button .triangle-link-anuario {
     border-color: transparent transparent transparent #848286; }
   .generations-intro-button:hover {
-    color: #fff;
+    color: white;
     background-color: #848286; }
     .generations-intro-button:hover .triangle-link-anuario {
-      border-color: transparent transparent transparent #fff; }
+      border-color: transparent transparent transparent white; }
+
+.upload-button {
+  background-image: url(../img/upload-hover.png);
+  border: 1px solid #848286;
+  background-position: 30px center;
+  background-repeat: no-repeat;
+  color: #848286;
+  display: block;
+  text-align: right;
+  margin-top: 8px; }
+  .upload-button:hover {
+    background: url(../img/upload-hover.png);
+    background-color: #243842;
+    color: white;
+    background-position: 30px center;
+    background-repeat: no-repeat; }
+
+.send-button {
+  border: 1px solid #00c9ed;
+  color: #00c9ed;
+  display: block; }
+  .send-button:hover {
+    background-color: #00acea;
+    color: white; }
+
+.inscription-button {
+  background-color: transparent;
+  border: 1px solid #00c9ed;
+  font-weight: bold;
+  color: #00c9ed;
+  position: absolute;
+  top: 0;
+  left: 15%;
+  outline: none;
+  transform-style: preserve-3d;
+  transition: transform 1s; }
+  .inscription-button:hover {
+    background-color: #00acea;
+    color: white; }
 
 /* #Career Program
    ==========================================================================
@@ -460,21 +501,22 @@ svg {
  */
 .play-video-wrap {
   border: 3px solid #ff8f00;
-  border-radius: 50%;
+  border-radius: 800%;
   cursor: pointer;
   display: inline-block;
-  height: 60px;
   margin-top: 40px;
-  padding: 15px;
-  padding-left: 10px;
   position: relative;
-  width: 60px; }
+  width: 15%;
+  height: 62px; }
 
 .play-video {
   display: block;
   border-width: 12px 0 12px 18.6px;
   border-color: transparent transparent transparent #ff8f00;
-  text-indent: -10000%; }
+  text-indent: -10000%;
+  position: absolute;
+  left: 19%;
+  top: 14px; }
 
 /* #Footer
    ========================================================================== */
@@ -482,9 +524,9 @@ svg {
   font-size: 12px;
   font-size: 1.2rem;
   background: none;
-  border: 1px solid #fff;
+  border: 1px solid white;
   border-radius: 3px;
-  color: #fff;
+  color: white;
   font-family: "Open Sans", sans-serif;
   margin: 0.5rem auto;
   margin-right: 8px;
@@ -498,7 +540,7 @@ svg {
     .footer-list-items-button {
       width: 38%; } }
   .footer-list-items-button:hover {
-    background: #fff;
+    background: white;
     color: #292929; }
 
 /* #Egresados
@@ -506,9 +548,8 @@ svg {
  * List of graduate
  */
 .graduate-list-profile-info-link {
-  background-color: #405C6A;
-  border-radius: 3px;
-  color: #fff;
+  border: 1px solid #405C6A;
+  color: #405C6A;
   float: left;
   font-size: 14px;
   font-size: 1.4rem;
@@ -519,6 +560,7 @@ svg {
   top: 35px; }
   .graduate-list-profile-info-link:hover {
     background-color: #243842;
+    color: white;
     -webkit-transition: all 0.3s;
     -ms-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -554,9 +596,9 @@ header {
       font-size: 1.2rem;
       font-family: "Montserrat", sans-serif;
       margin-left: 20px;
-      color: #fff; }
+      color: white; }
       header .content-navigation-secondary a:hover {
-        border-bottom: 1px solid #fff; }
+        border-bottom: 1px solid white; }
     header .content-navigation-secondary img {
       width: 14px; }
   header .content-navigation-primary {
@@ -570,7 +612,7 @@ header {
       font-size: 1.8rem;
       font-family: "Montserrat", sans-serif;
       margin-left: 40px;
-      color: #fff; }
+      color: white; }
   header .button-search {
     background-image: url(../img/search.png);
     background-repeat: no-repeat;
@@ -701,7 +743,7 @@ header {
     padding: 80px 123px;
     text-align: center; }
     .generations-video .reel-overlay h3 {
-      color: #fff;
+      color: white;
       font-size: 26px;
       font-size: 2.6rem;
       font-family: "Montserrat", sans-serif;
@@ -709,7 +751,7 @@ header {
     .generations-video .reel-overlay p {
       font-size: 14px;
       font-size: 1.4rem;
-      color: #fff; }
+      color: white; }
 
 .testimonial {
   width: 95%;
@@ -745,7 +787,7 @@ header {
   overflow: hidden;
   margin-right: 76px; }
   .testimonial-contenido p {
-    color: #fff;
+    color: white;
     padding-top: 1rem;
     font-size: 12px;
     font-size: 1.2rem;
@@ -759,14 +801,14 @@ header {
   .personal-info-testimonial h3 {
     font-size: 14px;
     font-size: 1.4rem;
-    color: #fff;
+    color: white;
     font-family: "Montserrat", sans-serif;
     margin-bottom: 3px; }
   .personal-info-testimonial span {
     font-size: 12px;
     font-size: 1.2rem;
     font-family: "Open Sans", sans-serif;
-    color: #fff; }
+    color: white; }
 
 .images {
   position: relative; }
@@ -809,7 +851,7 @@ header {
     padding: 65px 80px;
     text-align: center; }
     .career-video .reel-overlay h3 {
-      color: #fff;
+      color: white;
       font-size: 21px;
       font-size: 2.1rem;
       font-family: "Montserrat", sans-serif;
@@ -817,7 +859,7 @@ header {
     .career-video .reel-overlay p {
       font-size: 14px;
       font-size: 1.4rem;
-      color: #fff; }
+      color: white; }
 
 .personal-list {
   width: 100%;
@@ -885,7 +927,7 @@ header {
   .personal-list-items .charge {
     font-size: 13px;
     font-size: 1.3rem;
-    background-color: #ECECEC;
+    background-color: #ececec;
     border-radius: 5px;
     color: #505050;
     display: inline-block;
@@ -916,14 +958,14 @@ header {
         padding: 3px; } }
     .personal-list-items a:nth-of-type(1) {
       border-right: solid 2px #b2b2b2;
-      color: #4C67A1; }
+      color: #4c67a1; }
       @media (min-width: 680px) {
         .personal-list-items a:nth-of-type(1) {
           border: none;
           border-right: solid 1px #b2b2b2;
           padding-right: 8px; } }
     .personal-list-items a:nth-of-type(2) {
-      color: #55ACEE; }
+      color: #55acee; }
       @media (min-width: 680px) {
         .personal-list-items a:nth-of-type(2) {
           border: none; } }
@@ -979,7 +1021,7 @@ header {
   font-size: 1.4rem;
   list-style: none;
   text-align: left;
-  color: #fff;
+  color: white;
   vertical-align: top; }
   @media (min-width: 720px) {
     .content-column-course {
@@ -998,11 +1040,12 @@ header {
         margin-right: 0; }
       .content-column-course:last-child {
         margin-right: 0%; } }
-  .content-column-course .curse-content-list {
-    padding-left: 20px; }
-  .content-column-course .curse-content-item {
-    line-height: 27px;
-    list-style-type: disc; }
+
+.curse-content-item {
+  line-height: 27px;
+  list-style-type: disc; }
+  .curse-content-item:before {
+    font-size: 16px; }
 
 .details-subsection {
   overflow: hidden;
@@ -1105,7 +1148,7 @@ header {
   overflow: hidden; }
 
 .info-preview-module {
-  color: #fff;
+  color: white;
   padding: 30px 20px;
   margin-left: 50%;
   overflow: hidden;
@@ -1146,7 +1189,7 @@ header {
   margin: 5px 0 1.50px; }
 
 .price-preview-module {
-  background-color: #fff;
+  background-color: white;
   color: #00c9ed;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -1199,63 +1242,11 @@ header {
 .input-main-form {
   font-size: 16px;
   font-size: 1.6rem;
-  background-color: #ECECEC;
+  background-color: #ececec;
   border: none;
-  border-radius: 5px;
   margin: 1rem 0;
   padding: 20px 20px;
   width: 100%; }
-
-.button {
-  font-size: 14px;
-  font-size: 1.4rem;
-  background-color: transparent;
-  border: none;
-  border-radius: 5px;
-  font-weight: bold;
-  margin: 15px 0 15px 0;
-  padding: 20px 30px;
-  width: 50%; }
-
-.upload-button {
-  background-image: url(../img/upload-hover.png);
-  background-color: #848286;
-  background-position: 30px center;
-  background-repeat: no-repeat;
-  color: #fff;
-  display: block;
-  text-align: right; }
-  .upload-button:hover {
-    background: url(../img/upload-hover.png);
-    background-color: #243842;
-    background-position: 30px center;
-    background-repeat: no-repeat; }
-
-.send-button {
-  font-size: 16px;
-  font-size: 1.6rem;
-  background-color: #00c9ed;
-  color: #fff;
-  display: block;
-  height: 60px; }
-  .send-button:hover {
-    background-color: #00acea; }
-
-.inscription-button {
-  font-size: 16px;
-  font-size: 1.6rem;
-  background-color: #00c9ed;
-  color: #fff;
-  height: 60px;
-  width: 200px;
-  position: absolute;
-  top: 0;
-  left: 15%;
-  outline: none;
-  transform-style: preserve-3d;
-  transition: transform 1s; }
-  .inscription-button:hover {
-    background-color: #00acea; }
 
 .show-pay-form {
   height: 410px;
@@ -1294,7 +1285,7 @@ header {
   position: relative; }
 
 .square-preview-module {
-  background-color: #fff;
+  background-color: white;
   height: 300px;
   margin-bottom: 30px;
   overflow: hidden;
@@ -1320,7 +1311,7 @@ header {
       height: 250px;
       margin-bottom: 30px;
       margin-right: 4%;
-      width: 30%; }
+      width: 29%; }
       .square-preview-module:nth-child(3n) {
         margin-right: 0; }
       .square-preview-module:last-child {
@@ -1329,7 +1320,7 @@ header {
 .title-square {
   font-size: 20px;
   font-size: 2rem;
-  color: #fff;
+  color: white;
   margin-top: 0;
   padding: 15px; }
 
@@ -1343,7 +1334,7 @@ header {
     margin-bottom: 10px; }
 
 .download-program-button {
-  color: #fff;
+  color: white;
   margin-bottom: 10px; }
 
 .background-color-post {
@@ -1359,18 +1350,17 @@ header {
   background-color: #243842;
   width: 100%;
   margin: 0; }
-
-.section-skills:after {
-  content: "";
-  background-image: url(../img/animacion-back.png);
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: .5; }
+  .section-skills:after {
+    content: "";
+    background-image: url(../img/animacion-back.png);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .5; }
 
 .text p {
   color: #fff; }
@@ -1411,10 +1401,10 @@ header {
   float: left;
   display: inline-block;
   background-color: #243842;
-  box-shadow: 0 0 13px #C2BEBE;
+  box-shadow: 0 0 13px #c2bebe;
   padding: 48px;
   width: 25%;
-  color: #fff; }
+  color: white; }
   .graduate-sidebar input {
     display: list-item;
     float: left;
@@ -1424,16 +1414,16 @@ header {
   .graduate-sidebar p {
     font-size: 14px;
     font-size: 1.4rem;
-    color: #fff;
+    color: white;
     margin-bottom: 11px; }
 
 .graduate-sidebar-career {
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
   padding-bottom: 15px; }
 
 .graduate-sidebar-availabity {
   margin-top: 20px;
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
   padding-bottom: 15px; }
 
 .graduate-sidebar-generation {
@@ -1451,7 +1441,7 @@ header {
   margin: 11px 0;
   position: relative;
   float: right;
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
   padding-bottom: 29px; }
   .graduate-list-profile img {
     float: left;
@@ -1533,8 +1523,8 @@ header {
   width: 4%; }
 
 .info-profile-contact {
-  border-bottom: 1px solid #ECECEC;
-  border-top: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
+  border-top: 1px solid #ececec;
   margin: 25px 0;
   padding: 24px 0; }
 
@@ -1576,10 +1566,9 @@ header {
   font-size: 14px;
   font-size: 1.4rem;
   background-color: #243842;
-  border: 1px dashed #fff;
   border-radius: 5px;
   box-shadow: 0px 0px 0px 2px #243842;
-  color: #fff;
+  color: white;
   display: inline-block;
   font-family: "Open Sans", sans-serif;
   list-style: none;
@@ -1599,7 +1588,7 @@ header {
     text-align: left; }
 
 .news-section-main-first {
-  background-color: #ECECEC; }
+  background-color: #ececec; }
 
 .news-size {
   position: relative; }
@@ -1616,7 +1605,7 @@ header {
     margin-bottom: 16px; }
 
 .news-preview {
-  box-shadow: 0px 0px 13px #C2BEBE;
+  box-shadow: 0px 0px 13px #c2bebe;
   float: left;
   overflow: hidden;
   position: relative;
@@ -1632,7 +1621,7 @@ header {
   z-index: 10; }
 
 .information-new-preview {
-  background-color: #fff;
+  background-color: white;
   height: 27rem;
   margin-top: 18rem;
   padding: 4rem;
@@ -1644,7 +1633,7 @@ header {
   height: 0;
   border-style: solid;
   border-width: 0 15px 15px 15px;
-  border-color: transparent transparent #fff transparent;
+  border-color: transparent transparent white transparent;
   top: -15px;
   position: absolute; }
 
@@ -1652,7 +1641,7 @@ header {
   margin-bottom: 5px; }
 
 .border-new {
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
   display: block;
   margin: 16px 0 25px;
   width: 100%; }
@@ -1666,10 +1655,12 @@ header {
 .icon-arrow {
   width: 9px;
   margin-right: 5px; }
+  .icon-arrow:hover {
+    margin-right: 3px; }
 
 .new-first {
-  background-color: #fff;
-  box-shadow: 0px 0px 13px #C2BEBE;
+  background-color: white;
+  box-shadow: 0px 0px 13px #c2bebe;
   overflow: hidden;
   width: 67%; }
   .new-first p {
@@ -1691,7 +1682,7 @@ header {
   padding-bottom: 5px; }
 
 .date-main {
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
   display: block;
   font-size: 14px;
   font-size: 1.4rem;
@@ -1701,9 +1692,9 @@ header {
 .populars {
   width: 27%;
   float: right;
-  background-color: #fff;
+  background-color: white;
   padding: 20px 20px;
-  box-shadow: 0px 0px 13px #C2BEBE; }
+  box-shadow: 0px 0px 13px #c2bebe; }
 
 .tittle-populars {
   color: #848286;
@@ -1712,7 +1703,7 @@ header {
   padding: 10px 20px 10px; }
 
 .popular-new {
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
   display: block;
   padding: 20px;
   color: #292929;
@@ -1730,7 +1721,7 @@ header {
   font-size: 1.2rem;
   margin-bottom: 10px; }
 
-.more-preview {
+.read-more {
   color: #ff8f00;
   font-size: 14px;
   font-size: 1.4rem;
@@ -1740,7 +1731,7 @@ header {
   box-shadow: none;
   width: 30%;
   float: right;
-  background-color: #fff;
+  background-color: white;
   padding: 0  20px; }
   .populars2 .tittle-populars {
     color: #292929;
@@ -1776,7 +1767,7 @@ header {
   .footer p {
     font-size: 14px;
     font-size: 1.4rem;
-    color: #fff;
+    color: white;
     font-family: "Open Sans", sans-serif; }
     @media (min-width: 600px) {
       .footer p {
@@ -1791,8 +1782,6 @@ header {
   .icons-rs li {
     display: inline-block;
     margin-right: 15px; }
-  .icons-rs a:hover {
-    border-bottom: none; }
   .icons-rs svg {
     margin-top: 11px; }
 
@@ -1817,7 +1806,7 @@ header {
       width: 32%; } }
 
 .footer-list-items-title {
-  color: #fff;
+  color: white;
   margin-bottom: 0;
   text-align: left; }
 
@@ -1828,7 +1817,7 @@ header {
   position: relative; }
 
 .footer-list-items-image-parque {
-  border-left: 1px solid #fff;
+  border-left: 1px solid white;
   max-width: 125px;
   padding-left: 19%;
   width: 40%; }
@@ -1836,5 +1825,3 @@ header {
 .footer-list-items-image-ministerio {
   max-width: 137px;
   width: 41%; }
-
-/*# sourceMappingURL=style.css.map */

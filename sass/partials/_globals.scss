@@ -127,11 +127,6 @@ svg {
 	border-color: transparent transparent transparent $white;
 }
 
-.triangle-link-blue {
-	@extend %triangle-link;
-	border-color: transparent transparent transparent $light-blue;
-}
-
 .triangle-link-white {
 	@extend %triangle-link;
 	border-color: transparent transparent transparent $white;
@@ -140,6 +135,7 @@ svg {
 .triangle-link-ddw {
 	@extend %triangle-link;
 	border-color: transparent transparent transparent $ddw-color;
+  position: absolute;
 }
 
 .triangle-link-curse {
@@ -158,8 +154,13 @@ svg {
 }
 
 .triangle-download-white {
-	@extend %triangle-download;
-	border-color: $white transparent transparent transparent;
+  @extend %triangle-download;
+  border-color: $white transparent transparent transparent;
+}
+
+.triangle-download-blue {
+  @extend %triangle-download;
+  border-color: $light-blue transparent transparent transparent;
 }
 
 .triangle-download-ddw {

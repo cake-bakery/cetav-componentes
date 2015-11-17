@@ -18,7 +18,6 @@
     var player = $f(iframe);
     player.api("play");
     getId("video-generation-info").style.display='none';
-    console.log('play-video');
   };
 
   getId("play-descripcion-video").onclick = function() {
@@ -26,6 +25,5 @@
     var player = $f(iframe);
     player.api("play");
     getId("video-descripcion-info").style.display='none';
-    console.log('play-video');
   };
 })(window);

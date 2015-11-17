@@ -52,7 +52,9 @@ h5{
 }
 
 p {
-	margin: 0;
+  font-family: $open-sans;
+	@include font-size(16);
+  margin: 0;
 }
 
 //Video in generation and Description - video

@@ -50,10 +50,9 @@ h5{
 	font-family: $montserrat;
 	@include font-size(18);
 }
-
 p {
   font-family: $open-sans;
-	@include font-size(16);
+  @include font-size(14);
   margin: 0;
 }
 

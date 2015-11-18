@@ -250,8 +250,8 @@ h5 {
 
 p {
   font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  font-size: 1.6rem;
+  font-size: 14px;
+  font-size: 1.4rem;
   margin: 0; }
 
 iframe {
@@ -777,9 +777,6 @@ header {
   margin: 0 auto;
   overflow: hidden;
   padding: 24px; }
-  @media (min-width: 640px) {
-    .testimonial {
-      width: 70%; } }
 
 .testimonial-img {
   border-radius: 50%;
@@ -791,23 +788,23 @@ header {
 
 .testimonial-contenido {
   color: #848286;
-  width: 70%;
+  width: 58%;
   overflow: hidden;
   float: left;
-  margin-left: 21px; }
+  margin-left: 32px; }
   .testimonial-contenido p {
     color: #fff;
-    padding-top: 1rem;
-    font-size: 12px;
-    font-size: 1.2rem;
+    padding-top: 3px;
     font-family: "Open Sans", sans-serif; }
 
 .personal-info-testimonial {
   float: left;
-  text-align: left; }
+  text-align: left;
+  margin-top: 10px; }
   .personal-info-testimonial h3 {
     font-size: 14px;
     font-size: 1.4rem;
+    font-weight: lighter;
     color: #fff;
     font-family: "Montserrat", sans-serif;
     margin-bottom: 3px; }
@@ -818,9 +815,9 @@ header {
     color: #fff; }
 
 .icon-comillas {
-  width: 10%;
-  margin-left: 37px;
-  margin-top: 40px; }
+  width: 8%;
+  margin-left: 221px;
+  margin-top: 19px; }
   .icon-comillas:last-child {
     margin-left: 0; }
 

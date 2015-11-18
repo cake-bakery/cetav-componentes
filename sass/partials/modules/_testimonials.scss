@@ -1,77 +1,74 @@
 .background-total{
-		width: 100%;
+    width: 100%;
     background-color: #BE1D2C;
     padding: 0px;
     position: relative;
 }
 
 .testimonial {
-	width: 100%;
-	margin: 0 auto;
-	overflow: hidden;
-	padding: 24px;
-
-	@media (min-width: 640px) {
-		width: 70%;
-	}
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 24px;
 }
 
 .testimonial-img {
-	border-radius: 50%;
-	box-shadow: 0px 4px 7px -2px $grey;
-	position: absolute;
+  border-radius: 50%;
+  box-shadow: 0px 4px 7px -2px $grey;
+  position: absolute;
   top: -14%;
   width: 215px;
   z-index: 1;
 }
 
 .testimonial-contenido {
-	color: $grey;
-	width: 70%;
-	overflow: hidden;
-	float: left;
-	margin-left: 21px;
+  color: $grey;
+  width: 58%;
+  overflow: hidden;
+  float: left;
+  margin-left: 32px;
 
-	p {
-		color: $white;
-		padding-top: 1rem;
-		@include font-size(12);
-		font-family: $open-sans;
-	}
+  p {
+    color: $white;
+    padding-top: 3px;
+    font-family: $open-sans;
+  }
 }
 
 .personal-info-testimonial {
-	float: left;
-	text-align: left;
+  float: left;
+  text-align: left;
+  margin-top: 10px;
 
-	h3 {
-		@include font-size(14);
-		color: $white;
-		font-family: $montserrat;
-		margin-bottom: 3px;
-	}
+  h3 {
+    @include font-size(14);
+    font-weight: lighter;
+    color: $white;
+    font-family: $montserrat;
+    margin-bottom: 3px;
+  }
 
-	span{
-		@include font-size(12);
-		font-family: $open-sans;
-		color: $white;
-	}
+  span{
+    @include font-size(12);
+    font-family: $open-sans;
+    color: $white;
+  }
 }
 
 .icon-comillas{
-	width: 10%;
-    margin-left: 37px;
-    margin-top: 40px;
+  width: 8%;
+    margin-left: 221px;
+    margin-top: 19px;
 
     &:last-child{
-    	margin-left: 0;
+      margin-left: 0;
     }
 }
 
 .comillas-left{
-	float: left;
+  float: left;
 }
 
 .comillas-right{
-	float: right;
+  float: right;
 }

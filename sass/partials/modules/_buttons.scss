@@ -135,14 +135,14 @@
  * buttons of play of description generation and description video
  */
 .play-video-wrap {
-	border: 3px solid $orange;
 	border-radius:800%;
+	border: 3px solid $orange;
 	cursor: pointer;
 	display: inline-block;
+	height: 62px;
 	margin-top: 40px;
 	position: relative;
 	width: 15%;
-    height: 62px;
 }
 
 .play-video {

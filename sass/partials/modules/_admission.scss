@@ -1,0 +1,37 @@
+.backgrund-container-list {
+	background-color: #243842;
+	background-color: $blue-dark;
+	padding: 100px 0;
+	width: 100%;
+}
+.content-list {
+	width: 100%;
+}
+
+.content-list-grid {
+	display: inline-block;
+	margin-right: 83px;
+	vertical-align: top;
+	width: 45%;
+
+	&:last-child {
+		margin-right: 0;
+	}
+}
+
+.item-grid {
+	color: white;
+	list-style: none;
+  line-height: 20px;
+  font-family: $open-sans;
+	@include font-size(14);
+	margin-bottom: 10px;
+
+	&:before {
+		content: "• ";
+    color: $light-blue;
+    font-size: 22px;
+    float: left;
+    margin-right: 11px;
+	}
+}

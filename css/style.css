@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "CP850";
 /* ==|====================
 
    -------INDEX--------
@@ -35,8 +35,8 @@ audio:not([controls]) {
   display: none; }
 
 html {
-  background: #fff;
-  color: #000;
+  background: white;
+  color: black;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%; }
 
@@ -215,7 +215,7 @@ body {
   margin: 0; }
 
 a {
-  color: #ECECEC;
+  color: #ececec;
   text-decoration: none; }
 
 ul {
@@ -295,13 +295,13 @@ svg {
 
 .icon-facebook {
   cursor: pointer;
-  fill: #fff;
+  fill: white;
   height: 40px;
   width: 5%; }
 
 .icon-vimeo {
   cursor: pointer;
-  fill: #fff;
+  fill: white;
   height: 40px;
   width: 5%; }
 
@@ -312,10 +312,10 @@ svg {
   height: 0;
   border-style: solid;
   border-width: 7.5px 0 7.5px 13.0px;
-  border-color: transparent transparent transparent #fff; }
+  border-color: transparent transparent transparent white; }
 
 .triangle-link-white {
-  border-color: transparent transparent transparent #fff; }
+  border-color: transparent transparent transparent white; }
 
 .triangle-link-ddw {
   border-color: transparent transparent transparent #922716;
@@ -331,10 +331,10 @@ svg {
   height: 0;
   border-style: solid;
   border-width: 10px 7.5px 0 7.5px;
-  border-color: #fff transparent transparent transparent; }
+  border-color: white transparent transparent transparent; }
 
 .triangle-download-white {
-  border-color: #fff transparent transparent transparent; }
+  border-color: white transparent transparent transparent; }
 
 .triangle-download-blue {
   border-color: #00c9ed transparent transparent transparent; }
@@ -430,7 +430,7 @@ svg {
 /* #Career Program
    ========================================================================== */
 .program-button {
-  background-color: #fff;
+  background-color: white;
   border: 1px solid #922716;
   color: #922716;
   display: block;
@@ -440,17 +440,17 @@ svg {
   width: 80%; }
   .program-button:hover {
     background-color: #922716;
-    color: #fff;
+    color: white;
     transition: 0.2s; }
     .program-button:hover .triangle-link-ddw {
-      border-color: transparent transparent transparent #fff;
+      border-color: transparent transparent transparent white;
       transition: 0.2s; }
     .program-button:hover .triangle-download-ddw {
-      border-color: #fff transparent transparent transparent;
+      border-color: white transparent transparent transparent;
       transition: 0.2s; }
 
 .download-program-button {
-  color: #fff;
+  color: white;
   margin-bottom: 10px; }
 
 /* #Generations
@@ -460,10 +460,10 @@ svg {
   color: #848286;
   margin-top: 20px; }
   .generations-intro-button:hover {
-    color: #fff;
+    color: white;
     background-color: #848286; }
     .generations-intro-button:hover .triangle-link-anuario {
-      border-color: transparent transparent transparent #fff; }
+      border-color: transparent transparent transparent white; }
 
 .triangle-link-anuario {
   border-color: transparent transparent transparent #848286; }
@@ -483,7 +483,7 @@ svg {
   transition: transform 1s; }
   .inscription-button:hover {
     background-color: #00acea;
-    color: #fff; }
+    color: white; }
 
 .upload-button {
   background-image: url(../img/upload.png);
@@ -496,7 +496,7 @@ svg {
   .upload-button:hover {
     background: url(../img/upload-hover.png);
     background-color: #243842;
-    color: #fff;
+    color: white;
     background-position: 14px 18px;
     background-repeat: no-repeat; }
 
@@ -506,21 +506,21 @@ svg {
   display: block; }
   .send-button:hover {
     background-color: #00acea;
-    color: #fff; }
+    color: white; }
 
 /* #Play Video
    ==========================================================================
  * buttons of play of description generation and description video
  */
 .play-video-wrap {
-  border: 3px solid #ff8f00;
   border-radius: 800%;
+  border: 3px solid #ff8f00;
   cursor: pointer;
   display: inline-block;
+  height: 62px;
   margin-top: 40px;
   position: relative;
-  width: 15%;
-  height: 62px; }
+  width: 15%; }
 
 .play-video {
   display: block;
@@ -537,9 +537,9 @@ svg {
   font-size: 12px;
   font-size: 1.2rem;
   background: none;
-  border: 1px solid #fff;
+  border: 1px solid white;
   border-radius: 3px;
-  color: #fff;
+  color: white;
   font-family: "Open Sans", sans-serif;
   margin: 0.5rem auto;
   margin-right: 8px;
@@ -553,7 +553,7 @@ svg {
     .footer-list-items-button {
       width: 38%; } }
   .footer-list-items-button:hover {
-    background: #fff;
+    background: white;
     color: #292929; }
 
 /* #Egresados
@@ -573,93 +573,12 @@ svg {
   top: 35px; }
   .graduate-list-profile-info-link:hover {
     background-color: #243842;
-    color: #fff;
+    color: white;
     -webkit-transition: all 0.3s;
     -ms-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s; }
-
-header {
-  padding-top: 10px;
-  margin: 0 auto; }
-  header .logo-cetav-img {
-    float: left;
-    width: 120px;
-    margin-left: 23px; }
-  header .container-header {
-    position: relative;
-    overflow: hidden;
-    -webkit-transition: padding 1s; }
-  header .content-navigation {
-    position: relative;
-    overflow: hidden;
-    z-index: 20; }
-    header .content-navigation:nth-of-type(1) {
-      background: #848286;
-      padding: 10px 0; }
-    header .content-navigation:nth-of-type(2) {
-      background-color: #292929;
-      padding: 10px 0; }
-  header .content-navigation-secondary {
-    float: right;
-    margin-right: 23px; }
-    header .content-navigation-secondary a {
-      font-size: 12px;
-      font-size: 1.2rem;
-      font-family: "Montserrat", sans-serif;
-      margin-left: 20px;
-      color: #fff; }
-      header .content-navigation-secondary a:hover {
-        border-bottom: 1px solid #fff; }
-    header .content-navigation-secondary img {
-      width: 14px; }
-  header .content-navigation-primary {
-    float: right;
-    line-height: 55px;
-    margin-right: 30px;
-    overflow: hidden;
-    position: relative; }
-    header .content-navigation-primary a {
-      font-size: 18px;
-      font-size: 1.8rem;
-      font-family: "Montserrat", sans-serif;
-      margin-left: 40px;
-      color: #fff; }
-  header .button-search {
-    background-image: url(../img/search.png);
-    background-repeat: no-repeat;
-    background-color: transparent;
-    background-position: center;
-    background-size: contain;
-    text-indent: -200000%;
-    border: none;
-    outline: none;
-    position: relative;
-    width: 20px;
-    height: 20px;
-    margin-left: 20px; }
-
-.go-search {
-  display: block;
-  background-image: url(../img/search-white.png);
-  background-repeat: no-repeat;
-  background-color: transparent;
-  background-position: center;
-  background-size: 30px;
-  background-color: #2dcc70;
-  text-indent: -200000%;
-  border: none;
-  padding-top: 10px;
-  position: relative;
-  height: 60px;
-  float: right;
-  width: 10%;
-  outline: none; }
-
-.show-search {
-  padding-bottom: 60px;
-  -webkit-transition: 1s; }
 
 @media (min-width: 880px) {
   .container-title {
@@ -682,42 +601,37 @@ header {
     .container-text p {
       margin-top: 9px; } }
 
-.requirements-list {
-  padding: 0;
-  text-align: center; }
+.backgrund-container-list {
+  background-color: #243842;
+  background-color: #243842;
+  padding: 100px 0;
+  width: 100%; }
 
-.requirements-list-items {
+.content-list {
+  width: 100%; }
+
+.content-list-grid {
   display: inline-block;
+  margin-right: 83px;
   vertical-align: top;
-  width: 80%; }
-  @media (min-width: 319px) {
-    .requirements-list-items {
-      margin: 40px 10%;
-      width: 50%; } }
-  @media (min-width: 480px) {
-    .requirements-list-items {
-      margin: 5rem 4%;
-      width: 41%; } }
-  @media (min-width: 680px) {
-    .requirements-list-items {
-      margin: 5rem 5%;
-      width: 30%; } }
-  @media (min-width: 980px) {
-    .requirements-list-items {
-      margin: 5rem 2%;
-      width: 20%; } }
-  .requirements-list-items img {
-    border: 1px solid #ff8f00;
-    border-radius: 800px;
-    margin-bottom: 11px;
-    overflow: hidden;
-    padding: 20px;
-    width: 50%; }
-  .requirements-list-items p {
-    font-size: 14px;
-    font-size: 1.4rem;
-    color: #848286;
-    font-family: "Open Sans", sans-serif; }
+  width: 45%; }
+  .content-list-grid:last-child {
+    margin-right: 0; }
+
+.item-grid {
+  color: white;
+  list-style: none;
+  line-height: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-size: 1.4rem;
+  margin-bottom: 10px; }
+  .item-grid:before {
+    content: "• ";
+    color: #00c9ed;
+    font-size: 22px;
+    float: left;
+    margin-right: 11px; }
 
 .generations-intro {
   display: block;
@@ -756,7 +670,7 @@ header {
     padding: 80px 123px;
     text-align: center; }
     .generations-video .reel-overlay h3 {
-      color: #fff;
+      color: white;
       font-size: 26px;
       font-size: 2.6rem;
       font-family: "Montserrat", sans-serif;
@@ -764,7 +678,7 @@ header {
     .generations-video .reel-overlay p {
       font-size: 14px;
       font-size: 1.4rem;
-      color: #fff; }
+      color: white; }
 
 .background-total {
   width: 100%;
@@ -782,7 +696,7 @@ header {
   border-radius: 50%;
   box-shadow: 0px 4px 7px -2px #848286;
   position: absolute;
-  top: -14%;
+  top: -12%;
   width: 215px;
   z-index: 1; }
 
@@ -793,7 +707,7 @@ header {
   float: left;
   margin-left: 32px; }
   .testimonial-contenido p {
-    color: #fff;
+    color: white;
     padding-top: 3px;
     font-family: "Open Sans", sans-serif; }
 
@@ -805,14 +719,14 @@ header {
     font-size: 14px;
     font-size: 1.4rem;
     font-weight: lighter;
-    color: #fff;
+    color: white;
     font-family: "Montserrat", sans-serif;
     margin-bottom: 3px; }
   .personal-info-testimonial span {
     font-size: 12px;
     font-size: 1.2rem;
     font-family: "Open Sans", sans-serif;
-    color: #fff; }
+    color: white; }
 
 .icon-comillas {
   width: 8%;
@@ -865,7 +779,7 @@ header {
     padding: 65px 80px;
     text-align: center; }
     .career-video .reel-overlay h3 {
-      color: #fff;
+      color: white;
       font-size: 21px;
       font-size: 2.1rem;
       font-family: "Montserrat", sans-serif;
@@ -873,7 +787,7 @@ header {
     .career-video .reel-overlay p {
       font-size: 14px;
       font-size: 1.4rem;
-      color: #fff; }
+      color: white; }
 
 .personal-list {
   width: 100%;
@@ -941,7 +855,7 @@ header {
   .personal-list-items .charge {
     font-size: 13px;
     font-size: 1.3rem;
-    background-color: #ECECEC;
+    background-color: #ececec;
     border-radius: 5px;
     color: #505050;
     display: inline-block;
@@ -972,14 +886,14 @@ header {
         padding: 3px; } }
     .personal-list-items a:nth-of-type(1) {
       border-right: solid 2px #b2b2b2;
-      color: #4C67A1; }
+      color: #4c67a1; }
       @media (min-width: 680px) {
         .personal-list-items a:nth-of-type(1) {
           border: none;
           border-right: solid 1px #b2b2b2;
           padding-right: 8px; } }
     .personal-list-items a:nth-of-type(2) {
-      color: #55ACEE; }
+      color: #55acee; }
       @media (min-width: 680px) {
         .personal-list-items a:nth-of-type(2) {
           border: none; } }
@@ -1035,7 +949,7 @@ header {
   font-size: 1.4rem;
   list-style: none;
   text-align: left;
-  color: #fff;
+  color: white;
   vertical-align: top; }
   @media (min-width: 720px) {
     .content-column-course {
@@ -1162,7 +1076,7 @@ header {
   overflow: hidden; }
 
 .info-preview-module {
-  color: #fff;
+  color: white;
   padding: 30px 20px;
   margin-left: 50%;
   overflow: hidden;
@@ -1203,7 +1117,7 @@ header {
   margin: 5px 0 1.50px; }
 
 .price-preview-module {
-  background-color: #fff;
+  background-color: white;
   color: #00c9ed;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -1256,7 +1170,7 @@ header {
 .input-main-form {
   font-size: 16px;
   font-size: 1.6rem;
-  background-color: #ECECEC;
+  background-color: #ececec;
   border: none;
   margin: 1rem 0;
   padding: 20px 20px;
@@ -1299,7 +1213,7 @@ header {
   position: relative; }
 
 .square-preview-module {
-  background-color: #fff;
+  background-color: white;
   height: 300px;
   margin-bottom: 30px;
   overflow: hidden;
@@ -1334,7 +1248,7 @@ header {
 .title-square {
   font-size: 20px;
   font-size: 2rem;
-  color: #fff;
+  color: white;
   margin-top: 0;
   padding: 15px; }
 
@@ -1348,7 +1262,7 @@ header {
     margin-bottom: 10px; }
 
 .download-program-button {
-  color: #fff;
+  color: white;
   margin-bottom: 10px; }
 
 .background-color-post {
@@ -1377,7 +1291,7 @@ header {
     opacity: .5; }
 
 .text p {
-  color: #fff; }
+  color: white; }
 
 .title-skills {
   font-size: 28px;
@@ -1397,28 +1311,14 @@ header {
   width: 45%;
   display: inline-block; }
 
-.item-grid {
-  color: white;
-  list-style: none;
-  line-height: 27px;
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  font-size: 1.6rem; }
-  .item-grid:before {
-    content: "• ";
-    color: #00c9ed;
-    font-size: 26px;
-    float: left;
-    margin-right: 11px; }
-
 .graduate-sidebar {
   float: left;
   display: inline-block;
   background-color: #243842;
-  box-shadow: 0 0 13px #C2BEBE;
+  box-shadow: 0 0 13px #c2bebe;
   padding: 48px;
   width: 25%;
-  color: #fff; }
+  color: white; }
   .graduate-sidebar input {
     display: list-item;
     float: left;
@@ -1428,16 +1328,16 @@ header {
   .graduate-sidebar p {
     font-size: 14px;
     font-size: 1.4rem;
-    color: #fff;
+    color: white;
     margin-bottom: 11px; }
 
 .graduate-sidebar-career {
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
   padding-bottom: 15px; }
 
 .graduate-sidebar-availabity {
   margin-top: 20px;
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
   padding-bottom: 15px; }
 
 .graduate-sidebar-generation {
@@ -1455,7 +1355,7 @@ header {
   margin: 11px 0;
   position: relative;
   float: right;
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
   padding-bottom: 29px; }
   .graduate-list-profile img {
     float: left;
@@ -1537,8 +1437,8 @@ header {
   width: 4%; }
 
 .info-profile-contact {
-  border-bottom: 1px solid #ECECEC;
-  border-top: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
+  border-top: 1px solid #ececec;
   margin: 25px 0;
   padding: 24px 0; }
 
@@ -1582,7 +1482,7 @@ header {
   background-color: #243842;
   border-radius: 5px;
   box-shadow: 0px 0px 0px 2px #243842;
-  color: #fff;
+  color: white;
   display: inline-block;
   font-family: "Open Sans", sans-serif;
   list-style: none;
@@ -1602,7 +1502,7 @@ header {
     text-align: left; }
 
 .news-section-main-first {
-  background-color: #ECECEC; }
+  background-color: #ececec; }
 
 .news-size {
   position: relative; }
@@ -1619,7 +1519,7 @@ header {
     margin-bottom: 16px; }
 
 .news-preview {
-  box-shadow: 0px 0px 13px #C2BEBE;
+  box-shadow: 0px 0px 13px #c2bebe;
   float: left;
   overflow: hidden;
   position: relative;
@@ -1635,7 +1535,7 @@ header {
   z-index: 10; }
 
 .information-new-preview {
-  background-color: #fff;
+  background-color: white;
   height: 27rem;
   margin-top: 18rem;
   padding: 4rem;
@@ -1647,7 +1547,7 @@ header {
   height: 0;
   border-style: solid;
   border-width: 0 15px 15px 15px;
-  border-color: transparent transparent #fff transparent;
+  border-color: transparent transparent white transparent;
   top: -15px;
   position: absolute; }
 
@@ -1655,7 +1555,7 @@ header {
   margin-bottom: 5px; }
 
 .border-new {
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
   display: block;
   margin: 16px 0 25px;
   width: 100%; }
@@ -1673,8 +1573,8 @@ header {
     margin-right: 3px; }
 
 .new-first {
-  background-color: #fff;
-  box-shadow: 0px 0px 13px #C2BEBE;
+  background-color: white;
+  box-shadow: 0px 0px 13px #c2bebe;
   overflow: hidden;
   width: 67%; }
   .new-first p {
@@ -1696,7 +1596,7 @@ header {
   padding-bottom: 5px; }
 
 .date-main {
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
   display: block;
   font-size: 14px;
   font-size: 1.4rem;
@@ -1706,9 +1606,9 @@ header {
 .populars {
   width: 27%;
   float: right;
-  background-color: #fff;
+  background-color: white;
   padding: 20px 20px;
-  box-shadow: 0px 0px 13px #C2BEBE; }
+  box-shadow: 0px 0px 13px #c2bebe; }
 
 .tittle-populars {
   color: #848286;
@@ -1717,7 +1617,7 @@ header {
   padding: 10px 20px 10px; }
 
 .popular-new {
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
   display: block;
   padding: 20px;
   color: #292929;
@@ -1745,7 +1645,7 @@ header {
   box-shadow: none;
   width: 30%;
   float: right;
-  background-color: #fff;
+  background-color: white;
   padding: 0  20px; }
   .populars2 .tittle-populars {
     color: #292929;
@@ -1772,72 +1672,3 @@ header {
       height: 1px;
       content: '\a0';
       background-color: #A8A2A2; }
-
-.footer {
-  background-color: #292929;
-  margin: 0 auto;
-  padding: 0;
-  width: 100%; }
-  .footer p {
-    font-size: 14px;
-    font-size: 1.4rem;
-    color: #fff;
-    font-family: "Open Sans", sans-serif; }
-    @media (min-width: 600px) {
-      .footer p {
-        margin: 12px 0;
-        width: 90%; } }
-    @media (min-width: 880px) {
-      .footer p {
-        width: 90%; } }
-
-.icons-rs {
-  text-decoration: none; }
-  .icons-rs li {
-    display: inline-block;
-    margin-right: 15px; }
-  .icons-rs svg {
-    margin-top: 11px; }
-
-.footer-list {
-  margin: 0 auto;
-  max-width: 1000px;
-  padding: 1rem 2rem; }
-  @media (min-width: 880px) {
-    .footer-list {
-      padding: 3rem 0; } }
-
-.footer-list-items {
-  display: inline-block;
-  overflow: hidden;
-  padding: 1rem;
-  text-align: center;
-  width: 100%; }
-  @media (min-width: 600px) {
-    .footer-list-items {
-      vertical-align: top;
-      text-align: left;
-      width: 32%; } }
-
-.footer-list-items-title {
-  color: #fff;
-  margin-bottom: 0;
-  text-align: left; }
-
-.wrap-image-footer {
-  margin-bottom: 7px;
-  margin-top: 28px;
-  overflow: hidden;
-  position: relative; }
-
-.footer-list-items-image-parque {
-  border-left: 1px solid #fff;
-  max-width: 125px;
-  padding-left: 19%;
-  width: 40%; }
-
-.footer-list-items-image-ministerio {
-  max-width: 137px;
-  width: 41%; }
-
-/*# sourceMappingURL=style.css.map */

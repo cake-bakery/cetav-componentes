@@ -19,7 +19,7 @@
 
 .text{
 	p{
-		color: #fff;
+		color: $white;
 	}
 }
 
@@ -42,19 +42,4 @@
 .line-grid {
 	width: 45%;
 	display: inline-block;
-}
-.item-grid {
-	color: white;
-	list-style: none;
-  line-height: 27px;
-  font-family: $open-sans;
-	@include font-size(16);
-
-	&:before{
-		content: "• ";
-    color: $light-blue;
-    font-size: 26px;
-    float: left;
-    margin-right: 11px;
-	}
 }

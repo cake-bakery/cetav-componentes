@@ -8,10 +8,10 @@
 
 .many-news-first {
 	float: left;
+	margin-bottom: 20px;
 	overflow: hidden;
+	padding: 0 20px;
 	width: 68%;
-	margin-bottom: 3rem;
-	padding: 0 3rem;
 
 	p {
 		@include font-size(13);
@@ -21,20 +21,21 @@
 }
 
 .news-preview {
-	box-shadow: 0px 0px 13px $box-shadow;
+box-shadow: 0px 0px 13px $box-shadow;
 	float: left;
+	margin-bottom: 20px;
 	overflow: hidden;
 	position: relative;
 	width: 48%;
-	margin-bottom: 3rem;
+
 	&:nth-child(2n){
 		float: right;
 	}
 }
 
 .image-new-preview {
-	position: absolute;
 	display: block;
+	position: absolute;
 	width: 100%;
 	z-index: 10;
 }
@@ -49,13 +50,13 @@
 }
 
 .triangle-news {
-	width: 0;
-	height: 0;
+	border-color: transparent transparent $white transparent;
 	border-style: solid;
 	border-width: 0 15px 15px 15px;
-	border-color: transparent transparent $white transparent;
-	top: -15px;
+	height: 0;
 	position: absolute;
+	top: -15px;
+	width: 0;
 }
 
 .tittle-new-preview {
@@ -69,15 +70,15 @@
 }
 
 .date-new-preview {
-	display: block;
 	@include font-size(12);
+	display: block;
 	margin-bottom: 12px;
 }
 
 .icon-arrow{
+  margin-right: 5px;
 	width: 9px;
-    margin-right: 5px;
-
+	
     &:hover{
 		margin-right: 3px;
     }
@@ -113,11 +114,11 @@
 
 }
 .date-main {
+	@include font-size(14);
 	border-bottom: 1px solid $grey-light;
 	display: block;
-	@include font-size(14);
-	padding-bottom: 35px;
 	margin-bottom: 16px;
+	padding-bottom: 35px;
 }
 
 

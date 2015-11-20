@@ -1,9 +1,9 @@
 .populars {
-	width: 27%;
-	float: right;
 	background-color: $white;
-	padding:20px 20px;
 	box-shadow: 0px 0px 13px $box-shadow;
+	float: right;
+	padding:20px 20px;
+	width: 27%;
 }
 
 .tittle-populars {
@@ -15,9 +15,9 @@
 
 .popular-new {
 	border-bottom: 1px solid $grey-light;
+	color: $grey-dark;
 	display: block;
 	padding: 20px;
-	color: $grey-dark;
 	position: relative;
 	overflow: hidden;
 
@@ -31,51 +31,51 @@
 }
 
 .date-preview {
-	display: block;
 	@include font-size(12);
+	display: block;
 	margin-bottom: 10px;
 }
 
 .read-more {
-	color: $orange;
 	@include font-size(14);
+	color: $orange;
 	padding-bottom: 1px;
 }
 
 .populars2 {
-	box-shadow: none;
-	width: 30%;
-	float: right;
 	background-color: $white;
+	box-shadow: none;
+	float: right;
 	padding:0  20px;
+	width: 30%;
 
 	.tittle-populars {
-		color: $grey-dark;
 		@include font-size(24);
+		color: $grey-dark;
 		overflow: hidden;
-		position: relative;
 		padding: 0 0 10px;
+		position: relative;
 		text-align: center;
 
 		&:before {
-		    position: absolute;
-		    top: 43%;
+			background-color: #A8A2A2;
+			content: '\a0';
+			height: 1px;
 			left: 0;
-		    width: 13%;
-		    height: 1px;
-		    content: '\a0';
-		    background-color: #A8A2A2;
+			position: absolute;
+			top: 43%;
+			width: 13%;
 		}
 		
 		&:after {
+			background-color: #A8A2A2;
+			content: '\a0';
+			height: 1px;
+			overflow: hidden;
 			position: absolute;
-		    top: 43%;
-		    overflow: hidden;
-		    right: 0;
-		    width: 13%;
-		    height: 1px;
-		    content: '\a0';
-		    background-color: #A8A2A2;
+			right: 0;
+			top: 43%;
+			width: 13%;
 		}
 	}
 }

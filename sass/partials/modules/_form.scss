@@ -55,26 +55,25 @@
 	display: block;
 	margin: 0 auto;
 	height: 90px;
-	width: 300px;
+	perspective: 800px;
 	position: relative;
 	overflow: hidden;
-	perspective: 800px;
-	
+	width: 300px;
 }
 
 .hide-button {
-	transform: rotateX( 93deg );
-	transform-origin:center;
-	-webkit-transform: rotateX( 93deg );
 	-webkit-transform-origin:center;
-	transform-style: preserve-3d;
-	transition: 1s;
-    -webkit-transform-style: preserve-3d;
+	-webkit-transform-style: preserve-3d;
+	-webkit-transform: rotateX( 93deg );
 	-webkit-transition: 1s;
+	transform-origin:center;
+	transform-style: preserve-3d;
+	transform: rotateX( 93deg );
+	transition: 1s;
 }
 
 .hide-flip-wrap {
-	height: 0;
 	-webkit-transition: 2s;
+	height: 0;
 	transition: 2s;
 }

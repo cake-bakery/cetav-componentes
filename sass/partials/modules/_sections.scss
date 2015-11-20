@@ -1,58 +1,60 @@
 
 .modules-standart {
-	max-width: 1280px;
-	padding: 10rem ;
 	margin: 0 auto;
+	max-width: 1280px;
 	overflow: hidden;
+	padding: 20px ;
 	position: relative;
+
 	@media (min-width: 480px) {
-		padding: 10rem 1rem;
-		margin: 0 auto;
 		border-bottom: 1px $grey-lines solid;
+		margin: 0 auto;
+		padding: 20px 16px;
 	}
 }
 
 .modules-total {
-	padding: 10rem 1;
-	margin: 0 1rem;
+	margin: 0 16px;
 	overflow: hidden;
-	position: relative;
+	padding: 20px 1;
+	position: relative; 
+
 	@media (min-width: 480px) {
-		padding: 10rem 0rem;
-		margin: 0 auto;
 		border-bottom: 1px $grey-lines solid;
+		margin: 0 auto;
+		padding: 20px 0;
 	}
 }
 
 .title-section{
-	max-width: 1280px;
+	@include font-size(32);
 	color: $grey;
 	font-family: $montserrat;
-	@include font-size(32);
+	margin-bottom: 10px;
 	margin: 0 auto;
-	margin-bottom: 5rem;
+	max-width: 1280px;
 	text-align: left;
 }
 
 .max-width-content {
-	max-width: 1150px;
 	margin: 0 auto;
+	max-width: 1150px;
 	padding: 0;
 }
 
 .width-column-left{
-	margin: 2rem 0;
+	margin: 24px 0;
 	@media(min-width: 880px){
-		margin-top: 0;
 		float: left;
+		margin-top: 0;
 		vertical-align: top;
 		width: 40%;
 	}
 }
 
 .width-column-right{
-	margin-top: 0;
 	float: right;
+	margin-top: 0;
 	vertical-align: top;
 	width: 55%;
 }

@@ -1,68 +1,68 @@
 // Proposal second
 .info-profile {
-    text-align: center;
-    width: 100%;
+  text-align: center;
+  width: 100%;
 }
 
 .info-profile-img {
-    border-radius: 800px;
-    box-shadow: 0px 4px 7px -2px $grey;
-    margin-bottom: 18px;
-    width: 20%;
+  border-radius: 800px;
+  box-shadow: 0px 4px 7px -2px $grey;
+  margin-bottom: 18px;
+  width: 20%;
 }
 
 .info-profile-title {
-    color: $grey-dark;
+  color: $grey-dark;
 }
 
 .title {
-    margin-bottom: 16px;
-    text-align: left;
+  margin-bottom: 16px;
+  text-align: left;
 }
 
 .info-profile-profession {
-    @include font-size(16);
-    color: $grey-dark;
+  @include font-size(16);
+  color: $grey-dark;
     margin-top: 15px;
 }
 
 .info-profile-rrss{
-    margin-top: 18px;
+  margin-top: 18px;
 
-    svg{
-        margin: 0 2px;
-        width: 5%;
-    }
+  svg{
+    margin: 0 2px;
+    width: 5%;
+  }
 }
 
 .icon-profile {
-    display: inline-block;
-    margin-top: 9px;
-    width: 4%;
+  display: inline-block;
+  margin-top: 9px;
+  width: 4%;
 }
 
 .info-profile-contact {
-    border-bottom: 1px solid $grey-light;
-    border-top: 1px solid $grey-light;
-    margin: 25px 0;
-    padding: 24px 0;
+  border-bottom: 1px solid $grey-light;
+  border-top: 1px solid $grey-light;
+  margin: 25px 0;
+  padding: 24px 0;
 }
 
 .info-profile-contact-list-items {
-    display: inline-block;
-    list-style: none;
-    width: 24%;
+  display: inline-block;
+  list-style: none;
+  width: 24%;
 
-    img {
-        margin-bottom: 6px;
-        width: 28px;
-    }
+  img {
+    margin-bottom: 6px;
+    width: 28px;
+  }
 
-    p{
-        @include font-size(16);
-        color: $grey;
-        font-family: $open-sans;
-    }
+  p{
+    @include font-size(16);
+    color: $grey;
+    font-family: $open-sans;
+  }
 }
 
 .info-profile-content{
@@ -71,48 +71,48 @@
 }
 
 .info-profile-content-about {
-    @include font-size(14);
-    color: $grey;
-    font-family: $open-sans;
-    text-align: left;
-    width: 53%;
-    float: left;
+  @include font-size(14);
+  color: $grey;
+  float: left;
+  font-family: $open-sans;
+  text-align: left;
+  width: 53%;
 }
 
 .info-profile-content-skills {
-    display: inline-block;
-    float: right;
-    width: 43%;
+  display: inline-block;
+  float: right;
+  width: 43%;
 }
 
 .info-profile-content-skills-list {
-    text-align: left;
+  text-align: left;
 }
 
 .info-profile-content-skills-list-items {
-    @include font-size(14);
-    background-color: $blue-dark;
-    border-radius: 5px;
-    box-shadow: 0px 0px 0px 2px $blue-dark;
-    color: $white;
-    display: inline-block;
-    font-family: $open-sans;
-    list-style: none;
-    margin-bottom: 14px;
-    margin-right: 12px;
-    padding: 4px;
+  @include font-size(14);
+  background-color: $blue-dark;
+  border-radius: 5px;
+  box-shadow: 0px 0px 0px 2px $blue-dark;
+  color: $white;
+  display: inline-block;
+  font-family: $open-sans;
+  list-style: none;
+  margin-bottom: 14px;
+  margin-right: 12px;
+  padding: 4px;
     
 }
 
 .info-profile-content-education {
-    float: left;
-    margin-top: 30px;
-    width: 53%;
+  float: left;
+  margin-top: 30px;
+  width: 53%;
 
-    p {
-        @include font-size(14);
-        color: $grey;
-        font-family: $open-sans;
-        text-align: left;
+  p {
+    @include font-size(14);
+    color: $grey;
+    font-family: $open-sans;
+    text-align: left;
     }
 }

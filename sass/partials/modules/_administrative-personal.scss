@@ -4,59 +4,58 @@
 }
 
 .personal-link-container {
-	display: inline-block;
 	background-color: #fff;
+	display: inline-block;
 	line-height: 3rem;
-	position: relative;
-	overflow: hidden;
 	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
 	text-align: center;
 
 	img {
 		float: left;
-		width: 3rem;
 		margin: 0 1rem;
+		width: 3rem;
 	}
 }
 
 .personal-list-border {
-	border: solid 2px $grey-lines;
-	padding: 1rem;
+		border: solid 2px $grey-lines;
+		padding: 1rem;
 }
 
 .personal-list-items {
 		display: inline-block;
+		height: 43rem;
 		margin: 0;
 		position: relative;
-		height: 43rem;
 		vertical-align: top;
 		
 		@media(min-width: 319px){
-			width: 80%;
-			margin: 40px 10%;
+				margin: 40px 10%;
+				width: 80%;
 		}
 		@media(min-width: 480px){
-			width: 41%;
-			margin: 5rem 4%;
+				margin: 5rem 4%;
+				width: 41%;
 		}
-    	@media(min-width: 680px){
-			width: 30%;
-			margin: 5rem 5%;
+    @media(min-width: 680px){
+				margin: 5rem 5%;
+				width: 30%;
 		}
 		@media(min-width: 980px){
-			width: 20%;
-		    margin: 0;
-		    margin-right: 5%;
-			&:last-child {
-				margin-right:0;
+				margin-right: 5%;
+				margin: 0;
+				width: 20%; 
+				&:last-child {
+						margin-right:0;
 			}
 		}
+
 		.personal-list-items-title{
 			color: $grey;
 			display: inline-block;
 			padding: 2rem 0 0 0;
-			
-			
 		}
 
 		p{
@@ -74,6 +73,7 @@
 				width: 100%;
 			}
 		}
+
 		.charge {
 			@include font-size(13);
 			background-color: $grey-light;
@@ -88,43 +88,47 @@
 			text-align: center;
 		}
 		.border-personal {
-			border-bottom: 1px solid $grey-lines;
-			display: block;
-			width: 40%;
-			margin: 0 auto;
-			margin-bottom: 2rem;
-
+				border-bottom: 1px solid $grey-lines;
+				display: block;
+				margin-bottom: 2rem;
+				margin: 0 auto;
+				width: 40%;
 		}
+
 		a{
-			@include font-size(14);
-			font-family: $open-sans;
+			 	@include font-size(14);
+			 	font-family: $open-sans;
+
 	    	@media(min-width: 319px){
 					display: block;
 		    	height: 32px;
 		    	padding-top: 6px;
 	    	}
-			@media(min-width: 680px){
-				display: inline-block;
-				padding: 3px;
-				
+
+				@media(min-width: 680px){
+						display: inline-block;
+						padding: 3px;
 			}
+
 			&:nth-of-type(1){
-				border-right: solid 2px $grey-lines;
-				color: $blue-facebook;
-				@media(min-width: 680px){
-					border: none;
-					border-right: solid 1px $grey-lines;
-					padding-right: 8px;
-				}
+					border-right: solid 2px $grey-lines;
+					color: $blue-facebook;
+
+					@media(min-width: 680px){
+							border: none;
+							border-right: solid 1px $grey-lines;
+							padding-right: 8px;
+					}
 			}
+
 			&:nth-of-type(2){
-				color: $blue-light-twitter;
-				@media(min-width: 680px){
-					border:none;
-				}
+					color: $blue-light-twitter;
+					@media(min-width: 680px){
+							border:none;
+					}
 			}
 		}
-	}
+}
 
 .image-personal{
 	border-radius: 50%;

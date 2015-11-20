@@ -64,7 +64,7 @@ iframe {
 	vertical-align: top;
 	width: 100%;
 	@media(min-width: 480px){
-	    height: 30rem;
+	    height: 200px;
 	    width: 50%;
   	}
 }
@@ -86,46 +86,46 @@ svg {
 .icon-social-facebook {
 	cursor: pointer;
  	fill: #4966a7;
-    height: 40px;
-    width: 15%;
+  height: 40px;
+  width: 15%;
 }
 
 .icon-social-twitter {
 	cursor: pointer;
-    fill: #17b3e8;
-    height: 40px;
-    width: 15%;
+  fill: #17b3e8;
+  height: 40px;
+  width: 15%;
 }
 
 .icon-social-vimeo {
 	cursor: pointer;
 	fill: #17b3e8;
-    height: 40px;
-    width: 15%;
+  height: 40px;
+  width: 15%;
 }
 //Color and hovers in Footer
 .icon-facebook {
 	cursor: pointer;
 	fill: $white;
-    height: 40px;
-    width: 5%;
+ 	height: 40px;
+  width: 5%;
 }
 
 .icon-vimeo {
 	cursor: pointer;
 	fill: $white;
-    height: 40px;
-    width: 5%;
+  height: 40px;
+  width: 5%;
 }
 
 %triangle-link {
-	display: inline-block;
-	margin-left: 10px;
-	width: 0;
-	height: 0;
+	border-color: transparent transparent transparent $white;
 	border-style: solid;
 	border-width: 7.5px 0 7.5px 13.0px;
-	border-color: transparent transparent transparent $white;
+	display: inline-block;
+	height: 0;
+	margin-left: 10px;
+	width: 0;
 }
 
 .triangle-link-white {
@@ -145,13 +145,13 @@ svg {
 }
 
 %triangle-download {
-	display: inline-block;
-	margin-left: 10px;
-	width: 0;
-	height: 0;
+	border-color: $white transparent transparent transparent;
 	border-style: solid;
 	border-width: 10px 7.5px 0 7.5px;
-	border-color: $white transparent transparent transparent;
+	display: inline-block;
+	height: 0;
+	margin-left: 10px;
+	width: 0;
 }
 
 .triangle-download-white {

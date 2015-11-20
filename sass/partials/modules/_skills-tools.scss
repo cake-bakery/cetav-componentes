@@ -4,16 +4,16 @@
 	margin: 0;
 	
 	&:after {
-		content: "";
 		background-image: url(../img/animacion-back.png);
-		width: 100%;
-		height: 100%;
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
 		bottom: 0;
+		content: "";
+		height: 100%;
+		left: 0;
 		opacity: .5;
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 100%;
 	}
 }
 
@@ -40,6 +40,6 @@
 }
 
 .line-grid {
-	width: 45%;
 	display: inline-block;
+	width: 45%;
 }

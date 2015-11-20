@@ -35,15 +35,15 @@
 	}
 	.reel-overlay {
 		background-color: rgba(0,0,0,0.8);
-		position: absolute;
-		top: 0;
 		height: 400px;
-		width: 100%;
 		padding: 80px 123px;
+		position: absolute;
 		text-align: center;
+		top: 0;
+		width: 100%;
 		h3 {
-			color: $white;
 			@include font-size(26);
+			color: $white;
 			font-family: $montserrat;
 			margin-bottom: 20px;
 		}

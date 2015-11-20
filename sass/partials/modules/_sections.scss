@@ -3,13 +3,13 @@
 	margin: 0 auto;
 	max-width: 1280px;
 	overflow: hidden;
-	padding: 20px ;
+	padding: 20px 0;
 	position: relative;
 
 	@media (min-width: 480px) {
 		border-bottom: 1px $grey-lines solid;
 		margin: 0 auto;
-		padding: 20px 16px;
+		padding: 80px 16px;
 	}
 }
 
@@ -22,18 +22,8 @@
 	@media (min-width: 480px) {
 		border-bottom: 1px $grey-lines solid;
 		margin: 0 auto;
-		padding: 20px 0;
+		padding: 80px 0;
 	}
-}
-
-.title-section{
-	@include font-size(32);
-	color: $grey;
-	font-family: $montserrat;
-	margin-bottom: 10px;
-	margin: 0 auto;
-	max-width: 1280px;
-	text-align: left;
 }
 
 .max-width-content {
